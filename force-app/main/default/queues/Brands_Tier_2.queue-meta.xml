@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <email></email>
+    <label>Brands Tier 2</label>
+    <name>Brands_Tier_2</name>
+    <queueMembers>
+        <roles>
+            <role>Brands_Tier_2</role>
+        </roles>
+    </queueMembers>
+    <supportedObjects>
+        <object>Case</object>
+    </supportedObjects>
+</Queue>
