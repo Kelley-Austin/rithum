@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Queue xmlns="http://soap.sforce.com/2006/04/metadata">
     <doesSendEmailToMembers>false</doesSendEmailToMembers>
-    <email></email>
     <label>Brands Administration</label>
-    <name>Brands_Administration</name>
-    <queueMembers>
-        <roles>
-            <role>Brands_Administration</role>
-        </roles>
-    </queueMembers>
-    <supportedObjects>
-        <object>Case</object>
-    </supportedObjects>
+    <queueRoutingConfig>Brands_Administration_Routing</queueRoutingConfig>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
 </Queue>
