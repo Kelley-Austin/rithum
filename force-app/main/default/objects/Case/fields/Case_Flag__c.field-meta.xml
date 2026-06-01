@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_Flag__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+NOT(IsClosed),
+IF(
+TEXT(My_Flag_icon_number__c) = &quot;0&quot;,
+IMAGE(&quot;/resource/My_Flag_Blue_Bubble&quot;, &quot;Chat Started&quot;, 30, 30),
+IF(
+TEXT(My_Flag_icon_number__c) = &quot;1&quot;,
+IMAGE(&quot;/resource/My_Flag_Yellow&quot;, &quot;Yellow Flag&quot;, 30, 30),
+IF(
+TEXT(My_Flag_icon_number__c) = &quot;2&quot;,
+IMAGE(&quot;/resource/My_Flag_Red_Flag&quot;, &quot;Red Flag&quot;, 30, 30),
+IF(
+TEXT(My_Flag_icon_number__c) = &quot;3&quot;,
+IMAGE(&quot;/resource/My_Flag_Flame&quot;, &quot;Flame&quot;, 30, 30),
+&quot;Awaiting Customer Reply&quot;
+)
+)
+)
+),
+NULL
+)
+
+&amp;
+
+IF(
+AND(
+IsClosed = TRUE,
+NOT(ISBLANK(EntitlementId))
+),
+IMAGE(&quot;/resource/My_Flag_Green_check_mark&quot;, &quot;Complete&quot;, 30, 30),
+IF(
+AND(
+ISBLANK(TEXT(My_Flag_icon_number__c)),
+NOT(ISBLANK(EntitlementId)),
+IsClosed = FALSE
+),
+IMAGE(&quot;/resource/My_Flag_Red_Cross_mark&quot;, &quot;NO ENTITLEMENT ASSIGNED&quot;, 30, 30),
+&quot;&quot;
+)
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Case Flag</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

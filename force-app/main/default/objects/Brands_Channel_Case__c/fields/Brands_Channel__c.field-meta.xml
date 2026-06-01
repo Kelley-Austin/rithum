@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Brands_Channel__c</fullName>
+    <label>Brands Channel</label>
+    <type>MasterDetail</type>
+    <referenceTo>Brands_Channel__c</referenceTo>
+    <relationshipLabel>Brands Channel Cases</relationshipLabel>
+    <relationshipName>Brands_Channel_Cases</relationshipName>
+    <relationshipOrder>1</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    <description>The Brands Channel that the Case is related to</description>
+</CustomField>

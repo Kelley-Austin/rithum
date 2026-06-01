@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SearchContacts</fullName>
+    <availability>online</availability>
+    <displayType>link</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <hasMenubar>false</hasMenubar>
+    <hasScrollbars>true</hasScrollbars>
+    <hasToolbar>false</hasToolbar>
+    <isResizable>true</isResizable>
+    <linkType>url</linkType>
+    <masterLabel>Search Contacts</masterLabel>
+    <openType>newWindow</openType>
+    <position>none</position>
+    <protected>false</protected>
+    <showsLocation>false</showsLocation>
+    <showsStatus>false</showsStatus>
+    <url>/srch/advsearchresults.jsp?searchType=2&amp;str=%22{!Case_SuppliedEmail}%22+OR+%22{!Case_SuppliedName}%22&amp;search=Search&amp;owner=all&amp;sen=003</url>
+</WebLink>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Archived_Status_Restrictions</fullName>
+    <active>true</active>
+    <description>Restricts the use of the &quot;Archived&quot; status when closing a case to support management.</description>
+    <errorConditionFormula>$RecordType.Name = &quot;Customer Support&quot; 
+&amp;&amp; 
+ISPICKVAL(Status,&quot;Archived&quot;)
+&amp;&amp; 
+($User.Alias &lt;&gt; &quot;zkhan&quot;
+&amp;&amp; $User.Alias &lt;&gt; &quot;smolo&quot;
+&amp;&amp; $User.Alias &lt;&gt; &quot;acoll&quot;
+&amp;&amp; $User.Alias &lt;&gt; &quot;lwoul&quot;
+&amp;&amp; $User.Alias &lt;&gt; &quot;dfish&quot;
+&amp;&amp; $User.Alias &lt;&gt; &quot;jQuin&quot;
+&amp;&amp; $User.Alias &lt;&gt; &quot;aholl&quot;
+&amp;&amp; $User.Alias &lt;&gt; &quot;nstra&quot;
+&amp;&amp; $User.Alias &lt;&gt; &quot;azelm&quot;
+&amp;&amp; $User.Alias &lt;&gt; &quot;lkehs&quot;
+&amp;&amp; $User.Alias &lt;&gt; &quot;myoung&quot;
+&amp;&amp; $User.Alias &lt;&gt; &quot;snahr&quot;
+&amp;&amp; $User.Alias &lt;&gt; &quot;efox&quot;
+&amp;&amp; $User.Alias &lt;&gt; &quot;bball&quot;
+&amp;&amp; $User.Alias &lt;&gt; &quot;msyko&quot;
+&amp;&amp; $User.Alias &lt;&gt; &quot;rpric&quot;
+&amp;&amp; $User.ProfileId &lt;&gt; &quot;00e00000006oiOr&quot;
+)</errorConditionFormula>
+    <errorMessage>The Status of &quot;Archived&quot; is restricted to use by Support management only.  Please contact your manager to use this status.</errorMessage>
+</ValidationRule>

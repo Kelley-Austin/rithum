@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Request_Details__c</fullName>
+    <label>DELETE_Request Details</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Contract_Help_Request_Type__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Additional Service</fullName>
+                <default>false</default>
+                <label>Additional Service</label>
+            </value>
+            <value>
+                <fullName>Agency</fullName>
+                <default>false</default>
+                <label>Agency</label>
+            </value>
+            <value>
+                <fullName>Amendment</fullName>
+                <default>false</default>
+                <label>Amendment</label>
+            </value>
+            <value>
+                <fullName>Draft in French</fullName>
+                <default>false</default>
+                <label>Draft in French</label>
+            </value>
+            <value>
+                <fullName>Draft in German</fullName>
+                <default>false</default>
+                <label>Draft in German</label>
+            </value>
+            <value>
+                <fullName>Draft in Portuguese</fullName>
+                <default>false</default>
+                <label>Draft in Portuguese</label>
+            </value>
+            <value>
+                <fullName>Hybrid Service Level Agreement (Managed &amp; Self Service)</fullName>
+                <default>false</default>
+                <label>Hybrid Service Level Agreement (Managed &amp; Self Service)</label>
+            </value>
+            <value>
+                <fullName>NDA</fullName>
+                <default>false</default>
+                <label>NDA</label>
+            </value>
+            <value>
+                <fullName>Non-Standard Payment Method</fullName>
+                <default>false</default>
+                <label>Non-Standard Payment Method</label>
+            </value>
+            <value>
+                <fullName>Non-Standard Pricing</fullName>
+                <default>false</default>
+                <label>Non-Standard Pricing</label>
+            </value>
+            <value>
+                <fullName>Novation Letter</fullName>
+                <default>false</default>
+                <label>Novation Letter</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Partner NDA</fullName>
+                <default>false</default>
+                <label>Partner NDA</label>
+            </value>
+            <value>
+                <fullName>Professional Services/Managed Agreement</fullName>
+                <default>false</default>
+                <label>Professional Services/Managed Agreement</label>
+            </value>
+            <value>
+                <fullName>Prospect NDA</fullName>
+                <default>false</default>
+                <label>Prospect NDA</label>
+            </value>
+            <value>
+                <fullName>Redlines</fullName>
+                <default>false</default>
+                <label>Redlines</label>
+            </value>
+            <value>
+                <fullName>Settlement Letter</fullName>
+                <default>false</default>
+                <label>Settlement Letter</label>
+            </value>
+            <value>
+                <fullName>Special Terms</fullName>
+                <default>false</default>
+                <label>Special Terms</label>
+            </value>
+            <value>
+                <fullName>Termination Letter</fullName>
+                <default>false</default>
+                <label>Termination Letter</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

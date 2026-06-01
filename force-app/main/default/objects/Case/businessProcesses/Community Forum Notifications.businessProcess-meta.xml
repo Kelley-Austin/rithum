@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Community Forum Notifications</fullName>
+    <isActive>true</isActive>
+    <values>
+        <fullName>Action Required</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Archived</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Bug Report Filed</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed - Duplicate</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed - Junk%2FSpam</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed - Resolved</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed by Customer</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed- Sales Team Referral</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed- Termination%2FGrievance</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Enhancement Request Submitted</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Escalated to Engineering</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Escalated to Support Engineering</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>In Progress</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>New</fullName>
+        <default>true</default>
+    </values>
+    <values>
+        <fullName>New with Comment</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Pending Hotroll%2FRelease</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Pending Info from Customer</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Pending Info from Partner</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Pending Internal Resource</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Re-Open</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Reply Received</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Resolved - Customer to Verify</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Solution Identified</fullName>
+        <default>false</default>
+    </values>
+</BusinessProcess>

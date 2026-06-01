@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Marketplace_Status__c</fullName>
+    <description>Status values that correspond to a specific marketplaces status values. Used only by Business Development and first values are specifically related to Walmart.</description>
+    <label>Marketplace Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Site__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>7. LIVE - seller GMV on marketplace</fullName>
+                <default>false</default>
+                <label>7. LIVE - seller GMV on marketplace</label>
+            </value>
+            <value>
+                <fullName>0 - CA Referral link info sent to WMT</fullName>
+                <default>false</default>
+                <label>0 - CA Referral link info sent to WMT</label>
+            </value>
+            <value>
+                <fullName>1.1 - REJECTED (criteria not met)</fullName>
+                <default>false</default>
+                <label>1.1 - REJECTED (criteria not met)</label>
+            </value>
+            <value>
+                <fullName>1 - WMT application sent to seller</fullName>
+                <default>false</default>
+                <label>1 - WMT application sent to seller</label>
+            </value>
+            <value>
+                <fullName>2.1 - REJECTED (failed WMT review)</fullName>
+                <default>false</default>
+                <label>2.1 - REJECTED (failed WMT review)</label>
+            </value>
+            <value>
+                <fullName>2 - Seller in WMT Review</fullName>
+                <default>false</default>
+                <label>2 - Seller in WMT Review</label>
+            </value>
+            <value>
+                <fullName>3 - WMT APPROVED - Sign WMT contract</fullName>
+                <default>false</default>
+                <label>3 - WMT APPROVED - Sign WMT contract</label>
+            </value>
+            <value>
+                <fullName>4 - WMT SIGNED - Sign CA contract</fullName>
+                <default>false</default>
+                <label>4 - WMT SIGNED - Sign CA contract</label>
+            </value>
+            <value>
+                <fullName>5 - CA SIGNED - Now start launch</fullName>
+                <default>false</default>
+                <label>5 - CA SIGNED - Now start launch</label>
+            </value>
+            <value>
+                <fullName>6 - Launching</fullName>
+                <default>false</default>
+                <label>6 - Launching</label>
+            </value>
+            <value>
+                <fullName>7 - Live</fullName>
+                <default>false</default>
+                <label>7 - Live</label>
+            </value>
+            <value>
+                <fullName>8 - Delayed - see notes</fullName>
+                <default>false</default>
+                <label>8 - Delayed - see notes</label>
+            </value>
+            <value>
+                <fullName>9.1 - Not interested</fullName>
+                <default>false</default>
+                <label>9.1 - Not interested</label>
+            </value>
+            <value>
+                <fullName>9.2 - Lost to direct</fullName>
+                <default>false</default>
+                <label>9.2 - Lost to direct</label>
+            </value>
+            <value>
+                <fullName>New Referral Request</fullName>
+                <default>false</default>
+                <label>New Referral Request</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Walmart</controllingFieldValue>
+            <valueName>7. LIVE - seller GMV on marketplace</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Walmart</controllingFieldValue>
+            <valueName>0 - CA Referral link info sent to WMT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Walmart</controllingFieldValue>
+            <valueName>1.1 - REJECTED (criteria not met)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Walmart</controllingFieldValue>
+            <valueName>1 - WMT application sent to seller</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Walmart</controllingFieldValue>
+            <valueName>2.1 - REJECTED (failed WMT review)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Walmart</controllingFieldValue>
+            <valueName>2 - Seller in WMT Review</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Walmart</controllingFieldValue>
+            <valueName>3 - WMT APPROVED - Sign WMT contract</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Walmart</controllingFieldValue>
+            <valueName>4 - WMT SIGNED - Sign CA contract</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Walmart</controllingFieldValue>
+            <valueName>5 - CA SIGNED - Now start launch</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Walmart</controllingFieldValue>
+            <valueName>6 - Launching</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Walmart</controllingFieldValue>
+            <valueName>7 - Live</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Walmart</controllingFieldValue>
+            <valueName>8 - Delayed - see notes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Walmart</controllingFieldValue>
+            <valueName>9.1 - Not interested</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Walmart</controllingFieldValue>
+            <valueName>9.2 - Lost to direct</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Walmart</controllingFieldValue>
+            <valueName>New Referral Request</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

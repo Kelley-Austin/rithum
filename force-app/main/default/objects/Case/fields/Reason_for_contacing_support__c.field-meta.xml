@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reason_for_contacing_support__c</fullName>
+    <label>Reason for contacting support</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Technical Support</fullName>
+                <default>true</default>
+                <label>Technical Support</label>
+            </value>
+            <value>
+                <fullName>Launch Services</fullName>
+                <default>false</default>
+                <label>Launch Services</label>
+            </value>
+            <value>
+                <fullName>Professional Services</fullName>
+                <default>false</default>
+                <label>Professional Services</label>
+            </value>
+            <value>
+                <fullName>Enhancement Request</fullName>
+                <default>false</default>
+                <label>Enhancement Request</label>
+            </value>
+            <value>
+                <fullName>Account/Billing</fullName>
+                <default>false</default>
+                <label>Account/Billing</label>
+            </value>
+            <value>
+                <fullName>Sales Inquiry</fullName>
+                <default>false</default>
+                <label>Sales Inquiry</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

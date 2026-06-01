@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MediaMint_Contractor_Time_ActualSpent</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(  
+ ISBLANK(TEXT(Recurring_Case_Rate__c )),
+CONTAINS(RecordType.DeveloperName,&quot;MediaMint&quot;),
+ IsClosed ,
+ISBLANK( Contractor_Actual_Time_Spent_hrs__c  ),
+$Profile.Name &lt;&gt; &quot;System Administrator&quot;)</errorConditionFormula>
+    <errorMessage>The field &quot;CONTRACTOR ACTUAL TIME SPENT&quot; must be filled in prior to closing</errorMessage>
+</ValidationRule>

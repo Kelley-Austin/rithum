@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sales_Support_SubCategory__c</fullName>
+    <description>Dependent subcategory picklist to Sales Support Category licklist</description>
+    <label>Sales Support SubCategory</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Sales_Support_Category__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>BRANDS</fullName>
+                <default>false</default>
+                <label>BRANDS</label>
+            </value>
+            <value>
+                <fullName>DEMANDSTREAM</fullName>
+                <default>false</default>
+                <label>DEMANDSTREAM</label>
+            </value>
+            <value>
+                <fullName>ORDERSTREAM</fullName>
+                <default>false</default>
+                <label>ORDERSTREAM</label>
+            </value>
+            <value>
+                <fullName>PRODUCTSTREAM</fullName>
+                <default>false</default>
+                <label>PRODUCTSTREAM</label>
+            </value>
+            <value>
+                <fullName>RETAILER</fullName>
+                <default>false</default>
+                <label>RETAILER</label>
+            </value>
+            <value>
+                <fullName>OTHER</fullName>
+                <default>false</default>
+                <label>OTHER</label>
+            </value>
+            <value>
+                <fullName>SUPPLIER REQUEST</fullName>
+                <default>false</default>
+                <label>SUPPLIER REQUEST</label>
+            </value>
+            <value>
+                <fullName>RETAILER REQUEST</fullName>
+                <default>false</default>
+                <label>RETAILER REQUEST</label>
+            </value>
+            <value>
+                <fullName>ACCOUNTING REQUEST</fullName>
+                <default>false</default>
+                <label>ACCOUNTING REQUEST</label>
+            </value>
+            <value>
+                <fullName>INTERNAL REQUEST</fullName>
+                <default>false</default>
+                <label>INTERNAL REQUEST</label>
+            </value>
+            <value>
+                <fullName>UPGRADES</fullName>
+                <default>false</default>
+                <label>UPGRADES</label>
+            </value>
+            <value>
+                <fullName>COMM</fullName>
+                <default>false</default>
+                <label>COMM</label>
+            </value>
+            <value>
+                <fullName>RETEST</fullName>
+                <default>false</default>
+                <label>RETEST</label>
+            </value>
+            <value>
+                <fullName>INVENTORY</fullName>
+                <default>false</default>
+                <label>INVENTORY</label>
+            </value>
+            <value>
+                <fullName>MARKETPLACE</fullName>
+                <default>false</default>
+                <label>MARKETPLACE</label>
+            </value>
+            <value>
+                <fullName>CREDIT CARD</fullName>
+                <default>false</default>
+                <label>CREDIT CARD</label>
+            </value>
+            <value>
+                <fullName>CHECK &amp; WIRE</fullName>
+                <default>false</default>
+                <label>CHECK &amp; WIRE</label>
+            </value>
+            <value>
+                <fullName>TESTING</fullName>
+                <default>false</default>
+                <label>TESTING</label>
+            </value>
+            <value>
+                <fullName>PRODUCTION</fullName>
+                <default>false</default>
+                <label>PRODUCTION</label>
+            </value>
+            <value>
+                <fullName>VENDOR ID</fullName>
+                <default>false</default>
+                <label>VENDOR ID</label>
+            </value>
+            <value>
+                <fullName>PARTNER ID</fullName>
+                <default>false</default>
+                <label>PARTNER ID</label>
+            </value>
+            <value>
+                <fullName>SUPPLIER</fullName>
+                <default>false</default>
+                <label>SUPPLIER</label>
+            </value>
+            <value>
+                <fullName>ORDERSTREAM &amp; PRODUCTSTREAM</fullName>
+                <default>false</default>
+                <label>ORDERSTREAM &amp; PRODUCTSTREAM</label>
+            </value>
+            <value>
+                <fullName>REQUEST CANCELLED</fullName>
+                <default>false</default>
+                <label>REQUEST CANCELLED</label>
+            </value>
+            <value>
+                <fullName>CONTRACT REVIEW</fullName>
+                <default>false</default>
+                <label>CONTRACT REVIEW</label>
+            </value>
+            <value>
+                <fullName>CONTRACT REQUEST</fullName>
+                <default>false</default>
+                <label>CONTRACT REQUEST</label>
+            </value>
+            <value>
+                <fullName>No Contract No Payment</fullName>
+                <default>false</default>
+                <label>No Contract No Payment</label>
+            </value>
+            <value>
+                <fullName>Signed Contract No Payment</fullName>
+                <default>false</default>
+                <label>Signed Contract No Payment</label>
+            </value>
+            <value>
+                <fullName>Yes Contract and Payment</fullName>
+                <default>false</default>
+                <label>Yes Contract and Payment</label>
+            </value>
+            <value>
+                <fullName>EGS</fullName>
+                <default>false</default>
+                <label>EGS</label>
+            </value>
+            <value>
+                <fullName>Professional Services</fullName>
+                <default>false</default>
+                <label>Professional Services</label>
+            </value>
+            <value>
+                <fullName>CS Relaunch</fullName>
+                <default>false</default>
+                <label>CS Relaunch</label>
+            </value>
+            <value>
+                <fullName>Rep Requested</fullName>
+                <default>false</default>
+                <label>Rep Requested</label>
+            </value>
+            <value>
+                <fullName>Connection Type</fullName>
+                <default>false</default>
+                <label>Connection Type</label>
+            </value>
+            <value>
+                <fullName>Bad Contact</fullName>
+                <default>false</default>
+                <label>Bad Contact</label>
+            </value>
+            <value>
+                <fullName>Day 3 Unresponsive</fullName>
+                <default>false</default>
+                <label>Day 3 Unresponsive</label>
+            </value>
+            <value>
+                <fullName>Day 6 Unresponsive</fullName>
+                <default>false</default>
+                <label>Day 6 Unresponsive</label>
+            </value>
+            <value>
+                <fullName>No Contract Signed</fullName>
+                <default>false</default>
+                <label>No Contract Signed</label>
+            </value>
+            <value>
+                <fullName>Supplier Push Back</fullName>
+                <default>false</default>
+                <label>Supplier Push Back</label>
+            </value>
+            <value>
+                <fullName>New User</fullName>
+                <default>false</default>
+                <label>New User</label>
+            </value>
+            <value>
+                <fullName>Readiness Checklist</fullName>
+                <default>false</default>
+                <label>Readiness Checklist</label>
+            </value>
+            <value>
+                <fullName>OS Basics</fullName>
+                <default>false</default>
+                <label>OS Basics</label>
+            </value>
+            <value>
+                <fullName>Ready To Sell</fullName>
+                <default>false</default>
+                <label>Ready To Sell</label>
+            </value>
+            <value>
+                <fullName>Testing Not Started</fullName>
+                <default>false</default>
+                <label>Testing Not Started</label>
+            </value>
+            <value>
+                <fullName>Dsco Platform</fullName>
+                <default>false</default>
+                <label>Dsco Platform</label>
+            </value>
+            <value>
+                <fullName>Discount Requested</fullName>
+                <default>false</default>
+                <label>Discount Requested</label>
+            </value>
+            <value>
+                <fullName>No Longer Doing Business</fullName>
+                <default>false</default>
+                <label>No Longer Doing Business</label>
+            </value>
+            <value>
+                <fullName>Unresponsive</fullName>
+                <default>false</default>
+                <label>Unresponsive</label>
+            </value>
+            <value>
+                <fullName>Payment Terms</fullName>
+                <default>false</default>
+                <label>Payment Terms</label>
+            </value>
+            <value>
+                <fullName>Offline Contract</fullName>
+                <default>false</default>
+                <label>Offline Contract</label>
+            </value>
+            <value>
+                <fullName>DSCO Request</fullName>
+                <default>false</default>
+                <label>DSCO Request</label>
+            </value>
+            <value>
+                <fullName>Remit ID</fullName>
+                <default>false</default>
+                <label>Remit ID</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Retailer Escalation</controllingFieldValue>
+            <controllingFieldValue>Retailer Inquiry</controllingFieldValue>
+            <controllingFieldValue>Retailer new request</controllingFieldValue>
+            <controllingFieldValue>Internal New Request with SS</controllingFieldValue>
+            <controllingFieldValue>Lead</controllingFieldValue>
+            <controllingFieldValue>Name Change</controllingFieldValue>
+            <controllingFieldValue>Offline Contracts</controllingFieldValue>
+            <controllingFieldValue>Project Escalations</controllingFieldValue>
+            <valueName>OTHER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Retailer Escalation</controllingFieldValue>
+            <controllingFieldValue>Change Order</controllingFieldValue>
+            <valueName>VENDOR ID</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Retailer Escalation</controllingFieldValue>
+            <valueName>Rep Requested</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Retailer Escalation</controllingFieldValue>
+            <controllingFieldValue>Project Escalations</controllingFieldValue>
+            <valueName>Connection Type</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Retailer Escalation</controllingFieldValue>
+            <controllingFieldValue>Project Escalations</controllingFieldValue>
+            <valueName>Bad Contact</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Retailer Escalation</controllingFieldValue>
+            <valueName>Day 3 Unresponsive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Retailer Escalation</controllingFieldValue>
+            <valueName>Day 6 Unresponsive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Retailer Escalation</controllingFieldValue>
+            <valueName>No Contract Signed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Retailer Escalation</controllingFieldValue>
+            <controllingFieldValue>Project Escalations</controllingFieldValue>
+            <valueName>Supplier Push Back</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Retailer Escalation</controllingFieldValue>
+            <valueName>Testing Not Started</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Retailer Inquiry</controllingFieldValue>
+            <valueName>TESTING</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Retailer Inquiry</controllingFieldValue>
+            <valueName>PRODUCTION</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Retailer new request</controllingFieldValue>
+            <controllingFieldValue>Supplier Inquiry</controllingFieldValue>
+            <controllingFieldValue>Internal New Request with SS</controllingFieldValue>
+            <controllingFieldValue>Lead</controllingFieldValue>
+            <controllingFieldValue>Offline Contracts</controllingFieldValue>
+            <valueName>ORDERSTREAM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Retailer new request</controllingFieldValue>
+            <controllingFieldValue>Internal New Request with SS</controllingFieldValue>
+            <controllingFieldValue>Lead</controllingFieldValue>
+            <controllingFieldValue>Offline Contracts</controllingFieldValue>
+            <valueName>MARKETPLACE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Retailer new request</controllingFieldValue>
+            <controllingFieldValue>Supplier Inquiry</controllingFieldValue>
+            <controllingFieldValue>Internal New Request with SS</controllingFieldValue>
+            <controllingFieldValue>Lead</controllingFieldValue>
+            <valueName>Dsco Platform</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Supplier Inquiry</controllingFieldValue>
+            <controllingFieldValue>Lead</controllingFieldValue>
+            <valueName>BRANDS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Supplier Inquiry</controllingFieldValue>
+            <controllingFieldValue>Lead</controllingFieldValue>
+            <valueName>DEMANDSTREAM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Supplier Inquiry</controllingFieldValue>
+            <controllingFieldValue>Accounting Issue</controllingFieldValue>
+            <controllingFieldValue>Lead</controllingFieldValue>
+            <valueName>RETAILER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Supplier Inquiry</controllingFieldValue>
+            <valueName>Discount Requested</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Supplier Payment</controllingFieldValue>
+            <valueName>CREDIT CARD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Supplier Payment</controllingFieldValue>
+            <valueName>CHECK &amp; WIRE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Terminations</controllingFieldValue>
+            <controllingFieldValue>Name Change</controllingFieldValue>
+            <valueName>SUPPLIER REQUEST</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Terminations</controllingFieldValue>
+            <controllingFieldValue>Name Change</controllingFieldValue>
+            <valueName>RETAILER REQUEST</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Terminations</controllingFieldValue>
+            <valueName>ACCOUNTING REQUEST</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Terminations</controllingFieldValue>
+            <valueName>INTERNAL REQUEST</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Terminations</controllingFieldValue>
+            <valueName>DSCO Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Accounting Issue</controllingFieldValue>
+            <valueName>SUPPLIER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Change Order</controllingFieldValue>
+            <valueName>UPGRADES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Change Order</controllingFieldValue>
+            <valueName>COMM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Change Order</controllingFieldValue>
+            <valueName>RETEST</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Change Order</controllingFieldValue>
+            <valueName>INVENTORY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Change Order</controllingFieldValue>
+            <valueName>PARTNER ID</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Change Order</controllingFieldValue>
+            <controllingFieldValue>Name Change</controllingFieldValue>
+            <valueName>REQUEST CANCELLED</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Change Order</controllingFieldValue>
+            <valueName>Remit ID</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dsco Platform</controllingFieldValue>
+            <valueName>Offline Contract</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inactive Vendor</controllingFieldValue>
+            <valueName>No Contract No Payment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inactive Vendor</controllingFieldValue>
+            <valueName>Signed Contract No Payment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inactive Vendor</controllingFieldValue>
+            <valueName>Yes Contract and Payment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lead</controllingFieldValue>
+            <valueName>PRODUCTSTREAM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <valueName>CONTRACT REVIEW</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <valueName>CONTRACT REQUEST</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Project Escalations</controllingFieldValue>
+            <valueName>No Longer Doing Business</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Project Escalations</controllingFieldValue>
+            <valueName>Unresponsive</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

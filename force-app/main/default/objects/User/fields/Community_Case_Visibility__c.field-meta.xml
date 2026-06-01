@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Community_Case_Visibility__c</fullName>
+    <label>Community Case Visibility</label>
+    <type>Picklist</type>
+    <description>Used in the kbrithum Experience site. Can be set by Community Users. Changes to this field will cause a flow to automatically tick the &quot;Community_Case_Visibility_Updated__c&quot; box, which then triggers a scheduled Flow to run that updates the User&apos;s Profile</description>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Just My Cases</fullName>
+                <default>true</default>
+                <label>Just My Cases</label>
+            </value>
+            <value>
+                <fullName>My Company Cases</fullName>
+                <default>false</default>
+                <label>My Company Cases</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

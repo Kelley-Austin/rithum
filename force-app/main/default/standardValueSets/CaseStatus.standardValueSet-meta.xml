@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>New</fullName>
+        <default>true</default>
+        <label>New</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>In Progress</fullName>
+        <default>false</default>
+        <label>In Progress</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Invite Sent</fullName>
+        <default>false</default>
+        <label>Invite Sent</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Invite Accepted</fullName>
+        <default>false</default>
+        <label>Invite Accepted</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Test Preparation</fullName>
+        <default>false</default>
+        <label>Test Preparation</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Testing</fullName>
+        <default>false</default>
+        <label>Testing</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Needs Migration</fullName>
+        <default>false</default>
+        <label>Needs Migration</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Migrated</fullName>
+        <default>false</default>
+        <label>Migrated</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>C0 - New</fullName>
+        <default>false</default>
+        <label>C0 - New</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>C1 - Information Requested</fullName>
+        <default>false</default>
+        <label>C1 - Information Requested</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>C2 - In Progress</fullName>
+        <default>false</default>
+        <label>C2 - In Progress</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>C3 - QA Ready</fullName>
+        <default>false</default>
+        <label>C3 - QA Ready</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>C4 - Monitoring</fullName>
+        <default>false</default>
+        <label>C4 - Monitoring</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>C5 - Completed</fullName>
+        <default>false</default>
+        <label>C5 - Completed</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>New Issue</fullName>
+        <default>false</default>
+        <label>New Issue</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>In Progress - Level 2</fullName>
+        <default>false</default>
+        <label>In Progress - Level 2</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Re-Open</fullName>
+        <default>false</default>
+        <label>Re-Open</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>New comment</fullName>
+        <default>false</default>
+        <label>New comment</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>New with Comment</fullName>
+        <default>false</default>
+        <label>New with Comment</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Reply Received</fullName>
+        <default>false</default>
+        <label>Reply Received</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Solution Identified</fullName>
+        <default>false</default>
+        <label>Solution Identified</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Action Required</fullName>
+        <default>false</default>
+        <label>Action Required</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Escalated to Support Engineering</fullName>
+        <default>false</default>
+        <label>Escalated to Support Engineering</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Escalated to Engineering</fullName>
+        <default>false</default>
+        <label>Escalated to Engineering</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending Internal Resource</fullName>
+        <default>false</default>
+        <label>Pending Internal Resource</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending Info from Customer</fullName>
+        <default>false</default>
+        <label>Pending Info from Customer</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending Info from Partner</fullName>
+        <default>false</default>
+        <label>Pending Info from Partner</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending Hotroll/Release</fullName>
+        <default>false</default>
+        <label>Pending Hotroll/Release</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Resolved - Customer to Verify</fullName>
+        <default>false</default>
+        <label>Resolved - Customer to Verify</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Bug Report Filed</fullName>
+        <default>false</default>
+        <label>Bug Report Filed</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending Close</fullName>
+        <default>false</default>
+        <label>Pending Close</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Awaiting Additional Work/Billing</fullName>
+        <default>false</default>
+        <label>Awaiting Additional Work/Billing</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed by Customer</fullName>
+        <default>false</default>
+        <label>Closed by Customer</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed - Resolved</fullName>
+        <default>false</default>
+        <label>Closed - Resolved</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Completed - Resolved</fullName>
+        <default>false</default>
+        <label>Completed - Resolved</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Completed - Not Applicable</fullName>
+        <default>false</default>
+        <label>Completed - Not Applicable</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed - Duplicate</fullName>
+        <default>false</default>
+        <label>Closed - Duplicate</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed - Answered on Forum</fullName>
+        <default>false</default>
+        <label>Closed - Answered on Forum</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed - Junk/Spam</fullName>
+        <default>false</default>
+        <label>Closed - Junk/Spam</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Enhancement Request</fullName>
+        <default>false</default>
+        <label>Enhancement Request</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Requires Clarification</fullName>
+        <default>false</default>
+        <label>Requires Clarification</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>On Hold</fullName>
+        <default>false</default>
+        <label>On Hold</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Escalated to Salesforce.com</fullName>
+        <default>false</default>
+        <label>Escalated to Salesforce.com</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Rejected - Not an approved enhancement</fullName>
+        <default>false</default>
+        <label>Rejected - Not an approved enhancement</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending Internal Approvals</fullName>
+        <default>false</default>
+        <label>Pending Internal Approvals</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Workorder</fullName>
+        <default>false</default>
+        <label>Workorder</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Workorder - In Progress</fullName>
+        <default>false</default>
+        <label>Workorder - In Progress</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed- Sales Team Referral</fullName>
+        <default>false</default>
+        <label>Closed- Sales Team Referral</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed- Termination/Grievance</fullName>
+        <default>false</default>
+        <label>Closed- Termination/Grievance</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed- Buyer</fullName>
+        <default>false</default>
+        <label>Closed- Buyer</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Canceled</fullName>
+        <default>false</default>
+        <label>Canceled</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending Audit Delivery</fullName>
+        <default>false</default>
+        <label>Pending Audit Delivery</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>More Info Requested</fullName>
+        <default>false</default>
+        <label>More Info Requested</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Quote Provided</fullName>
+        <default>false</default>
+        <label>Quote Provided</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>ASO Pending</fullName>
+        <default>false</default>
+        <label>ASO Pending</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Training In Progress</fullName>
+        <default>false</default>
+        <label>Training In Progress</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Request Withdrawn</fullName>
+        <default>false</default>
+        <label>Request Withdrawn</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed - Converted to Project</fullName>
+        <default>false</default>
+        <label>Closed - Converted to Project</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Enhancement Request Submitted</fullName>
+        <default>false</default>
+        <label>Enhancement Request Submitted</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending Partner</fullName>
+        <default>false</default>
+        <label>Pending Partner</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending - Awaiting Feedback</fullName>
+        <default>false</default>
+        <label>Pending - Awaiting Feedback</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed - Rejected</fullName>
+        <default>false</default>
+        <label>Closed - Rejected</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Archived</fullName>
+        <default>false</default>
+        <label>Archived</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending Contract Start/End Date</fullName>
+        <default>false</default>
+        <label>Pending Contract Start/End Date</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Waiting for Information</fullName>
+        <default>false</default>
+        <label>Waiting for Information</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Rescheduling</fullName>
+        <default>false</default>
+        <label>Rescheduling</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Assigned</fullName>
+        <default>false</default>
+        <label>Assigned</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Under Legal Review</fullName>
+        <default>false</default>
+        <label>Under Legal Review</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Ready to Test</fullName>
+        <default>false</default>
+        <label>Ready to Test</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>No Reply</fullName>
+        <default>false</default>
+        <label>No Reply</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Escalated to Partner Support</fullName>
+        <default>false</default>
+        <label>Escalated to Partner Support</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed - Incomplete</fullName>
+        <default>false</default>
+        <label>Closed - Incomplete</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>New Forum Post</fullName>
+        <default>false</default>
+        <label>New Forum Post</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed-Migrated</fullName>
+        <default>false</default>
+        <label>Closed-Migrated</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Need CA/CH Assistance</fullName>
+        <default>false</default>
+        <label>Need CA/CH Assistance</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending</fullName>
+        <default>false</default>
+        <label>Pending</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Merged</fullName>
+        <default>false</default>
+        <label>Merged</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Open</fullName>
+        <default>false</default>
+        <label>Open</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Requested</fullName>
+        <default>false</default>
+        <label>Requested</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>1st Approval Requested</fullName>
+        <default>false</default>
+        <label>1st Approval Requested</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>2nd Approval Requested</fullName>
+        <default>false</default>
+        <label>2nd Approval Requested</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Approved</fullName>
+        <default>false</default>
+        <label>Approved</label>
+        <closed>false</closed>
+    </standardValue>
+</StandardValueSet>

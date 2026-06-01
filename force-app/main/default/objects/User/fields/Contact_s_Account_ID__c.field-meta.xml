@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_s_Account_ID__c</fullName>
+    <label>Contact&apos;s Account ID</label>
+    <type>Text</type>
+    <formula>CASESAFEID(Contact.AccountId)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <description>Used in the kbrithum Experience site. Formula of the User&apos;s Contact&apos;s Account Id. Used to determine which Account&apos;s Cases a Community User is able to access.</description>
+</CustomField>

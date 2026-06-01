@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Escalation_Requested__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Used for support case escalations at request of a client.</description>
+    <inlineHelpText>Check this box if a client has requested escalation of a case. Uncheck the box once escalation has been routed.</inlineHelpText>
+    <label>Escalation Requested</label>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

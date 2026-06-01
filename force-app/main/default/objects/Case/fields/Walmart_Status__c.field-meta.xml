@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Walmart_Status__c</fullName>
+    <externalId>false</externalId>
+    <formula>if((Not(ISBLANK(Project__c)) &amp;&amp;  (TEXT(Project__r.Status__c) = &apos;Completed&apos; || TEXT(Project__r.Status__c) = &apos;Complete/Delivered&apos;) &amp;&amp;(ISPICKVAL(Marketplace_Status__c,&quot;4 - WMT SIGNED - Sign CA contract&quot;) || ISPICKVAL(Marketplace_Status__c,&quot;3 - WMT APPROVED - Sign WMT contract&quot;))) || ( NOT(ISBLANK(Account.Walmart_GMV__c)) &amp;&amp; Account.Walmart_GMV__c &gt; 0), &quot;7.1 - Project Complete&quot; /*&amp; text(Project__r.Status__c)*/, 
+
+if(Not(ISBLANK(Project__c)) &amp;&amp;  (CONTAINS(TEXT(Project__r.Status__c),&quot;Hold&quot;) || TEXT(Project__r.Status__c) = &apos;Not Engaged&apos;) &amp;&amp;(ISPICKVAL(Marketplace_Status__c,&quot;4 - WMT SIGNED - Sign CA contract&quot;) || ISPICKVAL(Marketplace_Status__c,&quot;3 - WMT APPROVED - Sign WMT contract&quot;)), &quot;7.2 - Project On Hold&quot; /*&amp; text(Project__r.Status__c)*/, 
+
+if(Not(ISBLANK(Project__c)) &amp;&amp; (ISPICKVAL(Marketplace_Status__c,&quot;4 - WMT SIGNED - Sign CA contract&quot;) || ISPICKVAL(Marketplace_Status__c,&quot;3 - WMT APPROVED - Sign WMT contract&quot;) ), &quot;7 - Project In Progress&quot; /*&amp; text(Project__r.Status__c)*/, 
+
+if(Not(ISBLANK( Contract__c ))&amp;&amp; (ISPICKVAL(Marketplace_Status__c,&quot;4 - WMT SIGNED - Sign CA contract&quot;) || ISPICKVAL(Marketplace_Status__c,&quot;3 - WMT APPROVED - Sign WMT contract&quot;)), &quot;6 - ChannelAdvisor Contract&quot; /*&amp; text( Contract__r.Status )*/, 
+
+if(Not(ISBLANK( Opportunity__c ))&amp;&amp; (ISPICKVAL(Marketplace_Status__c,&quot;4 - WMT SIGNED - Sign CA contract&quot;) || ISPICKVAL(Marketplace_Status__c,&quot;3 - WMT APPROVED - Sign WMT contract&quot;)), &quot;5 - Opportunity&quot; /*&amp; text( Opportunity__r.StageName )*/, 
+
+
+text( Marketplace_Status__c))))))</formula>
+    <label>Walmart Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

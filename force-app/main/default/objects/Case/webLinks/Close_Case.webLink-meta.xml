@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Close_Case</fullName>
+    <availability>online</availability>
+    <description>Close the case - Only for Cases which are Salesforce Enhancement type.</description>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>Close Case</masterLabel>
+    <openType>sidebar</openType>
+    <protected>false</protected>
+    <url>/apex/CloseCase?id={!Case.Id}&amp;retURL=%2f{!Case.Id}</url>
+</WebLink>

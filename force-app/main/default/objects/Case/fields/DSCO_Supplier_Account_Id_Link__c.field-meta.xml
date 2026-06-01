@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DSCO_Supplier_Account_Id_Link__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+  ISBLANK(DSCO_Supplier_Account_Id__c),
+  &quot;DSCO Supplier Account Id field is Blank&quot;,
+  &quot;https://app.dsco.io/tools/account/overview/account_id/&quot; &amp; DSCO_Supplier_Account_Id__c
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>DSCO Supplier Account Id Link</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

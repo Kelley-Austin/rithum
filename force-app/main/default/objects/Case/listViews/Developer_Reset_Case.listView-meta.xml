@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Developer_Reset_Case</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Developer Reset</label>
+    <queue>Developer_Reset</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

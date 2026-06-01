@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_Open_VI_Cases</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>Partner_ID__c</columns>
+    <columns>SCON_Retailer_Account__c</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>SCON_Supplier_Account__c</columns>
+    <columns>Connection_Type__c</columns>
+    <columns>Case_Flag__c</columns>
+    <columns>Subtype__c</columns>
+    <columns>Process_Assessment__c</columns>
+    <columns>CASES.LAST_UPDATE</columns>
+    <columns>Requested_Live_Date__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.SCON_Onboarding</value>
+    </filters>
+    <filters>
+        <field>CASES.CLOSED</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Closed - Resolved,Closed - Rejected</value>
+    </filters>
+    <label>My Open VI Cases_!!!</label>
+    <sharedTo>
+        <roleAndSubordinatesInternal>Rithum_Onboarding_Support_Manager</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>Rithum_Onboarding_Support_User</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>SystemAdministratorMISSalesOps</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

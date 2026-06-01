@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Renewal_Product__c</fullName>
+    <description>Used to determine the type of product the Renewal Admin Case is related to</description>
+    <inlineHelpText>Used to determine the type of product the Renewal Admin Case is related to</inlineHelpText>
+    <label>Renewal Product</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Managed Marketplaces</fullName>
+                <default>false</default>
+                <label>Managed Marketplaces</label>
+            </value>
+            <value>
+                <fullName>Managed Digital Marketing</fullName>
+                <default>false</default>
+                <label>Managed Digital Marketing</label>
+            </value>
+            <value>
+                <fullName>Retail Media Services</fullName>
+                <default>false</default>
+                <label>Retail Media Services</label>
+            </value>
+            <value>
+                <fullName>Product Feed Management</fullName>
+                <default>false</default>
+                <label>Product Feed Management</label>
+            </value>
+            <value>
+                <fullName>SS NetSuite Connector</fullName>
+                <default>false</default>
+                <label>SS NetSuite Connector</label>
+            </value>
+            <value>
+                <fullName>SS Webstore Amplifier</fullName>
+                <default>false</default>
+                <label>SS Webstore Amplifier</label>
+            </value>
+            <value>
+                <fullName>SS Digital Marketing</fullName>
+                <default>false</default>
+                <label>SS Digital Marketing</label>
+            </value>
+            <value>
+                <fullName>SS Feeds</fullName>
+                <default>false</default>
+                <label>SS Feeds</label>
+            </value>
+            <value>
+                <fullName>SS Commerce Core</fullName>
+                <default>false</default>
+                <label>SS Commerce Core</label>
+            </value>
+            <value>
+                <fullName>SS Marketplaces</fullName>
+                <default>false</default>
+                <label>SS Marketplaces</label>
+            </value>
+            <value>
+                <fullName>Managed Webstore Services</fullName>
+                <default>false</default>
+                <label>Managed Webstore Services</label>
+            </value>
+            <value>
+                <fullName>CFS</fullName>
+                <default>false</default>
+                <label>CFS</label>
+            </value>
+            <value>
+                <fullName>First Party Dropship</fullName>
+                <default>false</default>
+                <label>First Party Dropship</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

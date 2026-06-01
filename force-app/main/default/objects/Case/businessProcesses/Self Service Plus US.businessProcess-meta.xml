@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Self Service Plus US</fullName>
+    <isActive>true</isActive>
+    <values>
+        <fullName>ASO Pending</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Action Required</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed - Resolved</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>In Progress</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>More Info Requested</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>New</fullName>
+        <default>true</default>
+    </values>
+    <values>
+        <fullName>Pending Info from Customer</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Pending Internal Resource</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Quote Provided</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Request Withdrawn</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Training In Progress</fullName>
+        <default>false</default>
+    </values>
+</BusinessProcess>

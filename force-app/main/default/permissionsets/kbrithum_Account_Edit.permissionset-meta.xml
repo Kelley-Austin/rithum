@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>kbrithum - Account Edit</label>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Notify_Account_Team_of_Brands_Case__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Priority_Support_Attention__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+</PermissionSet>

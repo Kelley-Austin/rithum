@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validate_Required_Fields_On_Close</fullName>
+    <active>true</active>
+    <description>Zendesk to sfdc</description>
+    <errorConditionFormula>OR(
+AND(
+NOT(
+OR(
+$Profile.Name = &quot;System Administrator&quot;,
+$Profile.Name = &quot;SystemAccess&quot;,
+Bypass_VR_for_Flow__c
+)
+),
+OR(
+ISPICKVAL(Status, &quot;Closed - Resolved&quot;),
+ISPICKVAL(Status, &quot;Closed by Customer&quot;),
+ISPICKVAL(Status, &quot;Closed-Migrated&quot;)
+),
+RecordType.DeveloperName = &quot;Ongoing_Support&quot;,
+OR(
+ISBLANK(Organization_Contact__c),
+ISPICKVAL(Category_dsco__c, &quot;&quot;),
+ISPICKVAL(Sub_Category_dsco__c, &quot;&quot;),
+ISPICKVAL(Type, &quot;&quot;),
+ISPICKVAL(Priority, &quot;&quot;),
+ISPICKVAL(Resolved_on_First_Contact__c, &quot;&quot;),
+AND(
+ISPICKVAL(Resolved_on_First_Contact__c, &quot;No&quot;),
+ISPICKVAL(Not_Resolved_On_First_Contact_Reason__c, &quot;&quot;)
+),
+
+OR(
+AND(
+ISBLANK(Organization__c),
+ISBLANK(Retailer_Organization__c)
+),
+AND(
+NOT(ISBLANK(Organization__r.Id)),
+TEXT(Organization__r.Type__c) &lt;&gt; &quot;Retailer&quot;,
+ISBLANK(Retailer_Organization__c)
+)
+)
+
+)
+),
+AND(
+NOT(
+OR(
+$Profile.Name = &quot;System Administrator&quot;,
+$Profile.Name = &quot;SystemAccess&quot;,
+Bypass_VR_for_Flow__c
+)
+),
+OR(
+ISPICKVAL(Status, &quot;Closed - Resolved&quot;),
+ISPICKVAL(Status, &quot;Closed by Customer&quot;),
+ISPICKVAL(Status, &quot;Closed-Migrated&quot;)
+),
+RecordType.DeveloperName = &quot;Onboarding_Support&quot;,
+OR(
+ISBLANK(Organization_Contact__c),
+ISPICKVAL(Category_dsco__c, &quot;&quot;),
+ISPICKVAL(Sub_Category_dsco__c, &quot;&quot;),
+ISPICKVAL(Type, &quot;&quot;),
+ISPICKVAL(Priority, &quot;&quot;),
+ISBLANK(Retailer_Organization__c),
+ISBLANK(ZTS_DSCO_Internal_Tool_Link__c)
+
+
+
+
+
+)
+)
+)</errorConditionFormula>
+    <errorMessage>Cannot close the case, please complete all required fields</errorMessage>
+</ValidationRule>

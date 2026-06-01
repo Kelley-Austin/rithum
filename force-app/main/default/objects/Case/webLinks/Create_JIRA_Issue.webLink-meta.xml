@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Create_JIRA_Issue</fullName>
+    <availability>online</availability>
+    <description>Button to automatically create a Jira ticket from a SF case.</description>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Create JIRA Issue</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>{!REQUIRESCRIPT(&quot;/soap/ajax/30.0/connection.js&quot;)} 
+{!REQUIRESCRIPT(&quot;/soap/ajax/30.0/apex.js&quot;)} 
+sforce.apex.execute(&quot;CreateJIRATicketFromCase&quot;,&quot;sendCaseDetails&quot;,{caseId:&quot;{! Case.Id}&quot;});
+alert(&quot;Sent Case for Jira Ticket Creation&quot;);</url>
+</WebLink>

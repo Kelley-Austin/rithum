@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SCON_Onboarding_Cases_Assigned</fullName>
+    <columns>Case_Flag__c</columns>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>SCON_Supplier_Account__c</columns>
+    <columns>Supplier_Partner_Id_SCON__c</columns>
+    <columns>SCON_Retailer_Account__c</columns>
+    <columns>Connection_Type__c</columns>
+    <columns>Vendor_Id_SCON__c</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.CREATED_DATE</columns>
+    <columns>Requested_Live_Date__c</columns>
+    <columns>OWNER_NAME</columns>
+    <columns>CASES.RECORDTYPE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OWNER_NAME</field>
+        <operation>notEqual</operation>
+        <value>SCON Integration,SCON Onboarding Queue</value>
+    </filters>
+    <filters>
+        <field>Record_Type_Name__c</field>
+        <operation>equals</operation>
+        <value>SCON Onboarding</value>
+    </filters>
+    <filters>
+        <field>CASES.CLOSED</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>SCON Onboarding Cases Assigned</label>
+    <sharedTo>
+        <roleAndSubordinatesInternal>Rithum_Onboarding_Support_Manager</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>Rithum_Onboarding_Support_User</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>Rithum_Senior_Support_User</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>SystemAdministratorMISSalesOps</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

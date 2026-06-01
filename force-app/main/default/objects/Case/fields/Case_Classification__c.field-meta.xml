@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_Classification__c</fullName>
+    <label>Case Classification</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Reporting</fullName>
+                <default>false</default>
+                <label>Reporting</label>
+            </value>
+            <value>
+                <fullName>Error Resolution</fullName>
+                <default>false</default>
+                <label>Error Resolution</label>
+            </value>
+            <value>
+                <fullName>Mapping and Optimization</fullName>
+                <default>false</default>
+                <label>Mapping and Optimization</label>
+            </value>
+            <value>
+                <fullName>Promotion Management</fullName>
+                <default>false</default>
+                <label>Promotion Management</label>
+            </value>
+            <value>
+                <fullName>Catalog Management</fullName>
+                <default>false</default>
+                <label>Catalog Management</label>
+            </value>
+            <value>
+                <fullName>Audit</fullName>
+                <default>false</default>
+                <label>Audit</label>
+            </value>
+            <value>
+                <fullName>Troubleshooting</fullName>
+                <default>false</default>
+                <label>Troubleshooting</label>
+            </value>
+            <value>
+                <fullName>Call Support</fullName>
+                <default>false</default>
+                <label>Call Support</label>
+            </value>
+            <value>
+                <fullName>Solutions Architecture</fullName>
+                <default>false</default>
+                <label>Solutions Architecture</label>
+            </value>
+            <value>
+                <fullName>CSE Engagement</fullName>
+                <default>false</default>
+                <label>CSE Engagement</label>
+            </value>
+            <value>
+                <fullName>OOO</fullName>
+                <default>false</default>
+                <label>OOO</label>
+            </value>
+            <value>
+                <fullName>Training</fullName>
+                <default>false</default>
+                <label>Training</label>
+            </value>
+            <value>
+                <fullName>Image Reformatting</fullName>
+                <default>false</default>
+                <label>Image Reformatting</label>
+            </value>
+            <value>
+                <fullName>PID Migration</fullName>
+                <default>false</default>
+                <label>PID Migration</label>
+            </value>
+            <value>
+                <fullName>Platform Integration Modifications</fullName>
+                <default>false</default>
+                <label>Platform Integration Modifications</label>
+            </value>
+            <value>
+                <fullName>Outbound Mapping Modifications</fullName>
+                <default>false</default>
+                <label>Outbound Mapping Modifications</label>
+            </value>
+            <value>
+                <fullName>Marketplace Strategy</fullName>
+                <default>false</default>
+                <label>Marketplace Strategy</label>
+            </value>
+            <value>
+                <fullName>Platform Strategy</fullName>
+                <default>false</default>
+                <label>Platform Strategy</label>
+            </value>
+            <value>
+                <fullName>EMEA Ent MS OOO</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>EMEA Ent MS OOO</label>
+            </value>
+            <value>
+                <fullName>EMEA Strat MS OOO</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>EMEA Strat MS OOO</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

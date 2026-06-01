@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Survey_Exclusion__c</fullName>
+    <description>This field is to be used only by Support Management to control survey score exclusions</description>
+    <label>Survey Exclusion</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Include</fullName>
+                <default>false</default>
+                <label>Include</label>
+            </value>
+            <value>
+                <fullName>Exclude CSAT</fullName>
+                <default>false</default>
+                <label>Exclude CSAT</label>
+            </value>
+            <value>
+                <fullName>Exclude LOE</fullName>
+                <default>false</default>
+                <label>Exclude LOE</label>
+            </value>
+            <value>
+                <fullName>Exclude CSAT &amp; LOE</fullName>
+                <default>false</default>
+                <label>Exclude CSAT &amp; LOE</label>
+            </value>
+            <value>
+                <fullName>None</fullName>
+                <default>true</default>
+                <label>None</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

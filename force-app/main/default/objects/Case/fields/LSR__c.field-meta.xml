@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LSR__c</fullName>
+    <description>The Onboarding Reps will select from the 3 file types.
+Used with SCON Onboarding processes</description>
+    <label>LSR</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>219 EDI</fullName>
+                <default>false</default>
+                <label>219 EDI</label>
+            </value>
+            <value>
+                <fullName>Delimited</fullName>
+                <default>false</default>
+                <label>Delimited</label>
+            </value>
+            <value>
+                <fullName>XML</fullName>
+                <default>false</default>
+                <label>XML</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MediaMint_RMS_Cases_to_Approve</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>NAME</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>Contractor_Case_Accurate__c</columns>
+    <columns>Contractor_Case_Error__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.MediaMint_RMS</value>
+    </filters>
+    <filters>
+        <field>Contractor_Case_Accurate__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Active_Recurring_Case__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>MediaMint RMS Cases to Approve</label>
+</ListView>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Populate_BiWeekly_Start_Date</fullName>
+    <active>true</active>
+    <errorConditionFormula>OR(AND(ISPICKVAL(Recurring_Case_Rate__c, &apos;BiWeekly&apos;), ISBLANK(Recurring_Biweekly_Start_Date__c )),  AND(NOT(ISBLANK(Recurring_Biweekly_Start_Date__c)),  ISCHANGED(Recurring_Biweekly_Start_Date__c), (Recurring_Biweekly_Start_Date__c &lt; TODAY())))</errorConditionFormula>
+    <errorDisplayField>Recurring_Biweekly_Start_Date__c</errorDisplayField>
+    <errorMessage>Please populate the BiWeekly Start Date when selecting &quot;BiWeekly&quot; as the Recurring frequency and make sure it is not set in the past.</errorMessage>
+</ValidationRule>

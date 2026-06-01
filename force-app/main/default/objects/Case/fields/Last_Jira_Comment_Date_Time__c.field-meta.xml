@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Last_Jira_Comment_Date_Time__c</fullName>
+    <label>Last Jira Comment Date/Time</label>
+    <type>DateTime</type>
+    <description>Used by Brands and Jira team to designate when the last Jira comment was added. Used by flow to update Case when field is populated and new Jira comment is added.</description>
+</CustomField>

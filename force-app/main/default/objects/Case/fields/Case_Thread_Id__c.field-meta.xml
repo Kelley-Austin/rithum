@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_Thread_Id__c</fullName>
+    <externalId>false</externalId>
+    <formula>/*&quot;ref:!&quot;
+ &amp; MID( $Organization.Id , 1, 6)
+ &amp; MID( $Organization.Id , 12, 4)
+ &amp; &quot;.!&quot;
+ &amp; MID( Id , 1, 5)
+ &amp; MID( Id , 9, 7)
+ &amp; &quot;:ref&quot;*/
+
+
+&quot;ref:!&quot; 
+&amp; MID($Organization.Id, 1, 5) 
+&amp; MID($Organization.Id, 10, 6) 
+&amp; &quot;.!&quot; 
+&amp; MID(Id, 1, 5) 
+&amp; MID(Id, 9, 7) 
+&amp; &quot;:ref&quot;</formula>
+    <label>Case Thread Id</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

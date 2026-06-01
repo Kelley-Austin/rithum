@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Marketing_Request_Restrict_to_CA_Contact</fullName>
+    <active>true</active>
+    <errorConditionFormula>$RecordType.Id = &quot;012F0000000jBKd&quot;  &amp;&amp; 
+/* Marketing Requests record type id */
+NOT(ISPICKVAL(Origin,&quot;Email-Data Privacy or GDPR&quot;)) &amp;&amp; 
+Contact.Account_18_Digit_ID__c &lt;&gt; &quot;001000000034Nt8AAE&quot; &amp;&amp;
+/*Rithum account id*/
+Contact.Account_18_Digit_ID__c &lt;&gt; &quot;0012A00002S3drbQAB&quot; &amp;&amp;
+/*Rithum_Archive account id*/
+Contact.Account_18_Digit_ID__c &lt;&gt; &quot;001F000000ku5TSIAY&quot; &amp;&amp;
+/*Commerce Technologies, LLC dba CommerceHub account id*/
+ $Profile.Id &lt;&gt; &quot;00e00000006xHsmAAE&quot;
+/* SystemAccess profile id */</errorConditionFormula>
+    <errorDisplayField>ContactId</errorDisplayField>
+    <errorMessage>The Case Contact with this Marketing Request needs to be a Rithum Employee.</errorMessage>
+</ValidationRule>

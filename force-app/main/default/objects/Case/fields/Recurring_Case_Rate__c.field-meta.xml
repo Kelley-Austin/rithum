@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Recurring_Case_Rate__c</fullName>
+    <inlineHelpText>This Sets the rate for which recurring child cases are created off of this case</inlineHelpText>
+    <label>Recurring Case Rate</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Daily (Weekdays Only)</fullName>
+                <default>false</default>
+                <label>Daily (Weekdays Only)</label>
+            </value>
+            <value>
+                <fullName>Daily (Including Weekends)</fullName>
+                <default>false</default>
+                <label>Daily (Including Weekends)</label>
+            </value>
+            <value>
+                <fullName>Weekly</fullName>
+                <default>false</default>
+                <label>Weekly</label>
+            </value>
+            <value>
+                <fullName>Monthly</fullName>
+                <default>false</default>
+                <label>Monthly</label>
+            </value>
+            <value>
+                <fullName>BiWeekly</fullName>
+                <default>false</default>
+                <label>BiWeekly</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

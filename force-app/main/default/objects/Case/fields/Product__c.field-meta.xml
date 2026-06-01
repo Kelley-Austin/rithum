@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product__c</fullName>
+    <description>This field connects directly with Jira. Any changes or adjustments should be completed through Business Operations.</description>
+    <label>Product</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>1P</fullName>
+                <default>false</default>
+                <label>1P</label>
+            </value>
+            <value>
+                <fullName>3P</fullName>
+                <default>false</default>
+                <label>3P</label>
+            </value>
+            <value>
+                <fullName>Access</fullName>
+                <default>false</default>
+                <label>Access</label>
+            </value>
+            <value>
+                <fullName>Acquisition</fullName>
+                <default>false</default>
+                <label>Acquisition</label>
+            </value>
+            <value>
+                <fullName>Administration</fullName>
+                <default>false</default>
+                <label>Administration</label>
+            </value>
+            <value>
+                <fullName>Advanced Catalog</fullName>
+                <default>false</default>
+                <label>Advanced Catalog</label>
+            </value>
+            <value>
+                <fullName>Alerts</fullName>
+                <default>false</default>
+                <label>Alerts</label>
+            </value>
+            <value>
+                <fullName>Amazon</fullName>
+                <default>false</default>
+                <label>Amazon</label>
+            </value>
+            <value>
+                <fullName>API</fullName>
+                <default>false</default>
+                <label>API</label>
+            </value>
+            <value>
+                <fullName>AS2</fullName>
+                <default>false</default>
+                <label>AS2</label>
+            </value>
+            <value>
+                <fullName>AuktionMaster</fullName>
+                <default>false</default>
+                <label>AuktionMaster</label>
+            </value>
+            <value>
+                <fullName>Basic Webstores</fullName>
+                <default>false</default>
+                <label>Basic Webstores</label>
+            </value>
+            <value>
+                <fullName>BCC</fullName>
+                <default>false</default>
+                <label>BCC</label>
+            </value>
+            <value>
+                <fullName>Business Rules</fullName>
+                <default>false</default>
+                <label>Business Rules</label>
+            </value>
+            <value>
+                <fullName>Buyer</fullName>
+                <default>false</default>
+                <label>Buyer</label>
+            </value>
+            <value>
+                <fullName>CCC</fullName>
+                <default>false</default>
+                <label>CCC</label>
+            </value>
+            <value>
+                <fullName>ChannelAdvisor Community</fullName>
+                <default>false</default>
+                <label>ChannelAdvisor Community</label>
+            </value>
+            <value>
+                <fullName>ChannelAdvisor Elevate</fullName>
+                <default>false</default>
+                <label>ChannelAdvisor Elevate</label>
+            </value>
+            <value>
+                <fullName>Cloud Conversion</fullName>
+                <default>false</default>
+                <label>Cloud Conversion</label>
+            </value>
+            <value>
+                <fullName>Comparison Shopping</fullName>
+                <default>false</default>
+                <label>Comparison Shopping</label>
+            </value>
+            <value>
+                <fullName>Connector Assistance</fullName>
+                <default>false</default>
+                <label>Connector Assistance</label>
+            </value>
+            <value>
+                <fullName>Customer Setup</fullName>
+                <default>false</default>
+                <label>Customer Setup</label>
+            </value>
+            <value>
+                <fullName>Digital Marketing</fullName>
+                <default>false</default>
+                <label>Digital Marketing</label>
+            </value>
+            <value>
+                <fullName>eBay</fullName>
+                <default>false</default>
+                <label>eBay</label>
+            </value>
+            <value>
+                <fullName>eDIT</fullName>
+                <default>false</default>
+                <label>eDIT</label>
+            </value>
+            <value>
+                <fullName>Error Resolution</fullName>
+                <default>false</default>
+                <label>Error Resolution</label>
+            </value>
+            <value>
+                <fullName>Feedback</fullName>
+                <default>false</default>
+                <label>Feedback</label>
+            </value>
+            <value>
+                <fullName>First Party</fullName>
+                <default>false</default>
+                <label>First Party</label>
+            </value>
+            <value>
+                <fullName>FTP/SFTP</fullName>
+                <default>false</default>
+                <label>FTP/SFTP</label>
+            </value>
+            <value>
+                <fullName>Fulfillment Services</fullName>
+                <default>false</default>
+                <label>Fulfillment Services</label>
+            </value>
+            <value>
+                <fullName>Image Work</fullName>
+                <default>false</default>
+                <label>Image Work</label>
+            </value>
+            <value>
+                <fullName>Insights</fullName>
+                <default>false</default>
+                <label>Insights</label>
+            </value>
+            <value>
+                <fullName>Inventory</fullName>
+                <default>false</default>
+                <label>Inventory</label>
+            </value>
+            <value>
+                <fullName>Inventory/Data Transformation</fullName>
+                <default>false</default>
+                <label>Inventory/Data Transformation</label>
+            </value>
+            <value>
+                <fullName>Jet</fullName>
+                <default>false</default>
+                <label>Jet</label>
+            </value>
+            <value>
+                <fullName>Lookup List</fullName>
+                <default>false</default>
+                <label>Lookup List</label>
+            </value>
+            <value>
+                <fullName>Marketworks</fullName>
+                <default>false</default>
+                <label>Marketworks</label>
+            </value>
+            <value>
+                <fullName>Marketworks Sales</fullName>
+                <default>false</default>
+                <label>Marketworks Sales</label>
+            </value>
+            <value>
+                <fullName>Mojito</fullName>
+                <default>false</default>
+                <label>Mojito</label>
+            </value>
+            <value>
+                <fullName>Newegg</fullName>
+                <default>false</default>
+                <label>Newegg</label>
+            </value>
+            <value>
+                <fullName>Orders &amp; Fulfillment</fullName>
+                <default>false</default>
+                <label>Orders &amp; Fulfillment</label>
+            </value>
+            <value>
+                <fullName>Orders and Fulfillment</fullName>
+                <default>false</default>
+                <label>Orders and Fulfillment</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Other Marketplaces</fullName>
+                <default>false</default>
+                <label>Other Marketplaces</label>
+            </value>
+            <value>
+                <fullName>Overstock</fullName>
+                <default>false</default>
+                <label>Overstock</label>
+            </value>
+            <value>
+                <fullName>Paid Search</fullName>
+                <default>false</default>
+                <label>Paid Search</label>
+            </value>
+            <value>
+                <fullName>Partner Issues</fullName>
+                <default>false</default>
+                <label>Partner Issues</label>
+            </value>
+            <value>
+                <fullName>Partners</fullName>
+                <default>false</default>
+                <label>Partners</label>
+            </value>
+            <value>
+                <fullName>Performance Reporting</fullName>
+                <default>false</default>
+                <label>Performance Reporting</label>
+            </value>
+            <value>
+                <fullName>Platform</fullName>
+                <default>false</default>
+                <label>Platform</label>
+            </value>
+            <value>
+                <fullName>Platform portal</fullName>
+                <default>false</default>
+                <label>Platform portal</label>
+            </value>
+            <value>
+                <fullName>Premium Marketplaces</fullName>
+                <default>false</default>
+                <label>Premium Marketplaces</label>
+            </value>
+            <value>
+                <fullName>Premium Webstores</fullName>
+                <default>false</default>
+                <label>Premium Webstores</label>
+            </value>
+            <value>
+                <fullName>Private Marketplace</fullName>
+                <default>false</default>
+                <label>Private Marketplace</label>
+            </value>
+            <value>
+                <fullName>Pro-DE</fullName>
+                <default>false</default>
+                <label>Pro-DE</label>
+            </value>
+            <value>
+                <fullName>Product Intelligence</fullName>
+                <default>false</default>
+                <label>Product Intelligence</label>
+            </value>
+            <value>
+                <fullName>Pro-UK</fullName>
+                <default>false</default>
+                <label>Pro-UK</label>
+            </value>
+            <value>
+                <fullName>Proxy - AS2</fullName>
+                <default>false</default>
+                <label>Proxy - AS2</label>
+            </value>
+            <value>
+                <fullName>Proxy - SFTP</fullName>
+                <default>false</default>
+                <label>Proxy - SFTP</label>
+            </value>
+            <value>
+                <fullName>PS - Audit</fullName>
+                <default>false</default>
+                <label>PS - Audit</label>
+            </value>
+            <value>
+                <fullName>PS - Comparison Shopping Engines</fullName>
+                <default>false</default>
+                <label>PS - Comparison Shopping Engines</label>
+            </value>
+            <value>
+                <fullName>PS - Direct2Wholesale</fullName>
+                <default>false</default>
+                <label>PS - Direct2Wholesale</label>
+            </value>
+            <value>
+                <fullName>PS - Launch Services</fullName>
+                <default>false</default>
+                <label>PS - Launch Services</label>
+            </value>
+            <value>
+                <fullName>PS - Marketplaces</fullName>
+                <default>false</default>
+                <label>PS - Marketplaces</label>
+            </value>
+            <value>
+                <fullName>PS - Natural Search Appliance</fullName>
+                <default>false</default>
+                <label>PS - Natural Search Appliance</label>
+            </value>
+            <value>
+                <fullName>PS - Other</fullName>
+                <default>false</default>
+                <label>PS - Other</label>
+            </value>
+            <value>
+                <fullName>PS - Paid Search</fullName>
+                <default>false</default>
+                <label>PS - Paid Search</label>
+            </value>
+            <value>
+                <fullName>PS - Private Marketplace</fullName>
+                <default>false</default>
+                <label>PS - Private Marketplace</label>
+            </value>
+            <value>
+                <fullName>PS - Project Management</fullName>
+                <default>false</default>
+                <label>PS - Project Management</label>
+            </value>
+            <value>
+                <fullName>PS - RichFX Services</fullName>
+                <default>false</default>
+                <label>PS - RichFX Services</label>
+            </value>
+            <value>
+                <fullName>PS - Self Service</fullName>
+                <default>false</default>
+                <label>PS - Self Service</label>
+            </value>
+            <value>
+                <fullName>PS - Training</fullName>
+                <default>false</default>
+                <label>PS - Training</label>
+            </value>
+            <value>
+                <fullName>PS - UK Services</fullName>
+                <default>false</default>
+                <label>PS - UK Services</label>
+            </value>
+            <value>
+                <fullName>PS - Where To Buy</fullName>
+                <default>false</default>
+                <label>PS - Where To Buy</label>
+            </value>
+            <value>
+                <fullName>Rakuten.com</fullName>
+                <default>false</default>
+                <label>Rakuten.com</label>
+            </value>
+            <value>
+                <fullName>Reporting</fullName>
+                <default>false</default>
+                <label>Reporting</label>
+            </value>
+            <value>
+                <fullName>Reports</fullName>
+                <default>false</default>
+                <label>Reports</label>
+            </value>
+            <value>
+                <fullName>Rich Catalog</fullName>
+                <default>false</default>
+                <label>Rich Catalog</label>
+            </value>
+            <value>
+                <fullName>Rich Design</fullName>
+                <default>false</default>
+                <label>Rich Design</label>
+            </value>
+            <value>
+                <fullName>RichFX</fullName>
+                <default>false</default>
+                <label>RichFX</label>
+            </value>
+            <value>
+                <fullName>RichFX Catalog</fullName>
+                <default>false</default>
+                <label>RichFX Catalog</label>
+            </value>
+            <value>
+                <fullName>RichFX Image</fullName>
+                <default>false</default>
+                <label>RichFX Image</label>
+            </value>
+            <value>
+                <fullName>Rich Image</fullName>
+                <default>false</default>
+                <label>Rich Image</label>
+            </value>
+            <value>
+                <fullName>Rich Media</fullName>
+                <default>false</default>
+                <label>Rich Media</label>
+            </value>
+            <value>
+                <fullName>Sales</fullName>
+                <default>false</default>
+                <label>Sales</label>
+            </value>
+            <value>
+                <fullName>Search</fullName>
+                <default>false</default>
+                <label>Search</label>
+            </value>
+            <value>
+                <fullName>Sears Marketplace</fullName>
+                <default>false</default>
+                <label>Sears Marketplace</label>
+            </value>
+            <value>
+                <fullName>SFTP</fullName>
+                <default>false</default>
+                <label>SFTP</label>
+            </value>
+            <value>
+                <fullName>Shoppable Media</fullName>
+                <default>false</default>
+                <label>Shoppable Media</label>
+            </value>
+            <value>
+                <fullName>Social</fullName>
+                <default>false</default>
+                <label>Social</label>
+            </value>
+            <value>
+                <fullName>SSP - Comparison Shopping Engines</fullName>
+                <default>false</default>
+                <label>SSP - Comparison Shopping Engines</label>
+            </value>
+            <value>
+                <fullName>SSP - Launch Services</fullName>
+                <default>false</default>
+                <label>SSP - Launch Services</label>
+            </value>
+            <value>
+                <fullName>SSP - Marketplaces</fullName>
+                <default>false</default>
+                <label>SSP - Marketplaces</label>
+            </value>
+            <value>
+                <fullName>SSP - Other</fullName>
+                <default>false</default>
+                <label>SSP - Other</label>
+            </value>
+            <value>
+                <fullName>SSP - Paid Search</fullName>
+                <default>false</default>
+                <label>SSP - Paid Search</label>
+            </value>
+            <value>
+                <fullName>SSP - Sales</fullName>
+                <default>false</default>
+                <label>SSP - Sales</label>
+            </value>
+            <value>
+                <fullName>SSP - Self Service</fullName>
+                <default>false</default>
+                <label>SSP - Self Service</label>
+            </value>
+            <value>
+                <fullName>SSP - Training</fullName>
+                <default>false</default>
+                <label>SSP - Training</label>
+            </value>
+            <value>
+                <fullName>SSP - Where To Buy</fullName>
+                <default>false</default>
+                <label>SSP - Where To Buy</label>
+            </value>
+            <value>
+                <fullName>Stores</fullName>
+                <default>false</default>
+                <label>Stores</label>
+            </value>
+            <value>
+                <fullName>Strategy</fullName>
+                <default>false</default>
+                <label>Strategy</label>
+            </value>
+            <value>
+                <fullName>Strategy and Support Center</fullName>
+                <default>false</default>
+                <label>Strategy and Support Center</label>
+            </value>
+            <value>
+                <fullName>Strategy and Support Center (SSC)</fullName>
+                <default>false</default>
+                <label>Strategy and Support Center (SSC)</label>
+            </value>
+            <value>
+                <fullName>System</fullName>
+                <default>false</default>
+                <label>System</label>
+            </value>
+            <value>
+                <fullName>System Issue</fullName>
+                <default>false</default>
+                <label>System Issue</label>
+            </value>
+            <value>
+                <fullName>User Education</fullName>
+                <default>false</default>
+                <label>User Education</label>
+            </value>
+            <value>
+                <fullName>VAN</fullName>
+                <default>false</default>
+                <label>VAN</label>
+            </value>
+            <value>
+                <fullName>Walmart Marketplace</fullName>
+                <default>false</default>
+                <label>Walmart Marketplace</label>
+            </value>
+            <value>
+                <fullName>Webstores</fullName>
+                <default>false</default>
+                <label>Webstores</label>
+            </value>
+            <value>
+                <fullName>Where To Buy</fullName>
+                <default>false</default>
+                <label>Where To Buy</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

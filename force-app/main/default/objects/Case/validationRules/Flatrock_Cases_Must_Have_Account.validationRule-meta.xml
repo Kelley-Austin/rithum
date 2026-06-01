@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Flatrock_Cases_Must_Have_Account</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+  CONTAINS(RecordType.DeveloperName,&quot;FlatRock&quot;),
+  $Profile.Id &lt;&gt; &quot;00e0H000001qCVbQAM&quot;,
+  /* Profile id equals Data Systems&quot; */
+  ISNEW(),
+  OR(
+   ISBLANK(Account__c),
+   Account.Account_ID__c = &quot;001000000034Nt8AAE&quot;,
+   /*Rithum account id*/
+   Account.Account_ID__c = &quot;0012A00002S3drbQAB&quot;,
+   /*Rithum_Archive account id*/
+   Account.Account_ID__c = &quot;001F000000ku5TSIAY&quot;
+   /*Commerce Technologies, LLC dba CommerceHub account id*/
+   )
+)</errorConditionFormula>
+    <errorMessage>FlatRock Cases must have a value in the account field (Not Rithum)</errorMessage>
+</ValidationRule>

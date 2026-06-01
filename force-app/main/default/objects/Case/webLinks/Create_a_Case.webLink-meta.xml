@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Create_a_Case</fullName>
+    <availability>online</availability>
+    <description>CF00NW00000012MqM</description>
+    <displayType>massActionButton</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>Create a Case</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <requireRowSelection>true</requireRowSelection>
+    <url>/500/e?retURL=%2F500%2Fo 
+&amp;RecordType=012F0000001UP97 
+&amp;ent=Case 
+&amp;CF00NF0000008Vsnm_lkid={!ourProject__c.Project_ID__c}
+&amp;CF00NF0000008Vsnm={!ourProject__c.Name}
+&amp;cas4_lkid={!ourProject__c.Account_ID__c}
+&amp;cas4={!ourProject__c.Account__c}
+&amp;cas21=1</url>
+</WebLink>

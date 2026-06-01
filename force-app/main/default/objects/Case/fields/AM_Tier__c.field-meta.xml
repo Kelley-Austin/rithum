@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_Tier__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(Account.ServiceTier__c, 
+&quot;Diamond&quot;, &quot;Diamond&quot;, 
+&quot;Platinum&quot;, &quot;Platinum&quot;,
+&quot;Gold&quot;, &quot;Gold&quot;,
+&quot;Silver&quot;, &quot;Silver&quot;,
+&quot;Bronze&quot;, &quot;Bronze&quot;,
+&quot;Coal&quot;, &quot;Coal&quot;,
+NULL)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>AM Tier</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

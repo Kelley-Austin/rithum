@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Partners__c</fullName>
+    <inlineHelpText>Are any 3rd Party Inventory/orders Partners involved?</inlineHelpText>
+    <label>Partners</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>Contract_Help_Request_Type__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Weblegs</fullName>
+                <default>false</default>
+                <label>Weblegs</label>
+            </value>
+            <value>
+                <fullName>SKU Vault</fullName>
+                <default>false</default>
+                <label>SKU Vault</label>
+            </value>
+            <value>
+                <fullName>Order Pigeon</fullName>
+                <default>false</default>
+                <label>Order Pigeon</label>
+            </value>
+            <value>
+                <fullName>WiseRobot</fullName>
+                <default>false</default>
+                <label>WiseRobot</label>
+            </value>
+            <value>
+                <fullName>NetDespatch</fullName>
+                <default>false</default>
+                <label>NetDespatch</label>
+            </value>
+            <value>
+                <fullName>MetaPack</fullName>
+                <default>false</default>
+                <label>MetaPack</label>
+            </value>
+            <value>
+                <fullName>Tradebox</fullName>
+                <default>false</default>
+                <label>Tradebox</label>
+            </value>
+            <value>
+                <fullName>DemandWare</fullName>
+                <default>false</default>
+                <label>DemandWare</label>
+            </value>
+            <value>
+                <fullName>Ecomitize</fullName>
+                <default>false</default>
+                <label>Ecomitize</label>
+            </value>
+            <value>
+                <fullName>Ebridge</fullName>
+                <default>false</default>
+                <label>Ebridge</label>
+            </value>
+            <value>
+                <fullName>JDT</fullName>
+                <default>false</default>
+                <label>JDT</label>
+            </value>
+            <value>
+                <fullName>NetSuite</fullName>
+                <default>false</default>
+                <label>NetSuite</label>
+            </value>
+            <value>
+                <fullName>Scout</fullName>
+                <default>false</default>
+                <label>Scout</label>
+            </value>
+            <value>
+                <fullName>ShipRush</fullName>
+                <default>false</default>
+                <label>ShipRush</label>
+            </value>
+            <value>
+                <fullName>ShipStation</fullName>
+                <default>false</default>
+                <label>ShipStation</label>
+            </value>
+            <value>
+                <fullName>ShipWorks</fullName>
+                <default>false</default>
+                <label>ShipWorks</label>
+            </value>
+            <value>
+                <fullName>ShipWire</fullName>
+                <default>false</default>
+                <label>ShipWire</label>
+            </value>
+            <value>
+                <fullName>TrueShip</fullName>
+                <default>false</default>
+                <label>TrueShip</label>
+            </value>
+            <value>
+                <fullName>Stamps.com</fullName>
+                <default>false</default>
+                <label>Stamps.com</label>
+            </value>
+            <value>
+                <fullName>Wiser</fullName>
+                <default>false</default>
+                <label>Wiser</label>
+            </value>
+            <value>
+                <fullName>Venda</fullName>
+                <default>false</default>
+                <label>Venda</label>
+            </value>
+            <value>
+                <fullName>T-Hub</fullName>
+                <default>false</default>
+                <label>T-Hub</label>
+            </value>
+            <value>
+                <fullName>Teapplix</fullName>
+                <default>false</default>
+                <label>Teapplix</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>None</fullName>
+                <default>false</default>
+                <label>None</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Feed Audit</controllingFieldValue>
+            <valueName>Weblegs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Feed Audit</controllingFieldValue>
+            <valueName>SKU Vault</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Feed Audit</controllingFieldValue>
+            <valueName>Order Pigeon</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Feed Audit</controllingFieldValue>
+            <valueName>WiseRobot</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Feed Audit</controllingFieldValue>
+            <valueName>NetDespatch</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Feed Audit</controllingFieldValue>
+            <valueName>MetaPack</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Feed Audit</controllingFieldValue>
+            <valueName>Tradebox</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Feed Audit</controllingFieldValue>
+            <valueName>DemandWare</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Feed Audit</controllingFieldValue>
+            <valueName>Ecomitize</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Feed Audit</controllingFieldValue>
+            <valueName>Ebridge</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Feed Audit</controllingFieldValue>
+            <valueName>JDT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Feed Audit</controllingFieldValue>
+            <valueName>NetSuite</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Feed Audit</controllingFieldValue>
+            <valueName>Scout</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Feed Audit</controllingFieldValue>
+            <valueName>ShipRush</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Feed Audit</controllingFieldValue>
+            <valueName>ShipStation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Feed Audit</controllingFieldValue>
+            <valueName>ShipWorks</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Feed Audit</controllingFieldValue>
+            <valueName>ShipWire</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Feed Audit</controllingFieldValue>
+            <valueName>TrueShip</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Feed Audit</controllingFieldValue>
+            <valueName>Stamps.com</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Feed Audit</controllingFieldValue>
+            <valueName>Wiser</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Feed Audit</controllingFieldValue>
+            <valueName>Venda</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Feed Audit</controllingFieldValue>
+            <valueName>T-Hub</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Feed Audit</controllingFieldValue>
+            <valueName>Teapplix</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Feed Audit</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Feed Audit</controllingFieldValue>
+            <valueName>None</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

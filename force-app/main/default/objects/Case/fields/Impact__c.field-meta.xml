@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Impact__c</fullName>
+    <label>Impact</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>This client only</fullName>
+                <default>false</default>
+                <label>This client only</label>
+            </value>
+            <value>
+                <fullName>All RichFX accounts</fullName>
+                <default>false</default>
+                <label>All RichFX accounts</label>
+            </value>
+            <value>
+                <fullName>All 5.0</fullName>
+                <default>false</default>
+                <label>All 5.0</label>
+            </value>
+            <value>
+                <fullName>All 4.6</fullName>
+                <default>false</default>
+                <label>All 4.6</label>
+            </value>
+            <value>
+                <fullName>All 4.5</fullName>
+                <default>false</default>
+                <label>All 4.5</label>
+            </value>
+            <value>
+                <fullName>All 4.0</fullName>
+                <default>false</default>
+                <label>All 4.0</label>
+            </value>
+            <value>
+                <fullName>All 3.0</fullName>
+                <default>false</default>
+                <label>All 3.0</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

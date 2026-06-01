@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Legal_Review_Status__c</fullName>
+    <inlineHelpText>Are you already working with an attorney to draft custom language or help with this deal in some way? If not, select No. Otherwise, select the name of the Legal Representative working with you.</inlineHelpText>
+    <label>Working with Legal rep?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>No</fullName>
+                <default>false</default>
+                <label>No</label>
+            </value>
+            <value>
+                <fullName>Christin Coan</fullName>
+                <default>false</default>
+                <label>Christin Coan</label>
+            </value>
+            <value>
+                <fullName>Jamie O&apos;Grady</fullName>
+                <default>false</default>
+                <label>Jamie O&apos;Grady</label>
+            </value>
+            <value>
+                <fullName>Michael Banks</fullName>
+                <default>false</default>
+                <label>Michael Banks</label>
+            </value>
+            <value>
+                <fullName>Rebecca Pope</fullName>
+                <default>false</default>
+                <label>Rebecca Pope</label>
+            </value>
+            <value>
+                <fullName>Sacha Rawls</fullName>
+                <default>false</default>
+                <label>Sacha Rawls</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SE_Can_only_Close_System_Workflow_Cases</fullName>
+    <active>true</active>
+    <description>SEs and SysAdmins are the only ones that can close Sales Engineering type cases if the type is &quot;System Workflow&quot;</description>
+    <errorConditionFormula>$RecordType.Id = &quot;01200000000DKKj&quot; &amp;&amp;
+ISPICKVAL( Status, &quot;Completed - Resolved&quot;) &amp;&amp;
+ISPICKVAL(Contract_Help_Request_Type__c, &quot;Systems Workflow&quot;) &amp;&amp;
+NOT($Profile.Name = &quot;System Administrator&quot;) &amp;&amp;
+NOT($Profile.Name = &quot;Sales Engineering Lightning Pilot&quot;) &amp;&amp;
+NOT($UserRole.Name = &quot;Manager, Sales Engineering - US&quot;) &amp;&amp;
+NOT($UserRole.Name = &quot;Director, Global Sales Engineering &amp; Renewals&quot;)</errorConditionFormula>
+    <errorDisplayField>Status</errorDisplayField>
+    <errorMessage>Only Sales Engineers can close System Workflow cases</errorMessage>
+</ValidationRule>

@@ -1,0 +1,1035 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mass_Assign_by_Product</fullName>
+    <availability>online</availability>
+    <displayType>massActionButton</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Mass Assign by Product</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <requireRowSelection>true</requireRowSelection>
+    <url>{!REQUIRESCRIPT(&quot;/soap/ajax/40.0/connection.js&quot;)} 
+
+//set array of selected records 
+var records = {!GETRECORDIDS($ObjectType.Case)}; 
+
+//get Products 
+//if no records selected, throw an error. 
+if (records[0] == null) 
+{ 
+alert(&quot;Please select at least one row&quot;); 
+} 
+else if (records.length == 1) 
+{ 
+newrecordsQuery = &quot;SELECT Id, Product__c, OwnerId FROM Case WHERE ID = &apos;&quot; + records + &quot;&apos;&quot;; 
+var queryResult = sforce.connection.query(newrecordsQuery); 
+
+staticRecordsQuery = &quot;SELECT Id, Product__c, OwnerId, Routing_Priority__c FROM Case WHERE ID = &apos;&quot; + records + &quot;&apos;&quot;; 
+var staticQueryResult = sforce.connection.query(staticRecordsQuery); 
+
+//if Administration, set to Support Client Care queue 
+if(queryResult.records.Product__c == &apos;Administration&apos;) 
+{ 
+//select queue based on Routing Priority 
+if(staticQueryResult.records.Routing_Priority__c == &apos;1&apos;) 
+{ 
+queryResult.records.OwnerId = &apos;00G2A00000772cH&apos;; 
+queryResult.records.RecordTypeId = &apos;012F0000001EssI&apos;; 
+} 
+else if(staticQueryResult.records.Routing_Priority__c == &apos;2&apos;) 
+{ 
+queryResult.records.OwnerId = &apos;00G2A00000772cb&apos;; 
+queryResult.records.RecordTypeId = &apos;012F0000001EssI&apos;; 
+} 
+else 
+{ 
+queryResult.records.OwnerId = &apos;00G00000006qEBg&apos;; 
+queryResult.records.RecordTypeId = &apos;012F0000001EssI&apos;; 
+}  
+} 
+//if Amazon, set to Support Amazon queue 
+else if(queryResult.records.Product__c == &apos;Amazon&apos;) 
+{ 
+//select queue based on Routing Priority 
+if(staticQueryResult.records.Routing_Priority__c == &apos;1&apos;) 
+{ 
+queryResult.records.OwnerId = &apos;00G2A00000772cE&apos;; 
+queryResult.records.RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else if(staticQueryResult.records.Routing_Priority__c == &apos;2&apos;) 
+{ 
+queryResult.records.OwnerId = &apos;00G2A00000772cY&apos;; 
+queryResult.records.RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else 
+{ 
+queryResult.records.OwnerId = &apos;00G2A0000076vWR&apos;; 
+queryResult.records.RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+} 
+//if API, set to Support API queue 
+else if(queryResult.records.Product__c == &apos;API&apos;) 
+{ 
+//select queue based on Routing Priority 
+if(staticQueryResult.records.Routing_Priority__c == &apos;1&apos;) 
+{ 
+queryResult.records.OwnerId = &apos;00G2A00000772cD&apos;; 
+queryResult.records.RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else if(staticQueryResult.records.Routing_Priority__c == &apos;2&apos;) 
+{ 
+queryResult.records.OwnerId = &apos;00G2A00000772cX&apos;; 
+queryResult.records.RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else 
+{ 
+queryResult.records.OwnerId = &apos;00G2A0000076vWQ&apos;; 
+queryResult.records.RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+} 
+//if Business Rules, set to Support Business Rules queue 
+else if(queryResult.records.Product__c == &apos;Business Rules&apos;) 
+{ 
+//select queue based on Routing Priority 
+if(staticQueryResult.records.Routing_Priority__c == &apos;1&apos;) 
+{ 
+queryResult.records.OwnerId = &apos;00G2A00000772cG&apos;; 
+queryResult.records.RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else if(staticQueryResult.records.Routing_Priority__c == &apos;2&apos;) 
+{ 
+queryResult.records.OwnerId = &apos;00G2A00000772ca&apos;; 
+queryResult.records.RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else 
+{ 
+queryResult.records.OwnerId = &apos;00G2A0000076vWS&apos;; 
+queryResult.records.RecordTypeId = &apos;01200000000Ccki&apos;; 
+}  
+} 
+//if Buyer, set to Support Client Care queue 
+else if(queryResult.records.Product__c == &apos;Buyer&apos;) 
+{ 
+//select queue based on Routing Priority 
+if(staticQueryResult.records.Routing_Priority__c == &apos;1&apos;) 
+{ 
+queryResult.records.OwnerId = &apos;00G2A00000772cH&apos;; 
+queryResult.records.RecordTypeId = &apos;012F0000001EssI&apos;; 
+} 
+else if(staticQueryResult.records.Routing_Priority__c == &apos;2&apos;) 
+{ 
+queryResult.records.OwnerId = &apos;00G2A00000772cb&apos;; 
+queryResult.records.RecordTypeId = &apos;012F0000001EssI&apos;; 
+} 
+else 
+{ 
+queryResult.records.OwnerId = &apos;00G00000006qEBg&apos;; 
+queryResult.records.RecordTypeId = &apos;012F0000001EssI&apos;; 
+}  
+
+} 
+//if ChannelAdvisor Community, set to Support Client Care queue 
+else if(queryResult.records.Product__c == &apos;ChannelAdvisor Community&apos;) 
+{ 
+//select queue based on Routing Priority 
+if(staticQueryResult.records.Routing_Priority__c == &apos;1&apos;) 
+{ 
+queryResult.records.OwnerId = &apos;00G2A00000772cH&apos;; 
+queryResult.records.RecordTypeId = &apos;012F0000001EssI&apos;; 
+} 
+else if(staticQueryResult.records.Routing_Priority__c == &apos;2&apos;) 
+{ 
+queryResult.records.OwnerId = &apos;00G2A00000772cb&apos;; 
+queryResult.records.RecordTypeId = &apos;012F0000001EssI&apos;; 
+} 
+else 
+{ 
+queryResult.records.OwnerId = &apos;00G00000006qEBg&apos;; 
+queryResult.records.RecordTypeId = &apos;012F0000001EssI&apos;; 
+}  
+} 
+//if Digital Marketing, set to Support Digital Marketing queue 
+else if(queryResult.records.Product__c == &apos;Digital Marketing&apos;) 
+{ 
+//select queue based on Routing Priority 
+if(staticQueryResult.records.Routing_Priority__c == &apos;1&apos;) 
+{ 
+queryResult.records.OwnerId = &apos;00G2A00000772cI&apos;; 
+queryResult.records.RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else if(staticQueryResult.records.Routing_Priority__c == &apos;2&apos;) 
+{ 
+queryResult.records.OwnerId = &apos;00G2A00000773Mi&apos;; 
+queryResult.records.RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else 
+{ 
+queryResult.records.OwnerId = &apos;00G2A0000076vWT&apos;; 
+queryResult.records.RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+} 
+//if eBay, set to Support eBay queue 
+else if(queryResult.records.Product__c == &apos;eBay&apos;) 
+{ 
+//select queue based on Routing Priority 
+if(staticQueryResult.records.Routing_Priority__c == &apos;1&apos;) 
+{ 
+queryResult.records.OwnerId = &apos;00G2A00000772cR&apos;; 
+queryResult.records.RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else if(staticQueryResult.records.Routing_Priority__c == &apos;2&apos;) 
+{ 
+queryResult.records.OwnerId = &apos;00G2A00000772cl&apos;; 
+queryResult.records.RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else 
+{ 
+queryResult.records.OwnerId = &apos;00G2A0000076vWj&apos;; 
+queryResult.records.RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+} 
+//if First Party, set to Support First Party queue 
+else if(queryResult.records.Product__c == &apos;First Party&apos;) 
+{ 
+//select queue based on Routing Priority 
+if(staticQueryResult.records.Routing_Priority__c == &apos;1&apos;) 
+{ 
+queryResult.records.OwnerId = &apos;00G2A00000772cJ&apos;; 
+queryResult.records.RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else if(staticQueryResult.records.Routing_Priority__c == &apos;2&apos;) 
+{ 
+queryResult.records.OwnerId = &apos;00G2A00000772cc&apos;; 
+queryResult.records.RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else 
+{ 
+queryResult.records.OwnerId = &apos;00G2A0000076vWU&apos;; 
+queryResult.records.RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+} 
+//if Fulfillment Services, set to Support Fulfillment queue 
+else if(queryResult.records.Product__c == &apos;Fulfillment Services&apos;) 
+{ 
+//select queue based on Routing Priority 
+if(staticQueryResult.records.Routing_Priority__c == &apos;1&apos;) 
+{ 
+queryResult.records.OwnerId = &apos;00G2A00000772cK&apos;; 
+queryResult.records.RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else if(staticQueryResult.records.Routing_Priority__c == &apos;2&apos;) 
+{ 
+queryResult.records.OwnerId = &apos;00G2A00000772cd&apos;; 
+queryResult.records.RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else 
+{ 
+queryResult.records.OwnerId = &apos;00G2A0000076vWV&apos;; 
+queryResult.records.RecordTypeId = &apos;01200000000Ccki&apos;; 
+}
+} 
+//if Inventory, set to Support Inventory queue 
+else if(queryResult.records.Product__c == &apos;Inventory&apos;) 
+{ 
+//select queue based on Routing Priority 
+if(staticQueryResult.records.Routing_Priority__c == &apos;1&apos;) 
+{ 
+queryResult.records.OwnerId = &apos;00G2A00000772cL&apos;; 
+queryResult.records.RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else if(staticQueryResult.records.Routing_Priority__c == &apos;2&apos;) 
+{ 
+queryResult.records.OwnerId = &apos;00G2A00000772ce&apos;; 
+queryResult.records.RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else 
+{ 
+queryResult.records.OwnerId = &apos;00G2A0000076vWW&apos;; 
+queryResult.records.RecordTypeId = &apos;01200000000Ccki&apos;; 
+}
+} 
+//if Jet, set to Support Jet queue 
+else if(queryResult.records.Product__c == &apos;Jet&apos;) 
+{ 
+//select queue based on Routing Priority 
+if(staticQueryResult.records.Routing_Priority__c == &apos;1&apos;) 
+{ 
+queryResult.records.OwnerId = &apos;00G2A00000772cM&apos;; 
+queryResult.records.RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else if(staticQueryResult.records.Routing_Priority__c == &apos;2&apos;) 
+{ 
+queryResult.records.OwnerId = &apos;00G2A00000772cf&apos;; 
+queryResult.records.RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else 
+{ 
+queryResult.records.OwnerId = &apos;00G2A0000076vWX&apos;; 
+queryResult.records.RecordTypeId = &apos;01200000000Ccki&apos;; 
+}
+} 
+//if Newegg, set to Support Newegg queue 
+else if(queryResult.records.Product__c == &apos;Newegg&apos;) 
+{ 
+//select queue based on Routing Priority 
+if(staticQueryResult.records.Routing_Priority__c == &apos;1&apos;) 
+{ 
+queryResult.records.OwnerId = &apos;00G2A00000772cO&apos;; 
+queryResult.records.RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else if(staticQueryResult.records.Routing_Priority__c == &apos;2&apos;) 
+{ 
+queryResult.records.OwnerId = &apos;00G2A00000772cn&apos;; 
+queryResult.records.RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else 
+{ 
+queryResult.records.OwnerId = &apos;00G2A0000076vWb&apos;; 
+queryResult.records.RecordTypeId = &apos;01200000000Ccki&apos;; 
+}
+ 
+} 
+//if Orders &amp; Fulfillment, set to Support Orders queue 
+else if(queryResult.records.Product__c == &apos;Orders &amp; Fulfillment&apos;) 
+{ 
+//select queue based on Routing Priority 
+if(staticQueryResult.records.Routing_Priority__c == &apos;1&apos;) 
+{ 
+queryResult.records.OwnerId = &apos;00G2A00000772cP&apos;; 
+queryResult.records.RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else if(staticQueryResult.records.Routing_Priority__c == &apos;2&apos;) 
+{ 
+queryResult.records.OwnerId = &apos;00G2A00000772co&apos;; 
+queryResult.records.RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else 
+{ 
+queryResult.records.OwnerId = &apos;00G2A0000076vWc&apos;; 
+queryResult.records.RecordTypeId = &apos;01200000000Ccki&apos;; 
+}
+} 
+//if Other Marketplaces, set to Support Marketplaces queue 
+else if(queryResult.records.Product__c == &apos;Other Marketplaces&apos;) 
+{ 
+//select queue based on Routing Priority 
+if(staticQueryResult.records.Routing_Priority__c == &apos;1&apos;) 
+{ 
+queryResult.records.OwnerId = &apos;00G2A00000772cN&apos;; 
+queryResult.records.RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else if(staticQueryResult.records.Routing_Priority__c == &apos;2&apos;) 
+{ 
+queryResult.records.OwnerId = &apos;00G2A00000772cm&apos;; 
+queryResult.records.RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else 
+{ 
+queryResult.records.OwnerId = &apos;00G2A0000076vWa&apos;; 
+queryResult.records.RecordTypeId = &apos;01200000000Ccki&apos;; 
+}
+} 
+//if Partners, set to Support Partners queue 
+else if(queryResult.records.Product__c == &apos;Partners&apos;) 
+{ 
+//select queue based on Routing Priority 
+if(staticQueryResult.records.Routing_Priority__c == &apos;1&apos;) 
+{ 
+queryResult.records.OwnerId = &apos;00G2A00000772cQ&apos;; 
+queryResult.records.RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else if(staticQueryResult.records.Routing_Priority__c == &apos;2&apos;) 
+{ 
+queryResult.records.OwnerId = &apos;00G2A00000772cp&apos;; 
+queryResult.records.RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else 
+{ 
+queryResult.records.OwnerId = &apos;00G2A0000076vWd&apos;; 
+queryResult.records.RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+} 
+//if Product Intelligence, set to Support Brands queue 
+else if(queryResult.records.Product__c == &apos;Product Intelligence&apos;) 
+{ 
+//select queue based on Routing Priority 
+if(staticQueryResult.records.Routing_Priority__c == &apos;1&apos;) 
+{ 
+queryResult.records.OwnerId = &apos;00G2A00000772cF&apos;; 
+queryResult.records.RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else if(staticQueryResult.records.Routing_Priority__c == &apos;2&apos;) 
+{ 
+queryResult.records.OwnerId = &apos;00G2A00000772cZ&apos;; 
+queryResult.records.RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else 
+{ 
+queryResult.records.OwnerId = &apos;00GF0000006eZWR&apos;; 
+queryResult.records.RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+} 
+//if Reports, set to Support Reports queue 
+else if(queryResult.records.Product__c == &apos;Reports&apos;) 
+{ 
+//select queue based on Routing Priority 
+if(staticQueryResult.records.Routing_Priority__c == &apos;1&apos;) 
+{ 
+queryResult.records.OwnerId = &apos;00G2A00000772cg&apos;; 
+queryResult.records.RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else if(staticQueryResult.records.Routing_Priority__c == &apos;2&apos;) 
+{ 
+queryResult.records.OwnerId = &apos;00G2A00000772cq&apos;; 
+queryResult.records.RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else 
+{ 
+queryResult.records.OwnerId = &apos;00G2A0000076vWe&apos;; 
+queryResult.records.RecordTypeId = &apos;01200000000Ccki&apos;; 
+}
+} 
+//if Rich Media, set to Support Inventory queue 
+else if(queryResult.records.Product__c == &apos;Rich Media&apos;) 
+{ 
+//select queue based on Routing Priority 
+if(staticQueryResult.records.Routing_Priority__c == &apos;1&apos;) 
+{ 
+queryResult.records.OwnerId = &apos;00G2A00000772cL&apos;; 
+queryResult.records.RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else if(staticQueryResult.records.Routing_Priority__c == &apos;2&apos;) 
+{ 
+queryResult.records.OwnerId = &apos;00G2A00000772ce&apos;; 
+queryResult.records.RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else 
+{ 
+queryResult.records.OwnerId = &apos;00G2A0000076vWW&apos;; 
+queryResult.records.RecordTypeId = &apos;01200000000Ccki&apos;; 
+}
+} 
+//if Sears, set to Support Sears queue 
+else if(queryResult.records.Product__c == &apos;Sears Marketplace&apos;) 
+{ 
+//select queue based on Routing Priority 
+if(staticQueryResult.records.Routing_Priority__c == &apos;1&apos;) 
+{ 
+queryResult.records.OwnerId = &apos;00G2A00000772ch&apos;; 
+queryResult.records.RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else if(staticQueryResult.records.Routing_Priority__c == &apos;2&apos;) 
+{ 
+queryResult.records.OwnerId = &apos;00G2A00000772cr&apos;; 
+queryResult.records.RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else 
+{ 
+queryResult.records.OwnerId = &apos;00G2A0000076vWf&apos;; 
+queryResult.records.RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+} 
+//if System, set to Support System queue 
+else if(queryResult.records.Product__c == &apos;System&apos;) 
+{ 
+//select queue based on Routing Priority 
+if(staticQueryResult.records.Routing_Priority__c == &apos;1&apos;) 
+{ 
+queryResult.records.OwnerId = &apos;00G2A00000772ci&apos;; 
+queryResult.records.RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else if(staticQueryResult.records.Routing_Priority__c == &apos;2&apos;) 
+{ 
+queryResult.records.OwnerId = &apos;00G2A00000772cs&apos;; 
+queryResult.records.RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else 
+{ 
+queryResult.records.OwnerId = &apos;00G2A0000076vWg&apos;; 
+queryResult.records.RecordTypeId = &apos;01200000000Ccki&apos;; 
+}
+} 
+//if Walmart, set to Support Walmart queue 
+else if(queryResult.records.Product__c == &apos;Walmart Marketplace&apos;) 
+{ 
+//select queue based on Routing Priority 
+if(staticQueryResult.records.Routing_Priority__c == &apos;1&apos;) 
+{ 
+queryResult.records.OwnerId = &apos;00G2A00000772cj&apos;; 
+queryResult.records.RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else if(staticQueryResult.records.Routing_Priority__c == &apos;2&apos;) 
+{ 
+queryResult.records.OwnerId = &apos;00G2A00000772ct&apos;; 
+queryResult.records.RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else 
+{ 
+queryResult.records.OwnerId = &apos;00G2A0000076vWh&apos;; 
+queryResult.records.RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+} 
+//if Webstores, set to Support Webstores queue 
+else if(queryResult.records.Product__c == &apos;Webstores&apos;) 
+{ 
+//select queue based on Routing Priority 
+if(staticQueryResult.records.Routing_Priority__c == &apos;1&apos;) 
+{ 
+queryResult.records.OwnerId = &apos;00G2A00000772ck&apos;; 
+queryResult.records.RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else if(staticQueryResult.records.Routing_Priority__c == &apos;2&apos;) 
+{ 
+queryResult.records.OwnerId = &apos;00G2A00000772cu&apos;; 
+queryResult.records.RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else 
+{ 
+queryResult.records.OwnerId = &apos;00G2A0000076vWi&apos;; 
+queryResult.records.RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+} 
+//if Where to Buy, set to Support Brands queue 
+else if(queryResult.records.Product__c == &apos;Where To Buy&apos;) 
+{ 
+//select queue based on Routing Priority 
+if(staticQueryResult.records.Routing_Priority__c == &apos;1&apos;) 
+{ 
+queryResult.records.OwnerId = &apos;00G2A00000772cF&apos;; 
+queryResult.records.RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else if(staticQueryResult.records.Routing_Priority__c == &apos;2&apos;) 
+{ 
+queryResult.records.OwnerId = &apos;00G2A00000772cZ&apos;; 
+queryResult.records.RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else 
+{ 
+queryResult.records.OwnerId = &apos;00GF0000006eZWR&apos;; 
+queryResult.records.RecordTypeId = &apos;01200000000Ccki&apos;; 
+}
+} 
+//No match by product, default to Triage queue 
+else { 
+queryResult.records.OwnerId = &apos;00G00000006qEBH&apos;; 
+queryResult.records.RecordTypeId = &apos;01200000000Ccki&apos;; 
+//When no match, display message that we moved to Support Triage queue 
+alert(&apos;No product match. Moved to Support Triage&apos;); 
+} 
+var result = sforce.connection.update([queryResult.records]); 
+//error handling 
+if(result[0].success==&apos;true&apos;){ 
+location.reload(true);} 
+else{alert(&apos;An error has occurred. Check case and retry.&apos;);} 
+} 
+else { 
+var formattedCaseIds = records.join(&quot;&apos;,&apos;&quot;); 
+newrecordsQuery = &quot;SELECT Id, Product__c, OwnerId FROM Case WHERE ID in (&apos;&quot; + formattedCaseIds + &quot;&apos;)&quot;; 
+var queryResult = sforce.connection.query(newrecordsQuery); 
+
+staticRecordsQuery = &quot;SELECT Id, Product__c, OwnerId, Routing_Priority__c FROM Case WHERE ID in (&apos;&quot; + formattedCaseIds + &quot;&apos;)&quot;; 
+var staticQueryResult = sforce.connection.query(staticRecordsQuery); 
+
+for (var a=0; a&lt;queryResult.size; a++) 
+{ 
+
+//if Administration, set to Support Client Care queue 
+if(queryResult.records[a].Product__c == &apos;Administration&apos;) 
+{ 
+//select queue based on Routing Priority 
+if(staticQueryResult.records[a].Routing_Priority__c == &apos;1&apos;) 
+{ 
+queryResult.records[a].OwnerId = &apos;00G2A00000772cH&apos;; 
+queryResult.records[a].RecordTypeId = &apos;012F0000001EssI&apos;; 
+} 
+else if(staticQueryResult.records[a].Routing_Priority__c == &apos;2&apos;) 
+{ 
+queryResult.records[a].OwnerId = &apos;00G2A00000772cb&apos;; 
+queryResult.records[a].RecordTypeId = &apos;012F0000001EssI&apos;; 
+} 
+else 
+{ 
+queryResult.records[a].OwnerId = &apos;00G00000006qEBg&apos;; 
+queryResult.records[a].RecordTypeId = &apos;012F0000001EssI&apos;; 
+}  
+} 
+//if Amazon, set to Support Amazon queue 
+else if(queryResult.records[a].Product__c == &apos;Amazon&apos;) 
+{ 
+//select queue based on Routing Priority 
+if(staticQueryResult.records[a].Routing_Priority__c == &apos;1&apos;) 
+{ 
+queryResult.records[a].OwnerId = &apos;00G2A00000772cE&apos;; 
+queryResult.records[a].RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else if(staticQueryResult.records[a].Routing_Priority__c == &apos;2&apos;) 
+{ 
+queryResult.records[a].OwnerId = &apos;00G2A00000772cY&apos;; 
+queryResult.records[a].RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else 
+{ 
+queryResult.records[a].OwnerId = &apos;00G2A0000076vWR&apos;; 
+queryResult.records[a].RecordTypeId = &apos;01200000000Ccki&apos;; 
+}
+} 
+//if API, set to Support API queue 
+else if(queryResult.records[a].Product__c == &apos;API&apos;) 
+{ 
+//select queue based on Routing Priority 
+if(staticQueryResult.records[a].Routing_Priority__c == &apos;1&apos;) 
+{ 
+queryResult.records[a].OwnerId = &apos;00G2A00000772cD&apos;; 
+queryResult.records[a].RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else if(staticQueryResult.records[a].Routing_Priority__c == &apos;2&apos;) 
+{ 
+queryResult.records[a].OwnerId = &apos;00G2A00000772cX&apos;; 
+queryResult.records[a].RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else 
+{ 
+queryResult.records[a].OwnerId = &apos;00G2A0000076vWQ&apos;; 
+queryResult.records[a].RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+} 
+//if Business Rules, set to Support Business Rules queue 
+else if(queryResult.records[a].Product__c == &apos;Business Rules&apos;) 
+{ 
+//select queue based on Routing Priority 
+if(staticQueryResult.records[a].Routing_Priority__c == &apos;1&apos;) 
+{ 
+queryResult.records[a].OwnerId = &apos;00G2A00000772cG&apos;; 
+queryResult.records[a].RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else if(staticQueryResult.records[a].Routing_Priority__c == &apos;2&apos;) 
+{ 
+queryResult.records[a].OwnerId = &apos;00G2A00000772ca&apos;; 
+queryResult.records[a].RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else 
+{ 
+queryResult.records[a].OwnerId = &apos;00G2A0000076vWS&apos;; 
+queryResult.records[a].RecordTypeId = &apos;01200000000Ccki&apos;; 
+}  
+
+} 
+//if Buyer, set to Support Client Care queue 
+else if(queryResult.records[a].Product__c == &apos;Buyer&apos;) 
+{ 
+//select queue based on Routing Priority 
+if(staticQueryResult.records[a].Routing_Priority__c == &apos;1&apos;) 
+{ 
+queryResult.records[a].OwnerId = &apos;00G2A00000772cH&apos;; 
+queryResult.records[a].RecordTypeId = &apos;012F0000001EssI&apos;; 
+} 
+else if(staticQueryResult.records[a].Routing_Priority__c == &apos;2&apos;) 
+{ 
+queryResult.records[a].OwnerId = &apos;00G2A00000772cb&apos;; 
+queryResult.records[a].RecordTypeId = &apos;012F0000001EssI&apos;; 
+} 
+else 
+{ 
+queryResult.records[a].OwnerId = &apos;00G00000006qEBg&apos;; 
+queryResult.records[a].RecordTypeId = &apos;012F0000001EssI&apos;; 
+}  
+} 
+//if ChannelAdvisor Community, set to Support Client Care queue 
+else if(queryResult.records[a].Product__c == &apos;ChannelAdvisor Community&apos;) 
+{ 
+//select queue based on Routing Priority 
+if(staticQueryResult.records[a].Routing_Priority__c == &apos;1&apos;) 
+{ 
+queryResult.records[a].OwnerId = &apos;00G2A00000772cH&apos;; 
+queryResult.records[a].RecordTypeId = &apos;012F0000001EssI&apos;; 
+} 
+else if(staticQueryResult.records[a].Routing_Priority__c == &apos;2&apos;) 
+{ 
+queryResult.records[a].OwnerId = &apos;00G2A00000772cb&apos;; 
+queryResult.records[a].RecordTypeId = &apos;012F0000001EssI&apos;; 
+} 
+else 
+{ 
+queryResult.records[a].OwnerId = &apos;00G00000006qEBg&apos;; 
+queryResult.records[a].RecordTypeId = &apos;012F0000001EssI&apos;; 
+}  
+} 
+//if Digital Marketing, set to Support Digital Marketing queue 
+else if(queryResult.records[a].Product__c == &apos;Digital Marketing&apos;) 
+{ 
+//select queue based on Routing Priority 
+if(staticQueryResult.records[a].Routing_Priority__c == &apos;1&apos;) 
+{ 
+queryResult.records[a].OwnerId = &apos;00G2A00000772cI&apos;; 
+queryResult.records[a].RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else if(staticQueryResult.records[a].Routing_Priority__c == &apos;2&apos;) 
+{ 
+queryResult.records[a].OwnerId = &apos;00G2A00000773Mi&apos;; 
+queryResult.records[a].RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else 
+{ 
+queryResult.records[a].OwnerId = &apos;00G2A0000076vWT&apos;; 
+queryResult.records[a].RecordTypeId = &apos;01200000000Ccki&apos;; 
+}
+} 
+//if eBay, set to Support eBay queue 
+else if(queryResult.records[a].Product__c == &apos;eBay&apos;) 
+{ 
+//select queue based on Routing Priority 
+if(staticQueryResult.records[a].Routing_Priority__c == &apos;1&apos;) 
+{ 
+queryResult.records[a].OwnerId = &apos;00G2A00000772cR&apos;; 
+queryResult.records[a].RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else if(staticQueryResult.records[a].Routing_Priority__c == &apos;2&apos;) 
+{ 
+queryResult.records[a].OwnerId = &apos;00G2A00000772cl&apos;; 
+queryResult.records[a].RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else 
+{ 
+queryResult.records[a].OwnerId = &apos;00G2A0000076vWj&apos;; 
+queryResult.records[a].RecordTypeId = &apos;01200000000Ccki&apos;; 
+}
+} 
+//if First Party, set to Support First Party queue 
+else if(queryResult.records[a].Product__c == &apos;First Party&apos;) 
+{ 
+//select queue based on Routing Priority 
+if(staticQueryResult.records[a].Routing_Priority__c == &apos;1&apos;) 
+{ 
+queryResult.records[a].OwnerId = &apos;00G2A00000772cJ&apos;; 
+queryResult.records[a].RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else if(staticQueryResult.records[a].Routing_Priority__c == &apos;2&apos;) 
+{ 
+queryResult.records[a].OwnerId = &apos;00G2A00000772cc&apos;; 
+queryResult.records[a].RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else 
+{ 
+queryResult.records[a].OwnerId = &apos;00G2A0000076vWU&apos;; 
+queryResult.records[a].RecordTypeId = &apos;01200000000Ccki&apos;; 
+}
+} 
+//if Fulfillment Services, set to Support Fulfillment queue 
+else if(queryResult.records[a].Product__c == &apos;Fulfillment Services&apos;) 
+{ 
+//select queue based on Routing Priority 
+if(staticQueryResult.records[a].Routing_Priority__c == &apos;1&apos;) 
+{ 
+queryResult.records[a].OwnerId = &apos;00G2A00000772cK&apos;; 
+queryResult.records[a].RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else if(staticQueryResult.records[a].Routing_Priority__c == &apos;2&apos;) 
+{ 
+queryResult.records[a].OwnerId = &apos;00G2A00000772cd&apos;; 
+queryResult.records[a].RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else 
+{ 
+queryResult.records[a].OwnerId = &apos;00G2A0000076vWV&apos;; 
+queryResult.records[a].RecordTypeId = &apos;01200000000Ccki&apos;; 
+}
+} 
+//if Inventory, set to Support Inventory queue 
+else if(queryResult.records[a].Product__c == &apos;Inventory&apos;) 
+{ 
+//select queue based on Routing Priority 
+if(staticQueryResult.records[a].Routing_Priority__c == &apos;1&apos;) 
+{ 
+queryResult.records[a].OwnerId = &apos;00G2A00000772cL&apos;; 
+queryResult.records[a].RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else if(staticQueryResult.records[a].Routing_Priority__c == &apos;2&apos;) 
+{ 
+queryResult.records[a].OwnerId = &apos;00G2A00000772ce&apos;; 
+queryResult.records[a].RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else 
+{ 
+queryResult.records[a].OwnerId = &apos;00G2A0000076vWW&apos;; 
+queryResult.records[a].RecordTypeId = &apos;01200000000Ccki&apos;; 
+}
+} 
+//if Jet, set to Support Jet queue 
+else if(queryResult.records[a].Product__c == &apos;Jet&apos;) 
+{ 
+//select queue based on Routing Priority 
+if(staticQueryResult.records[a].Routing_Priority__c == &apos;1&apos;) 
+{ 
+queryResult.records[a].OwnerId = &apos;00G2A00000772cM&apos;; 
+queryResult.records[a].RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else if(staticQueryResult.records[a].Routing_Priority__c == &apos;2&apos;) 
+{ 
+queryResult.records[a].OwnerId = &apos;00G2A00000772cf&apos;; 
+queryResult.records[a].RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else 
+{ 
+queryResult.records[a].OwnerId = &apos;00G2A0000076vWX&apos;; 
+queryResult.records[a].RecordTypeId = &apos;01200000000Ccki&apos;; 
+}
+} 
+//if Newegg, set to Support Newegg queue 
+else if(queryResult.records[a].Product__c == &apos;Newegg&apos;) 
+{ 
+//select queue based on Routing Priority 
+if(staticQueryResult.records[a].Routing_Priority__c == &apos;1&apos;) 
+{ 
+queryResult.records[a].OwnerId = &apos;00G2A00000772cO&apos;; 
+queryResult.records[a].RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else if(staticQueryResult.records[a].Routing_Priority__c == &apos;2&apos;) 
+{ 
+queryResult.records[a].OwnerId = &apos;00G2A00000772cn&apos;; 
+queryResult.records[a].RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else 
+{ 
+queryResult.records[a].OwnerId = &apos;00G2A0000076vWb&apos;; 
+queryResult.records[a].RecordTypeId = &apos;01200000000Ccki&apos;; 
+}
+} 
+//if Orders &amp; Fulfillment, set to Support Orders queue 
+else if(queryResult.records[a].Product__c == &apos;Orders &amp; Fulfillment&apos;) 
+{ 
+//select queue based on Routing Priority 
+if(staticQueryResult.records[a].Routing_Priority__c == &apos;1&apos;) 
+{ 
+queryResult.records[a].OwnerId = &apos;00G2A00000772cP&apos;; 
+queryResult.records[a].RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else if(staticQueryResult.records[a].Routing_Priority__c == &apos;2&apos;) 
+{ 
+queryResult.records[a].OwnerId = &apos;00G2A00000772co&apos;; 
+queryResult.records[a].RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else 
+{ 
+queryResult.records[a].OwnerId = &apos;00G2A0000076vWc&apos;; 
+queryResult.records[a].RecordTypeId = &apos;01200000000Ccki&apos;; 
+}
+} 
+//if Other Marketplaces, set to Support Marketplaces queue 
+else if(queryResult.records[a].Product__c == &apos;Other Marketplaces&apos;) 
+{ 
+//select queue based on Routing Priority 
+if(staticQueryResult.records[a].Routing_Priority__c == &apos;1&apos;) 
+{ 
+queryResult.records[a].OwnerId = &apos;00G2A00000772cN&apos;; 
+queryResult.records[a].RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else if(staticQueryResult.records[a].Routing_Priority__c == &apos;2&apos;) 
+{ 
+queryResult.records[a].OwnerId = &apos;00G2A00000772cm&apos;; 
+queryResult.records[a].RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else 
+{ 
+queryResult.records[a].OwnerId = &apos;00G2A0000076vWa&apos;; 
+queryResult.records[a].RecordTypeId = &apos;01200000000Ccki&apos;; 
+}
+} 
+//if Partners, set to Support Partners queue 
+else if(queryResult.records[a].Product__c == &apos;Partners&apos;) 
+{ 
+//select queue based on Routing Priority 
+if(staticQueryResult.records[a].Routing_Priority__c == &apos;1&apos;) 
+{ 
+queryResult.records[a].OwnerId = &apos;00G2A00000772cQ&apos;; 
+queryResult.records[a].RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else if(staticQueryResult.records[a].Routing_Priority__c == &apos;2&apos;) 
+{ 
+queryResult.records[a].OwnerId = &apos;00G2A00000772cp&apos;; 
+queryResult.records[a].RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else 
+{ 
+queryResult.records[a].OwnerId = &apos;00G2A0000076vWd&apos;; 
+queryResult.records[a].RecordTypeId = &apos;01200000000Ccki&apos;; 
+}
+} 
+//if Product Intelligence, set to Support Brands queue 
+else if(queryResult.records[a].Product__c == &apos;Product Intelligence&apos;) 
+{ 
+//select queue based on Routing Priority 
+if(staticQueryResult.records[a].Routing_Priority__c == &apos;1&apos;) 
+{ 
+queryResult.records[a].OwnerId = &apos;00G2A00000772cF&apos;; 
+queryResult.records[a].RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else if(staticQueryResult.records[a].Routing_Priority__c == &apos;2&apos;) 
+{ 
+queryResult.records[a].OwnerId = &apos;00G2A00000772cZ&apos;; 
+queryResult.records[a].RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else 
+{ 
+queryResult.records[a].OwnerId = &apos;00GF0000006eZWR&apos;; 
+queryResult.records[a].RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+} 
+//if Reports, set to Support Reports queue 
+else if(queryResult.records[a].Product__c == &apos;Reports&apos;) 
+{ 
+//select queue based on Routing Priority 
+if(staticQueryResult.records[a].Routing_Priority__c == &apos;1&apos;) 
+{ 
+queryResult.records[a].OwnerId = &apos;00G2A00000772cg&apos;; 
+queryResult.records[a].RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else if(staticQueryResult.records[a].Routing_Priority__c == &apos;2&apos;) 
+{ 
+queryResult.records[a].OwnerId = &apos;00G2A00000772cq&apos;; 
+queryResult.records[a].RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else 
+{ 
+queryResult.records[a].OwnerId = &apos;00G2A0000076vWe&apos;; 
+queryResult.records[a].RecordTypeId = &apos;01200000000Ccki&apos;; 
+}
+} 
+//if Rich Media, set to Support Inventory queue 
+else if(queryResult.records[a].Product__c == &apos;Rich Media&apos;) 
+{ 
+//select queue based on Routing Priority 
+if(staticQueryResult.records[a].Routing_Priority__c == &apos;1&apos;) 
+{ 
+queryResult.records[a].OwnerId = &apos;00G2A00000772cL&apos;; 
+queryResult.records[a].RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else if(staticQueryResult.records[a].Routing_Priority__c == &apos;2&apos;) 
+{ 
+queryResult.records[a].OwnerId = &apos;00G2A00000772ce&apos;; 
+queryResult.records[a].RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else 
+{ 
+queryResult.records[a].OwnerId = &apos;00G2A0000076vWW&apos;; 
+queryResult.records[a].RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+} 
+//if Sears, set to Support Sears queue 
+else if(queryResult.records[a].Product__c == &apos;Sears Marketplace&apos;) 
+{ 
+//select queue based on Routing Priority 
+if(staticQueryResult.records[a].Routing_Priority__c == &apos;1&apos;) 
+{ 
+queryResult.records[a].OwnerId = &apos;00G2A00000772ch&apos;; 
+queryResult.records[a].RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else if(staticQueryResult.records[a].Routing_Priority__c == &apos;2&apos;) 
+{ 
+queryResult.records[a].OwnerId = &apos;00G2A00000772cr&apos;; 
+queryResult.records[a].RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else 
+{ 
+queryResult.records[a].OwnerId = &apos;00G2A0000076vWf&apos;; 
+queryResult.records[a].RecordTypeId = &apos;01200000000Ccki&apos;; 
+}
+} 
+//if System, set to Support System queue 
+else if(queryResult.records[a].Product__c == &apos;System&apos;) 
+{ 
+//select queue based on Routing Priority 
+if(staticQueryResult.records[a].Routing_Priority__c == &apos;1&apos;) 
+{ 
+queryResult.records[a].OwnerId = &apos;00G2A00000772ci&apos;; 
+queryResult.records[a].RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else if(staticQueryResult.records[a].Routing_Priority__c == &apos;2&apos;) 
+{ 
+queryResult.records[a].OwnerId = &apos;00G2A00000772cs&apos;; 
+queryResult.records[a].RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else 
+{ 
+queryResult.records[a].OwnerId = &apos;00G2A0000076vWg&apos;; 
+queryResult.records[a].RecordTypeId = &apos;01200000000Ccki&apos;; 
+}
+} 
+//if Walmart, set to Support Walmart queue 
+else if(queryResult.records[a].Product__c == &apos;Walmart Marketplace&apos;) 
+{ 
+//select queue based on Routing Priority 
+if(staticQueryResult.records[a].Routing_Priority__c == &apos;1&apos;) 
+{ 
+queryResult.records[a].OwnerId = &apos;00G2A00000772cj&apos;; 
+queryResult.records[a].RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else if(staticQueryResult.records[a].Routing_Priority__c == &apos;2&apos;) 
+{ 
+queryResult.records[a].OwnerId = &apos;00G2A00000772ct&apos;; 
+queryResult.records[a].RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else 
+{ 
+queryResult.records[a].OwnerId = &apos;00G2A0000076vWh&apos;; 
+queryResult.records[a].RecordTypeId = &apos;01200000000Ccki&apos;; 
+}
+} 
+//if Webstores, set to Support Webstores queue 
+else if(queryResult.records[a].Product__c == &apos;Webstores&apos;) 
+{ 
+//select queue based on Routing Priority 
+if(staticQueryResult.records[a].Routing_Priority__c == &apos;1&apos;) 
+{ 
+queryResult.records[a].OwnerId = &apos;00G2A00000772ck&apos;; 
+queryResult.records[a].RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else if(staticQueryResult.records[a].Routing_Priority__c == &apos;2&apos;) 
+{ 
+queryResult.records[a].OwnerId = &apos;00G2A00000772cu&apos;; 
+queryResult.records[a].RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else 
+{ 
+queryResult.records[a].OwnerId = &apos;00G2A0000076vWi&apos;; 
+queryResult.records[a].RecordTypeId = &apos;01200000000Ccki&apos;; 
+}
+} 
+//if Where to Buy, set to Support Brands queue 
+else if(queryResult.records[a].Product__c == &apos;Where To Buy&apos;) 
+{ 
+//select queue based on Routing Priority 
+if(staticQueryResult.records[a].Routing_Priority__c == &apos;1&apos;) 
+{ 
+queryResult.records[a].OwnerId = &apos;00G2A00000772cF&apos;; 
+queryResult.records[a].RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else if(staticQueryResult.records[a].Routing_Priority__c == &apos;2&apos;) 
+{ 
+queryResult.records[a].OwnerId = &apos;00G2A00000772cZ&apos;; 
+queryResult.records[a].RecordTypeId = &apos;01200000000Ccki&apos;; 
+} 
+else 
+{ 
+queryResult.records[a].OwnerId = &apos;00GF0000006eZWR&apos;; 
+queryResult.records[a].RecordTypeId = &apos;01200000000Ccki&apos;; 
+}
+} 
+else 
+{ 
+queryResult.records[a].OwnerId = &apos;00G00000006qEBH&apos;; 
+queryResult.records[a].RecordTypeId = &apos;01200000000Ccki&apos;; 
+
+//When no match, display message that we moved to Support Triage queue 
+alert(&apos;No product match. Moved to Support Triage&apos;); 
+} 
+//close loop 
+} 
+
+var result = sforce.connection.update(queryResult.records); 
+//error handling 
+if(result[0].success==&apos;true&apos;){ 
+location.reload(true);} 
+else{alert(&apos;An error has occurred. Check case and retry.&apos;);} 
+//close else 
+}</url>
+</WebLink>

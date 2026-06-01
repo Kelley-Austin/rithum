@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SCON_Onboarding_Cancelled_Cases</fullName>
+    <columns>CASES.STATUS</columns>
+    <columns>SCON_Supplier_Account__c</columns>
+    <columns>SCON_Retailer_Account__c</columns>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>CASES.EMAIL</columns>
+    <columns>CASES.CREATED_DATE</columns>
+    <columns>CASES.CLOSED_DATE</columns>
+    <columns>OWNER_NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Record_Type_Name__c</field>
+        <operation>equals</operation>
+        <value>SCON Onboarding</value>
+    </filters>
+    <filters>
+        <field>CASES.CLOSED</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>equals</operation>
+        <value>Canceled</value>
+    </filters>
+    <label>SCON Onboarding Cancelled Cases</label>
+    <sharedTo>
+        <role>Rithum_Onboarding_Support_Manager</role>
+        <role>Rithum_Onboarding_Support_User</role>
+    </sharedTo>
+</ListView>

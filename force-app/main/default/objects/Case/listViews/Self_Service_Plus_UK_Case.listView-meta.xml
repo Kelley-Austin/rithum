@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Self_Service_Plus_UK_Case</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Self Service Plus UK</label>
+    <queue>Self_Service_Plus_UK</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

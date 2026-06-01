@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Notify_Account_Team_of_Brands_Case__c</fullName>
+    <label>Notify Account Team of Brands Case</label>
+    <type>Checkbox</type>
+    <defaultValue>false</defaultValue>
+    <description>Used by the Brands Team to send a notification whenever a Case is created for this Account.</description>
+</CustomField>
