@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>61.0</apiVersion>
+    <description>Posts a Chatter message to the Case feed when a new Jira comment is received, alerting the case owner and all followers that engineering context is available in the Case Comments section.</description>
+    <environments>Default</environments>
+    <interviewLabel>Brands - Case, Jira Comment Received {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Brands - Case, Jira Comment Received</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <textTemplates>
+        <name>Chatter_Message</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>A new comment from the linked Jira ticket has been added to this case. Review the Case Comments section for the latest engineering update.</text>
+    </textTemplates>
+    <start>
+        <locationX>182</locationX>
+        <locationY>26</locationY>
+        <filterLogic>1</filterLogic>
+        <filters>
+            <field>Last_Jira_Comment_Date_Time__c</field>
+            <operator>IsChanged</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <object>Case</object>
+        <recordTriggerType>Update</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+        <connector>
+            <targetReference>Post_Jira_Comment_Notification</targetReference>
+        </connector>
+    </start>
+    <actionCalls>
+        <description>Posts a Chatter message to the Case record so that the case owner and followers are notified of the new Jira comment</description>
+        <name>Post_Jira_Comment_Notification</name>
+        <label>Post Jira Comment Notification to Case Feed</label>
+        <locationX>182</locationX>
+        <locationY>134</locationY>
+        <actionName>chatterPost</actionName>
+        <actionType>chatterPost</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>subjectNameOrId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>message</name>
+            <value>
+                <elementReference>Chatter_Message</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+</Flow>
