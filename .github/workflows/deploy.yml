@@ -22,29 +22,16 @@ jobs:
 
       - name: Deploy metadata
         run: |
-          HAS_DESTRUCTIVE=false
-          HAS_SOURCE=false
           if [ -f manifest/destructiveChangesPost.xml ] && grep -q '<members>' manifest/destructiveChangesPost.xml; then
-            HAS_DESTRUCTIVE=true
-          fi
-          if find force-app -type f -not -name '.gitkeep' | grep -q .; then
-            HAS_SOURCE=true
-          fi
-          if [ "$HAS_DESTRUCTIVE" = "true" ]; then
             echo "Running destructive deploy..."
             sf project deploy start \
               --metadata-dir manifest \
               --target-org target-org \
               --wait 30
           fi
-          if [ "$HAS_SOURCE" = "true" ]; then
-            echo "Deploying source metadata..."
-            sf project deploy start \
-              --source-dir force-app \
-              --target-org target-org \
-              --test-level NoTestRun \
-              --wait 30
-          fi
-          if [ "$HAS_DESTRUCTIVE" = "false" ] && [ "$HAS_SOURCE" = "false" ]; then
-            echo "No metadata changes to deploy."
-          fi
+          echo "Deploying via package.xml..."
+          sf project deploy start \
+            --manifest manifest/package.xml \
+            --target-org target-org \
+            --test-level NoTestRun \
+            --wait 30
