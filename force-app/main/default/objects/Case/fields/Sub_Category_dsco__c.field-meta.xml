@@ -219,9 +219,9 @@
                 <label>Bulk request - tracking removal</label>
             </value>
             <value>
-                <fullName>Can&apos;t Complete Gandalf</fullName>
+                <fullName>Can't Complete Gandalf</fullName>
                 <default>false</default>
-                <label>Can&apos;t Complete Gandalf</label>
+                <label>Can't Complete Gandalf</label>
             </value>
             <value>
                 <fullName>Cancel - help fixing</fullName>
@@ -979,6 +979,301 @@
                 <default>false</default>
                 <label>What is Rithum</label>
             </value>
+            <value>
+                <fullName>1P/First Party connection</fullName>
+                <default>false</default>
+                <label>1P/First Party connection</label>
+            </value>
+            <value>
+                <fullName>Account Creation/Configuration</fullName>
+                <default>false</default>
+                <label>Account Creation/Configuration</label>
+            </value>
+            <value>
+                <fullName>Acknowledging an order</fullName>
+                <default>false</default>
+                <label>Acknowledging an order</label>
+            </value>
+            <value>
+                <fullName>Add new Channel</fullName>
+                <default>false</default>
+                <label>Add new Channel</label>
+            </value>
+            <value>
+                <fullName>Assortment</fullName>
+                <default>false</default>
+                <label>Assortment</label>
+            </value>
+            <value>
+                <fullName>Automation</fullName>
+                <default>false</default>
+                <label>Automation</label>
+            </value>
+            <value>
+                <fullName>Backordering an order</fullName>
+                <default>false</default>
+                <label>Backordering an order</label>
+            </value>
+            <value>
+                <fullName>Business rules</fullName>
+                <default>false</default>
+                <label>Business rules</label>
+            </value>
+            <value>
+                <fullName>Campaigns &amp; Ads</fullName>
+                <default>false</default>
+                <label>Campaigns &amp; Ads</label>
+            </value>
+            <value>
+                <fullName>Cancellations or refunds</fullName>
+                <default>false</default>
+                <label>Cancellations or refunds</label>
+            </value>
+            <value>
+                <fullName>Catalog Compliance</fullName>
+                <default>false</default>
+                <label>Catalog Compliance</label>
+            </value>
+            <value>
+                <fullName>Channel Errors - Clarification Needed</fullName>
+                <default>false</default>
+                <label>Channel Errors - Clarification Needed</label>
+            </value>
+            <value>
+                <fullName>Channel Settings</fullName>
+                <default>false</default>
+                <label>Channel Settings</label>
+            </value>
+            <value>
+                <fullName>Close Posting Account</fullName>
+                <default>false</default>
+                <label>Close Posting Account</label>
+            </value>
+            <value>
+                <fullName>Create/Update Products</fullName>
+                <default>false</default>
+                <label>Create/Update Products</label>
+            </value>
+            <value>
+                <fullName>Create/Update SKUs or Products</fullName>
+                <default>false</default>
+                <label>Create/Update SKUs or Products</label>
+            </value>
+            <value>
+                <fullName>Creating Reports</fullName>
+                <default>false</default>
+                <label>Creating Reports</label>
+            </value>
+            <value>
+                <fullName>Dashboards/Widgets</fullName>
+                <default>false</default>
+                <label>Dashboards/Widgets</label>
+            </value>
+            <value>
+                <fullName>Data Quality</fullName>
+                <default>false</default>
+                <label>Data Quality</label>
+            </value>
+            <value>
+                <fullName>Delete/Remove Products</fullName>
+                <default>false</default>
+                <label>Delete/Remove Products</label>
+            </value>
+            <value>
+                <fullName>Delete/Remove SKUs or Products</fullName>
+                <default>false</default>
+                <label>Delete/Remove SKUs or Products</label>
+            </value>
+            <value>
+                <fullName>Disable channel integration</fullName>
+                <default>false</default>
+                <label>Disable channel integration</label>
+            </value>
+            <value>
+                <fullName>Distribution Center/Warehouse management</fullName>
+                <default>false</default>
+                <label>Distribution Center/Warehouse management</label>
+            </value>
+            <value>
+                <fullName>Enable Multi-Seller Account</fullName>
+                <default>false</default>
+                <label>Enable Multi-Seller Account</label>
+            </value>
+            <value>
+                <fullName>Exceptions and Performance</fullName>
+                <default>false</default>
+                <label>Exceptions and Performance</label>
+            </value>
+            <value>
+                <fullName>Exports</fullName>
+                <default>false</default>
+                <label>Exports</label>
+            </value>
+            <value>
+                <fullName>FTP/SFTP connection</fullName>
+                <default>false</default>
+                <label>FTP/SFTP connection</label>
+            </value>
+            <value>
+                <fullName>Feeds</fullName>
+                <default>false</default>
+                <label>Feeds</label>
+            </value>
+            <value>
+                <fullName>Functional Acknowledgement Reminder</fullName>
+                <default>false</default>
+                <label>Functional Acknowledgement Reminder</label>
+            </value>
+            <value>
+                <fullName>Help documentation/training</fullName>
+                <default>false</default>
+                <label>Help documentation/training</label>
+            </value>
+            <value>
+                <fullName>Image library</fullName>
+                <default>false</default>
+                <label>Image library</label>
+            </value>
+            <value>
+                <fullName>Images</fullName>
+                <default>false</default>
+                <label>Images</label>
+            </value>
+            <value>
+                <fullName>Imports</fullName>
+                <default>false</default>
+                <label>Imports</label>
+            </value>
+            <value>
+                <fullName>Invoicing Assistance</fullName>
+                <default>false</default>
+                <label>Invoicing Assistance</label>
+            </value>
+            <value>
+                <fullName>Invoicing Payment Status</fullName>
+                <default>false</default>
+                <label>Invoicing Payment Status</label>
+            </value>
+            <value>
+                <fullName>Labels and filters</fullName>
+                <default>false</default>
+                <label>Labels and filters</label>
+            </value>
+            <value>
+                <fullName>NetSuite</fullName>
+                <default>false</default>
+                <label>NetSuite</label>
+            </value>
+            <value>
+                <fullName>Not listed to trading partner</fullName>
+                <default>false</default>
+                <label>Not listed to trading partner</label>
+            </value>
+            <value>
+                <fullName>Notification center</fullName>
+                <default>false</default>
+                <label>Notification center</label>
+            </value>
+            <value>
+                <fullName>Partner Maintenance/Downtime</fullName>
+                <default>false</default>
+                <label>Partner Maintenance/Downtime</label>
+            </value>
+            <value>
+                <fullName>Permissions/Groups</fullName>
+                <default>false</default>
+                <label>Permissions/Groups</label>
+            </value>
+            <value>
+                <fullName>Posting Account Limit Increase</fullName>
+                <default>false</default>
+                <label>Posting Account Limit Increase</label>
+            </value>
+            <value>
+                <fullName>Price/Quantity</fullName>
+                <default>false</default>
+                <label>Price/Quantity</label>
+            </value>
+            <value>
+                <fullName>Processing LTL orders</fullName>
+                <default>false</default>
+                <label>Processing LTL orders</label>
+            </value>
+            <value>
+                <fullName>Product Limit Increase</fullName>
+                <default>false</default>
+                <label>Product Limit Increase</label>
+            </value>
+            <value>
+                <fullName>Proxy Connection</fullName>
+                <default>false</default>
+                <label>Proxy Connection</label>
+            </value>
+            <value>
+                <fullName>Repricer</fullName>
+                <default>false</default>
+                <label>Repricer</label>
+            </value>
+            <value>
+                <fullName>Response to Rithum/Partner Communication</fullName>
+                <default>false</default>
+                <label>Response to Rithum/Partner Communication</label>
+            </value>
+            <value>
+                <fullName>Retail Content Management (RCM)</fullName>
+                <default>false</default>
+                <label>Retail Content Management (RCM)</label>
+            </value>
+            <value>
+                <fullName>Retail Media</fullName>
+                <default>false</default>
+                <label>Retail Media</label>
+            </value>
+            <value>
+                <fullName>Routing/Shipping Rules</fullName>
+                <default>false</default>
+                <label>Routing/Shipping Rules</label>
+            </value>
+            <value>
+                <fullName>Settings</fullName>
+                <default>false</default>
+                <label>Settings</label>
+            </value>
+            <value>
+                <fullName>Shipments/Fulfillments</fullName>
+                <default>false</default>
+                <label>Shipments/Fulfillments</label>
+            </value>
+            <value>
+                <fullName>Shipping Integration</fullName>
+                <default>false</default>
+                <label>Shipping Integration</label>
+            </value>
+            <value>
+                <fullName>Template mapping</fullName>
+                <default>false</default>
+                <label>Template mapping</label>
+            </value>
+            <value>
+                <fullName>Templates</fullName>
+                <default>false</default>
+                <label>Templates</label>
+            </value>
+            <value>
+                <fullName>Trading partner settings</fullName>
+                <default>false</default>
+                <label>Trading partner settings</label>
+            </value>
+            <value>
+                <fullName>VAN connection</fullName>
+                <default>false</default>
+                <label>VAN connection</label>
+            </value>
+            <value>
+                <fullName>Variations, bundles, and aliases</fullName>
+                <default>false</default>
+                <label>Variations, bundles, and aliases</label>
+            </value>
         </valueSetDefinition>
         <valueSettings>
             <controllingFieldValue>Account administration</controllingFieldValue>
@@ -1442,6 +1737,7 @@
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>Products/Inventory</controllingFieldValue>
+            <controllingFieldValue>Orders</controllingFieldValue>
             <valueName>Compliance - Exceptions and Performance</valueName>
         </valueSettings>
         <valueSettings>
@@ -1450,6 +1746,7 @@
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>Products/Inventory</controllingFieldValue>
+            <controllingFieldValue>Orders</controllingFieldValue>
             <valueName>Compliance - Rule Questions</valueName>
         </valueSettings>
         <valueSettings>
@@ -1510,6 +1807,7 @@
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>Products/Inventory</controllingFieldValue>
+            <controllingFieldValue>Orders</controllingFieldValue>
             <valueName>Oversells</valueName>
         </valueSettings>
         <valueSettings>
@@ -1606,7 +1904,7 @@
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>Onboarding</controllingFieldValue>
-            <valueName>Can&apos;t Complete Gandalf</valueName>
+            <valueName>Can't Complete Gandalf</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>Onboarding</controllingFieldValue>
@@ -1715,6 +2013,259 @@
         <valueSettings>
             <controllingFieldValue>Delivery Suite</controllingFieldValue>
             <valueName>Warehouse Setup</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Configuration</controllingFieldValue>
+            <valueName>1P/First Party connection</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Configuration</controllingFieldValue>
+            <valueName>API connection</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Configuration</controllingFieldValue>
+            <valueName>AS2 connection</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Account administration</controllingFieldValue>
+            <valueName>Account Creation/Configuration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>Acknowledging an order</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Account administration</controllingFieldValue>
+            <valueName>Add new Channel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products/Inventory</controllingFieldValue>
+            <valueName>Assortment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Digital marketing</controllingFieldValue>
+            <valueName>Automation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>Backordering an order</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <controllingFieldValue>Products/Inventory</controllingFieldValue>
+            <valueName>Business rules</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Digital marketing</controllingFieldValue>
+            <valueName>Campaigns &amp; Ads</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>Cancellations or refunds</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products/Inventory</controllingFieldValue>
+            <valueName>Catalog Compliance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Listings</controllingFieldValue>
+            <valueName>Channel Errors - Clarification Needed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Configuration</controllingFieldValue>
+            <valueName>Channel Settings</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Account administration</controllingFieldValue>
+            <valueName>Close Posting Account</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products/Inventory</controllingFieldValue>
+            <valueName>Create/Update Products</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products/Inventory</controllingFieldValue>
+            <valueName>Create/Update SKUs or Products</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reporting</controllingFieldValue>
+            <valueName>Creating Reports</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reporting</controllingFieldValue>
+            <valueName>Dashboards/Widgets</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Listings</controllingFieldValue>
+            <valueName>Data Quality</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products/Inventory</controllingFieldValue>
+            <valueName>Delete/Remove Products</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products/Inventory</controllingFieldValue>
+            <valueName>Delete/Remove SKUs or Products</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Configuration</controllingFieldValue>
+            <valueName>Disable channel integration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products/Inventory</controllingFieldValue>
+            <valueName>Distribution Center/Warehouse management</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Configuration</controllingFieldValue>
+            <valueName>Enable Multi-Seller Account</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <controllingFieldValue>Products/Inventory</controllingFieldValue>
+            <valueName>Exceptions and Performance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <controllingFieldValue>Products/Inventory</controllingFieldValue>
+            <valueName>Exports</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Configuration</controllingFieldValue>
+            <valueName>FTP/SFTP connection</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Digital marketing</controllingFieldValue>
+            <valueName>Feeds</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>Functional Acknowledgement Reminder</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Platform</controllingFieldValue>
+            <valueName>Help documentation/training</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products/Inventory</controllingFieldValue>
+            <valueName>Image library</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Listings</controllingFieldValue>
+            <valueName>Images</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <controllingFieldValue>Products/Inventory</controllingFieldValue>
+            <valueName>Imports</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>Invoicing Assistance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>Invoicing Payment Status</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products/Inventory</controllingFieldValue>
+            <valueName>Labels and filters</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Configuration</controllingFieldValue>
+            <valueName>Message codes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Configuration</controllingFieldValue>
+            <valueName>NetSuite</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products/Inventory</controllingFieldValue>
+            <valueName>Not listed to trading partner</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Platform</controllingFieldValue>
+            <valueName>Notification center</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Account administration</controllingFieldValue>
+            <valueName>Partner Maintenance/Downtime</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Account administration</controllingFieldValue>
+            <valueName>Permissions/Groups</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Account administration</controllingFieldValue>
+            <valueName>Posting Account Limit Increase</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Listings</controllingFieldValue>
+            <controllingFieldValue>Products/Inventory</controllingFieldValue>
+            <valueName>Price/Quantity</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>Processing LTL orders</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Account administration</controllingFieldValue>
+            <valueName>Product Limit Increase</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Configuration</controllingFieldValue>
+            <valueName>Proxy Connection</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Listings</controllingFieldValue>
+            <valueName>Repricer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Platform</controllingFieldValue>
+            <valueName>Response to Rithum/Partner Communication</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products/Inventory</controllingFieldValue>
+            <valueName>Retail Content Management (RCM)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Digital marketing</controllingFieldValue>
+            <valueName>Retail Media</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>Routing/Shipping Rules</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Digital marketing</controllingFieldValue>
+            <valueName>Settings</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>Shipments/Fulfillments</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>Shipping Integration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Listings</controllingFieldValue>
+            <valueName>Template mapping</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products/Inventory</controllingFieldValue>
+            <valueName>Templates</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Configuration</controllingFieldValue>
+            <valueName>Trading partner settings</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Configuration</controllingFieldValue>
+            <valueName>VAN connection</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products/Inventory</controllingFieldValue>
+            <valueName>Variations, bundles, and aliases</valueName>
         </valueSettings>
     </valueSet>
 </CustomField>

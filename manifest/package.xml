@@ -14,8 +14,10 @@
         <members>Brands_Channel__c.Channel_Type__c</members>
         <members>Brands_Channel__c.Country__c</members>
         <members>Brands_Channel__c.Parent_Channel__c</members>
+        <members>Case.Category_dsco__c</members>
         <members>Case.Last_Jira_Comment_Date_Time__c</members>
         <members>Case.PID_Hyperlinks__c</members>
+        <members>Case.Sub_Category_dsco__c</members>
         <name>CustomField</name>
     </types>
     <types>

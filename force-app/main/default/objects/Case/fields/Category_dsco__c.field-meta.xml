@@ -62,6 +62,16 @@
                 <default>false</default>
                 <label>Delivery Suite</label>
             </value>
+            <value>
+                <fullName>Digital marketing</fullName>
+                <default>false</default>
+                <label>Digital marketing</label>
+            </value>
+            <value>
+                <fullName>Listings</fullName>
+                <default>false</default>
+                <label>Listings</label>
+            </value>
         </valueSetDefinition>
     </valueSet>
 </CustomField>
