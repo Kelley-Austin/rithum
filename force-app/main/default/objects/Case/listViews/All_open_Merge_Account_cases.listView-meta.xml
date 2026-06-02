@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_open_Merge_Account_cases</fullName>
+    <booleanFilter>1 AND (2 OR 4) AND 3</booleanFilter>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>NAME</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>CASES.LAST_UPDATE_DATE_ONLY</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>notContain</operation>
+        <value>closed,archive,canceled</value>
+    </filters>
+    <filters>
+        <field>CASES.SUBJECT</field>
+        <operation>contains</operation>
+        <value>Merge,account merge,dup account,combine these</value>
+    </filters>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.Salesforce_com_Enhancement_Request</value>
+    </filters>
+    <filters>
+        <field>Change_Level__c</field>
+        <operation>equals</operation>
+        <value>Account Merge</value>
+    </filters>
+    <label>All open Merge Account cases</label>
+    <sharedTo>
+        <group>Business_Operations</group>
+    </sharedTo>
+</ListView>

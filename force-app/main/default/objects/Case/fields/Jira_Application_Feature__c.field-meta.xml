@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Jira_Application_Feature__c</fullName>
+    <label>Jira Application Feature</label>
+    <type>Picklist</type>
+    <description>Picklist used for Agents to select Jira Application Feature</description>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Brands</fullName>
+                <default>false</default>
+                <label>Brands</label>
+            </value>
+            <value>
+                <fullName>Onboarding</fullName>
+                <default>false</default>
+                <label>Onboarding</label>
+            </value>
+            <value>
+                <fullName>DSCO</fullName>
+                <default>false</default>
+                <label>DSCO</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

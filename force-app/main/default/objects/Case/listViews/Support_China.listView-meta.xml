@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Support_China</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>Priority_Icon__c</columns>
+    <columns>NAME</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>Product__c</columns>
+    <columns>CASES.CREATED_DATE</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CASES.LAST_UPDATE</columns>
+    <filterScope>Queue</filterScope>
+    <label>** Support China</label>
+    <language>en_US</language>
+    <queue>Complete_CN</queue>
+    <sharedTo>
+        <roleAndSubordinatesInternal>DirectorofSupport</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

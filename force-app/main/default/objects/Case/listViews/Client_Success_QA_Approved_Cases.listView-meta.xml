@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Client_Success_QA_Approved_Cases</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>Project_Due_Date__c</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>equals</operation>
+        <value>C3 - QA Ready</value>
+    </filters>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.Client_Success</value>
+    </filters>
+    <filters>
+        <field>QA_Signoff__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>Client Success - QA Approved Cases</label>
+</ListView>

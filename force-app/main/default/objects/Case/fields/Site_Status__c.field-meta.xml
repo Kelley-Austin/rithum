@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Site_Status__c</fullName>
+    <description>Status of implementation from Site source.</description>
+    <label>Site Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Site__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>LIVE - seller GMV on marketplace</fullName>
+                <default>false</default>
+                <label>LIVE - seller GMV on marketplace</label>
+            </value>
+            <value>
+                <fullName>CA Referral link info sent to Site</fullName>
+                <default>false</default>
+                <label>CA Referral link info sent to Site</label>
+            </value>
+            <value>
+                <fullName>REJECTED (criteria not met)</fullName>
+                <default>false</default>
+                <label>REJECTED (criteria not met)</label>
+            </value>
+            <value>
+                <fullName>Site application sent to seller</fullName>
+                <default>false</default>
+                <label>Site application sent to seller</label>
+            </value>
+            <value>
+                <fullName>REJECTED (failed Site review)</fullName>
+                <default>false</default>
+                <label>REJECTED (failed Site review)</label>
+            </value>
+            <value>
+                <fullName>Seller in Site Review</fullName>
+                <default>false</default>
+                <label>Seller in Site Review</label>
+            </value>
+            <value>
+                <fullName>Site APPROVED - Sign Site contract</fullName>
+                <default>false</default>
+                <label>Site APPROVED - Sign Site contract</label>
+            </value>
+            <value>
+                <fullName>Site SIGNED - Sign CA contract</fullName>
+                <default>false</default>
+                <label>Site SIGNED - Sign CA contract</label>
+            </value>
+            <value>
+                <fullName>CA SIGNED - Now start launch</fullName>
+                <default>false</default>
+                <label>CA SIGNED - Now start launch</label>
+            </value>
+            <value>
+                <fullName>Launching</fullName>
+                <default>false</default>
+                <label>Launching</label>
+            </value>
+            <value>
+                <fullName>Live</fullName>
+                <default>false</default>
+                <label>Live</label>
+            </value>
+            <value>
+                <fullName>Delayed - see notes</fullName>
+                <default>false</default>
+                <label>Delayed - see notes</label>
+            </value>
+            <value>
+                <fullName>Not interested</fullName>
+                <default>false</default>
+                <label>Not interested</label>
+            </value>
+            <value>
+                <fullName>Lost to direct</fullName>
+                <default>false</default>
+                <label>Lost to direct</label>
+            </value>
+            <value>
+                <fullName>New Referral Request</fullName>
+                <default>true</default>
+                <label>New Referral Request</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Jet</controllingFieldValue>
+            <controllingFieldValue>Overstock</controllingFieldValue>
+            <controllingFieldValue>Bluefly</controllingFieldValue>
+            <valueName>LIVE - seller GMV on marketplace</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jet</controllingFieldValue>
+            <controllingFieldValue>Overstock</controllingFieldValue>
+            <controllingFieldValue>Bluefly</controllingFieldValue>
+            <valueName>CA Referral link info sent to Site</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jet</controllingFieldValue>
+            <controllingFieldValue>Overstock</controllingFieldValue>
+            <controllingFieldValue>Bluefly</controllingFieldValue>
+            <valueName>REJECTED (criteria not met)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jet</controllingFieldValue>
+            <controllingFieldValue>Overstock</controllingFieldValue>
+            <controllingFieldValue>Bluefly</controllingFieldValue>
+            <valueName>Site application sent to seller</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jet</controllingFieldValue>
+            <controllingFieldValue>Overstock</controllingFieldValue>
+            <controllingFieldValue>Bluefly</controllingFieldValue>
+            <valueName>REJECTED (failed Site review)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jet</controllingFieldValue>
+            <controllingFieldValue>Overstock</controllingFieldValue>
+            <controllingFieldValue>Bluefly</controllingFieldValue>
+            <valueName>Seller in Site Review</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jet</controllingFieldValue>
+            <controllingFieldValue>Overstock</controllingFieldValue>
+            <controllingFieldValue>Bluefly</controllingFieldValue>
+            <valueName>Site APPROVED - Sign Site contract</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jet</controllingFieldValue>
+            <controllingFieldValue>Overstock</controllingFieldValue>
+            <controllingFieldValue>Bluefly</controllingFieldValue>
+            <valueName>Site SIGNED - Sign CA contract</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jet</controllingFieldValue>
+            <controllingFieldValue>Overstock</controllingFieldValue>
+            <controllingFieldValue>Bluefly</controllingFieldValue>
+            <valueName>CA SIGNED - Now start launch</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jet</controllingFieldValue>
+            <controllingFieldValue>Overstock</controllingFieldValue>
+            <controllingFieldValue>Bluefly</controllingFieldValue>
+            <valueName>Launching</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jet</controllingFieldValue>
+            <controllingFieldValue>Overstock</controllingFieldValue>
+            <controllingFieldValue>Bluefly</controllingFieldValue>
+            <valueName>Live</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jet</controllingFieldValue>
+            <controllingFieldValue>Overstock</controllingFieldValue>
+            <controllingFieldValue>Bluefly</controllingFieldValue>
+            <valueName>Delayed - see notes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jet</controllingFieldValue>
+            <controllingFieldValue>Overstock</controllingFieldValue>
+            <controllingFieldValue>Bluefly</controllingFieldValue>
+            <valueName>Not interested</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jet</controllingFieldValue>
+            <controllingFieldValue>Overstock</controllingFieldValue>
+            <controllingFieldValue>Bluefly</controllingFieldValue>
+            <valueName>Lost to direct</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jet</controllingFieldValue>
+            <controllingFieldValue>Overstock</controllingFieldValue>
+            <controllingFieldValue>Bluefly</controllingFieldValue>
+            <valueName>New Referral Request</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

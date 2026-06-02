@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer_to_Verify_Status_Not_Allowed</fullName>
+    <active>true</active>
+    <description>Prevents a child case from being saved with the &quot;Resolved - Customer to Verify&quot; status.</description>
+    <errorConditionFormula>IF((( ISPICKVAL(Status, &quot;Resolved - Customer to Verify&quot;))  &amp;&amp; ( ParentId  &lt;&gt; null)),true,false)</errorConditionFormula>
+    <errorMessage>You cannot use the &quot;Resolved - Customer to Verify&quot; status for child cases.  Please select a different status.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contractor_Time_Estimate__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Contractors initial Estimate of Case Completion Time. Note this field is in hours so half hour would be .5, 15 minutes would be .25 ect.</inlineHelpText>
+    <label>Contractor Time Estimate (Hours)</label>
+    <precision>13</precision>
+    <required>false</required>
+    <scale>3</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

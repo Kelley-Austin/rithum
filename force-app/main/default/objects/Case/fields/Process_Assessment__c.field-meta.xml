@@ -1,0 +1,857 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Process_Assessment__c</fullName>
+    <label>Process Assessment</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Status</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Actively Testing</fullName>
+                <default>false</default>
+                <label>Actively Testing</label>
+            </value>
+            <value>
+                <fullName>Awaiting Pack Slip Approval</fullName>
+                <default>false</default>
+                <label>Awaiting Pack Slip Approval</label>
+            </value>
+            <value>
+                <fullName>Awaiting Retailer Verification To Migrate</fullName>
+                <default>false</default>
+                <label>Awaiting Retailer Verification To Migrate</label>
+            </value>
+            <value>
+                <fullName>Bad Contact</fullName>
+                <default>false</default>
+                <label>Bad Contact</label>
+            </value>
+            <value>
+                <fullName>Cancelled - Comms Change</fullName>
+                <default>false</default>
+                <label>Cancelled - Comms Change</label>
+            </value>
+            <value>
+                <fullName>Cancelled - Connection Choice</fullName>
+                <default>false</default>
+                <label>Cancelled - Connection Choice</label>
+            </value>
+            <value>
+                <fullName>Cancelled - Expired Contract</fullName>
+                <default>false</default>
+                <label>Cancelled - Expired Contract</label>
+            </value>
+            <value>
+                <fullName>Cancelled – Inactive Supplier</fullName>
+                <default>false</default>
+                <label>Cancelled – Inactive Supplier</label>
+            </value>
+            <value>
+                <fullName>Cancelled –Internal</fullName>
+                <default>false</default>
+                <label>Cancelled –Internal</label>
+            </value>
+            <value>
+                <fullName>Cancelled - Internal/Admin</fullName>
+                <default>false</default>
+                <label>Cancelled - Internal/Admin</label>
+            </value>
+            <value>
+                <fullName>Cancelled - Moved to other account</fullName>
+                <default>false</default>
+                <label>Cancelled - Moved to other account</label>
+            </value>
+            <value>
+                <fullName>Cancelled – Opened a New Case</fullName>
+                <default>false</default>
+                <label>Cancelled – Opened a New Case</label>
+            </value>
+            <value>
+                <fullName>Cancelled - Retailer dropped vendor from Program</fullName>
+                <default>false</default>
+                <label>Cancelled - Retailer dropped vendor from Program</label>
+            </value>
+            <value>
+                <fullName>Cancelled – Seller</fullName>
+                <default>false</default>
+                <label>Cancelled – Seller</label>
+            </value>
+            <value>
+                <fullName>Cancelled - Supplier decided not to participate</fullName>
+                <default>false</default>
+                <label>Cancelled - Supplier decided not to participate</label>
+            </value>
+            <value>
+                <fullName>CommerceHub requested on-hold</fullName>
+                <default>false</default>
+                <label>CommerceHub requested on-hold</label>
+            </value>
+            <value>
+                <fullName>Custom Data Issues</fullName>
+                <default>false</default>
+                <label>Custom Data Issues</label>
+            </value>
+            <value>
+                <fullName>Does Not Want To Participate</fullName>
+                <default>false</default>
+                <label>Does Not Want To Participate</label>
+            </value>
+            <value>
+                <fullName>Financial/Payment Hold</fullName>
+                <default>false</default>
+                <label>Financial/Payment Hold</label>
+            </value>
+            <value>
+                <fullName>Financial Hold</fullName>
+                <default>false</default>
+                <label>Financial Hold</label>
+            </value>
+            <value>
+                <fullName>Incomplete Onboarding Information</fullName>
+                <default>false</default>
+                <label>Incomplete Onboarding Information</label>
+            </value>
+            <value>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+                <label>In Progress</label>
+            </value>
+            <value>
+                <fullName>Invalid/Incomplete Setup Information</fullName>
+                <default>false</default>
+                <label>Invalid/Incomplete Setup Information</label>
+            </value>
+            <value>
+                <fullName>Legal Review Required</fullName>
+                <default>false</default>
+                <label>Legal Review Required</label>
+            </value>
+            <value>
+                <fullName>Materials Sent/ No Products Loaded</fullName>
+                <default>false</default>
+                <label>Materials Sent/ No Products Loaded</label>
+            </value>
+            <value>
+                <fullName>Materials Sent/Not Started Testing</fullName>
+                <default>false</default>
+                <label>Materials Sent/Not Started Testing</label>
+            </value>
+            <value>
+                <fullName>Need VendorID</fullName>
+                <default>false</default>
+                <label>Need VendorID</label>
+            </value>
+            <value>
+                <fullName>Not Started Testing - Resource Availability</fullName>
+                <default>false</default>
+                <label>Not Started Testing - Resource Availability</label>
+            </value>
+            <value>
+                <fullName>On Track</fullName>
+                <default>false</default>
+                <label>On Track</label>
+            </value>
+            <value>
+                <fullName>Product Category Issues</fullName>
+                <default>false</default>
+                <label>Product Category Issues</label>
+            </value>
+            <value>
+                <fullName>Products Loaded - Compliant</fullName>
+                <default>false</default>
+                <label>Products Loaded - Compliant</label>
+            </value>
+            <value>
+                <fullName>Products Loaded - Not Compliant</fullName>
+                <default>false</default>
+                <label>Products Loaded - Not Compliant</label>
+            </value>
+            <value>
+                <fullName>Requested on Hold – Internal</fullName>
+                <default>false</default>
+                <label>Requested on Hold – Internal</label>
+            </value>
+            <value>
+                <fullName>Requested on Hold – Seller</fullName>
+                <default>false</default>
+                <label>Requested on Hold – Seller</label>
+            </value>
+            <value>
+                <fullName>Request for Cancel</fullName>
+                <default>false</default>
+                <label>Request for Cancel</label>
+            </value>
+            <value>
+                <fullName>Resource Availability – Internal</fullName>
+                <default>false</default>
+                <label>Resource Availability – Internal</label>
+            </value>
+            <value>
+                <fullName>Resource Availability – Seller</fullName>
+                <default>false</default>
+                <label>Resource Availability – Seller</label>
+            </value>
+            <value>
+                <fullName>Retailer requested on-hold</fullName>
+                <default>false</default>
+                <label>Retailer requested on-hold</label>
+            </value>
+            <value>
+                <fullName>Retailer Required Reach Out</fullName>
+                <default>false</default>
+                <label>Retailer Required Reach Out</label>
+            </value>
+            <value>
+                <fullName>Supplier Does Not Want to Participate</fullName>
+                <default>false</default>
+                <label>Supplier Does Not Want to Participate</label>
+            </value>
+            <value>
+                <fullName>Supplier Requested On Hold</fullName>
+                <default>false</default>
+                <label>Supplier Requested On Hold</label>
+            </value>
+            <value>
+                <fullName>Supplier Unresponsive</fullName>
+                <default>false</default>
+                <label>Supplier Unresponsive</label>
+            </value>
+            <value>
+                <fullName>Testing Complete</fullName>
+                <default>false</default>
+                <label>Testing Complete</label>
+            </value>
+            <value>
+                <fullName>Unresponsive – Seller</fullName>
+                <default>false</default>
+                <label>Unresponsive – Seller</label>
+            </value>
+            <value>
+                <fullName>Waiting for Label approval</fullName>
+                <default>false</default>
+                <label>Waiting for Label approval</label>
+            </value>
+            <value>
+                <fullName>Waiting for Payment</fullName>
+                <default>false</default>
+                <label>Waiting for Payment</label>
+            </value>
+            <value>
+                <fullName>Waiting on channel</fullName>
+                <default>false</default>
+                <label>Waiting on channel</label>
+            </value>
+            <value>
+                <fullName>Waiting on Contract – Internal</fullName>
+                <default>false</default>
+                <label>Waiting on Contract – Internal</label>
+            </value>
+            <value>
+                <fullName>Waiting on Contract – Seller</fullName>
+                <default>false</default>
+                <label>Waiting on Contract – Seller</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Test Preparation</controllingFieldValue>
+            <controllingFieldValue>Testing</controllingFieldValue>
+            <controllingFieldValue>Needs Migration</controllingFieldValue>
+            <controllingFieldValue>Migrated</controllingFieldValue>
+            <controllingFieldValue>Invite Sent</controllingFieldValue>
+            <controllingFieldValue>Invite Accepted</controllingFieldValue>
+            <controllingFieldValue>New</controllingFieldValue>
+            <controllingFieldValue>On Hold</controllingFieldValue>
+            <controllingFieldValue>In Progress</controllingFieldValue>
+            <controllingFieldValue>Completed - Resolved</controllingFieldValue>
+            <valueName>Actively Testing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Test Preparation</controllingFieldValue>
+            <controllingFieldValue>Testing</controllingFieldValue>
+            <controllingFieldValue>Needs Migration</controllingFieldValue>
+            <controllingFieldValue>Migrated</controllingFieldValue>
+            <controllingFieldValue>Invite Sent</controllingFieldValue>
+            <controllingFieldValue>Invite Accepted</controllingFieldValue>
+            <controllingFieldValue>New</controllingFieldValue>
+            <controllingFieldValue>On Hold</controllingFieldValue>
+            <controllingFieldValue>In Progress</controllingFieldValue>
+            <controllingFieldValue>Completed - Resolved</controllingFieldValue>
+            <valueName>Awaiting Pack Slip Approval</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Test Preparation</controllingFieldValue>
+            <controllingFieldValue>Testing</controllingFieldValue>
+            <controllingFieldValue>Needs Migration</controllingFieldValue>
+            <controllingFieldValue>Migrated</controllingFieldValue>
+            <controllingFieldValue>Invite Sent</controllingFieldValue>
+            <controllingFieldValue>Invite Accepted</controllingFieldValue>
+            <controllingFieldValue>New</controllingFieldValue>
+            <controllingFieldValue>On Hold</controllingFieldValue>
+            <controllingFieldValue>In Progress</controllingFieldValue>
+            <controllingFieldValue>Completed - Resolved</controllingFieldValue>
+            <valueName>Awaiting Retailer Verification To Migrate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Test Preparation</controllingFieldValue>
+            <controllingFieldValue>Testing</controllingFieldValue>
+            <controllingFieldValue>Needs Migration</controllingFieldValue>
+            <controllingFieldValue>Migrated</controllingFieldValue>
+            <controllingFieldValue>Invite Sent</controllingFieldValue>
+            <controllingFieldValue>Invite Accepted</controllingFieldValue>
+            <controllingFieldValue>New</controllingFieldValue>
+            <controllingFieldValue>On Hold</controllingFieldValue>
+            <controllingFieldValue>In Progress</controllingFieldValue>
+            <controllingFieldValue>Completed - Resolved</controllingFieldValue>
+            <valueName>Bad Contact</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Test Preparation</controllingFieldValue>
+            <controllingFieldValue>Testing</controllingFieldValue>
+            <controllingFieldValue>Needs Migration</controllingFieldValue>
+            <controllingFieldValue>Migrated</controllingFieldValue>
+            <controllingFieldValue>Invite Sent</controllingFieldValue>
+            <controllingFieldValue>Invite Accepted</controllingFieldValue>
+            <controllingFieldValue>New</controllingFieldValue>
+            <controllingFieldValue>On Hold</controllingFieldValue>
+            <controllingFieldValue>In Progress</controllingFieldValue>
+            <controllingFieldValue>Closed - Rejected</controllingFieldValue>
+            <controllingFieldValue>Completed - Resolved</controllingFieldValue>
+            <valueName>Cancelled - Comms Change</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Test Preparation</controllingFieldValue>
+            <controllingFieldValue>Testing</controllingFieldValue>
+            <controllingFieldValue>Needs Migration</controllingFieldValue>
+            <controllingFieldValue>Migrated</controllingFieldValue>
+            <controllingFieldValue>Invite Sent</controllingFieldValue>
+            <controllingFieldValue>Invite Accepted</controllingFieldValue>
+            <controllingFieldValue>New</controllingFieldValue>
+            <controllingFieldValue>On Hold</controllingFieldValue>
+            <controllingFieldValue>In Progress</controllingFieldValue>
+            <controllingFieldValue>Closed - Rejected</controllingFieldValue>
+            <controllingFieldValue>Completed - Resolved</controllingFieldValue>
+            <valueName>Cancelled - Connection Choice</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Test Preparation</controllingFieldValue>
+            <controllingFieldValue>Testing</controllingFieldValue>
+            <controllingFieldValue>Needs Migration</controllingFieldValue>
+            <controllingFieldValue>Migrated</controllingFieldValue>
+            <controllingFieldValue>Invite Sent</controllingFieldValue>
+            <controllingFieldValue>Invite Accepted</controllingFieldValue>
+            <controllingFieldValue>New</controllingFieldValue>
+            <controllingFieldValue>On Hold</controllingFieldValue>
+            <controllingFieldValue>In Progress</controllingFieldValue>
+            <controllingFieldValue>Closed - Rejected</controllingFieldValue>
+            <controllingFieldValue>Completed - Resolved</controllingFieldValue>
+            <valueName>Cancelled - Expired Contract</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Test Preparation</controllingFieldValue>
+            <controllingFieldValue>Testing</controllingFieldValue>
+            <controllingFieldValue>Needs Migration</controllingFieldValue>
+            <controllingFieldValue>Migrated</controllingFieldValue>
+            <controllingFieldValue>Invite Sent</controllingFieldValue>
+            <controllingFieldValue>Invite Accepted</controllingFieldValue>
+            <controllingFieldValue>New</controllingFieldValue>
+            <controllingFieldValue>On Hold</controllingFieldValue>
+            <controllingFieldValue>In Progress</controllingFieldValue>
+            <controllingFieldValue>Closed - Rejected</controllingFieldValue>
+            <controllingFieldValue>Completed - Resolved</controllingFieldValue>
+            <valueName>Cancelled – Inactive Supplier</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Test Preparation</controllingFieldValue>
+            <controllingFieldValue>Testing</controllingFieldValue>
+            <controllingFieldValue>Needs Migration</controllingFieldValue>
+            <controllingFieldValue>Migrated</controllingFieldValue>
+            <controllingFieldValue>Invite Sent</controllingFieldValue>
+            <controllingFieldValue>Invite Accepted</controllingFieldValue>
+            <controllingFieldValue>New</controllingFieldValue>
+            <controllingFieldValue>On Hold</controllingFieldValue>
+            <controllingFieldValue>In Progress</controllingFieldValue>
+            <controllingFieldValue>Closed - Rejected</controllingFieldValue>
+            <controllingFieldValue>Completed - Resolved</controllingFieldValue>
+            <valueName>Cancelled - Internal/Admin</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Test Preparation</controllingFieldValue>
+            <controllingFieldValue>Testing</controllingFieldValue>
+            <controllingFieldValue>Needs Migration</controllingFieldValue>
+            <controllingFieldValue>Migrated</controllingFieldValue>
+            <controllingFieldValue>Invite Sent</controllingFieldValue>
+            <controllingFieldValue>Invite Accepted</controllingFieldValue>
+            <controllingFieldValue>New</controllingFieldValue>
+            <controllingFieldValue>On Hold</controllingFieldValue>
+            <controllingFieldValue>In Progress</controllingFieldValue>
+            <controllingFieldValue>Closed - Rejected</controllingFieldValue>
+            <controllingFieldValue>Completed - Resolved</controllingFieldValue>
+            <valueName>Cancelled - Moved to other account</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Test Preparation</controllingFieldValue>
+            <controllingFieldValue>Testing</controllingFieldValue>
+            <controllingFieldValue>Needs Migration</controllingFieldValue>
+            <controllingFieldValue>Migrated</controllingFieldValue>
+            <controllingFieldValue>Invite Sent</controllingFieldValue>
+            <controllingFieldValue>Invite Accepted</controllingFieldValue>
+            <controllingFieldValue>New</controllingFieldValue>
+            <controllingFieldValue>On Hold</controllingFieldValue>
+            <controllingFieldValue>In Progress</controllingFieldValue>
+            <controllingFieldValue>Closed - Rejected</controllingFieldValue>
+            <controllingFieldValue>Completed - Resolved</controllingFieldValue>
+            <valueName>Cancelled – Opened a New Case</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Test Preparation</controllingFieldValue>
+            <controllingFieldValue>Testing</controllingFieldValue>
+            <controllingFieldValue>Needs Migration</controllingFieldValue>
+            <controllingFieldValue>Migrated</controllingFieldValue>
+            <controllingFieldValue>Invite Sent</controllingFieldValue>
+            <controllingFieldValue>Invite Accepted</controllingFieldValue>
+            <controllingFieldValue>New</controllingFieldValue>
+            <controllingFieldValue>On Hold</controllingFieldValue>
+            <controllingFieldValue>In Progress</controllingFieldValue>
+            <controllingFieldValue>Closed - Rejected</controllingFieldValue>
+            <controllingFieldValue>Completed - Resolved</controllingFieldValue>
+            <valueName>Cancelled - Retailer dropped vendor from Program</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Test Preparation</controllingFieldValue>
+            <controllingFieldValue>Testing</controllingFieldValue>
+            <controllingFieldValue>Needs Migration</controllingFieldValue>
+            <controllingFieldValue>Migrated</controllingFieldValue>
+            <controllingFieldValue>Invite Sent</controllingFieldValue>
+            <controllingFieldValue>Invite Accepted</controllingFieldValue>
+            <controllingFieldValue>New</controllingFieldValue>
+            <controllingFieldValue>On Hold</controllingFieldValue>
+            <controllingFieldValue>In Progress</controllingFieldValue>
+            <controllingFieldValue>Closed - Rejected</controllingFieldValue>
+            <controllingFieldValue>Completed - Resolved</controllingFieldValue>
+            <valueName>Cancelled - Supplier decided not to participate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Test Preparation</controllingFieldValue>
+            <controllingFieldValue>Testing</controllingFieldValue>
+            <controllingFieldValue>Needs Migration</controllingFieldValue>
+            <controllingFieldValue>Migrated</controllingFieldValue>
+            <controllingFieldValue>Invite Sent</controllingFieldValue>
+            <controllingFieldValue>Invite Accepted</controllingFieldValue>
+            <controllingFieldValue>New</controllingFieldValue>
+            <controllingFieldValue>On Hold</controllingFieldValue>
+            <controllingFieldValue>In Progress</controllingFieldValue>
+            <controllingFieldValue>Completed - Resolved</controllingFieldValue>
+            <valueName>CommerceHub requested on-hold</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Test Preparation</controllingFieldValue>
+            <controllingFieldValue>Testing</controllingFieldValue>
+            <controllingFieldValue>Needs Migration</controllingFieldValue>
+            <controllingFieldValue>Migrated</controllingFieldValue>
+            <controllingFieldValue>Invite Sent</controllingFieldValue>
+            <controllingFieldValue>Invite Accepted</controllingFieldValue>
+            <controllingFieldValue>New</controllingFieldValue>
+            <controllingFieldValue>On Hold</controllingFieldValue>
+            <controllingFieldValue>In Progress</controllingFieldValue>
+            <controllingFieldValue>Completed - Resolved</controllingFieldValue>
+            <valueName>Custom Data Issues</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Test Preparation</controllingFieldValue>
+            <controllingFieldValue>Testing</controllingFieldValue>
+            <controllingFieldValue>Needs Migration</controllingFieldValue>
+            <controllingFieldValue>Migrated</controllingFieldValue>
+            <controllingFieldValue>Invite Sent</controllingFieldValue>
+            <controllingFieldValue>Invite Accepted</controllingFieldValue>
+            <controllingFieldValue>New</controllingFieldValue>
+            <controllingFieldValue>On Hold</controllingFieldValue>
+            <controllingFieldValue>In Progress</controllingFieldValue>
+            <controllingFieldValue>Completed - Resolved</controllingFieldValue>
+            <valueName>Does Not Want To Participate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Test Preparation</controllingFieldValue>
+            <controllingFieldValue>Testing</controllingFieldValue>
+            <controllingFieldValue>Needs Migration</controllingFieldValue>
+            <controllingFieldValue>Migrated</controllingFieldValue>
+            <controllingFieldValue>Invite Sent</controllingFieldValue>
+            <controllingFieldValue>Invite Accepted</controllingFieldValue>
+            <controllingFieldValue>New</controllingFieldValue>
+            <controllingFieldValue>On Hold</controllingFieldValue>
+            <controllingFieldValue>In Progress</controllingFieldValue>
+            <controllingFieldValue>Completed - Resolved</controllingFieldValue>
+            <valueName>Financial Hold</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Test Preparation</controllingFieldValue>
+            <controllingFieldValue>Testing</controllingFieldValue>
+            <controllingFieldValue>Needs Migration</controllingFieldValue>
+            <controllingFieldValue>Migrated</controllingFieldValue>
+            <controllingFieldValue>Invite Sent</controllingFieldValue>
+            <controllingFieldValue>Invite Accepted</controllingFieldValue>
+            <controllingFieldValue>New</controllingFieldValue>
+            <controllingFieldValue>On Hold</controllingFieldValue>
+            <controllingFieldValue>In Progress</controllingFieldValue>
+            <controllingFieldValue>Completed - Resolved</controllingFieldValue>
+            <valueName>Incomplete Onboarding Information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Test Preparation</controllingFieldValue>
+            <controllingFieldValue>Testing</controllingFieldValue>
+            <controllingFieldValue>Needs Migration</controllingFieldValue>
+            <controllingFieldValue>Migrated</controllingFieldValue>
+            <controllingFieldValue>Invite Sent</controllingFieldValue>
+            <controllingFieldValue>Invite Accepted</controllingFieldValue>
+            <controllingFieldValue>New</controllingFieldValue>
+            <controllingFieldValue>On Hold</controllingFieldValue>
+            <controllingFieldValue>In Progress</controllingFieldValue>
+            <controllingFieldValue>Completed - Resolved</controllingFieldValue>
+            <valueName>Invalid/Incomplete Setup Information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Test Preparation</controllingFieldValue>
+            <controllingFieldValue>Testing</controllingFieldValue>
+            <controllingFieldValue>Needs Migration</controllingFieldValue>
+            <controllingFieldValue>Migrated</controllingFieldValue>
+            <controllingFieldValue>Invite Sent</controllingFieldValue>
+            <controllingFieldValue>Invite Accepted</controllingFieldValue>
+            <controllingFieldValue>New</controllingFieldValue>
+            <controllingFieldValue>On Hold</controllingFieldValue>
+            <controllingFieldValue>In Progress</controllingFieldValue>
+            <controllingFieldValue>Completed - Resolved</controllingFieldValue>
+            <valueName>Legal Review Required</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Test Preparation</controllingFieldValue>
+            <controllingFieldValue>Testing</controllingFieldValue>
+            <controllingFieldValue>Needs Migration</controllingFieldValue>
+            <controllingFieldValue>Migrated</controllingFieldValue>
+            <controllingFieldValue>Invite Sent</controllingFieldValue>
+            <controllingFieldValue>Invite Accepted</controllingFieldValue>
+            <controllingFieldValue>New</controllingFieldValue>
+            <controllingFieldValue>On Hold</controllingFieldValue>
+            <controllingFieldValue>In Progress</controllingFieldValue>
+            <controllingFieldValue>Closed - Rejected</controllingFieldValue>
+            <controllingFieldValue>Completed - Resolved</controllingFieldValue>
+            <valueName>Materials Sent/ No Products Loaded</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Test Preparation</controllingFieldValue>
+            <controllingFieldValue>Testing</controllingFieldValue>
+            <controllingFieldValue>Needs Migration</controllingFieldValue>
+            <controllingFieldValue>Migrated</controllingFieldValue>
+            <controllingFieldValue>Invite Sent</controllingFieldValue>
+            <controllingFieldValue>Invite Accepted</controllingFieldValue>
+            <controllingFieldValue>New</controllingFieldValue>
+            <controllingFieldValue>On Hold</controllingFieldValue>
+            <controllingFieldValue>In Progress</controllingFieldValue>
+            <controllingFieldValue>Completed - Resolved</controllingFieldValue>
+            <valueName>Materials Sent/Not Started Testing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Test Preparation</controllingFieldValue>
+            <controllingFieldValue>Testing</controllingFieldValue>
+            <controllingFieldValue>Needs Migration</controllingFieldValue>
+            <controllingFieldValue>Migrated</controllingFieldValue>
+            <controllingFieldValue>Invite Sent</controllingFieldValue>
+            <controllingFieldValue>Invite Accepted</controllingFieldValue>
+            <controllingFieldValue>New</controllingFieldValue>
+            <controllingFieldValue>On Hold</controllingFieldValue>
+            <controllingFieldValue>In Progress</controllingFieldValue>
+            <controllingFieldValue>Completed - Resolved</controllingFieldValue>
+            <valueName>Need VendorID</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Test Preparation</controllingFieldValue>
+            <controllingFieldValue>Testing</controllingFieldValue>
+            <controllingFieldValue>Needs Migration</controllingFieldValue>
+            <controllingFieldValue>Migrated</controllingFieldValue>
+            <controllingFieldValue>Invite Sent</controllingFieldValue>
+            <controllingFieldValue>Invite Accepted</controllingFieldValue>
+            <controllingFieldValue>New</controllingFieldValue>
+            <controllingFieldValue>On Hold</controllingFieldValue>
+            <controllingFieldValue>In Progress</controllingFieldValue>
+            <controllingFieldValue>Completed - Resolved</controllingFieldValue>
+            <valueName>Not Started Testing - Resource Availability</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Test Preparation</controllingFieldValue>
+            <controllingFieldValue>Testing</controllingFieldValue>
+            <controllingFieldValue>Needs Migration</controllingFieldValue>
+            <controllingFieldValue>Migrated</controllingFieldValue>
+            <controllingFieldValue>Invite Sent</controllingFieldValue>
+            <controllingFieldValue>Invite Accepted</controllingFieldValue>
+            <controllingFieldValue>New</controllingFieldValue>
+            <controllingFieldValue>On Hold</controllingFieldValue>
+            <controllingFieldValue>In Progress</controllingFieldValue>
+            <controllingFieldValue>Completed - Resolved</controllingFieldValue>
+            <valueName>On Track</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Test Preparation</controllingFieldValue>
+            <controllingFieldValue>Testing</controllingFieldValue>
+            <controllingFieldValue>Needs Migration</controllingFieldValue>
+            <controllingFieldValue>Migrated</controllingFieldValue>
+            <controllingFieldValue>Invite Sent</controllingFieldValue>
+            <controllingFieldValue>Invite Accepted</controllingFieldValue>
+            <controllingFieldValue>New</controllingFieldValue>
+            <controllingFieldValue>On Hold</controllingFieldValue>
+            <controllingFieldValue>In Progress</controllingFieldValue>
+            <controllingFieldValue>Closed - Rejected</controllingFieldValue>
+            <controllingFieldValue>Completed - Resolved</controllingFieldValue>
+            <valueName>Product Category Issues</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Test Preparation</controllingFieldValue>
+            <controllingFieldValue>Testing</controllingFieldValue>
+            <controllingFieldValue>Needs Migration</controllingFieldValue>
+            <controllingFieldValue>Migrated</controllingFieldValue>
+            <controllingFieldValue>Invite Sent</controllingFieldValue>
+            <controllingFieldValue>Invite Accepted</controllingFieldValue>
+            <controllingFieldValue>New</controllingFieldValue>
+            <controllingFieldValue>On Hold</controllingFieldValue>
+            <controllingFieldValue>In Progress</controllingFieldValue>
+            <controllingFieldValue>Closed - Rejected</controllingFieldValue>
+            <controllingFieldValue>Completed - Resolved</controllingFieldValue>
+            <valueName>Products Loaded - Compliant</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Test Preparation</controllingFieldValue>
+            <controllingFieldValue>Testing</controllingFieldValue>
+            <controllingFieldValue>Needs Migration</controllingFieldValue>
+            <controllingFieldValue>Migrated</controllingFieldValue>
+            <controllingFieldValue>Invite Sent</controllingFieldValue>
+            <controllingFieldValue>Invite Accepted</controllingFieldValue>
+            <controllingFieldValue>New</controllingFieldValue>
+            <controllingFieldValue>On Hold</controllingFieldValue>
+            <controllingFieldValue>In Progress</controllingFieldValue>
+            <controllingFieldValue>Closed - Rejected</controllingFieldValue>
+            <controllingFieldValue>Completed - Resolved</controllingFieldValue>
+            <valueName>Products Loaded - Not Compliant</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Test Preparation</controllingFieldValue>
+            <controllingFieldValue>Testing</controllingFieldValue>
+            <controllingFieldValue>Needs Migration</controllingFieldValue>
+            <controllingFieldValue>Migrated</controllingFieldValue>
+            <controllingFieldValue>Invite Sent</controllingFieldValue>
+            <controllingFieldValue>Invite Accepted</controllingFieldValue>
+            <controllingFieldValue>New</controllingFieldValue>
+            <controllingFieldValue>On Hold</controllingFieldValue>
+            <controllingFieldValue>In Progress</controllingFieldValue>
+            <controllingFieldValue>Completed - Resolved</controllingFieldValue>
+            <valueName>Request for Cancel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Test Preparation</controllingFieldValue>
+            <controllingFieldValue>Testing</controllingFieldValue>
+            <controllingFieldValue>Needs Migration</controllingFieldValue>
+            <controllingFieldValue>Migrated</controllingFieldValue>
+            <controllingFieldValue>Invite Sent</controllingFieldValue>
+            <controllingFieldValue>Invite Accepted</controllingFieldValue>
+            <controllingFieldValue>New</controllingFieldValue>
+            <controllingFieldValue>On Hold</controllingFieldValue>
+            <controllingFieldValue>In Progress</controllingFieldValue>
+            <controllingFieldValue>Completed - Resolved</controllingFieldValue>
+            <valueName>Retailer requested on-hold</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Test Preparation</controllingFieldValue>
+            <controllingFieldValue>Testing</controllingFieldValue>
+            <controllingFieldValue>Needs Migration</controllingFieldValue>
+            <controllingFieldValue>Migrated</controllingFieldValue>
+            <controllingFieldValue>Invite Sent</controllingFieldValue>
+            <controllingFieldValue>Invite Accepted</controllingFieldValue>
+            <controllingFieldValue>New</controllingFieldValue>
+            <controllingFieldValue>On Hold</controllingFieldValue>
+            <controllingFieldValue>In Progress</controllingFieldValue>
+            <controllingFieldValue>Completed - Resolved</controllingFieldValue>
+            <valueName>Retailer Required Reach Out</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Test Preparation</controllingFieldValue>
+            <controllingFieldValue>Testing</controllingFieldValue>
+            <controllingFieldValue>Needs Migration</controllingFieldValue>
+            <controllingFieldValue>Migrated</controllingFieldValue>
+            <controllingFieldValue>Invite Sent</controllingFieldValue>
+            <controllingFieldValue>Invite Accepted</controllingFieldValue>
+            <controllingFieldValue>New</controllingFieldValue>
+            <controllingFieldValue>On Hold</controllingFieldValue>
+            <controllingFieldValue>In Progress</controllingFieldValue>
+            <controllingFieldValue>Closed - Rejected</controllingFieldValue>
+            <controllingFieldValue>Completed - Resolved</controllingFieldValue>
+            <valueName>Supplier Does Not Want to Participate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Test Preparation</controllingFieldValue>
+            <controllingFieldValue>Testing</controllingFieldValue>
+            <controllingFieldValue>Needs Migration</controllingFieldValue>
+            <controllingFieldValue>Migrated</controllingFieldValue>
+            <controllingFieldValue>Invite Sent</controllingFieldValue>
+            <controllingFieldValue>Invite Accepted</controllingFieldValue>
+            <controllingFieldValue>New</controllingFieldValue>
+            <controllingFieldValue>On Hold</controllingFieldValue>
+            <controllingFieldValue>In Progress</controllingFieldValue>
+            <controllingFieldValue>Closed - Rejected</controllingFieldValue>
+            <controllingFieldValue>Completed - Resolved</controllingFieldValue>
+            <valueName>Supplier Requested On Hold</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Test Preparation</controllingFieldValue>
+            <controllingFieldValue>Testing</controllingFieldValue>
+            <controllingFieldValue>Needs Migration</controllingFieldValue>
+            <controllingFieldValue>Migrated</controllingFieldValue>
+            <controllingFieldValue>Invite Sent</controllingFieldValue>
+            <controllingFieldValue>Invite Accepted</controllingFieldValue>
+            <controllingFieldValue>New</controllingFieldValue>
+            <controllingFieldValue>On Hold</controllingFieldValue>
+            <controllingFieldValue>In Progress</controllingFieldValue>
+            <controllingFieldValue>Completed - Resolved</controllingFieldValue>
+            <valueName>Supplier Unresponsive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Test Preparation</controllingFieldValue>
+            <controllingFieldValue>Testing</controllingFieldValue>
+            <controllingFieldValue>Needs Migration</controllingFieldValue>
+            <controllingFieldValue>Migrated</controllingFieldValue>
+            <controllingFieldValue>Invite Sent</controllingFieldValue>
+            <controllingFieldValue>Invite Accepted</controllingFieldValue>
+            <controllingFieldValue>New</controllingFieldValue>
+            <controllingFieldValue>On Hold</controllingFieldValue>
+            <controllingFieldValue>In Progress</controllingFieldValue>
+            <controllingFieldValue>Completed - Resolved</controllingFieldValue>
+            <valueName>Testing Complete</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Test Preparation</controllingFieldValue>
+            <controllingFieldValue>Testing</controllingFieldValue>
+            <controllingFieldValue>Needs Migration</controllingFieldValue>
+            <controllingFieldValue>Migrated</controllingFieldValue>
+            <controllingFieldValue>Invite Sent</controllingFieldValue>
+            <controllingFieldValue>Invite Accepted</controllingFieldValue>
+            <controllingFieldValue>New</controllingFieldValue>
+            <controllingFieldValue>On Hold</controllingFieldValue>
+            <controllingFieldValue>In Progress</controllingFieldValue>
+            <controllingFieldValue>Completed - Resolved</controllingFieldValue>
+            <valueName>Waiting for Label approval</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Test Preparation</controllingFieldValue>
+            <controllingFieldValue>Testing</controllingFieldValue>
+            <controllingFieldValue>Needs Migration</controllingFieldValue>
+            <controllingFieldValue>Migrated</controllingFieldValue>
+            <controllingFieldValue>Invite Sent</controllingFieldValue>
+            <controllingFieldValue>Invite Accepted</controllingFieldValue>
+            <controllingFieldValue>New</controllingFieldValue>
+            <controllingFieldValue>On Hold</controllingFieldValue>
+            <controllingFieldValue>In Progress</controllingFieldValue>
+            <controllingFieldValue>Completed - Resolved</controllingFieldValue>
+            <valueName>Waiting for Payment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Testing</controllingFieldValue>
+            <controllingFieldValue>Invite Sent</controllingFieldValue>
+            <controllingFieldValue>Invite Accepted</controllingFieldValue>
+            <controllingFieldValue>New</controllingFieldValue>
+            <controllingFieldValue>In Progress</controllingFieldValue>
+            <valueName>Cancelled –Internal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Testing</controllingFieldValue>
+            <controllingFieldValue>Invite Sent</controllingFieldValue>
+            <controllingFieldValue>Invite Accepted</controllingFieldValue>
+            <controllingFieldValue>New</controllingFieldValue>
+            <controllingFieldValue>In Progress</controllingFieldValue>
+            <valueName>Cancelled – Seller</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Testing</controllingFieldValue>
+            <controllingFieldValue>Invite Sent</controllingFieldValue>
+            <controllingFieldValue>Invite Accepted</controllingFieldValue>
+            <controllingFieldValue>New</controllingFieldValue>
+            <controllingFieldValue>In Progress</controllingFieldValue>
+            <valueName>Financial/Payment Hold</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Testing</controllingFieldValue>
+            <controllingFieldValue>Invite Sent</controllingFieldValue>
+            <controllingFieldValue>Invite Accepted</controllingFieldValue>
+            <controllingFieldValue>New</controllingFieldValue>
+            <controllingFieldValue>In Progress</controllingFieldValue>
+            <valueName>Requested on Hold – Internal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Testing</controllingFieldValue>
+            <controllingFieldValue>Invite Sent</controllingFieldValue>
+            <controllingFieldValue>Invite Accepted</controllingFieldValue>
+            <controllingFieldValue>New</controllingFieldValue>
+            <controllingFieldValue>In Progress</controllingFieldValue>
+            <valueName>Requested on Hold – Seller</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Testing</controllingFieldValue>
+            <controllingFieldValue>Invite Sent</controllingFieldValue>
+            <controllingFieldValue>Invite Accepted</controllingFieldValue>
+            <controllingFieldValue>New</controllingFieldValue>
+            <controllingFieldValue>In Progress</controllingFieldValue>
+            <valueName>Resource Availability – Internal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Testing</controllingFieldValue>
+            <controllingFieldValue>Invite Sent</controllingFieldValue>
+            <controllingFieldValue>Invite Accepted</controllingFieldValue>
+            <controllingFieldValue>New</controllingFieldValue>
+            <controllingFieldValue>In Progress</controllingFieldValue>
+            <valueName>Resource Availability – Seller</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Testing</controllingFieldValue>
+            <controllingFieldValue>Invite Sent</controllingFieldValue>
+            <controllingFieldValue>Invite Accepted</controllingFieldValue>
+            <controllingFieldValue>New</controllingFieldValue>
+            <controllingFieldValue>In Progress</controllingFieldValue>
+            <valueName>Unresponsive – Seller</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Testing</controllingFieldValue>
+            <controllingFieldValue>Invite Sent</controllingFieldValue>
+            <controllingFieldValue>Invite Accepted</controllingFieldValue>
+            <controllingFieldValue>New</controllingFieldValue>
+            <controllingFieldValue>In Progress</controllingFieldValue>
+            <valueName>Waiting on channel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Testing</controllingFieldValue>
+            <controllingFieldValue>Invite Sent</controllingFieldValue>
+            <controllingFieldValue>Invite Accepted</controllingFieldValue>
+            <controllingFieldValue>New</controllingFieldValue>
+            <controllingFieldValue>In Progress</controllingFieldValue>
+            <valueName>Waiting on Contract – Internal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Testing</controllingFieldValue>
+            <controllingFieldValue>Invite Sent</controllingFieldValue>
+            <controllingFieldValue>Invite Accepted</controllingFieldValue>
+            <controllingFieldValue>New</controllingFieldValue>
+            <controllingFieldValue>In Progress</controllingFieldValue>
+            <valueName>Waiting on Contract – Seller</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Needs Migration</controllingFieldValue>
+            <controllingFieldValue>Migrated</controllingFieldValue>
+            <controllingFieldValue>Invite Sent</controllingFieldValue>
+            <controllingFieldValue>Invite Accepted</controllingFieldValue>
+            <controllingFieldValue>New</controllingFieldValue>
+            <controllingFieldValue>In Progress</controllingFieldValue>
+            <controllingFieldValue>Closed - Rejected</controllingFieldValue>
+            <controllingFieldValue>Completed - Resolved</controllingFieldValue>
+            <valueName>In Progress</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

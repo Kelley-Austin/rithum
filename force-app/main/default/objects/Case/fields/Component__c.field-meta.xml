@@ -1,0 +1,3510 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Component__c</fullName>
+    <label>Component</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Product__c</controllingField>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Account Information</fullName>
+                <default>false</default>
+                <label>Account Information</label>
+            </value>
+            <value>
+                <fullName>Actionable Reporting</fullName>
+                <default>false</default>
+                <label>Actionable Reporting</label>
+            </value>
+            <value>
+                <fullName>Ad Copy</fullName>
+                <default>false</default>
+                <label>Ad Copy</label>
+            </value>
+            <value>
+                <fullName>Ad Creation</fullName>
+                <default>false</default>
+                <label>Ad Creation</label>
+            </value>
+            <value>
+                <fullName>Ad Design/Changes</fullName>
+                <default>false</default>
+                <label>Ad Design/Changes</label>
+            </value>
+            <value>
+                <fullName>Adeo</fullName>
+                <default>false</default>
+                <label>Adeo</label>
+            </value>
+            <value>
+                <fullName>Ad Groups</fullName>
+                <default>false</default>
+                <label>Ad Groups</label>
+            </value>
+            <value>
+                <fullName>Admin Service</fullName>
+                <default>false</default>
+                <label>Admin Service</label>
+            </value>
+            <value>
+                <fullName>Ads</fullName>
+                <default>false</default>
+                <label>Ads</label>
+            </value>
+            <value>
+                <fullName>Ad Template</fullName>
+                <default>false</default>
+                <label>Ad Template</label>
+            </value>
+            <value>
+                <fullName>Advanced Filters</fullName>
+                <default>false</default>
+                <label>Advanced Filters</label>
+            </value>
+            <value>
+                <fullName>Alerts</fullName>
+                <default>false</default>
+                <label>Alerts</label>
+            </value>
+            <value>
+                <fullName>AliExpress</fullName>
+                <default>false</default>
+                <label>AliExpress</label>
+            </value>
+            <value>
+                <fullName>AllYouNeed</fullName>
+                <default>false</default>
+                <label>AllYouNeed</label>
+            </value>
+            <value>
+                <fullName>Amazon</fullName>
+                <default>false</default>
+                <label>Amazon</label>
+            </value>
+            <value>
+                <fullName>Amazon/Rakuten</fullName>
+                <default>false</default>
+                <label>Amazon/Rakuten</label>
+            </value>
+            <value>
+                <fullName>Amazon Drop Ship</fullName>
+                <default>false</default>
+                <label>Amazon Drop Ship</label>
+            </value>
+            <value>
+                <fullName>Amazon Settings</fullName>
+                <default>false</default>
+                <label>Amazon Settings</label>
+            </value>
+            <value>
+                <fullName>Amazon Sponsored Products</fullName>
+                <default>false</default>
+                <label>Amazon Sponsored Products</label>
+            </value>
+            <value>
+                <fullName>Amazon Vendor</fullName>
+                <default>false</default>
+                <label>Amazon Vendor</label>
+            </value>
+            <value>
+                <fullName>Amazon Vendor Content</fullName>
+                <default>false</default>
+                <label>Amazon Vendor Content</label>
+            </value>
+            <value>
+                <fullName>Amazon Webstore</fullName>
+                <default>false</default>
+                <label>Amazon Webstore</label>
+            </value>
+            <value>
+                <fullName>Analysis/Strategy</fullName>
+                <default>false</default>
+                <label>Analysis/Strategy</label>
+            </value>
+            <value>
+                <fullName>API</fullName>
+                <default>false</default>
+                <label>API</label>
+            </value>
+            <value>
+                <fullName>Application Unavailable</fullName>
+                <default>false</default>
+                <label>Application Unavailable</label>
+            </value>
+            <value>
+                <fullName>Attributes &amp; Labels</fullName>
+                <default>false</default>
+                <label>Attributes &amp; Labels</label>
+            </value>
+            <value>
+                <fullName>Auction Listing Maintenance</fullName>
+                <default>false</default>
+                <label>Auction Listing Maintenance</label>
+            </value>
+            <value>
+                <fullName>Base URL Updates</fullName>
+                <default>false</default>
+                <label>Base URL Updates</label>
+            </value>
+            <value>
+                <fullName>Benchmarking Reports</fullName>
+                <default>false</default>
+                <label>Benchmarking Reports</label>
+            </value>
+            <value>
+                <fullName>Best Buy</fullName>
+                <default>false</default>
+                <label>Best Buy</label>
+            </value>
+            <value>
+                <fullName>Bidding</fullName>
+                <default>false</default>
+                <label>Bidding</label>
+            </value>
+            <value>
+                <fullName>BigCommerce</fullName>
+                <default>false</default>
+                <label>BigCommerce</label>
+            </value>
+            <value>
+                <fullName>Billing &amp; Account Questions</fullName>
+                <default>false</default>
+                <label>Billing &amp; Account Questions</label>
+            </value>
+            <value>
+                <fullName>Brand Mapping</fullName>
+                <default>false</default>
+                <label>Brand Mapping</label>
+            </value>
+            <value>
+                <fullName>Broken Link</fullName>
+                <default>false</default>
+                <label>Broken Link</label>
+            </value>
+            <value>
+                <fullName>Bundles</fullName>
+                <default>false</default>
+                <label>Bundles</label>
+            </value>
+            <value>
+                <fullName>Bundles &amp; Variations</fullName>
+                <default>false</default>
+                <label>Bundles &amp; Variations</label>
+            </value>
+            <value>
+                <fullName>Business Rules</fullName>
+                <default>false</default>
+                <label>Business Rules</label>
+            </value>
+            <value>
+                <fullName>Buyer Base Maintenance</fullName>
+                <default>false</default>
+                <label>Buyer Base Maintenance</label>
+            </value>
+            <value>
+                <fullName>Buyer Issues</fullName>
+                <default>false</default>
+                <label>Buyer Issues</label>
+            </value>
+            <value>
+                <fullName>Buy Local</fullName>
+                <default>false</default>
+                <label>Buy Local</label>
+            </value>
+            <value>
+                <fullName>Buy Local Availability and Rules</fullName>
+                <default>false</default>
+                <label>Buy Local Availability and Rules</label>
+            </value>
+            <value>
+                <fullName>Buy Local Other</fullName>
+                <default>false</default>
+                <label>Buy Local Other</label>
+            </value>
+            <value>
+                <fullName>Buy Local Public API</fullName>
+                <default>false</default>
+                <label>Buy Local Public API</label>
+            </value>
+            <value>
+                <fullName>Buy Local Reporting Dashboard</fullName>
+                <default>false</default>
+                <label>Buy Local Reporting Dashboard</label>
+            </value>
+            <value>
+                <fullName>Buy Local Retailer Data Sourcing</fullName>
+                <default>false</default>
+                <label>Buy Local Retailer Data Sourcing</label>
+            </value>
+            <value>
+                <fullName>Buy Online Other</fullName>
+                <default>false</default>
+                <label>Buy Online Other</label>
+            </value>
+            <value>
+                <fullName>Buy Online Product Mapping</fullName>
+                <default>false</default>
+                <label>Buy Online Product Mapping</label>
+            </value>
+            <value>
+                <fullName>Buy Online Public API</fullName>
+                <default>false</default>
+                <label>Buy Online Public API</label>
+            </value>
+            <value>
+                <fullName>Buy Online Reporting Dashboard</fullName>
+                <default>false</default>
+                <label>Buy Online Reporting Dashboard</label>
+            </value>
+            <value>
+                <fullName>Buy Online Retailer Data Sourcing</fullName>
+                <default>false</default>
+                <label>Buy Online Retailer Data Sourcing</label>
+            </value>
+            <value>
+                <fullName>Buy Online Scrape/Feeds</fullName>
+                <default>false</default>
+                <label>Buy Online Scrape/Feeds</label>
+            </value>
+            <value>
+                <fullName>Campaigns</fullName>
+                <default>false</default>
+                <label>Campaigns</label>
+            </value>
+            <value>
+                <fullName>Catalog</fullName>
+                <default>false</default>
+                <label>Catalog</label>
+            </value>
+            <value>
+                <fullName>Catalog Mapping</fullName>
+                <default>false</default>
+                <label>Catalog Mapping</label>
+            </value>
+            <value>
+                <fullName>Category Layout</fullName>
+                <default>false</default>
+                <label>Category Layout</label>
+            </value>
+            <value>
+                <fullName>Category Mapping</fullName>
+                <default>false</default>
+                <label>Category Mapping</label>
+            </value>
+            <value>
+                <fullName>Category Tree</fullName>
+                <default>false</default>
+                <label>Category Tree</label>
+            </value>
+            <value>
+                <fullName>Cdiscount</fullName>
+                <default>false</default>
+                <label>Cdiscount</label>
+            </value>
+            <value>
+                <fullName>ChannelAdvisor Connectors</fullName>
+                <default>false</default>
+                <label>ChannelAdvisor Connectors</label>
+            </value>
+            <value>
+                <fullName>Checkout</fullName>
+                <default>false</default>
+                <label>Checkout</label>
+            </value>
+            <value>
+                <fullName>Checkout Direct</fullName>
+                <default>false</default>
+                <label>Checkout Direct</label>
+            </value>
+            <value>
+                <fullName>Checkout Reports</fullName>
+                <default>false</default>
+                <label>Checkout Reports</label>
+            </value>
+            <value>
+                <fullName>Classifications &amp; Attributes</fullName>
+                <default>false</default>
+                <label>Classifications &amp; Attributes</label>
+            </value>
+            <value>
+                <fullName>Cleanup</fullName>
+                <default>false</default>
+                <label>Cleanup</label>
+            </value>
+            <value>
+                <fullName>Client Calls</fullName>
+                <default>false</default>
+                <label>Client Calls</label>
+            </value>
+            <value>
+                <fullName>Client Requests</fullName>
+                <default>false</default>
+                <label>Client Requests</label>
+            </value>
+            <value>
+                <fullName>Clone</fullName>
+                <default>false</default>
+                <label>Clone</label>
+            </value>
+            <value>
+                <fullName>Comparison Shopping</fullName>
+                <default>false</default>
+                <label>Comparison Shopping</label>
+            </value>
+            <value>
+                <fullName>Content Update Requests</fullName>
+                <default>false</default>
+                <label>Content Update Requests</label>
+            </value>
+            <value>
+                <fullName>Core Product</fullName>
+                <default>false</default>
+                <label>Core Product</label>
+            </value>
+            <value>
+                <fullName>Core System</fullName>
+                <default>false</default>
+                <label>Core System</label>
+            </value>
+            <value>
+                <fullName>Cost/Click Data</fullName>
+                <default>false</default>
+                <label>Cost/Click Data</label>
+            </value>
+            <value>
+                <fullName>Create Super Insert</fullName>
+                <default>false</default>
+                <label>Create Super Insert</label>
+            </value>
+            <value>
+                <fullName>Creating Sales</fullName>
+                <default>false</default>
+                <label>Creating Sales</label>
+            </value>
+            <value>
+                <fullName>Creatives</fullName>
+                <default>false</default>
+                <label>Creatives</label>
+            </value>
+            <value>
+                <fullName>Credit</fullName>
+                <default>false</default>
+                <label>Credit</label>
+            </value>
+            <value>
+                <fullName>CSE Health Check</fullName>
+                <default>false</default>
+                <label>CSE Health Check</label>
+            </value>
+            <value>
+                <fullName>CSE Maintenance</fullName>
+                <default>false</default>
+                <label>CSE Maintenance</label>
+            </value>
+            <value>
+                <fullName>Customer Care Center</fullName>
+                <default>false</default>
+                <label>Customer Care Center</label>
+            </value>
+            <value>
+                <fullName>Customer Service</fullName>
+                <default>false</default>
+                <label>Customer Service</label>
+            </value>
+            <value>
+                <fullName>Customize Theme</fullName>
+                <default>false</default>
+                <label>Customize Theme</label>
+            </value>
+            <value>
+                <fullName>Custom Template</fullName>
+                <default>false</default>
+                <label>Custom Template</label>
+            </value>
+            <value>
+                <fullName>Dashboard</fullName>
+                <default>false</default>
+                <label>Dashboard</label>
+            </value>
+            <value>
+                <fullName>Dashboards</fullName>
+                <default>false</default>
+                <label>Dashboards</label>
+            </value>
+            <value>
+                <fullName>Dashboards &amp; Widgets</fullName>
+                <default>false</default>
+                <label>Dashboards &amp; Widgets</label>
+            </value>
+            <value>
+                <fullName>Data</fullName>
+                <default>false</default>
+                <label>Data</label>
+            </value>
+            <value>
+                <fullName>Data Scraping</fullName>
+                <default>false</default>
+                <label>Data Scraping</label>
+            </value>
+            <value>
+                <fullName>Deals &amp; Promotions</fullName>
+                <default>false</default>
+                <label>Deals &amp; Promotions</label>
+            </value>
+            <value>
+                <fullName>Demandware</fullName>
+                <default>false</default>
+                <label>Demandware</label>
+            </value>
+            <value>
+                <fullName>Demo Accounts</fullName>
+                <default>false</default>
+                <label>Demo Accounts</label>
+            </value>
+            <value>
+                <fullName>Design</fullName>
+                <default>false</default>
+                <label>Design</label>
+            </value>
+            <value>
+                <fullName>Design Layout</fullName>
+                <default>false</default>
+                <label>Design Layout</label>
+            </value>
+            <value>
+                <fullName>Digital Marketing</fullName>
+                <default>false</default>
+                <label>Digital Marketing</label>
+            </value>
+            <value>
+                <fullName>Digital Marketing Reports</fullName>
+                <default>false</default>
+                <label>Digital Marketing Reports</label>
+            </value>
+            <value>
+                <fullName>Disputes &amp; Feedback</fullName>
+                <default>false</default>
+                <label>Disputes &amp; Feedback</label>
+            </value>
+            <value>
+                <fullName>Distribution Centers</fullName>
+                <default>false</default>
+                <label>Distribution Centers</label>
+            </value>
+            <value>
+                <fullName>eBay</fullName>
+                <default>false</default>
+                <label>eBay</label>
+            </value>
+            <value>
+                <fullName>eBay Invoicing issues</fullName>
+                <default>false</default>
+                <label>eBay Invoicing issues</label>
+            </value>
+            <value>
+                <fullName>eBay Keywords</fullName>
+                <default>false</default>
+                <label>eBay Keywords</label>
+            </value>
+            <value>
+                <fullName>eBay Optimization Features</fullName>
+                <default>false</default>
+                <label>eBay Optimization Features</label>
+            </value>
+            <value>
+                <fullName>eBay Quick Start</fullName>
+                <default>false</default>
+                <label>eBay Quick Start</label>
+            </value>
+            <value>
+                <fullName>eBay Settings</fullName>
+                <default>false</default>
+                <label>eBay Settings</label>
+            </value>
+            <value>
+                <fullName>Email Blasts</fullName>
+                <default>false</default>
+                <label>Email Blasts</label>
+            </value>
+            <value>
+                <fullName>Email Notifications</fullName>
+                <default>false</default>
+                <label>Email Notifications</label>
+            </value>
+            <value>
+                <fullName>Employee Access</fullName>
+                <default>false</default>
+                <label>Employee Access</label>
+            </value>
+            <value>
+                <fullName>Enable/Disable</fullName>
+                <default>false</default>
+                <label>Enable/Disable</label>
+            </value>
+            <value>
+                <fullName>Error Messages</fullName>
+                <default>false</default>
+                <label>Error Messages</label>
+            </value>
+            <value>
+                <fullName>Error Resolution</fullName>
+                <default>false</default>
+                <label>Error Resolution</label>
+            </value>
+            <value>
+                <fullName>Errors/Event Queue</fullName>
+                <default>false</default>
+                <label>Errors/Event Queue</label>
+            </value>
+            <value>
+                <fullName>External Feed</fullName>
+                <default>false</default>
+                <label>External Feed</label>
+            </value>
+            <value>
+                <fullName>External Inventory Feed</fullName>
+                <default>false</default>
+                <label>External Inventory Feed</label>
+            </value>
+            <value>
+                <fullName>FBA</fullName>
+                <default>false</default>
+                <label>FBA</label>
+            </value>
+            <value>
+                <fullName>Feedback</fullName>
+                <default>false</default>
+                <label>Feedback</label>
+            </value>
+            <value>
+                <fullName>Feeds</fullName>
+                <default>false</default>
+                <label>Feeds</label>
+            </value>
+            <value>
+                <fullName>Feeds Errors</fullName>
+                <default>false</default>
+                <label>Feeds Errors</label>
+            </value>
+            <value>
+                <fullName>Feeds Settings</fullName>
+                <default>false</default>
+                <label>Feeds Settings</label>
+            </value>
+            <value>
+                <fullName>Fire Fighting / Troubleshooting</fullName>
+                <default>false</default>
+                <label>Fire Fighting / Troubleshooting</label>
+            </value>
+            <value>
+                <fullName>Forums</fullName>
+                <default>false</default>
+                <label>Forums</label>
+            </value>
+            <value>
+                <fullName>FTP</fullName>
+                <default>false</default>
+                <label>FTP</label>
+            </value>
+            <value>
+                <fullName>Fulfillment Partners</fullName>
+                <default>false</default>
+                <label>Fulfillment Partners</label>
+            </value>
+            <value>
+                <fullName>Fulfillment Service</fullName>
+                <default>false</default>
+                <label>Fulfillment Service</label>
+            </value>
+            <value>
+                <fullName>General Client Requests</fullName>
+                <default>false</default>
+                <label>General Client Requests</label>
+            </value>
+            <value>
+                <fullName>General Maintenance</fullName>
+                <default>false</default>
+                <label>General Maintenance</label>
+            </value>
+            <value>
+                <fullName>GMV</fullName>
+                <default>false</default>
+                <label>GMV</label>
+            </value>
+            <value>
+                <fullName>Google Checkout</fullName>
+                <default>false</default>
+                <label>Google Checkout</label>
+            </value>
+            <value>
+                <fullName>Google Shopping</fullName>
+                <default>false</default>
+                <label>Google Shopping</label>
+            </value>
+            <value>
+                <fullName>Google Shopping Actions</fullName>
+                <default>false</default>
+                <label>Google Shopping Actions</label>
+            </value>
+            <value>
+                <fullName>Home Page Layout</fullName>
+                <default>false</default>
+                <label>Home Page Layout</label>
+            </value>
+            <value>
+                <fullName>Hybrid</fullName>
+                <default>false</default>
+                <label>Hybrid</label>
+            </value>
+            <value>
+                <fullName>IDS</fullName>
+                <default>false</default>
+                <label>IDS</label>
+            </value>
+            <value>
+                <fullName>IDS/Merchandiser</fullName>
+                <default>false</default>
+                <label>IDS/Merchandiser</label>
+            </value>
+            <value>
+                <fullName>Image Issues</fullName>
+                <default>false</default>
+                <label>Image Issues</label>
+            </value>
+            <value>
+                <fullName>Images</fullName>
+                <default>false</default>
+                <label>Images</label>
+            </value>
+            <value>
+                <fullName>Images &amp; Gallery</fullName>
+                <default>false</default>
+                <label>Images &amp; Gallery</label>
+            </value>
+            <value>
+                <fullName>Imports/Exports</fullName>
+                <default>false</default>
+                <label>Imports/Exports</label>
+            </value>
+            <value>
+                <fullName>Initial Setup</fullName>
+                <default>false</default>
+                <label>Initial Setup</label>
+            </value>
+            <value>
+                <fullName>Integration Understanding</fullName>
+                <default>false</default>
+                <label>Integration Understanding</label>
+            </value>
+            <value>
+                <fullName>Inventory</fullName>
+                <default>false</default>
+                <label>Inventory</label>
+            </value>
+            <value>
+                <fullName>Inventory/Costs</fullName>
+                <default>false</default>
+                <label>Inventory/Costs</label>
+            </value>
+            <value>
+                <fullName>Inventory/Cost Updates</fullName>
+                <default>false</default>
+                <label>Inventory/Cost Updates</label>
+            </value>
+            <value>
+                <fullName>Inventory &amp; Costs</fullName>
+                <default>false</default>
+                <label>Inventory &amp; Costs</label>
+            </value>
+            <value>
+                <fullName>Inventory and Order Integration Setup</fullName>
+                <default>false</default>
+                <label>Inventory and Order Integration Setup</label>
+            </value>
+            <value>
+                <fullName>Inventory Integration</fullName>
+                <default>false</default>
+                <label>Inventory Integration</label>
+            </value>
+            <value>
+                <fullName>Inventory Service</fullName>
+                <default>false</default>
+                <label>Inventory Service</label>
+            </value>
+            <value>
+                <fullName>Inventory Settings</fullName>
+                <default>false</default>
+                <label>Inventory Settings</label>
+            </value>
+            <value>
+                <fullName>Inventory Settings &amp; Templates</fullName>
+                <default>false</default>
+                <label>Inventory Settings &amp; Templates</label>
+            </value>
+            <value>
+                <fullName>Inventory Sync</fullName>
+                <default>false</default>
+                <label>Inventory Sync</label>
+            </value>
+            <value>
+                <fullName>Inventory Template</fullName>
+                <default>false</default>
+                <label>Inventory Template</label>
+            </value>
+            <value>
+                <fullName>Inventory Uploads/Updates</fullName>
+                <default>false</default>
+                <label>Inventory Uploads/Updates</label>
+            </value>
+            <value>
+                <fullName>Invoices</fullName>
+                <default>false</default>
+                <label>Invoices</label>
+            </value>
+            <value>
+                <fullName>Invoicing</fullName>
+                <default>false</default>
+                <label>Invoicing</label>
+            </value>
+            <value>
+                <fullName>Item Layout</fullName>
+                <default>false</default>
+                <label>Item Layout</label>
+            </value>
+            <value>
+                <fullName>Item-level Shipping</fullName>
+                <default>false</default>
+                <label>Item-level Shipping</label>
+            </value>
+            <value>
+                <fullName>Item Specifics</fullName>
+                <default>false</default>
+                <label>Item Specifics</label>
+            </value>
+            <value>
+                <fullName>Jet</fullName>
+                <default>false</default>
+                <label>Jet</label>
+            </value>
+            <value>
+                <fullName>Keyword Build</fullName>
+                <default>false</default>
+                <label>Keyword Build</label>
+            </value>
+            <value>
+                <fullName>Keyword Growth</fullName>
+                <default>false</default>
+                <label>Keyword Growth</label>
+            </value>
+            <value>
+                <fullName>Keywords</fullName>
+                <default>false</default>
+                <label>Keywords</label>
+            </value>
+            <value>
+                <fullName>Kill Reports</fullName>
+                <default>false</default>
+                <label>Kill Reports</label>
+            </value>
+            <value>
+                <fullName>Labels</fullName>
+                <default>false</default>
+                <label>Labels</label>
+            </value>
+            <value>
+                <fullName>Landing Page</fullName>
+                <default>false</default>
+                <label>Landing Page</label>
+            </value>
+            <value>
+                <fullName>La Redoute</fullName>
+                <default>false</default>
+                <label>La Redoute</label>
+            </value>
+            <value>
+                <fullName>Launch</fullName>
+                <default>false</default>
+                <label>Launch</label>
+            </value>
+            <value>
+                <fullName>Launch - Account Setup</fullName>
+                <default>false</default>
+                <label>Launch - Account Setup</label>
+            </value>
+            <value>
+                <fullName>Launch Account Set up (Shopping Sites)</fullName>
+                <default>false</default>
+                <label>Launch Account Set up (Shopping Sites)</label>
+            </value>
+            <value>
+                <fullName>Launch - Design</fullName>
+                <default>false</default>
+                <label>Launch - Design</label>
+            </value>
+            <value>
+                <fullName>Launch - Inventory Upload/Update</fullName>
+                <default>false</default>
+                <label>Launch - Inventory Upload/Update</label>
+            </value>
+            <value>
+                <fullName>Launch - Testing</fullName>
+                <default>false</default>
+                <label>Launch - Testing</label>
+            </value>
+            <value>
+                <fullName>Listing &amp; Revision Errors</fullName>
+                <default>false</default>
+                <label>Listing &amp; Revision Errors</label>
+            </value>
+            <value>
+                <fullName>Listing Errors</fullName>
+                <default>false</default>
+                <label>Listing Errors</label>
+            </value>
+            <value>
+                <fullName>Listings</fullName>
+                <default>false</default>
+                <label>Listings</label>
+            </value>
+            <value>
+                <fullName>Live Chat/Phone Support</fullName>
+                <default>false</default>
+                <label>Live Chat/Phone Support</label>
+            </value>
+            <value>
+                <fullName>Login</fullName>
+                <default>false</default>
+                <label>Login</label>
+            </value>
+            <value>
+                <fullName>Lookup Lists</fullName>
+                <default>false</default>
+                <label>Lookup Lists</label>
+            </value>
+            <value>
+                <fullName>Macros</fullName>
+                <default>false</default>
+                <label>Macros</label>
+            </value>
+            <value>
+                <fullName>Magento</fullName>
+                <default>false</default>
+                <label>Magento</label>
+            </value>
+            <value>
+                <fullName>Manual Data Feed Creation</fullName>
+                <default>false</default>
+                <label>Manual Data Feed Creation</label>
+            </value>
+            <value>
+                <fullName>Mapping</fullName>
+                <default>false</default>
+                <label>Mapping</label>
+            </value>
+            <value>
+                <fullName>Marketplace Reports</fullName>
+                <default>false</default>
+                <label>Marketplace Reports</label>
+            </value>
+            <value>
+                <fullName>Marketplaces</fullName>
+                <default>false</default>
+                <label>Marketplaces</label>
+            </value>
+            <value>
+                <fullName>Marketplaces &amp; Stores Reports</fullName>
+                <default>false</default>
+                <label>Marketplaces &amp; Stores Reports</label>
+            </value>
+            <value>
+                <fullName>Meeting Re-cap</fullName>
+                <default>false</default>
+                <label>Meeting Re-cap</label>
+            </value>
+            <value>
+                <fullName>Mercado Libre</fullName>
+                <default>false</default>
+                <label>Mercado Libre</label>
+            </value>
+            <value>
+                <fullName>My Support Center</fullName>
+                <default>false</default>
+                <label>My Support Center</label>
+            </value>
+            <value>
+                <fullName>Name and Logo</fullName>
+                <default>false</default>
+                <label>Name and Logo</label>
+            </value>
+            <value>
+                <fullName>NetDespatch</fullName>
+                <default>false</default>
+                <label>NetDespatch</label>
+            </value>
+            <value>
+                <fullName>NetSuite</fullName>
+                <default>false</default>
+                <label>NetSuite</label>
+            </value>
+            <value>
+                <fullName>New Client Creation</fullName>
+                <default>false</default>
+                <label>New Client Creation</label>
+            </value>
+            <value>
+                <fullName>New Customer Alert</fullName>
+                <default>false</default>
+                <label>New Customer Alert</label>
+            </value>
+            <value>
+                <fullName>Newegg</fullName>
+                <default>false</default>
+                <label>Newegg</label>
+            </value>
+            <value>
+                <fullName>New Launch Project</fullName>
+                <default>false</default>
+                <label>New Launch Project</label>
+            </value>
+            <value>
+                <fullName>New Platform</fullName>
+                <default>false</default>
+                <label>New Platform</label>
+            </value>
+            <value>
+                <fullName>New Posting Account</fullName>
+                <default>false</default>
+                <label>New Posting Account</label>
+            </value>
+            <value>
+                <fullName>New Tracking Pixel</fullName>
+                <default>false</default>
+                <label>New Tracking Pixel</label>
+            </value>
+            <value>
+                <fullName>New User/FTP Login</fullName>
+                <default>false</default>
+                <label>New User/FTP Login</label>
+            </value>
+            <value>
+                <fullName>No Info/Other</fullName>
+                <default>false</default>
+                <label>No Info/Other</label>
+            </value>
+            <value>
+                <fullName>Old Platform</fullName>
+                <default>false</default>
+                <label>Old Platform</label>
+            </value>
+            <value>
+                <fullName>Open Listings</fullName>
+                <default>false</default>
+                <label>Open Listings</label>
+            </value>
+            <value>
+                <fullName>Optimization</fullName>
+                <default>false</default>
+                <label>Optimization</label>
+            </value>
+            <value>
+                <fullName>Optional Tabs</fullName>
+                <default>false</default>
+                <label>Optional Tabs</label>
+            </value>
+            <value>
+                <fullName>Order &amp; Fulfillment Settings</fullName>
+                <default>false</default>
+                <label>Order &amp; Fulfillment Settings</label>
+            </value>
+            <value>
+                <fullName>Order Integration</fullName>
+                <default>false</default>
+                <label>Order Integration</label>
+            </value>
+            <value>
+                <fullName>Order Routing</fullName>
+                <default>false</default>
+                <label>Order Routing</label>
+            </value>
+            <value>
+                <fullName>Orders</fullName>
+                <default>false</default>
+                <label>Orders</label>
+            </value>
+            <value>
+                <fullName>Orders, Disputes, &amp; Feedback</fullName>
+                <default>false</default>
+                <label>Orders, Disputes, &amp; Feedback</label>
+            </value>
+            <value>
+                <fullName>Orders/Invoices</fullName>
+                <default>false</default>
+                <label>Orders/Invoices</label>
+            </value>
+            <value>
+                <fullName>Orders &amp; Fulfillment</fullName>
+                <default>false</default>
+                <label>Orders &amp; Fulfillment</label>
+            </value>
+            <value>
+                <fullName>Orders &amp; Invoices</fullName>
+                <default>false</default>
+                <label>Orders &amp; Invoices</label>
+            </value>
+            <value>
+                <fullName>Orders &amp; PostOrder</fullName>
+                <default>false</default>
+                <label>Orders &amp; PostOrder</label>
+            </value>
+            <value>
+                <fullName>Orders &amp; Routing</fullName>
+                <default>false</default>
+                <label>Orders &amp; Routing</label>
+            </value>
+            <value>
+                <fullName>Order Service</fullName>
+                <default>false</default>
+                <label>Order Service</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Other Administration Issues</fullName>
+                <default>false</default>
+                <label>Other Administration Issues</label>
+            </value>
+            <value>
+                <fullName>Other Administration Topics</fullName>
+                <default>false</default>
+                <label>Other Administration Topics</label>
+            </value>
+            <value>
+                <fullName>Other Amazon Issues</fullName>
+                <default>false</default>
+                <label>Other Amazon Issues</label>
+            </value>
+            <value>
+                <fullName>Other Amazon Topics</fullName>
+                <default>false</default>
+                <label>Other Amazon Topics</label>
+            </value>
+            <value>
+                <fullName>Other API Services</fullName>
+                <default>false</default>
+                <label>Other API Services</label>
+            </value>
+            <value>
+                <fullName>Other Community Topics</fullName>
+                <default>false</default>
+                <label>Other Community Topics</label>
+            </value>
+            <value>
+                <fullName>Other Digital Marketing Topics</fullName>
+                <default>false</default>
+                <label>Other Digital Marketing Topics</label>
+            </value>
+            <value>
+                <fullName>Other eBay Issues</fullName>
+                <default>false</default>
+                <label>Other eBay Issues</label>
+            </value>
+            <value>
+                <fullName>Other eBay Topics</fullName>
+                <default>false</default>
+                <label>Other eBay Topics</label>
+            </value>
+            <value>
+                <fullName>Other Feeds Issues</fullName>
+                <default>false</default>
+                <label>Other Feeds Issues</label>
+            </value>
+            <value>
+                <fullName>Other First Party Providers</fullName>
+                <default>false</default>
+                <label>Other First Party Providers</label>
+            </value>
+            <value>
+                <fullName>Other Fulfillment Topics</fullName>
+                <default>false</default>
+                <label>Other Fulfillment Topics</label>
+            </value>
+            <value>
+                <fullName>Other Inventory Issues</fullName>
+                <default>false</default>
+                <label>Other Inventory Issues</label>
+            </value>
+            <value>
+                <fullName>Other Inventory Topics</fullName>
+                <default>false</default>
+                <label>Other Inventory Topics</label>
+            </value>
+            <value>
+                <fullName>Other Issues</fullName>
+                <default>false</default>
+                <label>Other Issues</label>
+            </value>
+            <value>
+                <fullName>Other Marketplaces</fullName>
+                <default>false</default>
+                <label>Other Marketplaces</label>
+            </value>
+            <value>
+                <fullName>Other Orders Topics</fullName>
+                <default>false</default>
+                <label>Other Orders Topics</label>
+            </value>
+            <value>
+                <fullName>Other Paid Search Issues</fullName>
+                <default>false</default>
+                <label>Other Paid Search Issues</label>
+            </value>
+            <value>
+                <fullName>Other Partners</fullName>
+                <default>false</default>
+                <label>Other Partners</label>
+            </value>
+            <value>
+                <fullName>Other Product Intelligence</fullName>
+                <default>false</default>
+                <label>Other Product Intelligence</label>
+            </value>
+            <value>
+                <fullName>Other Report Issues</fullName>
+                <default>false</default>
+                <label>Other Report Issues</label>
+            </value>
+            <value>
+                <fullName>Other Report Topics</fullName>
+                <default>false</default>
+                <label>Other Report Topics</label>
+            </value>
+            <value>
+                <fullName>Other Rich Media Issues</fullName>
+                <default>false</default>
+                <label>Other Rich Media Issues</label>
+            </value>
+            <value>
+                <fullName>Other Sales Issues</fullName>
+                <default>false</default>
+                <label>Other Sales Issues</label>
+            </value>
+            <value>
+                <fullName>Other Strategy and Support Center Issues</fullName>
+                <default>false</default>
+                <label>Other Strategy and Support Center Issues</label>
+            </value>
+            <value>
+                <fullName>Other System Issues</fullName>
+                <default>false</default>
+                <label>Other System Issues</label>
+            </value>
+            <value>
+                <fullName>Other System Topics</fullName>
+                <default>false</default>
+                <label>Other System Topics</label>
+            </value>
+            <value>
+                <fullName>Other Topics</fullName>
+                <default>false</default>
+                <label>Other Topics</label>
+            </value>
+            <value>
+                <fullName>Other Webstores</fullName>
+                <default>false</default>
+                <label>Other Webstores</label>
+            </value>
+            <value>
+                <fullName>Otto</fullName>
+                <default>false</default>
+                <label>Otto</label>
+            </value>
+            <value>
+                <fullName>Overstock Drop Ship</fullName>
+                <default>false</default>
+                <label>Overstock Drop Ship</label>
+            </value>
+            <value>
+                <fullName>Paid Search</fullName>
+                <default>false</default>
+                <label>Paid Search</label>
+            </value>
+            <value>
+                <fullName>Paid Search Errors</fullName>
+                <default>false</default>
+                <label>Paid Search Errors</label>
+            </value>
+            <value>
+                <fullName>Paid Search Reporting</fullName>
+                <default>false</default>
+                <label>Paid Search Reporting</label>
+            </value>
+            <value>
+                <fullName>Paid Search Settings</fullName>
+                <default>false</default>
+                <label>Paid Search Settings</label>
+            </value>
+            <value>
+                <fullName>Partner Issues</fullName>
+                <default>false</default>
+                <label>Partner Issues</label>
+            </value>
+            <value>
+                <fullName>Pause/Unpause</fullName>
+                <default>false</default>
+                <label>Pause/Unpause</label>
+            </value>
+            <value>
+                <fullName>Payment Gateways</fullName>
+                <default>false</default>
+                <label>Payment Gateways</label>
+            </value>
+            <value>
+                <fullName>Payment Processing Issues</fullName>
+                <default>false</default>
+                <label>Payment Processing Issues</label>
+            </value>
+            <value>
+                <fullName>Payments</fullName>
+                <default>false</default>
+                <label>Payments</label>
+            </value>
+            <value>
+                <fullName>PayPal</fullName>
+                <default>false</default>
+                <label>PayPal</label>
+            </value>
+            <value>
+                <fullName>PDIT</fullName>
+                <default>false</default>
+                <label>PDIT</label>
+            </value>
+            <value>
+                <fullName>Performance/Cost Data</fullName>
+                <default>false</default>
+                <label>Performance/Cost Data</label>
+            </value>
+            <value>
+                <fullName>Phone Support</fullName>
+                <default>false</default>
+                <label>Phone Support</label>
+            </value>
+            <value>
+                <fullName>PI Other</fullName>
+                <default>false</default>
+                <label>PI Other</label>
+            </value>
+            <value>
+                <fullName>PI Reporting Dashboard</fullName>
+                <default>false</default>
+                <label>PI Reporting Dashboard</label>
+            </value>
+            <value>
+                <fullName>PI Retailer Data Sourcing</fullName>
+                <default>false</default>
+                <label>PI Retailer Data Sourcing</label>
+            </value>
+            <value>
+                <fullName>Pixels</fullName>
+                <default>false</default>
+                <label>Pixels</label>
+            </value>
+            <value>
+                <fullName>Pixmania</fullName>
+                <default>false</default>
+                <label>Pixmania</label>
+            </value>
+            <value>
+                <fullName>Posting Auction - Hand Scheduling</fullName>
+                <default>false</default>
+                <label>Posting Auction - Hand Scheduling</label>
+            </value>
+            <value>
+                <fullName>Posting Errors</fullName>
+                <default>false</default>
+                <label>Posting Errors</label>
+            </value>
+            <value>
+                <fullName>Posting Templates</fullName>
+                <default>false</default>
+                <label>Posting Templates</label>
+            </value>
+            <value>
+                <fullName>Post Launch Setup Issues</fullName>
+                <default>false</default>
+                <label>Post Launch Setup Issues</label>
+            </value>
+            <value>
+                <fullName>Post Launch Shipping Method Mapping</fullName>
+                <default>false</default>
+                <label>Post Launch Shipping Method Mapping</label>
+            </value>
+            <value>
+                <fullName>Pricing</fullName>
+                <default>false</default>
+                <label>Pricing</label>
+            </value>
+            <value>
+                <fullName>Product &amp; Template Mapping</fullName>
+                <default>false</default>
+                <label>Product &amp; Template Mapping</label>
+            </value>
+            <value>
+                <fullName>Product Errors</fullName>
+                <default>false</default>
+                <label>Product Errors</label>
+            </value>
+            <value>
+                <fullName>Product Intelligence</fullName>
+                <default>false</default>
+                <label>Product Intelligence</label>
+            </value>
+            <value>
+                <fullName>Production</fullName>
+                <default>false</default>
+                <label>Production</label>
+            </value>
+            <value>
+                <fullName>Product Mapping</fullName>
+                <default>false</default>
+                <label>Product Mapping</label>
+            </value>
+            <value>
+                <fullName>Products</fullName>
+                <default>false</default>
+                <label>Products</label>
+            </value>
+            <value>
+                <fullName>Product Search &amp; Filtering</fullName>
+                <default>false</default>
+                <label>Product Search &amp; Filtering</label>
+            </value>
+            <value>
+                <fullName>Product Status &amp; Errors</fullName>
+                <default>false</default>
+                <label>Product Status &amp; Errors</label>
+            </value>
+            <value>
+                <fullName>Project</fullName>
+                <default>false</default>
+                <label>Project</label>
+            </value>
+            <value>
+                <fullName>Promotions</fullName>
+                <default>false</default>
+                <label>Promotions</label>
+            </value>
+            <value>
+                <fullName>Promotions Manager</fullName>
+                <default>false</default>
+                <label>Promotions Manager</label>
+            </value>
+            <value>
+                <fullName>Provider Account</fullName>
+                <default>false</default>
+                <label>Provider Account</label>
+            </value>
+            <value>
+                <fullName>Providers</fullName>
+                <default>false</default>
+                <label>Providers</label>
+            </value>
+            <value>
+                <fullName>Quantity Control</fullName>
+                <default>false</default>
+                <label>Quantity Control</label>
+            </value>
+            <value>
+                <fullName>Question for Seller</fullName>
+                <default>false</default>
+                <label>Question for Seller</label>
+            </value>
+            <value>
+                <fullName>Rakuten (DE &amp; UK)</fullName>
+                <default>false</default>
+                <label>Rakuten (DE &amp; UK)</label>
+            </value>
+            <value>
+                <fullName>Rakuten - Buy.com</fullName>
+                <default>false</default>
+                <label>Rakuten - Buy.com</label>
+            </value>
+            <value>
+                <fullName>Rakuten DE</fullName>
+                <default>false</default>
+                <label>Rakuten DE</label>
+            </value>
+            <value>
+                <fullName>Rakuten US</fullName>
+                <default>false</default>
+                <label>Rakuten US</label>
+            </value>
+            <value>
+                <fullName>Reference Field Mappings</fullName>
+                <default>false</default>
+                <label>Reference Field Mappings</label>
+            </value>
+            <value>
+                <fullName>Refunds</fullName>
+                <default>false</default>
+                <label>Refunds</label>
+            </value>
+            <value>
+                <fullName>Refunds &amp; Cancellations</fullName>
+                <default>false</default>
+                <label>Refunds &amp; Cancellations</label>
+            </value>
+            <value>
+                <fullName>Remove Duplicates</fullName>
+                <default>false</default>
+                <label>Remove Duplicates</label>
+            </value>
+            <value>
+                <fullName>Report Center</fullName>
+                <default>false</default>
+                <label>Report Center</label>
+            </value>
+            <value>
+                <fullName>Reporting</fullName>
+                <default>false</default>
+                <label>Reporting</label>
+            </value>
+            <value>
+                <fullName>Reporting &amp; Analytics</fullName>
+                <default>false</default>
+                <label>Reporting &amp; Analytics</label>
+            </value>
+            <value>
+                <fullName>Reporting Dashboard</fullName>
+                <default>false</default>
+                <label>Reporting Dashboard</label>
+            </value>
+            <value>
+                <fullName>Reports</fullName>
+                <default>false</default>
+                <label>Reports</label>
+            </value>
+            <value>
+                <fullName>Repricer</fullName>
+                <default>false</default>
+                <label>Repricer</label>
+            </value>
+            <value>
+                <fullName>REST API</fullName>
+                <default>false</default>
+                <label>REST API</label>
+            </value>
+            <value>
+                <fullName>Restructure Account</fullName>
+                <default>false</default>
+                <label>Restructure Account</label>
+            </value>
+            <value>
+                <fullName>Retailer</fullName>
+                <default>false</default>
+                <label>Retailer</label>
+            </value>
+            <value>
+                <fullName>RichImage Platform Migration</fullName>
+                <default>false</default>
+                <label>RichImage Platform Migration</label>
+            </value>
+            <value>
+                <fullName>Sales</fullName>
+                <default>false</default>
+                <label>Sales</label>
+            </value>
+            <value>
+                <fullName>Sales Uploads &amp; Exports</fullName>
+                <default>false</default>
+                <label>Sales Uploads &amp; Exports</label>
+            </value>
+            <value>
+                <fullName>SAP Terminations</fullName>
+                <default>false</default>
+                <label>SAP Terminations</label>
+            </value>
+            <value>
+                <fullName>Schedules</fullName>
+                <default>false</default>
+                <label>Schedules</label>
+            </value>
+            <value>
+                <fullName>Scrape/Feed</fullName>
+                <default>false</default>
+                <label>Scrape/Feed</label>
+            </value>
+            <value>
+                <fullName>Scurri</fullName>
+                <default>false</default>
+                <label>Scurri</label>
+            </value>
+            <value>
+                <fullName>Search</fullName>
+                <default>false</default>
+                <label>Search</label>
+            </value>
+            <value>
+                <fullName>Search &amp; Shopping</fullName>
+                <default>false</default>
+                <label>Search &amp; Shopping</label>
+            </value>
+            <value>
+                <fullName>Search Layout</fullName>
+                <default>false</default>
+                <label>Search Layout</label>
+            </value>
+            <value>
+                <fullName>Sears Marketplace</fullName>
+                <default>false</default>
+                <label>Sears Marketplace</label>
+            </value>
+            <value>
+                <fullName>Settings</fullName>
+                <default>false</default>
+                <label>Settings</label>
+            </value>
+            <value>
+                <fullName>Settings, Templates, &amp; Schedules</fullName>
+                <default>false</default>
+                <label>Settings, Templates, &amp; Schedules</label>
+            </value>
+            <value>
+                <fullName>Settings &amp; Templates</fullName>
+                <default>false</default>
+                <label>Settings &amp; Templates</label>
+            </value>
+            <value>
+                <fullName>Setup</fullName>
+                <default>false</default>
+                <label>Setup</label>
+            </value>
+            <value>
+                <fullName>Setup Changes</fullName>
+                <default>false</default>
+                <label>Setup Changes</label>
+            </value>
+            <value>
+                <fullName>Shipping</fullName>
+                <default>false</default>
+                <label>Shipping</label>
+            </value>
+            <value>
+                <fullName>Shipping/Tracking Update</fullName>
+                <default>false</default>
+                <label>Shipping/Tracking Update</label>
+            </value>
+            <value>
+                <fullName>Shipping &amp; Fulfillment</fullName>
+                <default>false</default>
+                <label>Shipping &amp; Fulfillment</label>
+            </value>
+            <value>
+                <fullName>Shipping Import</fullName>
+                <default>false</default>
+                <label>Shipping Import</label>
+            </value>
+            <value>
+                <fullName>Shipping Label Partners</fullName>
+                <default>false</default>
+                <label>Shipping Label Partners</label>
+            </value>
+            <value>
+                <fullName>Shipping Method Mapping</fullName>
+                <default>false</default>
+                <label>Shipping Method Mapping</label>
+            </value>
+            <value>
+                <fullName>Shipping Reports</fullName>
+                <default>false</default>
+                <label>Shipping Reports</label>
+            </value>
+            <value>
+                <fullName>Shipping Service</fullName>
+                <default>false</default>
+                <label>Shipping Service</label>
+            </value>
+            <value>
+                <fullName>Shipping Setup</fullName>
+                <default>false</default>
+                <label>Shipping Setup</label>
+            </value>
+            <value>
+                <fullName>Shipping Updates</fullName>
+                <default>false</default>
+                <label>Shipping Updates</label>
+            </value>
+            <value>
+                <fullName>Shipworks Credentials</fullName>
+                <default>false</default>
+                <label>Shipworks Credentials</label>
+            </value>
+            <value>
+                <fullName>Shop.com</fullName>
+                <default>false</default>
+                <label>Shop.com</label>
+            </value>
+            <value>
+                <fullName>Shopify</fullName>
+                <default>false</default>
+                <label>Shopify</label>
+            </value>
+            <value>
+                <fullName>Site Issues</fullName>
+                <default>false</default>
+                <label>Site Issues</label>
+            </value>
+            <value>
+                <fullName>Site Slowness</fullName>
+                <default>false</default>
+                <label>Site Slowness</label>
+            </value>
+            <value>
+                <fullName>Site Slowness/Unavailable</fullName>
+                <default>false</default>
+                <label>Site Slowness/Unavailable</label>
+            </value>
+            <value>
+                <fullName>SOAP API</fullName>
+                <default>false</default>
+                <label>SOAP API</label>
+            </value>
+            <value>
+                <fullName>Social</fullName>
+                <default>false</default>
+                <label>Social</label>
+            </value>
+            <value>
+                <fullName>SSC</fullName>
+                <default>false</default>
+                <label>SSC</label>
+            </value>
+            <value>
+                <fullName>Store Inventory</fullName>
+                <default>false</default>
+                <label>Store Inventory</label>
+            </value>
+            <value>
+                <fullName>Stores</fullName>
+                <default>false</default>
+                <label>Stores</label>
+            </value>
+            <value>
+                <fullName>Support/ View Cases</fullName>
+                <default>false</default>
+                <label>Support/ View Cases</label>
+            </value>
+            <value>
+                <fullName>System Errors/Messages</fullName>
+                <default>false</default>
+                <label>System Errors/Messages</label>
+            </value>
+            <value>
+                <fullName>Target +</fullName>
+                <default>false</default>
+                <label>Target +</label>
+            </value>
+            <value>
+                <fullName>Task</fullName>
+                <default>false</default>
+                <label>Task</label>
+            </value>
+            <value>
+                <fullName>Tax</fullName>
+                <default>false</default>
+                <label>Tax</label>
+            </value>
+            <value>
+                <fullName>Technical Questions</fullName>
+                <default>false</default>
+                <label>Technical Questions</label>
+            </value>
+            <value>
+                <fullName>Templates &amp; Schedules</fullName>
+                <default>false</default>
+                <label>Templates &amp; Schedules</label>
+            </value>
+            <value>
+                <fullName>Templates &amp; Settings</fullName>
+                <default>false</default>
+                <label>Templates &amp; Settings</label>
+            </value>
+            <value>
+                <fullName>Termination Request</fullName>
+                <default>false</default>
+                <label>Termination Request</label>
+            </value>
+            <value>
+                <fullName>Termination Switchoff</fullName>
+                <default>false</default>
+                <label>Termination Switchoff</label>
+            </value>
+            <value>
+                <fullName>Tesco</fullName>
+                <default>false</default>
+                <label>Tesco</label>
+            </value>
+            <value>
+                <fullName>Testing</fullName>
+                <default>false</default>
+                <label>Testing</label>
+            </value>
+            <value>
+                <fullName>The Drop</fullName>
+                <default>false</default>
+                <label>The Drop</label>
+            </value>
+            <value>
+                <fullName>Third Party Integrations</fullName>
+                <default>false</default>
+                <label>Third Party Integrations</label>
+            </value>
+            <value>
+                <fullName>Tracking</fullName>
+                <default>false</default>
+                <label>Tracking</label>
+            </value>
+            <value>
+                <fullName>Tracking &amp; Pixels</fullName>
+                <default>false</default>
+                <label>Tracking &amp; Pixels</label>
+            </value>
+            <value>
+                <fullName>Trade Me</fullName>
+                <default>false</default>
+                <label>Trade Me</label>
+            </value>
+            <value>
+                <fullName>Training</fullName>
+                <default>false</default>
+                <label>Training</label>
+            </value>
+            <value>
+                <fullName>Unable to Log In</fullName>
+                <default>false</default>
+                <label>Unable to Log In</label>
+            </value>
+            <value>
+                <fullName>UPI</fullName>
+                <default>false</default>
+                <label>UPI</label>
+            </value>
+            <value>
+                <fullName>Uploads</fullName>
+                <default>false</default>
+                <label>Uploads</label>
+            </value>
+            <value>
+                <fullName>Uploads &amp; Exports</fullName>
+                <default>false</default>
+                <label>Uploads &amp; Exports</label>
+            </value>
+            <value>
+                <fullName>Upload Super Insert</fullName>
+                <default>false</default>
+                <label>Upload Super Insert</label>
+            </value>
+            <value>
+                <fullName>Upsells</fullName>
+                <default>false</default>
+                <label>Upsells</label>
+            </value>
+            <value>
+                <fullName>User/Group Permissions</fullName>
+                <default>false</default>
+                <label>User/Group Permissions</label>
+            </value>
+            <value>
+                <fullName>User Access Questions</fullName>
+                <default>false</default>
+                <label>User Access Questions</label>
+            </value>
+            <value>
+                <fullName>User Experience &amp; Admin</fullName>
+                <default>false</default>
+                <label>User Experience &amp; Admin</label>
+            </value>
+            <value>
+                <fullName>UX</fullName>
+                <default>false</default>
+                <label>UX</label>
+            </value>
+            <value>
+                <fullName>Variations</fullName>
+                <default>false</default>
+                <label>Variations</label>
+            </value>
+            <value>
+                <fullName>Viewer</fullName>
+                <default>false</default>
+                <label>Viewer</label>
+            </value>
+            <value>
+                <fullName>Walmart Content Management</fullName>
+                <default>false</default>
+                <label>Walmart Content Management</label>
+            </value>
+            <value>
+                <fullName>Walmart Drop Ship</fullName>
+                <default>false</default>
+                <label>Walmart Drop Ship</label>
+            </value>
+            <value>
+                <fullName>Walmart Marketplace</fullName>
+                <default>false</default>
+                <label>Walmart Marketplace</label>
+            </value>
+            <value>
+                <fullName>Walmart Supplier Content</fullName>
+                <default>false</default>
+                <label>Walmart Supplier Content</label>
+            </value>
+            <value>
+                <fullName>Wayfair Drop Ship</fullName>
+                <default>false</default>
+                <label>Wayfair Drop Ship</label>
+            </value>
+            <value>
+                <fullName>Webstores</fullName>
+                <default>false</default>
+                <label>Webstores</label>
+            </value>
+            <value>
+                <fullName>Where to Buy</fullName>
+                <default>false</default>
+                <label>Where to Buy</label>
+            </value>
+            <value>
+                <fullName>Widget</fullName>
+                <default>false</default>
+                <label>Widget</label>
+            </value>
+            <value>
+                <fullName>Wish</fullName>
+                <default>false</default>
+                <label>Wish</label>
+            </value>
+            <value>
+                <fullName>WTB Widgets</fullName>
+                <default>false</default>
+                <label>WTB Widgets</label>
+            </value>
+            <value>
+                <fullName>XML Fields/File Headers</fullName>
+                <default>false</default>
+                <label>XML Fields/File Headers</label>
+            </value>
+            <value>
+                <fullName>XML Preprocessor</fullName>
+                <default>false</default>
+                <label>XML Preprocessor</label>
+            </value>
+            <value>
+                <fullName>Yahoo Stores</fullName>
+                <default>false</default>
+                <label>Yahoo Stores</label>
+            </value>
+            <value>
+                <fullName>Zalando</fullName>
+                <default>false</default>
+                <label>Zalando</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>eBay</controllingFieldValue>
+            <valueName>Ads</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>eBay</controllingFieldValue>
+            <valueName>Ad Template</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>eBay</controllingFieldValue>
+            <valueName>Catalog Mapping</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>eBay</controllingFieldValue>
+            <valueName>Deals &amp; Promotions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>eBay</controllingFieldValue>
+            <valueName>Disputes &amp; Feedback</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>eBay</controllingFieldValue>
+            <valueName>eBay Invoicing issues</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>eBay</controllingFieldValue>
+            <valueName>eBay Keywords</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>eBay</controllingFieldValue>
+            <valueName>eBay Optimization Features</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>eBay</controllingFieldValue>
+            <valueName>eBay Quick Start</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>eBay</controllingFieldValue>
+            <valueName>eBay Settings</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>eBay</controllingFieldValue>
+            <valueName>Images &amp; Gallery</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>eBay</controllingFieldValue>
+            <controllingFieldValue>Sales</controllingFieldValue>
+            <valueName>Invoices</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>eBay</controllingFieldValue>
+            <controllingFieldValue>PS - Marketplaces</controllingFieldValue>
+            <valueName>Item Specifics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>eBay</controllingFieldValue>
+            <valueName>Listing &amp; Revision Errors</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>eBay</controllingFieldValue>
+            <controllingFieldValue>PS - Marketplaces</controllingFieldValue>
+            <valueName>Listing Errors</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>eBay</controllingFieldValue>
+            <valueName>Listings</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>eBay</controllingFieldValue>
+            <valueName>Orders, Disputes, &amp; Feedback</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>eBay</controllingFieldValue>
+            <valueName>Other eBay Issues</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>eBay</controllingFieldValue>
+            <valueName>Other eBay Topics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>eBay</controllingFieldValue>
+            <valueName>Payments</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>eBay</controllingFieldValue>
+            <controllingFieldValue>Basic Webstores</controllingFieldValue>
+            <controllingFieldValue>Premium Webstores</controllingFieldValue>
+            <controllingFieldValue>Sales</controllingFieldValue>
+            <valueName>PayPal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>eBay</controllingFieldValue>
+            <valueName>Posting Errors</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>eBay</controllingFieldValue>
+            <valueName>Posting Templates</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>eBay</controllingFieldValue>
+            <valueName>Schedules</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>eBay</controllingFieldValue>
+            <valueName>Settings, Templates, &amp; Schedules</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>eBay</controllingFieldValue>
+            <controllingFieldValue>Rakuten.com</controllingFieldValue>
+            <controllingFieldValue>Comparison Shopping</controllingFieldValue>
+            <valueName>Templates &amp; Schedules</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>eBay</controllingFieldValue>
+            <controllingFieldValue>Inventory</controllingFieldValue>
+            <valueName>Variations</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Amazon</controllingFieldValue>
+            <valueName>Amazon Settings</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Amazon</controllingFieldValue>
+            <controllingFieldValue>PS - Marketplaces</controllingFieldValue>
+            <controllingFieldValue>PS - Comparison Shopping Engines</controllingFieldValue>
+            <controllingFieldValue>Comparison Shopping</controllingFieldValue>
+            <controllingFieldValue>Inventory</controllingFieldValue>
+            <valueName>Business Rules</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Amazon</controllingFieldValue>
+            <controllingFieldValue>Paid Search</controllingFieldValue>
+            <controllingFieldValue>Comparison Shopping</controllingFieldValue>
+            <valueName>Dashboard</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Amazon</controllingFieldValue>
+            <valueName>FBA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Amazon</controllingFieldValue>
+            <valueName>Invoicing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Amazon</controllingFieldValue>
+            <valueName>Open Listings</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Amazon</controllingFieldValue>
+            <controllingFieldValue>PS - Marketplaces</controllingFieldValue>
+            <controllingFieldValue>User Education</controllingFieldValue>
+            <controllingFieldValue>Feedback</controllingFieldValue>
+            <valueName>Orders</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Amazon</controllingFieldValue>
+            <valueName>Other Amazon Issues</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Amazon</controllingFieldValue>
+            <valueName>Other Amazon Topics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Amazon</controllingFieldValue>
+            <valueName>Product Errors</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Amazon</controllingFieldValue>
+            <valueName>Product Mapping</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Amazon</controllingFieldValue>
+            <controllingFieldValue>PS - Comparison Shopping Engines</controllingFieldValue>
+            <valueName>Product Status &amp; Errors</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Amazon</controllingFieldValue>
+            <valueName>Repricer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Amazon</controllingFieldValue>
+            <valueName>Settings &amp; Templates</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rakuten.com</controllingFieldValue>
+            <controllingFieldValue>Comparison Shopping</controllingFieldValue>
+            <valueName>Login</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rakuten.com</controllingFieldValue>
+            <controllingFieldValue>Orders &amp; Fulfillment</controllingFieldValue>
+            <valueName>Orders &amp; Invoices</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rakuten.com</controllingFieldValue>
+            <controllingFieldValue>RichFX Image</controllingFieldValue>
+            <controllingFieldValue>Other Marketplaces</controllingFieldValue>
+            <controllingFieldValue>Paid Search</controllingFieldValue>
+            <controllingFieldValue>Comparison Shopping</controllingFieldValue>
+            <controllingFieldValue>Basic Webstores</controllingFieldValue>
+            <controllingFieldValue>Inventory/Data Transformation</controllingFieldValue>
+            <controllingFieldValue>RichFX Catalog</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rakuten.com</controllingFieldValue>
+            <controllingFieldValue>Basic Webstores</controllingFieldValue>
+            <valueName>Refunds</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rakuten.com</controllingFieldValue>
+            <controllingFieldValue>Basic Webstores</controllingFieldValue>
+            <controllingFieldValue>Sales</controllingFieldValue>
+            <valueName>Settings</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rakuten.com</controllingFieldValue>
+            <controllingFieldValue>Paid Search</controllingFieldValue>
+            <controllingFieldValue>Comparison Shopping</controllingFieldValue>
+            <controllingFieldValue>Premium Webstores</controllingFieldValue>
+            <valueName>Setup</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rakuten.com</controllingFieldValue>
+            <controllingFieldValue>Basic Webstores</controllingFieldValue>
+            <valueName>Shipping</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>System</controllingFieldValue>
+            <valueName>Application Unavailable</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>System</controllingFieldValue>
+            <valueName>Other System Issues</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>System</controllingFieldValue>
+            <valueName>Other System Topics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>System</controllingFieldValue>
+            <valueName>Site Slowness</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>System</controllingFieldValue>
+            <valueName>Site Slowness/Unavailable</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>System</controllingFieldValue>
+            <valueName>System Errors/Messages</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>System</controllingFieldValue>
+            <valueName>Unable to Log In</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jet</controllingFieldValue>
+            <controllingFieldValue>Newegg</controllingFieldValue>
+            <controllingFieldValue>Sears Marketplace</controllingFieldValue>
+            <controllingFieldValue>Walmart Marketplace</controllingFieldValue>
+            <controllingFieldValue>Overstock</controllingFieldValue>
+            <valueName>Error Resolution</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jet</controllingFieldValue>
+            <controllingFieldValue>Newegg</controllingFieldValue>
+            <controllingFieldValue>Sears Marketplace</controllingFieldValue>
+            <controllingFieldValue>Walmart Marketplace</controllingFieldValue>
+            <controllingFieldValue>Overstock</controllingFieldValue>
+            <valueName>Orders &amp; Fulfillment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jet</controllingFieldValue>
+            <controllingFieldValue>Newegg</controllingFieldValue>
+            <controllingFieldValue>Sears Marketplace</controllingFieldValue>
+            <controllingFieldValue>Walmart Marketplace</controllingFieldValue>
+            <controllingFieldValue>Overstock</controllingFieldValue>
+            <valueName>Other Topics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jet</controllingFieldValue>
+            <controllingFieldValue>Newegg</controllingFieldValue>
+            <controllingFieldValue>Sears Marketplace</controllingFieldValue>
+            <controllingFieldValue>Walmart Marketplace</controllingFieldValue>
+            <controllingFieldValue>Overstock</controllingFieldValue>
+            <valueName>Templates &amp; Settings</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PS - Project Management</controllingFieldValue>
+            <controllingFieldValue>Digital Marketing</controllingFieldValue>
+            <controllingFieldValue>Paid Search</controllingFieldValue>
+            <valueName>IDS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PS - Project Management</controllingFieldValue>
+            <valueName>Inventory Integration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PS - Project Management</controllingFieldValue>
+            <valueName>Macros</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Business Rules</controllingFieldValue>
+            <valueName>Amazon/Rakuten</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Business Rules</controllingFieldValue>
+            <valueName>Digital Marketing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Business Rules</controllingFieldValue>
+            <controllingFieldValue>Feedback</controllingFieldValue>
+            <valueName>eBay</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Business Rules</controllingFieldValue>
+            <controllingFieldValue>Digital Marketing</controllingFieldValue>
+            <controllingFieldValue>Comparison Shopping</controllingFieldValue>
+            <valueName>Feeds</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Business Rules</controllingFieldValue>
+            <controllingFieldValue>Feedback</controllingFieldValue>
+            <valueName>Inventory</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Business Rules</controllingFieldValue>
+            <controllingFieldValue>Digital Marketing</controllingFieldValue>
+            <controllingFieldValue>Webstores</controllingFieldValue>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <controllingFieldValue>Inventory</controllingFieldValue>
+            <valueName>Launch</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Business Rules</controllingFieldValue>
+            <controllingFieldValue>Feedback</controllingFieldValue>
+            <valueName>Other Marketplaces</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Business Rules</controllingFieldValue>
+            <valueName>Search</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Business Rules</controllingFieldValue>
+            <controllingFieldValue>Digital Marketing</controllingFieldValue>
+            <controllingFieldValue>Webstores</controllingFieldValue>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <controllingFieldValue>Inventory</controllingFieldValue>
+            <valueName>Task</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Digital Marketing</controllingFieldValue>
+            <valueName>Actionable Reporting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Digital Marketing</controllingFieldValue>
+            <valueName>Amazon Sponsored Products</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Digital Marketing</controllingFieldValue>
+            <valueName>Cost/Click Data</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Digital Marketing</controllingFieldValue>
+            <valueName>External Inventory Feed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Digital Marketing</controllingFieldValue>
+            <controllingFieldValue>PS - Comparison Shopping Engines</controllingFieldValue>
+            <valueName>Feeds Errors</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Digital Marketing</controllingFieldValue>
+            <valueName>Feeds Settings</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Digital Marketing</controllingFieldValue>
+            <controllingFieldValue>Comparison Shopping</controllingFieldValue>
+            <valueName>Google Shopping</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Digital Marketing</controllingFieldValue>
+            <valueName>Other Digital Marketing Topics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Digital Marketing</controllingFieldValue>
+            <valueName>Other Feeds Issues</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Digital Marketing</controllingFieldValue>
+            <valueName>Other Paid Search Issues</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Digital Marketing</controllingFieldValue>
+            <valueName>Paid Search</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Digital Marketing</controllingFieldValue>
+            <valueName>Paid Search Errors</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Digital Marketing</controllingFieldValue>
+            <valueName>Paid Search Settings</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Digital Marketing</controllingFieldValue>
+            <controllingFieldValue>Feedback</controllingFieldValue>
+            <valueName>Social</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Digital Marketing</controllingFieldValue>
+            <valueName>Tracking &amp; Pixels</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PS - Private Marketplace</controllingFieldValue>
+            <controllingFieldValue>PS - Direct2Wholesale</controllingFieldValue>
+            <controllingFieldValue>PS - Comparison Shopping Engines</controllingFieldValue>
+            <valueName>Ad Creation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PS - Private Marketplace</controllingFieldValue>
+            <controllingFieldValue>PS - Marketplaces</controllingFieldValue>
+            <controllingFieldValue>PS - Direct2Wholesale</controllingFieldValue>
+            <valueName>Ad Design/Changes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PS - Private Marketplace</controllingFieldValue>
+            <controllingFieldValue>PS - Marketplaces</controllingFieldValue>
+            <controllingFieldValue>PS - Paid Search</controllingFieldValue>
+            <controllingFieldValue>PS - Direct2Wholesale</controllingFieldValue>
+            <controllingFieldValue>PS - Comparison Shopping Engines</controllingFieldValue>
+            <valueName>Analysis/Strategy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PS - Private Marketplace</controllingFieldValue>
+            <controllingFieldValue>PS - Direct2Wholesale</controllingFieldValue>
+            <valueName>Auction Listing Maintenance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PS - Private Marketplace</controllingFieldValue>
+            <controllingFieldValue>PS - Marketplaces</controllingFieldValue>
+            <controllingFieldValue>PS - Direct2Wholesale</controllingFieldValue>
+            <valueName>Buyer Base Maintenance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PS - Private Marketplace</controllingFieldValue>
+            <controllingFieldValue>PS - Direct2Wholesale</controllingFieldValue>
+            <valueName>Customer Service</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PS - Private Marketplace</controllingFieldValue>
+            <controllingFieldValue>PS - Marketplaces</controllingFieldValue>
+            <controllingFieldValue>PS - Paid Search</controllingFieldValue>
+            <controllingFieldValue>PS - Direct2Wholesale</controllingFieldValue>
+            <controllingFieldValue>PS - Comparison Shopping Engines</controllingFieldValue>
+            <valueName>Data Scraping</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PS - Private Marketplace</controllingFieldValue>
+            <controllingFieldValue>PS - Direct2Wholesale</controllingFieldValue>
+            <controllingFieldValue>Partners</controllingFieldValue>
+            <valueName>Email Blasts</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PS - Private Marketplace</controllingFieldValue>
+            <controllingFieldValue>PS - Marketplaces</controllingFieldValue>
+            <controllingFieldValue>PS - Paid Search</controllingFieldValue>
+            <controllingFieldValue>PS - Direct2Wholesale</controllingFieldValue>
+            <controllingFieldValue>PS - Comparison Shopping Engines</controllingFieldValue>
+            <valueName>Fire Fighting / Troubleshooting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PS - Private Marketplace</controllingFieldValue>
+            <controllingFieldValue>PS - Direct2Wholesale</controllingFieldValue>
+            <valueName>General Client Requests</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PS - Private Marketplace</controllingFieldValue>
+            <controllingFieldValue>PS - Marketplaces</controllingFieldValue>
+            <controllingFieldValue>PS - Direct2Wholesale</controllingFieldValue>
+            <valueName>General Maintenance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PS - Private Marketplace</controllingFieldValue>
+            <controllingFieldValue>PS - Marketplaces</controllingFieldValue>
+            <controllingFieldValue>PS - Direct2Wholesale</controllingFieldValue>
+            <controllingFieldValue>PS - Comparison Shopping Engines</controllingFieldValue>
+            <valueName>Inventory Uploads/Updates</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PS - Private Marketplace</controllingFieldValue>
+            <controllingFieldValue>PS - Marketplaces</controllingFieldValue>
+            <controllingFieldValue>PS - Direct2Wholesale</controllingFieldValue>
+            <valueName>Launch - Account Setup</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PS - Private Marketplace</controllingFieldValue>
+            <controllingFieldValue>PS - Direct2Wholesale</controllingFieldValue>
+            <valueName>Launch - Design</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PS - Private Marketplace</controllingFieldValue>
+            <controllingFieldValue>PS - Direct2Wholesale</controllingFieldValue>
+            <valueName>Launch - Inventory Upload/Update</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PS - Private Marketplace</controllingFieldValue>
+            <controllingFieldValue>PS - Marketplaces</controllingFieldValue>
+            <controllingFieldValue>PS - Direct2Wholesale</controllingFieldValue>
+            <valueName>Launch - Testing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PS - Private Marketplace</controllingFieldValue>
+            <controllingFieldValue>PS - Marketplaces</controllingFieldValue>
+            <controllingFieldValue>PS - Paid Search</controllingFieldValue>
+            <controllingFieldValue>PS - Direct2Wholesale</controllingFieldValue>
+            <controllingFieldValue>PS - Comparison Shopping Engines</controllingFieldValue>
+            <valueName>Meeting Re-cap</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PS - Private Marketplace</controllingFieldValue>
+            <controllingFieldValue>PS - Direct2Wholesale</controllingFieldValue>
+            <valueName>Testing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PS - Marketplaces</controllingFieldValue>
+            <controllingFieldValue>PS - Paid Search</controllingFieldValue>
+            <controllingFieldValue>PS - Comparison Shopping Engines</controllingFieldValue>
+            <valueName>Client Calls</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PS - Marketplaces</controllingFieldValue>
+            <controllingFieldValue>Strategy</controllingFieldValue>
+            <controllingFieldValue>PS - Paid Search</controllingFieldValue>
+            <controllingFieldValue>PS - Comparison Shopping Engines</controllingFieldValue>
+            <valueName>Client Requests</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PS - Marketplaces</controllingFieldValue>
+            <valueName>Image Issues</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PS - Marketplaces</controllingFieldValue>
+            <controllingFieldValue>PS - Comparison Shopping Engines</controllingFieldValue>
+            <controllingFieldValue>Comparison Shopping</controllingFieldValue>
+            <controllingFieldValue>Inventory</controllingFieldValue>
+            <valueName>Lookup Lists</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PS - Marketplaces</controllingFieldValue>
+            <controllingFieldValue>Inventory</controllingFieldValue>
+            <valueName>Product &amp; Template Mapping</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PS - Marketplaces</controllingFieldValue>
+            <controllingFieldValue>PS - Paid Search</controllingFieldValue>
+            <controllingFieldValue>PS - Comparison Shopping Engines</controllingFieldValue>
+            <valueName>Project</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PS - Marketplaces</controllingFieldValue>
+            <controllingFieldValue>Strategy</controllingFieldValue>
+            <controllingFieldValue>PS - Paid Search</controllingFieldValue>
+            <controllingFieldValue>PS - Comparison Shopping Engines</controllingFieldValue>
+            <controllingFieldValue>Paid Search</controllingFieldValue>
+            <valueName>Reports</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PS - Marketplaces</controllingFieldValue>
+            <valueName>Shipping Updates</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PS - Marketplaces</controllingFieldValue>
+            <controllingFieldValue>PS - Paid Search</controllingFieldValue>
+            <controllingFieldValue>PS - Comparison Shopping Engines</controllingFieldValue>
+            <valueName>Training</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Webstores</controllingFieldValue>
+            <valueName>Amazon Webstore</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Webstores</controllingFieldValue>
+            <valueName>BigCommerce</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Webstores</controllingFieldValue>
+            <valueName>Other Issues</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Webstores</controllingFieldValue>
+            <valueName>Other Webstores</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Webstores</controllingFieldValue>
+            <valueName>Shopify</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Webstores</controllingFieldValue>
+            <controllingFieldValue>Feedback</controllingFieldValue>
+            <valueName>Webstores</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Webstores</controllingFieldValue>
+            <valueName>Yahoo Stores</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Strategy</controllingFieldValue>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>No Info/Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PS - Paid Search</controllingFieldValue>
+            <valueName>Ad Copy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PS - Paid Search</controllingFieldValue>
+            <valueName>Base URL Updates</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PS - Paid Search</controllingFieldValue>
+            <controllingFieldValue>Paid Search</controllingFieldValue>
+            <valueName>Bidding</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PS - Paid Search</controllingFieldValue>
+            <valueName>Cleanup</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PS - Paid Search</controllingFieldValue>
+            <valueName>Clone</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PS - Paid Search</controllingFieldValue>
+            <valueName>Create Super Insert</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PS - Paid Search</controllingFieldValue>
+            <valueName>Keyword Build</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PS - Paid Search</controllingFieldValue>
+            <valueName>Keyword Growth</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PS - Paid Search</controllingFieldValue>
+            <valueName>Landing Page</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PS - Paid Search</controllingFieldValue>
+            <valueName>Pause/Unpause</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PS - Paid Search</controllingFieldValue>
+            <valueName>Remove Duplicates</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PS - Paid Search</controllingFieldValue>
+            <valueName>Restructure Account</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PS - Paid Search</controllingFieldValue>
+            <controllingFieldValue>System Issue</controllingFieldValue>
+            <controllingFieldValue>User Education</controllingFieldValue>
+            <controllingFieldValue>Fulfillment Services</controllingFieldValue>
+            <controllingFieldValue>Paid Search</controllingFieldValue>
+            <controllingFieldValue>Basic Webstores</controllingFieldValue>
+            <valueName>Tracking</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PS - Paid Search</controllingFieldValue>
+            <controllingFieldValue>Paid Search</controllingFieldValue>
+            <valueName>Uploads</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders &amp; Fulfillment</controllingFieldValue>
+            <valueName>Fulfillment Partners</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders &amp; Fulfillment</controllingFieldValue>
+            <valueName>Order &amp; Fulfillment Settings</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders &amp; Fulfillment</controllingFieldValue>
+            <valueName>Other Orders Topics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders &amp; Fulfillment</controllingFieldValue>
+            <controllingFieldValue>Sales</controllingFieldValue>
+            <valueName>Refunds &amp; Cancellations</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders &amp; Fulfillment</controllingFieldValue>
+            <valueName>Sales Uploads &amp; Exports</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders &amp; Fulfillment</controllingFieldValue>
+            <valueName>Shipping &amp; Fulfillment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders &amp; Fulfillment</controllingFieldValue>
+            <valueName>Shipping Label Partners</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Intelligence</controllingFieldValue>
+            <controllingFieldValue>Where To Buy</controllingFieldValue>
+            <valueName>Data</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Intelligence</controllingFieldValue>
+            <valueName>Other Product Intelligence</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Intelligence</controllingFieldValue>
+            <valueName>PI Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Intelligence</controllingFieldValue>
+            <valueName>PI Reporting Dashboard</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Intelligence</controllingFieldValue>
+            <valueName>PI Retailer Data Sourcing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Intelligence</controllingFieldValue>
+            <valueName>Reporting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Buyer</controllingFieldValue>
+            <valueName>Buyer Issues</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Buyer</controllingFieldValue>
+            <valueName>Question for Seller</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Buyer</controllingFieldValue>
+            <valueName>Site Issues</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ChannelAdvisor Community</controllingFieldValue>
+            <controllingFieldValue>Strategy and Support Center</controllingFieldValue>
+            <valueName>Alerts</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ChannelAdvisor Community</controllingFieldValue>
+            <controllingFieldValue>Strategy and Support Center</controllingFieldValue>
+            <valueName>Broken Link</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ChannelAdvisor Community</controllingFieldValue>
+            <valueName>My Support Center</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ChannelAdvisor Community</controllingFieldValue>
+            <valueName>Other Community Topics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Setup</controllingFieldValue>
+            <valueName>Initial Setup</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Setup</controllingFieldValue>
+            <valueName>Post Launch Setup Issues</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Setup</controllingFieldValue>
+            <valueName>Post Launch Shipping Method Mapping</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Setup</controllingFieldValue>
+            <valueName>Setup Changes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>System Issue</controllingFieldValue>
+            <controllingFieldValue>Fulfillment Services</controllingFieldValue>
+            <valueName>Brand Mapping</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>System Issue</controllingFieldValue>
+            <valueName>Core Product</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>System Issue</controllingFieldValue>
+            <valueName>Inventory/Cost Updates</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>System Issue</controllingFieldValue>
+            <valueName>Order Routing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PS - Comparison Shopping Engines</controllingFieldValue>
+            <controllingFieldValue>Comparison Shopping</controllingFieldValue>
+            <valueName>Category Mapping</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PS - Comparison Shopping Engines</controllingFieldValue>
+            <valueName>CSE Health Check</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PS - Comparison Shopping Engines</controllingFieldValue>
+            <valueName>CSE Maintenance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PS - Comparison Shopping Engines</controllingFieldValue>
+            <valueName>Kill Reports</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PS - Comparison Shopping Engines</controllingFieldValue>
+            <valueName>Launch Account Set up (Shopping Sites)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PS - Comparison Shopping Engines</controllingFieldValue>
+            <valueName>Manual Data Feed Creation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>API</controllingFieldValue>
+            <valueName>Admin Service</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>API</controllingFieldValue>
+            <valueName>Fulfillment Service</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>API</controllingFieldValue>
+            <valueName>Inventory Service</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>API</controllingFieldValue>
+            <valueName>Order Service</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>API</controllingFieldValue>
+            <valueName>Other API Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>API</controllingFieldValue>
+            <valueName>REST API</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>API</controllingFieldValue>
+            <valueName>Shipping Service</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>API</controllingFieldValue>
+            <valueName>SOAP API</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>User Education</controllingFieldValue>
+            <valueName>Integration Understanding</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>User Education</controllingFieldValue>
+            <valueName>Inventory &amp; Costs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fulfillment Services</controllingFieldValue>
+            <valueName>Core System</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fulfillment Services</controllingFieldValue>
+            <valueName>Inventory/Costs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fulfillment Services</controllingFieldValue>
+            <valueName>New Customer Alert</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fulfillment Services</controllingFieldValue>
+            <valueName>Other Fulfillment Topics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fulfillment Services</controllingFieldValue>
+            <valueName>Shipping Method Mapping</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>First Party</controllingFieldValue>
+            <valueName>Amazon Drop Ship</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>First Party</controllingFieldValue>
+            <valueName>Amazon Vendor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>First Party</controllingFieldValue>
+            <valueName>Amazon Vendor Content</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>First Party</controllingFieldValue>
+            <valueName>Other First Party Providers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>First Party</controllingFieldValue>
+            <valueName>Overstock Drop Ship</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>First Party</controllingFieldValue>
+            <valueName>Walmart Content Management</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>First Party</controllingFieldValue>
+            <valueName>Walmart Drop Ship</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>First Party</controllingFieldValue>
+            <valueName>Walmart Supplier Content</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>First Party</controllingFieldValue>
+            <valueName>Wayfair Drop Ship</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mojito</controllingFieldValue>
+            <controllingFieldValue>ChannelAdvisor Elevate</controllingFieldValue>
+            <valueName>Billing &amp; Account Questions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mojito</controllingFieldValue>
+            <controllingFieldValue>ChannelAdvisor Elevate</controllingFieldValue>
+            <valueName>Technical Questions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mojito</controllingFieldValue>
+            <controllingFieldValue>ChannelAdvisor Elevate</controllingFieldValue>
+            <valueName>User Access Questions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PS - RichFX Services</controllingFieldValue>
+            <controllingFieldValue>RichFX Image</controllingFieldValue>
+            <controllingFieldValue>Rich Catalog</controllingFieldValue>
+            <controllingFieldValue>Rich Image</controllingFieldValue>
+            <controllingFieldValue>RichFX Catalog</controllingFieldValue>
+            <valueName>Production</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PS - RichFX Services</controllingFieldValue>
+            <controllingFieldValue>RichFX Image</controllingFieldValue>
+            <controllingFieldValue>Rich Catalog</controllingFieldValue>
+            <controllingFieldValue>Rich Image</controllingFieldValue>
+            <controllingFieldValue>RichFX Catalog</controllingFieldValue>
+            <valueName>Viewer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RichFX Image</controllingFieldValue>
+            <valueName>RichImage Platform Migration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reporting</controllingFieldValue>
+            <valueName>Pixels</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Strategy and Support Center</controllingFieldValue>
+            <valueName>Forums</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Strategy and Support Center</controllingFieldValue>
+            <valueName>Other Strategy and Support Center Issues</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Strategy and Support Center</controllingFieldValue>
+            <valueName>Support/ View Cases</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Administration</controllingFieldValue>
+            <valueName>Credit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Administration</controllingFieldValue>
+            <valueName>Customer Care Center</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Administration</controllingFieldValue>
+            <valueName>Demo Accounts</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Administration</controllingFieldValue>
+            <valueName>Employee Access</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Administration</controllingFieldValue>
+            <valueName>Enable/Disable</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Administration</controllingFieldValue>
+            <valueName>Live Chat/Phone Support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Administration</controllingFieldValue>
+            <valueName>New Client Creation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Administration</controllingFieldValue>
+            <valueName>New Posting Account</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Administration</controllingFieldValue>
+            <valueName>New User/FTP Login</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Administration</controllingFieldValue>
+            <valueName>Other Administration Issues</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Administration</controllingFieldValue>
+            <valueName>Other Administration Topics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Administration</controllingFieldValue>
+            <valueName>Phone Support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Administration</controllingFieldValue>
+            <valueName>SAP Terminations</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Administration</controllingFieldValue>
+            <valueName>Shipworks Credentials</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Administration</controllingFieldValue>
+            <valueName>Termination Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Administration</controllingFieldValue>
+            <valueName>Termination Switchoff</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Administration</controllingFieldValue>
+            <valueName>User/Group Permissions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Partners</controllingFieldValue>
+            <valueName>ChannelAdvisor Connectors</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Partners</controllingFieldValue>
+            <controllingFieldValue>Connector Assistance</controllingFieldValue>
+            <valueName>Demandware</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Partners</controllingFieldValue>
+            <controllingFieldValue>Premium Webstores</controllingFieldValue>
+            <valueName>Design</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Partners</controllingFieldValue>
+            <controllingFieldValue>Connector Assistance</controllingFieldValue>
+            <valueName>Magento</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Partners</controllingFieldValue>
+            <controllingFieldValue>Connector Assistance</controllingFieldValue>
+            <valueName>NetDespatch</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Partners</controllingFieldValue>
+            <controllingFieldValue>Connector Assistance</controllingFieldValue>
+            <valueName>NetSuite</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Partners</controllingFieldValue>
+            <valueName>Other Partners</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Partners</controllingFieldValue>
+            <valueName>Partner Issues</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Partners</controllingFieldValue>
+            <controllingFieldValue>Connector Assistance</controllingFieldValue>
+            <valueName>Scurri</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other Marketplaces</controllingFieldValue>
+            <valueName>Adeo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other Marketplaces</controllingFieldValue>
+            <valueName>AliExpress</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other Marketplaces</controllingFieldValue>
+            <valueName>AllYouNeed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other Marketplaces</controllingFieldValue>
+            <valueName>Best Buy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other Marketplaces</controllingFieldValue>
+            <valueName>Cdiscount</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other Marketplaces</controllingFieldValue>
+            <valueName>Google Shopping Actions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other Marketplaces</controllingFieldValue>
+            <valueName>Jet</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other Marketplaces</controllingFieldValue>
+            <valueName>La Redoute</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other Marketplaces</controllingFieldValue>
+            <valueName>Mercado Libre</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other Marketplaces</controllingFieldValue>
+            <valueName>Newegg</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other Marketplaces</controllingFieldValue>
+            <valueName>Otto</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other Marketplaces</controllingFieldValue>
+            <valueName>Rakuten (DE &amp; UK)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other Marketplaces</controllingFieldValue>
+            <valueName>Rakuten DE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other Marketplaces</controllingFieldValue>
+            <valueName>Rakuten US</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other Marketplaces</controllingFieldValue>
+            <valueName>Sears Marketplace</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other Marketplaces</controllingFieldValue>
+            <valueName>Shop.com</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other Marketplaces</controllingFieldValue>
+            <valueName>Target +</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other Marketplaces</controllingFieldValue>
+            <valueName>Tesco</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other Marketplaces</controllingFieldValue>
+            <valueName>The Drop</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other Marketplaces</controllingFieldValue>
+            <valueName>Trade Me</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other Marketplaces</controllingFieldValue>
+            <controllingFieldValue>Feedback</controllingFieldValue>
+            <valueName>Walmart Marketplace</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other Marketplaces</controllingFieldValue>
+            <valueName>Wish</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other Marketplaces</controllingFieldValue>
+            <valueName>Zalando</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Paid Search</controllingFieldValue>
+            <valueName>Ad Groups</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Paid Search</controllingFieldValue>
+            <valueName>Campaigns</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Paid Search</controllingFieldValue>
+            <valueName>Creatives</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Paid Search</controllingFieldValue>
+            <valueName>Errors/Event Queue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Paid Search</controllingFieldValue>
+            <valueName>IDS/Merchandiser</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Paid Search</controllingFieldValue>
+            <valueName>Keywords</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Paid Search</controllingFieldValue>
+            <valueName>New Tracking Pixel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Paid Search</controllingFieldValue>
+            <controllingFieldValue>Comparison Shopping</controllingFieldValue>
+            <valueName>Optimization</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Paid Search</controllingFieldValue>
+            <valueName>Provider Account</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Comparison Shopping</controllingFieldValue>
+            <valueName>Custom Template</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Comparison Shopping</controllingFieldValue>
+            <controllingFieldValue>Basic Webstores</controllingFieldValue>
+            <valueName>Error Messages</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Comparison Shopping</controllingFieldValue>
+            <valueName>Performance/Cost Data</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Comparison Shopping</controllingFieldValue>
+            <valueName>Products</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Comparison Shopping</controllingFieldValue>
+            <valueName>Providers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Comparison Shopping</controllingFieldValue>
+            <valueName>Reference Field Mappings</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reports</controllingFieldValue>
+            <valueName>Benchmarking Reports</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reports</controllingFieldValue>
+            <valueName>Checkout Reports</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reports</controllingFieldValue>
+            <valueName>Comparison Shopping</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reports</controllingFieldValue>
+            <valueName>Dashboards</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reports</controllingFieldValue>
+            <valueName>Dashboards &amp; Widgets</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reports</controllingFieldValue>
+            <valueName>Digital Marketing Reports</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reports</controllingFieldValue>
+            <valueName>GMV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reports</controllingFieldValue>
+            <valueName>Marketplace Reports</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reports</controllingFieldValue>
+            <valueName>Marketplaces &amp; Stores Reports</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reports</controllingFieldValue>
+            <valueName>Other Report Issues</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reports</controllingFieldValue>
+            <valueName>Other Report Topics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reports</controllingFieldValue>
+            <valueName>Paid Search Reporting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reports</controllingFieldValue>
+            <valueName>Report Center</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reports</controllingFieldValue>
+            <valueName>Shipping Reports</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rich Media</controllingFieldValue>
+            <valueName>Catalog</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rich Media</controllingFieldValue>
+            <valueName>New Platform</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rich Media</controllingFieldValue>
+            <valueName>Old Platform</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rich Media</controllingFieldValue>
+            <valueName>Other Rich Media Issues</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Webstores</controllingFieldValue>
+            <valueName>Category Layout</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Webstores</controllingFieldValue>
+            <valueName>Category Tree</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Webstores</controllingFieldValue>
+            <valueName>Checkout</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Webstores</controllingFieldValue>
+            <valueName>Customize Theme</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Webstores</controllingFieldValue>
+            <valueName>Design Layout</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Webstores</controllingFieldValue>
+            <valueName>Home Page Layout</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Webstores</controllingFieldValue>
+            <valueName>Item Layout</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Webstores</controllingFieldValue>
+            <valueName>Name and Logo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Webstores</controllingFieldValue>
+            <valueName>Optional Tabs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Webstores</controllingFieldValue>
+            <valueName>Payment Processing Issues</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Webstores</controllingFieldValue>
+            <valueName>Pricing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Webstores</controllingFieldValue>
+            <controllingFieldValue>Premium Webstores</controllingFieldValue>
+            <valueName>Promotions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Webstores</controllingFieldValue>
+            <valueName>Sales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Webstores</controllingFieldValue>
+            <valueName>Search Layout</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Webstores</controllingFieldValue>
+            <valueName>Store Inventory</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Webstores</controllingFieldValue>
+            <valueName>Tax</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Premium Webstores</controllingFieldValue>
+            <valueName>Inventory and Order Integration Setup</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Premium Webstores</controllingFieldValue>
+            <valueName>Inventory Sync</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Premium Webstores</controllingFieldValue>
+            <valueName>Order Integration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Feedback</controllingFieldValue>
+            <valueName>Amazon</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Feedback</controllingFieldValue>
+            <valueName>API</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Feedback</controllingFieldValue>
+            <valueName>Product Intelligence</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Feedback</controllingFieldValue>
+            <valueName>Reporting &amp; Analytics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Feedback</controllingFieldValue>
+            <valueName>Search &amp; Shopping</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Feedback</controllingFieldValue>
+            <valueName>User Experience &amp; Admin</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Feedback</controllingFieldValue>
+            <valueName>Where to Buy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Where To Buy</controllingFieldValue>
+            <valueName>Buy Local Availability and Rules</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Where To Buy</controllingFieldValue>
+            <valueName>Buy Local Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Where To Buy</controllingFieldValue>
+            <valueName>Buy Local Public API</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Where To Buy</controllingFieldValue>
+            <valueName>Buy Local Reporting Dashboard</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Where To Buy</controllingFieldValue>
+            <valueName>Buy Local Retailer Data Sourcing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Where To Buy</controllingFieldValue>
+            <valueName>Buy Online Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Where To Buy</controllingFieldValue>
+            <valueName>Buy Online Product Mapping</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Where To Buy</controllingFieldValue>
+            <valueName>Buy Online Public API</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Where To Buy</controllingFieldValue>
+            <valueName>Buy Online Reporting Dashboard</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Where To Buy</controllingFieldValue>
+            <valueName>Buy Online Retailer Data Sourcing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Where To Buy</controllingFieldValue>
+            <valueName>Buy Online Scrape/Feeds</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Where To Buy</controllingFieldValue>
+            <valueName>Mapping</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Where To Buy</controllingFieldValue>
+            <valueName>New Launch Project</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Where To Buy</controllingFieldValue>
+            <valueName>Reporting Dashboard</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Where To Buy</controllingFieldValue>
+            <valueName>Retailer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Where To Buy</controllingFieldValue>
+            <valueName>Widget</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Where To Buy</controllingFieldValue>
+            <valueName>WTB Widgets</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inventory/Data Transformation</controllingFieldValue>
+            <valueName>PDIT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inventory/Data Transformation</controllingFieldValue>
+            <valueName>XML Preprocessor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inventory</controllingFieldValue>
+            <valueName>Advanced Filters</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inventory</controllingFieldValue>
+            <valueName>Attributes &amp; Labels</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inventory</controllingFieldValue>
+            <valueName>Bundles</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inventory</controllingFieldValue>
+            <valueName>Bundles &amp; Variations</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inventory</controllingFieldValue>
+            <valueName>Classifications &amp; Attributes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inventory</controllingFieldValue>
+            <valueName>Creating Sales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inventory</controllingFieldValue>
+            <valueName>Distribution Centers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inventory</controllingFieldValue>
+            <valueName>FTP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inventory</controllingFieldValue>
+            <valueName>Hybrid</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inventory</controllingFieldValue>
+            <valueName>Images</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inventory</controllingFieldValue>
+            <valueName>Inventory Settings</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inventory</controllingFieldValue>
+            <valueName>Inventory Settings &amp; Templates</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inventory</controllingFieldValue>
+            <valueName>Item-level Shipping</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inventory</controllingFieldValue>
+            <valueName>Labels</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inventory</controllingFieldValue>
+            <valueName>Other Inventory Issues</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inventory</controllingFieldValue>
+            <valueName>Other Inventory Topics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inventory</controllingFieldValue>
+            <valueName>Product Search &amp; Filtering</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inventory</controllingFieldValue>
+            <valueName>Quantity Control</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inventory</controllingFieldValue>
+            <valueName>Uploads &amp; Exports</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inventory</controllingFieldValue>
+            <valueName>Upsells</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inventory</controllingFieldValue>
+            <valueName>XML Fields/File Headers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales</controllingFieldValue>
+            <valueName>Email Notifications</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales</controllingFieldValue>
+            <valueName>Orders/Invoices</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales</controllingFieldValue>
+            <valueName>Other Sales Issues</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales</controllingFieldValue>
+            <valueName>Promotions Manager</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales</controllingFieldValue>
+            <valueName>Shipping/Tracking Update</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales</controllingFieldValue>
+            <valueName>Third Party Integrations</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

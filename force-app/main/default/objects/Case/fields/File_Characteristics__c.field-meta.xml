@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>File_Characteristics__c</fullName>
+    <label>File Characteristics</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>Contract_Help_Request_Type__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Variations</fullName>
+                <default>false</default>
+                <label>Variations</label>
+            </value>
+            <value>
+                <fullName>Custom Xpath needed</fullName>
+                <default>false</default>
+                <label>Custom Xpath needed</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Feed Audit</controllingFieldValue>
+            <valueName>Variations</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Feed Audit</controllingFieldValue>
+            <valueName>Custom Xpath needed</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

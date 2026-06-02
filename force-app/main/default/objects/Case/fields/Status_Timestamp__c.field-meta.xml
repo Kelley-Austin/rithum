@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status_Timestamp__c</fullName>
+    <label>Status Timestamp</label>
+    <type>DateTime</type>
+    <description>Used by the Brands Team to track when the Status changes for their Cases. Multiple Flows use this to trigger notifications or Status changes.</description>
+</CustomField>

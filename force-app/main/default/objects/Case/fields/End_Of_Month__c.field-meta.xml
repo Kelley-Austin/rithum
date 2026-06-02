@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>End_Of_Month__c</fullName>
+    <externalId>false</externalId>
+    <formula>if(MONTH(DATEVALUE(ClosedDate))= 1, Case(DAY(DATEVALUE(ClosedDate)),28,&quot;True&quot;,29,&quot;True&quot;,30,&quot;True&quot;,31,&quot;True&quot;,&quot;False&quot;),
+
+if(MONTH(DATEVALUE(ClosedDate))= 2,Case(DAY(DATEVALUE(ClosedDate)),25,&quot;True&quot;,26,&quot;True&quot;,27,&quot;True&quot;,28,&quot;True&quot;,&quot;False&quot;),
+
+if(MONTH(DATEVALUE(ClosedDate))= 3,Case(DAY(DATEVALUE(ClosedDate)),28,&quot;True&quot;,29,&quot;True&quot;,30,&quot;True&quot;,31,&quot;True&quot;,&quot;False&quot;),
+
+if(MONTH(DATEVALUE(ClosedDate))= 4,Case(DAY(DATEVALUE(ClosedDate)),27,&quot;True&quot;,28,&quot;True&quot;,29,&quot;True&quot;,30,&quot;True&quot;,&quot;False&quot;),
+
+if(MONTH(DATEVALUE(ClosedDate))= 5,Case(DAY(DATEVALUE(ClosedDate)),28,&quot;True&quot;,29,&quot;True&quot;,30,&quot;True&quot;,31,&quot;True&quot;,&quot;False&quot;),
+
+if(MONTH(DATEVALUE(ClosedDate))= 6,Case(DAY(DATEVALUE(ClosedDate)),27,&quot;True&quot;,28,&quot;True&quot;,29,&quot;True&quot;,30,&quot;True&quot;,&quot;False&quot;),
+
+if(MONTH(DATEVALUE(ClosedDate))= 7,Case(DAY(DATEVALUE(ClosedDate)),28,&quot;True&quot;,29,&quot;True&quot;,30,&quot;True&quot;,31,&quot;True&quot;,&quot;False&quot;),
+
+if(MONTH(DATEVALUE(ClosedDate))= 8,Case(DAY(DATEVALUE(ClosedDate)),28,&quot;True&quot;,29,&quot;True&quot;,30,&quot;True&quot;,31,&quot;True&quot;,&quot;False&quot;),
+
+if(MONTH(DATEVALUE(ClosedDate))= 9,Case(DAY(DATEVALUE(ClosedDate)),27,&quot;True&quot;,28,&quot;True&quot;,29,&quot;True&quot;,30,&quot;True&quot;,&quot;False&quot;),
+
+if(MONTH(DATEVALUE(ClosedDate))= 10,Case(DAY(DATEVALUE(ClosedDate)),28,&quot;True&quot;,29,&quot;True&quot;,30,&quot;True&quot;,31,&quot;True&quot;,&quot;False&quot;),
+
+if(MONTH(DATEVALUE(ClosedDate))= 11,Case(DAY(DATEVALUE(ClosedDate)),27,&quot;True&quot;,28,&quot;True&quot;,29,&quot;True&quot;,30,&quot;True&quot;,&quot;False&quot;),
+
+if(MONTH(DATEVALUE(ClosedDate))= 12, Case(DAY(DATEVALUE(ClosedDate)),28,&quot;True&quot;,29,&quot;True&quot;,30,&quot;True&quot;,31,&quot;True&quot;,&quot;False&quot;),&quot;&quot;))))))))))))</formula>
+    <label>End Of Month?</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

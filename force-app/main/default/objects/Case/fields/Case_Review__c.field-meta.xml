@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_Review__c</fullName>
+    <inlineHelpText>Check to flag this case for review.</inlineHelpText>
+    <label>Case Review</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Documentation</fullName>
+                <default>false</default>
+                <label>Documentation</label>
+            </value>
+            <value>
+                <fullName>Tool Needed</fullName>
+                <default>false</default>
+                <label>Tool Needed</label>
+            </value>
+            <value>
+                <fullName>Manager Review</fullName>
+                <default>false</default>
+                <label>Manager Review</label>
+            </value>
+            <value>
+                <fullName>Process Review</fullName>
+                <default>false</default>
+                <label>Process Review</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

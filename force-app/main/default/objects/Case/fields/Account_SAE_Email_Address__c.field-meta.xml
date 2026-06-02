@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_SAE_Email_Address__c</fullName>
+    <description>The Email Address of the SAE on the Account (for the Walmart BD project)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The Email Address of the SAE on the Account (for the Walmart BD project)</inlineHelpText>
+    <label>Account SAE Email Address</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Email</type>
+    <unique>false</unique>
+</CustomField>

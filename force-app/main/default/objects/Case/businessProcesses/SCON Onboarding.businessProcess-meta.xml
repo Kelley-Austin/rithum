@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SCON Onboarding</fullName>
+    <description>support process for SCON Onboarding</description>
+    <isActive>true</isActive>
+    <values>
+        <fullName>Canceled</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>In Progress</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Invite Accepted</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Invite Sent</fullName>
+        <default>true</default>
+    </values>
+    <values>
+        <fullName>Migrated</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Needs Migration</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Test Preparation</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Testing</fullName>
+        <default>false</default>
+    </values>
+</BusinessProcess>

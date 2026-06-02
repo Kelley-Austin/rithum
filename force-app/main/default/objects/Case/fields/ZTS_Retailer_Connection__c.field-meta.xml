@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ZTS_Retailer_Connection__c</fullName>
+    <description>Customer facing field for Retailer information entered on Web form - Zendesk to SF</description>
+    <externalId>false</externalId>
+    <inlineHelpText>You do not need to fill this as an agent.The Retailer information is entered by the case submitter on the portal. Use this to populate the Retailer Organization field.</inlineHelpText>
+    <label>Retailer Connection</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

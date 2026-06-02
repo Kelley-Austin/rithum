@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Client_Care_Park_Case</fullName>
+    <availability>online</availability>
+    <description>Holding queue for client care cases that have a future actionable date.  Prevents them from being picked up by OC.</description>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Client Care Park Case</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>{!REQUIRESCRIPT(&quot;/soap/ajax/40.0/connection.js&quot;)}
+var objCase = new sforce.SObject(&apos;Case&apos;);
+objCase.Id = &apos;{!Case.Id}&apos;;
+objCase.OwnerId = &apos;00G2A00000775IO&apos;;
+objCase.RecordTypeID = &apos;012F0000001EssI&apos;;
+objCase.Status = &apos;Pending Contract Start/End Date&apos;;
+var result = sforce.connection.update([objCase]);
+if(result[0].success==&apos;true&apos;){
+location.reload(true);}</url>
+</WebLink>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SF_Enhancemnt_In_Progress_Est_Completion</fullName>
+    <active>false</active>
+    <errorConditionFormula>$RecordType.Id = &quot;01200000000DKLX&quot; &amp;&amp;   (ISPICKVAL(Status, &quot;In Progress&quot;)  ||  ISPICKVAL(Status, &quot;On Hold&quot;) ) &amp;&amp; ISBLANK( Estimated_Completion_Date__c )</errorConditionFormula>
+    <errorDisplayField>Estimated_Completion_Date__c</errorDisplayField>
+    <errorMessage>&quot;Estimated Completion Date&quot; and &quot;Estimated Project Hours&quot; should be filled-out when changing a SF Enhancement Request to &quot;In Progress&quot; or &quot;On Hold&quot;.</errorMessage>
+</ValidationRule>

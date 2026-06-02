@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Additional_Business_Unites_Affected__c</fullName>
+    <label>Additional Business Units Affected</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Adminstration</fullName>
+                <default>false</default>
+                <label>Adminstration</label>
+            </value>
+            <value>
+                <fullName>Engineering</fullName>
+                <default>false</default>
+                <label>Engineering</label>
+            </value>
+            <value>
+                <fullName>Finance</fullName>
+                <default>false</default>
+                <label>Finance</label>
+            </value>
+            <value>
+                <fullName>HR</fullName>
+                <default>false</default>
+                <label>HR</label>
+            </value>
+            <value>
+                <fullName>Implementation</fullName>
+                <default>false</default>
+                <label>Implementation</label>
+            </value>
+            <value>
+                <fullName>Legal</fullName>
+                <default>false</default>
+                <label>Legal</label>
+            </value>
+            <value>
+                <fullName>MIS</fullName>
+                <default>false</default>
+                <label>MIS</label>
+            </value>
+            <value>
+                <fullName>Product Management</fullName>
+                <default>false</default>
+                <label>Product Management</label>
+            </value>
+            <value>
+                <fullName>Professional Services</fullName>
+                <default>false</default>
+                <label>Professional Services</label>
+            </value>
+            <value>
+                <fullName>Sales - AU</fullName>
+                <default>false</default>
+                <label>Sales - AU</label>
+            </value>
+            <value>
+                <fullName>Sales - UK</fullName>
+                <default>false</default>
+                <label>Sales - UK</label>
+            </value>
+            <value>
+                <fullName>Sales - US Central</fullName>
+                <default>false</default>
+                <label>Sales - US Central</label>
+            </value>
+            <value>
+                <fullName>Sales - US East</fullName>
+                <default>false</default>
+                <label>Sales - US East</label>
+            </value>
+            <value>
+                <fullName>Sales - US West</fullName>
+                <default>false</default>
+                <label>Sales - US West</label>
+            </value>
+            <value>
+                <fullName>SLT</fullName>
+                <default>false</default>
+                <label>SLT</label>
+            </value>
+            <value>
+                <fullName>Support</fullName>
+                <default>false</default>
+                <label>Support</label>
+            </value>
+            <value>
+                <fullName>Marketing</fullName>
+                <default>false</default>
+                <label>Marketing</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>10</visibleLines>
+</CustomField>

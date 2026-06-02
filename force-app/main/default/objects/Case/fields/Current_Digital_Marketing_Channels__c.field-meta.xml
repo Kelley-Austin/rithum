@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Current_Digital_Marketing_Channels__c</fullName>
+    <label>Current Digital Marketing Channels?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Paid Search (Google, Yahoo!, Bing)</fullName>
+                <default>false</default>
+                <label>Paid Search (Google, Yahoo!, Bing)</label>
+            </value>
+            <value>
+                <fullName>Product Listing Ads (Google Shopping)</fullName>
+                <default>false</default>
+                <label>Product Listing Ads (Google Shopping)</label>
+            </value>
+            <value>
+                <fullName>Search Engine Optimization (SEO)</fullName>
+                <default>false</default>
+                <label>Search Engine Optimization (SEO)</label>
+            </value>
+            <value>
+                <fullName>Shopping Feeds</fullName>
+                <default>false</default>
+                <label>Shopping Feeds</label>
+            </value>
+            <value>
+                <fullName>Social Media</fullName>
+                <default>false</default>
+                <label>Social Media</label>
+            </value>
+            <value>
+                <fullName>Display/Affiliates/Retargeting</fullName>
+                <default>false</default>
+                <label>Display/Affiliates/Retargeting</label>
+            </value>
+            <value>
+                <fullName>None</fullName>
+                <default>false</default>
+                <label>None</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

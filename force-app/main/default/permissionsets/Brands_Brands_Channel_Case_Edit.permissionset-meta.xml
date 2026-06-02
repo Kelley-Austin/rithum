@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Brands - Brands Channel Case Edit</label>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Brands_Channel_Case__c.Case__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Brands_Channel_Case__c.Brands_Channel__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+</PermissionSet>

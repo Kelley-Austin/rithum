@@ -3,6 +3,18 @@
 Append-only log of every context-shaping action CHEESE has taken in this project.
 Use `git log -p docs/Activity.md` to audit changes over time.
 
+- `2026-05-28T22:52:04.998Z` · **context-fed** · Fed project context to slice conv-1780008396277 · chars=1664 · sections=1
+- `2026-05-28T23:08:47.060Z` · **branch-switched** · Branch switched to feature/st-21894-queue-assignment-status · source=watcher
+- `2026-06-01T17:16:02.566Z` · **target-org-switched** · Target org switched to rithum-sandbox · source=watcher
+- `2026-06-01T18:30:12.628Z` · **target-org-switched** · Target org switched to rithum-sandbox · source=watcher
+- `2026-06-02T14:47:02.600Z` · **branch-switched** · Branch switched to feature/st-21832-case-queues-part-1-statu · source=watcher
+- `2026-06-02T14:48:53.652Z` · **slice-summary** · Saved summary for "# ST-21832: Case Queues (Part 1)
+**Statu" ([docs/slices/conv-1780338159721-st-21832-case-queues-part-1-statu.md](docs/slices/conv-1780338159721-st-21832-case-queues-part-1-statu.md)) · decisions=1 · phase=0
+- `2026-06-02T14:51:55.166Z` · **orchestration-plan** · Initialized Orchestration Plan ([docs/Orchestration_Plan.md](docs/Orchestration_Plan.md)) · slices=5 · phases=3 · conflicts=1
+- `2026-06-02T15:06:52.213Z` · **target-org-switched** · Target org switched to rithum-sandbox · source=watcher
+- `2026-06-02T16:06:15.387Z` · **slice-summary** · Saved summary for "ST-21904: Internal Route to Tier 2 (Part 2)" ([docs/slices/conv-1780411803098-st-21904-internal-route-to-tier-2-part-2.md](docs/slices/conv-1780411803098-st-21904-internal-route-to-tier-2-part-2.md)) · decisions=1 · phase=1
+- `2026-06-02T16:06:23.013Z` · **branch-switched** · Branch switched to agent/st-21900-subcategory-tier2-routing · source=agent-run · conversationId=conv-1780411821832
+- `2026-06-02T16:08:18.838Z` · **branch-switched** · Branch switched to agent/st-21905-priority-account-tier2-routing · source=agent-run · conversationId=conv-1780411822782
 - `2026-05-28T15:56:01.322Z` · **branch-switched** · Branch switched to main · source=watcher
 - `2026-05-28T18:45:40.825Z` · **branch-switched** · Branch switched to main · source=watcher
 - `2026-05-28T20:23:28.457Z` · **branch-switched** · Branch switched to main · source=watcher

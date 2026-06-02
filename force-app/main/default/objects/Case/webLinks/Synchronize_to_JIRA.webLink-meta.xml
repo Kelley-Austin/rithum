@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Synchronize_to_JIRA</fullName>
+    <availability>online</availability>
+    <description>Synchronizes the case with any linked Jira issues.</description>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Synchronize to JIRA</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>{!REQUIRESCRIPT(&quot;/soap/ajax/25.0/connection.js&quot;)} 
+{!REQUIRESCRIPT(&quot;/soap/ajax/25.0/apex.js&quot;)} 
+
+var ParentCase = &apos;{!Case.ParentId}&apos;;
+var caseRecordTypeName = &apos;{!Case.RecordType}&apos;;
+//alert(ParentCase);
+if ((ParentCase == null || ParentCase == &apos;&apos;)  &amp;&amp; caseRecordTypeName == &apos;Customer Support&apos;)
+{
+alert(&apos;Cannot synchronize a parent case to a linked JIRA.&apos;);
+}
+else
+{
+window.open(&apos;https://jira.channeladvisor.com/plugins/servlet/customware/connector/issue/1/Case/synchronize.action?id={!Case.Id}&apos;);
+}</url>
+</WebLink>

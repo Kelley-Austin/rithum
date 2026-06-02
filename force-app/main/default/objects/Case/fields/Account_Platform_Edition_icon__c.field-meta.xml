@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Platform_Edition_icon__c</fullName>
+    <description>Shows icon on cases in the console that indicates the Account Platform Edition (if there is one) or the Account Status. If none of the specific criteria are met, the icon for Complete will be displayed. 
+If the account is an active customer, clicking the icon will open the account in the platform.</description>
+    <externalId>false</externalId>
+    <formula>HYPERLINK(&quot;https://complete.channeladvisor.com/ClientMgmt/ClientEdit.mvc?clientId=&quot;  &amp; Account.Client_ID__c, 
+IF( TEXT(Account.Platform_Edition__c) = &apos;Starter&apos;,
+IMAGE(&quot;/resource/1561990681000/Starter&quot;, &quot;Starter&quot;),
+IF( TEXT(Account.Platform_Edition__c) = &apos;Complete&apos;,
+IMAGE(&quot;/resource/1561990643000/Complete&quot;, &quot;Complete&quot;),
+IF( TEXT(Account.Platform_Edition__c) = &apos;Elevate&apos;,
+IMAGE(&quot;/resource/1561990624000/Elevate&quot;, &quot;Elevate&quot;),
+IF (Account.Name = &quot;ChannelAdvisor&quot;,
+IMAGE(&quot;/resource/1562677416000/ChannelAdvisor&quot;, &quot;ChannelAdvisor&quot;),
+IF (CONTAINS(Account_Status__c, &quot;Prospect&quot;),
+IMAGE(&quot;resource/1562868876000/Prospect&quot;, &quot;Prospect&quot;),
+IF (Account_Status__c = &apos;Out of Business&apos;,
+IMAGE(&quot;/resource/1562868943000/Terminated&quot;, &quot;Terminated&quot;),
+IF (CONTAINS(Account_Status__c, &quot;Terminated&quot;),
+IMAGE(&quot;/resource/1562868943000/Terminated&quot;, &quot;Terminated&quot;),
+IMAGE(&quot;resource/1561990643000/Complete&quot;, &quot;Complete&quot;)))))))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Customer Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

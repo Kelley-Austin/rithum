@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FOB__c</fullName>
+    <description>Family of Business - used for Macy&apos;s</description>
+    <label>FOB</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Beauty</fullName>
+                <default>false</default>
+                <label>Beauty</label>
+            </value>
+            <value>
+                <fullName>Fashion Jewelry</fullName>
+                <default>false</default>
+                <label>Fashion Jewelry</label>
+            </value>
+            <value>
+                <fullName>Fine Jewelry</fullName>
+                <default>false</default>
+                <label>Fine Jewelry</label>
+            </value>
+            <value>
+                <fullName>Furniture</fullName>
+                <default>false</default>
+                <label>Furniture</label>
+            </value>
+            <value>
+                <fullName>Handbags</fullName>
+                <default>false</default>
+                <label>Handbags</label>
+            </value>
+            <value>
+                <fullName>Holiday Lane</fullName>
+                <default>false</default>
+                <label>Holiday Lane</label>
+            </value>
+            <value>
+                <fullName>Home - Bed &amp; Bath</fullName>
+                <default>false</default>
+                <label>Home - Bed &amp; Bath</label>
+            </value>
+            <value>
+                <fullName>Home - Cookware</fullName>
+                <default>false</default>
+                <label>Home - Cookware</label>
+            </value>
+            <value>
+                <fullName>Home - Dinnerware</fullName>
+                <default>false</default>
+                <label>Home - Dinnerware</label>
+            </value>
+            <value>
+                <fullName>Home - Electrics</fullName>
+                <default>false</default>
+                <label>Home - Electrics</label>
+            </value>
+            <value>
+                <fullName>Home - Lighting</fullName>
+                <default>false</default>
+                <label>Home - Lighting</label>
+            </value>
+            <value>
+                <fullName>Home - Luggage</fullName>
+                <default>false</default>
+                <label>Home - Luggage</label>
+            </value>
+            <value>
+                <fullName>Home - Rugs</fullName>
+                <default>false</default>
+                <label>Home - Rugs</label>
+            </value>
+            <value>
+                <fullName>Intimates</fullName>
+                <default>false</default>
+                <label>Intimates</label>
+            </value>
+            <value>
+                <fullName>Kids</fullName>
+                <default>false</default>
+                <label>Kids</label>
+            </value>
+            <value>
+                <fullName>Kids Shoes</fullName>
+                <default>false</default>
+                <label>Kids Shoes</label>
+            </value>
+            <value>
+                <fullName>Mattresses</fullName>
+                <default>false</default>
+                <label>Mattresses</label>
+            </value>
+            <value>
+                <fullName>Mens Accessories</fullName>
+                <default>false</default>
+                <label>Mens Accessories</label>
+            </value>
+            <value>
+                <fullName>Mens Apparel</fullName>
+                <default>false</default>
+                <label>Mens Apparel</label>
+            </value>
+            <value>
+                <fullName>Mens Shoes</fullName>
+                <default>false</default>
+                <label>Mens Shoes</label>
+            </value>
+            <value>
+                <fullName>Nongender</fullName>
+                <default>false</default>
+                <label>Nongender</label>
+            </value>
+            <value>
+                <fullName>Nongender Shoes</fullName>
+                <default>false</default>
+                <label>Nongender Shoes</label>
+            </value>
+            <value>
+                <fullName>Watches</fullName>
+                <default>false</default>
+                <label>Watches</label>
+            </value>
+            <value>
+                <fullName>Womens Accessories</fullName>
+                <default>false</default>
+                <label>Womens Accessories</label>
+            </value>
+            <value>
+                <fullName>Womens Apparel</fullName>
+                <default>false</default>
+                <label>Womens Apparel</label>
+            </value>
+            <value>
+                <fullName>Womens Shoes</fullName>
+                <default>false</default>
+                <label>Womens Shoes</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

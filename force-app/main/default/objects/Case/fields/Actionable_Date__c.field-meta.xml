@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Actionable_Date__c</fullName>
+    <description>The Actionable Date is going to be used by the support admin team to note
+when a case needs to be picked up.  They&apos;ll frequently get cases - like
+termination and new client creation cases - well before the actions
+actually need to be taken. They&apos;re going to use the actionable field to tag
+the case with the date it needs to be actioned and then update their queue
+so that is visible.</description>
+    <label>Actionable Date</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

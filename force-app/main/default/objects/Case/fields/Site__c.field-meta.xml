@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Site__c</fullName>
+    <description>Marketplace site selected by customer on marketing landing page forms.</description>
+    <inlineHelpText>Status values for Walmart are different from the other sites so if selecting Walmart you will need to choose a Marketplace Status value and for all other sites you will select a Site Status value.</inlineHelpText>
+    <label>Site</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Walmart</fullName>
+                <default>false</default>
+                <label>Walmart</label>
+            </value>
+            <value>
+                <fullName>Jet</fullName>
+                <default>false</default>
+                <label>Jet</label>
+            </value>
+            <value>
+                <fullName>Overstock</fullName>
+                <default>false</default>
+                <label>Overstock</label>
+            </value>
+            <value>
+                <fullName>Bluefly</fullName>
+                <default>false</default>
+                <label>Bluefly</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

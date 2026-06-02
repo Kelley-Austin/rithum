@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Requires_Contact</fullName>
+    <active>true</active>
+    <errorConditionFormula>$RecordType.Name = &quot;Contract Help Request&quot;  &amp;&amp;   ISPICKVAL(Origin, &quot;Contract Help Request Button&quot;)  &amp;&amp;  ISBLANK( ContactId )</errorConditionFormula>
+    <errorMessage>Please update the Contact Name to the person who needs to receive email notifications on this Case.</errorMessage>
+</ValidationRule>

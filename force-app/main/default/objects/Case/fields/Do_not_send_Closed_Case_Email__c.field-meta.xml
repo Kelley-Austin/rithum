@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Do_not_send_Closed_Case_Email__c</fullName>
+    <defaultValue>false</defaultValue>
+    <inlineHelpText>Check this box if you do NOT want to send the &quot;Closed Case&quot; email for Contract Help cases</inlineHelpText>
+    <label>Do not send Closed Case Email</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>EMEA Business Development</fullName>
+        <default>false</default>
+        <label>EMEA Business Development</label>
+    </customValue>
+    <customValue>
+        <fullName>US Business Development</fullName>
+        <default>false</default>
+        <label>US Business Development</label>
+    </customValue>
+    <customValue>
+        <fullName>AU Sales</fullName>
+        <default>false</default>
+        <label>AU Sales</label>
+    </customValue>
+    <customValue>
+        <fullName>DE Sales</fullName>
+        <default>false</default>
+        <label>DE Sales</label>
+    </customValue>
+    <customValue>
+        <fullName>UK Sales</fullName>
+        <default>false</default>
+        <label>UK Sales</label>
+    </customValue>
+    <customValue>
+        <fullName>US Sales</fullName>
+        <default>false</default>
+        <label>US Sales</label>
+    </customValue>
+    <customValue>
+        <fullName>AU-PAC Business Development</fullName>
+        <default>false</default>
+        <label>AU-PAC Business Development</label>
+    </customValue>
+    <customValue>
+        <fullName>UK Enterprise</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>UK Enterprise</label>
+    </customValue>
+    <customValue>
+        <fullName>UK Mid-Market</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>UK Mid-Market</label>
+    </customValue>
+    <customValue>
+        <fullName>AU Enterprise</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>AU Enterprise</label>
+    </customValue>
+    <customValue>
+        <fullName>US Mid-Market</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>US Mid-Market</label>
+    </customValue>
+    <customValue>
+        <fullName>US Enterprise</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>US Enterprise</label>
+    </customValue>
+    <customValue>
+        <fullName>AU Mid-Market</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>AU Mid-Market</label>
+    </customValue>
+    <customValue>
+        <fullName>DACH Enterprise</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>DACH Enterprise</label>
+    </customValue>
+    <customValue>
+        <fullName>DACH Mid-Market</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>DACH Mid-Market</label>
+    </customValue>
+    <customValue>
+        <fullName>GC Enterprise</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>GC Enterprise</label>
+    </customValue>
+    <customValue>
+        <fullName>GC Mid-Market</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>GC Mid-Market</label>
+    </customValue>
+    <customValue>
+        <fullName>Greater China</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Greater China</label>
+    </customValue>
+    <masterLabel>Division</masterLabel>
+    <sorted>true</sorted>
+</GlobalValueSet>

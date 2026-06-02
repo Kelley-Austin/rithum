@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Satisifaction__c</fullName>
+    <label>Satisifaction</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Unoffered</fullName>
+                <default>false</default>
+                <label>Unoffered</label>
+            </value>
+            <value>
+                <fullName>Offered</fullName>
+                <default>false</default>
+                <label>Offered</label>
+            </value>
+            <value>
+                <fullName>Bad</fullName>
+                <default>false</default>
+                <label>Bad</label>
+            </value>
+            <value>
+                <fullName>Bad with comment</fullName>
+                <default>false</default>
+                <label>Bad with comment</label>
+            </value>
+            <value>
+                <fullName>Good</fullName>
+                <default>false</default>
+                <label>Good</label>
+            </value>
+            <value>
+                <fullName>Good with comment</fullName>
+                <default>false</default>
+                <label>Good with comment</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

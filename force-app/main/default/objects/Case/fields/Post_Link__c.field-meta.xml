@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Post_Link__c</fullName>
+    <description>Formula field to display the URL with a friendly name to fit in the Compact View of the Forum Notification Record Type</description>
+    <externalId>false</externalId>
+    <formula>HYPERLINK(Feed_Link__c,&quot;POST&quot;,&quot;_blank&quot;)</formula>
+    <inlineHelpText>Formula field to display the URL with a friendly name to fit in the Compact View of the Forum Notification Record Type</inlineHelpText>
+    <label>Post Link</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

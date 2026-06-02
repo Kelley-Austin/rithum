@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Current_Channels__c</fullName>
+    <label>Current Channels</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>Contract_Help_Request_Type__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>eBay</fullName>
+                <default>false</default>
+                <label>eBay</label>
+            </value>
+            <value>
+                <fullName>Amazon</fullName>
+                <default>false</default>
+                <label>Amazon</label>
+            </value>
+            <value>
+                <fullName>Sears</fullName>
+                <default>false</default>
+                <label>Sears</label>
+            </value>
+            <value>
+                <fullName>Walmart</fullName>
+                <default>false</default>
+                <label>Walmart</label>
+            </value>
+            <value>
+                <fullName>Jet</fullName>
+                <default>false</default>
+                <label>Jet</label>
+            </value>
+            <value>
+                <fullName>Rakuten</fullName>
+                <default>false</default>
+                <label>Rakuten</label>
+            </value>
+            <value>
+                <fullName>New Egg</fullName>
+                <default>false</default>
+                <label>New Egg</label>
+            </value>
+            <value>
+                <fullName>Cdiscount</fullName>
+                <default>false</default>
+                <label>Cdiscount</label>
+            </value>
+            <value>
+                <fullName>LaRedoute</fullName>
+                <default>false</default>
+                <label>LaRedoute</label>
+            </value>
+            <value>
+                <fullName>Tesco</fullName>
+                <default>false</default>
+                <label>Tesco</label>
+            </value>
+            <value>
+                <fullName>Mercado Libre</fullName>
+                <default>false</default>
+                <label>Mercado Libre</label>
+            </value>
+            <value>
+                <fullName>TradeMe</fullName>
+                <default>false</default>
+                <label>TradeMe</label>
+            </value>
+            <value>
+                <fullName>OneStopPlus</fullName>
+                <default>false</default>
+                <label>OneStopPlus</label>
+            </value>
+            <value>
+                <fullName>Zalando DE</fullName>
+                <default>false</default>
+                <label>Zalando DE</label>
+            </value>
+            <value>
+                <fullName>Zalando FR</fullName>
+                <default>false</default>
+                <label>Zalando FR</label>
+            </value>
+            <value>
+                <fullName>AllYouNeed</fullName>
+                <default>false</default>
+                <label>AllYouNeed</label>
+            </value>
+            <value>
+                <fullName>Google Shopping</fullName>
+                <default>false</default>
+                <label>Google Shopping</label>
+            </value>
+            <value>
+                <fullName>Bing Shopping</fullName>
+                <default>false</default>
+                <label>Bing Shopping</label>
+            </value>
+            <value>
+                <fullName>Other CSEs</fullName>
+                <default>false</default>
+                <label>Other CSEs</label>
+            </value>
+            <value>
+                <fullName>Flex Feeds</fullName>
+                <default>false</default>
+                <label>Flex Feeds</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Overstock</fullName>
+                <default>false</default>
+                <label>Overstock</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Systems Workflow</controllingFieldValue>
+            <controllingFieldValue>Opportunity Analysis Call</controllingFieldValue>
+            <controllingFieldValue>Feed Audit</controllingFieldValue>
+            <valueName>eBay</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Systems Workflow</controllingFieldValue>
+            <controllingFieldValue>Opportunity Analysis Call</controllingFieldValue>
+            <controllingFieldValue>Feed Audit</controllingFieldValue>
+            <valueName>Amazon</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Systems Workflow</controllingFieldValue>
+            <controllingFieldValue>Opportunity Analysis Call</controllingFieldValue>
+            <controllingFieldValue>Feed Audit</controllingFieldValue>
+            <valueName>Sears</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Systems Workflow</controllingFieldValue>
+            <controllingFieldValue>Opportunity Analysis Call</controllingFieldValue>
+            <controllingFieldValue>Feed Audit</controllingFieldValue>
+            <valueName>Walmart</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Systems Workflow</controllingFieldValue>
+            <controllingFieldValue>Opportunity Analysis Call</controllingFieldValue>
+            <controllingFieldValue>Feed Audit</controllingFieldValue>
+            <valueName>Jet</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Systems Workflow</controllingFieldValue>
+            <controllingFieldValue>Opportunity Analysis Call</controllingFieldValue>
+            <controllingFieldValue>Feed Audit</controllingFieldValue>
+            <valueName>Rakuten</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Systems Workflow</controllingFieldValue>
+            <controllingFieldValue>Opportunity Analysis Call</controllingFieldValue>
+            <controllingFieldValue>Feed Audit</controllingFieldValue>
+            <valueName>New Egg</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Systems Workflow</controllingFieldValue>
+            <controllingFieldValue>Opportunity Analysis Call</controllingFieldValue>
+            <controllingFieldValue>Feed Audit</controllingFieldValue>
+            <valueName>Cdiscount</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Systems Workflow</controllingFieldValue>
+            <controllingFieldValue>Opportunity Analysis Call</controllingFieldValue>
+            <controllingFieldValue>Feed Audit</controllingFieldValue>
+            <valueName>LaRedoute</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Systems Workflow</controllingFieldValue>
+            <controllingFieldValue>Opportunity Analysis Call</controllingFieldValue>
+            <controllingFieldValue>Feed Audit</controllingFieldValue>
+            <valueName>Tesco</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Systems Workflow</controllingFieldValue>
+            <controllingFieldValue>Opportunity Analysis Call</controllingFieldValue>
+            <controllingFieldValue>Feed Audit</controllingFieldValue>
+            <valueName>Mercado Libre</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Systems Workflow</controllingFieldValue>
+            <controllingFieldValue>Opportunity Analysis Call</controllingFieldValue>
+            <controllingFieldValue>Feed Audit</controllingFieldValue>
+            <valueName>TradeMe</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Systems Workflow</controllingFieldValue>
+            <controllingFieldValue>Opportunity Analysis Call</controllingFieldValue>
+            <controllingFieldValue>Feed Audit</controllingFieldValue>
+            <valueName>OneStopPlus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Systems Workflow</controllingFieldValue>
+            <controllingFieldValue>Opportunity Analysis Call</controllingFieldValue>
+            <controllingFieldValue>Feed Audit</controllingFieldValue>
+            <valueName>Zalando DE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Systems Workflow</controllingFieldValue>
+            <controllingFieldValue>Opportunity Analysis Call</controllingFieldValue>
+            <controllingFieldValue>Feed Audit</controllingFieldValue>
+            <valueName>Zalando FR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Systems Workflow</controllingFieldValue>
+            <controllingFieldValue>Opportunity Analysis Call</controllingFieldValue>
+            <controllingFieldValue>Feed Audit</controllingFieldValue>
+            <valueName>AllYouNeed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Systems Workflow</controllingFieldValue>
+            <controllingFieldValue>Opportunity Analysis Call</controllingFieldValue>
+            <controllingFieldValue>Feed Audit</controllingFieldValue>
+            <valueName>Google Shopping</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Systems Workflow</controllingFieldValue>
+            <controllingFieldValue>Opportunity Analysis Call</controllingFieldValue>
+            <controllingFieldValue>Feed Audit</controllingFieldValue>
+            <valueName>Bing Shopping</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Systems Workflow</controllingFieldValue>
+            <controllingFieldValue>Opportunity Analysis Call</controllingFieldValue>
+            <controllingFieldValue>Feed Audit</controllingFieldValue>
+            <valueName>Other CSEs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Systems Workflow</controllingFieldValue>
+            <controllingFieldValue>Opportunity Analysis Call</controllingFieldValue>
+            <controllingFieldValue>Feed Audit</controllingFieldValue>
+            <valueName>Flex Feeds</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Systems Workflow</controllingFieldValue>
+            <controllingFieldValue>Opportunity Analysis Call</controllingFieldValue>
+            <controllingFieldValue>Feed Audit</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Systems Workflow</controllingFieldValue>
+            <controllingFieldValue>Opportunity Analysis Call</controllingFieldValue>
+            <controllingFieldValue>Feed Audit</controllingFieldValue>
+            <valueName>Overstock</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

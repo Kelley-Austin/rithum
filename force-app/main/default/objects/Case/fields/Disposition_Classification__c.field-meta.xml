@@ -1,0 +1,875 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Disposition_Classification__c</fullName>
+    <label>Disposition - Classification</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Account - Combining Account Access</fullName>
+                <default>false</default>
+                <label>Account - Combining Account Access</label>
+            </value>
+            <value>
+                <fullName>Account - Connection/Termination with Trading Partner</fullName>
+                <default>false</default>
+                <label>Account - Connection/Termination with Trading Partner</label>
+            </value>
+            <value>
+                <fullName>Account - Email/Notification Questions</fullName>
+                <default>false</default>
+                <label>Account - Email/Notification Questions</label>
+            </value>
+            <value>
+                <fullName>Account - General Questions</fullName>
+                <default>false</default>
+                <label>Account - General Questions</label>
+            </value>
+            <value>
+                <fullName>Account - User Access</fullName>
+                <default>false</default>
+                <label>Account - User Access</label>
+            </value>
+            <value>
+                <fullName>API - Documentation Question</fullName>
+                <default>false</default>
+                <label>API - Documentation Question</label>
+            </value>
+            <value>
+                <fullName>API - General Question</fullName>
+                <default>false</default>
+                <label>API - General Question</label>
+            </value>
+            <value>
+                <fullName>API - Streams Issue</fullName>
+                <default>false</default>
+                <label>API - Streams Issue</label>
+            </value>
+            <value>
+                <fullName>API - Token Request</fullName>
+                <default>false</default>
+                <label>API - Token Request</label>
+            </value>
+            <value>
+                <fullName>API - Unknown System Errors</fullName>
+                <default>false</default>
+                <label>API - Unknown System Errors</label>
+            </value>
+            <value>
+                <fullName>API - V3 API Migration</fullName>
+                <default>false</default>
+                <label>API - V3 API Migration</label>
+            </value>
+            <value>
+                <fullName>AS2 - Connection Failure</fullName>
+                <default>false</default>
+                <label>AS2 - Connection Failure</label>
+            </value>
+            <value>
+                <fullName>AS2 - Connection Setup</fullName>
+                <default>false</default>
+                <label>AS2 - Connection Setup</label>
+            </value>
+            <value>
+                <fullName>AS2 - Connection Update</fullName>
+                <default>false</default>
+                <label>AS2 - Connection Update</label>
+            </value>
+            <value>
+                <fullName>AS2 - Dsco Cert Update</fullName>
+                <default>false</default>
+                <label>AS2 - Dsco Cert Update</label>
+            </value>
+            <value>
+                <fullName>AS2 - Pulse Migration</fullName>
+                <default>false</default>
+                <label>AS2 - Pulse Migration</label>
+            </value>
+            <value>
+                <fullName>AS2 - Supplier Certificate Update</fullName>
+                <default>false</default>
+                <label>AS2 - Supplier Certificate Update</label>
+            </value>
+            <value>
+                <fullName>Automation - Job Configuration</fullName>
+                <default>false</default>
+                <label>Automation - Job Configuration</label>
+            </value>
+            <value>
+                <fullName>Automation - Job Failure</fullName>
+                <default>false</default>
+                <label>Automation - Job Failure</label>
+            </value>
+            <value>
+                <fullName>Automation - Request to Resend Data</fullName>
+                <default>false</default>
+                <label>Automation - Request to Resend Data</label>
+            </value>
+            <value>
+                <fullName>Automation - Retailer Cancel Export Missing</fullName>
+                <default>false</default>
+                <label>Automation - Retailer Cancel Export Missing</label>
+            </value>
+            <value>
+                <fullName>Automation - Retailer Inventory Export Missing</fullName>
+                <default>false</default>
+                <label>Automation - Retailer Inventory Export Missing</label>
+            </value>
+            <value>
+                <fullName>Automation - Retailer Invoice Export Missing</fullName>
+                <default>false</default>
+                <label>Automation - Retailer Invoice Export Missing</label>
+            </value>
+            <value>
+                <fullName>Automation - Retailer Shipment Export Missing</fullName>
+                <default>false</default>
+                <label>Automation - Retailer Shipment Export Missing</label>
+            </value>
+            <value>
+                <fullName>Cancel - Cancel Update Missing</fullName>
+                <default>false</default>
+                <label>Cancel - Cancel Update Missing</label>
+            </value>
+            <value>
+                <fullName>Cancel - Error When Cancelling</fullName>
+                <default>false</default>
+                <label>Cancel - Error When Cancelling</label>
+            </value>
+            <value>
+                <fullName>Cancel - General Questions</fullName>
+                <default>false</default>
+                <label>Cancel - General Questions</label>
+            </value>
+            <value>
+                <fullName>Cancel - How To Cancel</fullName>
+                <default>false</default>
+                <label>Cancel - How To Cancel</label>
+            </value>
+            <value>
+                <fullName>Cancel - Order Mistakenly Cancelled</fullName>
+                <default>false</default>
+                <label>Cancel - Order Mistakenly Cancelled</label>
+            </value>
+            <value>
+                <fullName>Cancel - Request to Cancel</fullName>
+                <default>false</default>
+                <label>Cancel - Request to Cancel</label>
+            </value>
+            <value>
+                <fullName>Catalogs - (Dsco Schema) Item Setup with Retailer</fullName>
+                <default>false</default>
+                <label>Catalogs - (Dsco Schema) Item Setup with Retailer</label>
+            </value>
+            <value>
+                <fullName>Catalogs - Advanced Catalog Feature, How to Use</fullName>
+                <default>false</default>
+                <label>Catalogs - Advanced Catalog Feature, How to Use</label>
+            </value>
+            <value>
+                <fullName>Catalogs - Catalog Processing Delay</fullName>
+                <default>false</default>
+                <label>Catalogs - Catalog Processing Delay</label>
+            </value>
+            <value>
+                <fullName>Catalogs - Duplicate Attribute Exceptions (How to Resolve)</fullName>
+                <default>false</default>
+                <label>Catalogs - Duplicate Attribute Exceptions (How to Resolve)</label>
+            </value>
+            <value>
+                <fullName>Catalogs - Exceptions File, Missing Errors</fullName>
+                <default>false</default>
+                <label>Catalogs - Exceptions File, Missing Errors</label>
+            </value>
+            <value>
+                <fullName>Catalogs - Exceptions File, Unknown Errors</fullName>
+                <default>false</default>
+                <label>Catalogs - Exceptions File, Unknown Errors</label>
+            </value>
+            <value>
+                <fullName>Catalogs - Item Compliance (Common Troubleshooting)</fullName>
+                <default>false</default>
+                <label>Catalogs - Item Compliance (Common Troubleshooting)</label>
+            </value>
+            <value>
+                <fullName>Catalogs - Image Removal</fullName>
+                <default>false</default>
+                <label>Catalogs - Image Removal</label>
+            </value>
+            <value>
+                <fullName>Catalogs - Item Images, How To Upload</fullName>
+                <default>false</default>
+                <label>Catalogs - Item Images, How To Upload</label>
+            </value>
+            <value>
+                <fullName>Catalogs - Item Images, Not Showing in Portal</fullName>
+                <default>false</default>
+                <label>Catalogs - Item Images, Not Showing in Portal</label>
+            </value>
+            <value>
+                <fullName>Catalogs - Item Images, Slow/Stuck Processing</fullName>
+                <default>false</default>
+                <label>Catalogs - Item Images, Slow/Stuck Processing</label>
+            </value>
+            <value>
+                <fullName>Catalogs - Item Image, Unknown Image Error</fullName>
+                <default>false</default>
+                <label>Catalogs - Item Image, Unknown Image Error</label>
+            </value>
+            <value>
+                <fullName>Catalogs - Reorder Attributes Issue</fullName>
+                <default>false</default>
+                <label>Catalogs - Reorder Attributes Issue</label>
+            </value>
+            <value>
+                <fullName>Chat - General</fullName>
+                <default>false</default>
+                <label>Chat - General</label>
+            </value>
+            <value>
+                <fullName>Connecting to Third-Party Provider</fullName>
+                <default>false</default>
+                <label>Connecting to Third-Party Provider</label>
+            </value>
+            <value>
+                <fullName>Account - Contract/Payment/Billing Question</fullName>
+                <default>false</default>
+                <label>Account - Contract/Payment/Billing Question</label>
+            </value>
+            <value>
+                <fullName>Customer Outreach</fullName>
+                <default>false</default>
+                <label>Customer Outreach</label>
+            </value>
+            <value>
+                <fullName>Data Mapper</fullName>
+                <default>false</default>
+                <label>Data Mapper</label>
+            </value>
+            <value>
+                <fullName>Data Missing from Portal</fullName>
+                <default>false</default>
+                <label>Data Missing from Portal</label>
+            </value>
+            <value>
+                <fullName>Delivery Suite-Disable Rate Shopping</fullName>
+                <default>false</default>
+                <label>Delivery Suite-Disable Rate Shopping</label>
+            </value>
+            <value>
+                <fullName>Delivery Suite-Enable Rate Shopping-Live</fullName>
+                <default>false</default>
+                <label>Delivery Suite-Enable Rate Shopping-Live</label>
+            </value>
+            <value>
+                <fullName>Delivery Suite-Enable Rate Shopping-Simulation</fullName>
+                <default>false</default>
+                <label>Delivery Suite-Enable Rate Shopping-Simulation</label>
+            </value>
+            <value>
+                <fullName>Delivery Suite-Other</fullName>
+                <default>false</default>
+                <label>Delivery Suite-Other</label>
+            </value>
+            <value>
+                <fullName>Delivery Suite-Shipping Label Setup</fullName>
+                <default>false</default>
+                <label>Delivery Suite-Shipping Label Setup</label>
+            </value>
+            <value>
+                <fullName>Delivery Suite-Warehouse Create</fullName>
+                <default>false</default>
+                <label>Delivery Suite-Warehouse Create</label>
+            </value>
+            <value>
+                <fullName>Delivery Suite-Warehouse Update</fullName>
+                <default>false</default>
+                <label>Delivery Suite-Warehouse Update</label>
+            </value>
+            <value>
+                <fullName>Dsco System Issue - Internal</fullName>
+                <default>false</default>
+                <label>Dsco System Issue - Internal</label>
+            </value>
+            <value>
+                <fullName>Dsco System Issue - Portal Issue</fullName>
+                <default>false</default>
+                <label>Dsco System Issue - Portal Issue</label>
+            </value>
+            <value>
+                <fullName>Dsco System Issue - Retailer Alerts</fullName>
+                <default>false</default>
+                <label>Dsco System Issue - Retailer Alerts</label>
+            </value>
+            <value>
+                <fullName>Dsco System Issue - SFTP File Archive</fullName>
+                <default>false</default>
+                <label>Dsco System Issue - SFTP File Archive</label>
+            </value>
+            <value>
+                <fullName>Dsco System Issues - UI Update</fullName>
+                <default>false</default>
+                <label>Dsco System Issues - UI Update</label>
+            </value>
+            <value>
+                <fullName>EDI Question - Bass Pro 753/754 Routing Request/Troubleshooting</fullName>
+                <default>false</default>
+                <label>EDI Question - Bass Pro 753/754 Routing Request/Troubleshooting</label>
+            </value>
+            <value>
+                <fullName>EDI Question - General</fullName>
+                <default>false</default>
+                <label>EDI Question - General</label>
+            </value>
+            <value>
+                <fullName>EDI Question - Mappings, Specs</fullName>
+                <default>false</default>
+                <label>EDI Question - Mappings, Specs</label>
+            </value>
+            <value>
+                <fullName>EDI Question - Missing 997s</fullName>
+                <default>false</default>
+                <label>EDI Question - Missing 997s</label>
+            </value>
+            <value>
+                <fullName>EDI Question - Missing AS2 Files</fullName>
+                <default>false</default>
+                <label>EDI Question - Missing AS2 Files</label>
+            </value>
+            <value>
+                <fullName>EDI Question - Missing SFTP Files</fullName>
+                <default>false</default>
+                <label>EDI Question - Missing SFTP Files</label>
+            </value>
+            <value>
+                <fullName>EDI Question - Orders Not Exporting</fullName>
+                <default>false</default>
+                <label>EDI Question - Orders Not Exporting</label>
+            </value>
+            <value>
+                <fullName>Feature Request</fullName>
+                <default>false</default>
+                <label>Feature Request</label>
+            </value>
+            <value>
+                <fullName>Integrating with Dsco</fullName>
+                <default>false</default>
+                <label>Integrating with Dsco</label>
+            </value>
+            <value>
+                <fullName>Inventory - Clear Inventory</fullName>
+                <default>false</default>
+                <label>Inventory - Clear Inventory</label>
+            </value>
+            <value>
+                <fullName>Inventory - Creating New Items</fullName>
+                <default>false</default>
+                <label>Inventory - Creating New Items</label>
+            </value>
+            <value>
+                <fullName>Inventory - Error When Uploading Inventory</fullName>
+                <default>false</default>
+                <label>Inventory - Error When Uploading Inventory</label>
+            </value>
+            <value>
+                <fullName>Inventory - General Questions</fullName>
+                <default>false</default>
+                <label>Inventory - General Questions</label>
+            </value>
+            <value>
+                <fullName>Inventory - Inventory Update Missing</fullName>
+                <default>false</default>
+                <label>Inventory - Inventory Update Missing</label>
+            </value>
+            <value>
+                <fullName>Inventory - Missing From Retailer Site</fullName>
+                <default>false</default>
+                <label>Inventory - Missing From Retailer Site</label>
+            </value>
+            <value>
+                <fullName>Inventory - SLA Exceptions</fullName>
+                <default>false</default>
+                <label>Inventory - SLA Exceptions</label>
+            </value>
+            <value>
+                <fullName>Invoicing - Auto-invoicing</fullName>
+                <default>false</default>
+                <label>Invoicing - Auto-invoicing</label>
+            </value>
+            <value>
+                <fullName>Invoicing - Bad Cost</fullName>
+                <default>false</default>
+                <label>Invoicing - Bad Cost</label>
+            </value>
+            <value>
+                <fullName>Invoicing - Error When Invoicing</fullName>
+                <default>false</default>
+                <label>Invoicing - Error When Invoicing</label>
+            </value>
+            <value>
+                <fullName>Invoicing - General Questions</fullName>
+                <default>false</default>
+                <label>Invoicing - General Questions</label>
+            </value>
+            <value>
+                <fullName>Invoicing - How to Invoice</fullName>
+                <default>false</default>
+                <label>Invoicing - How to Invoice</label>
+            </value>
+            <value>
+                <fullName>Invoicing - Missing from Retailer AP System</fullName>
+                <default>false</default>
+                <label>Invoicing - Missing from Retailer AP System</label>
+            </value>
+            <value>
+                <fullName>Invoicing - Request for Removal</fullName>
+                <default>false</default>
+                <label>Invoicing - Request for Removal</label>
+            </value>
+            <value>
+                <fullName>IP Address Change</fullName>
+                <default>false</default>
+                <label>IP Address Change</label>
+            </value>
+            <value>
+                <fullName>Login - Password</fullName>
+                <default>false</default>
+                <label>Login - Password</label>
+            </value>
+            <value>
+                <fullName>Login - Username</fullName>
+                <default>false</default>
+                <label>Login - Username</label>
+            </value>
+            <value>
+                <fullName>Managed Integration - CHub x Dsco</fullName>
+                <default>false</default>
+                <label>Managed Integration - CHub x Dsco</label>
+            </value>
+            <value>
+                <fullName>Onboarding - Accepting the Invite</fullName>
+                <default>false</default>
+                <label>Onboarding - Accepting the Invite</label>
+            </value>
+            <value>
+                <fullName>Onboarding - Account Setup</fullName>
+                <default>false</default>
+                <label>Onboarding - Account Setup</label>
+            </value>
+            <value>
+                <fullName>Onboarding - Can&apos;t Complete Gandalf</fullName>
+                <default>false</default>
+                <label>Onboarding - Can&apos;t Complete Gandalf</label>
+            </value>
+            <value>
+                <fullName>Onboarding - Cancellations</fullName>
+                <default>false</default>
+                <label>Onboarding - Cancellations</label>
+            </value>
+            <value>
+                <fullName>Onboarding - Contracts</fullName>
+                <default>false</default>
+                <label>Onboarding - Contracts</label>
+            </value>
+            <value>
+                <fullName>Onboarding - Gandalf update request</fullName>
+                <default>false</default>
+                <label>Onboarding - Gandalf update request</label>
+            </value>
+            <value>
+                <fullName>Onboarding - Integrations, API</fullName>
+                <default>false</default>
+                <label>Onboarding - Integrations, API</label>
+            </value>
+            <value>
+                <fullName>Onboarding - Integrations, AS2</fullName>
+                <default>false</default>
+                <label>Onboarding - Integrations, AS2</label>
+            </value>
+            <value>
+                <fullName>Onboarding - Integrations, SFTP (EDI)</fullName>
+                <default>false</default>
+                <label>Onboarding - Integrations, SFTP (EDI)</label>
+            </value>
+            <value>
+                <fullName>Onboarding - Integrations, SFTP (Flat-file)</fullName>
+                <default>false</default>
+                <label>Onboarding - Integrations, SFTP (Flat-file)</label>
+            </value>
+            <value>
+                <fullName>Onboarding - Inventory</fullName>
+                <default>false</default>
+                <label>Onboarding - Inventory</label>
+            </value>
+            <value>
+                <fullName>Onboarding - Invoices</fullName>
+                <default>false</default>
+                <label>Onboarding - Invoices</label>
+            </value>
+            <value>
+                <fullName>Onboarding - Orders</fullName>
+                <default>false</default>
+                <label>Onboarding - Orders</label>
+            </value>
+            <value>
+                <fullName>Onboarding - Request to Reset</fullName>
+                <default>false</default>
+                <label>Onboarding - Request to Reset</label>
+            </value>
+            <value>
+                <fullName>Onboarding - Returns</fullName>
+                <default>false</default>
+                <label>Onboarding - Returns</label>
+            </value>
+            <value>
+                <fullName>Onboarding - SCON bug</fullName>
+                <default>false</default>
+                <label>Onboarding - SCON bug</label>
+            </value>
+            <value>
+                <fullName>Onboarding - SCON feedback</fullName>
+                <default>false</default>
+                <label>Onboarding - SCON feedback</label>
+            </value>
+            <value>
+                <fullName>Onboarding - Shipments</fullName>
+                <default>false</default>
+                <label>Onboarding - Shipments</label>
+            </value>
+            <value>
+                <fullName>Orders - Bad Address</fullName>
+                <default>false</default>
+                <label>Orders - Bad Address</label>
+            </value>
+            <value>
+                <fullName>Orders - Bad Cost</fullName>
+                <default>false</default>
+                <label>Orders - Bad Cost</label>
+            </value>
+            <value>
+                <fullName>Orders - General Questions</fullName>
+                <default>false</default>
+                <label>Orders - General Questions</label>
+            </value>
+            <value>
+                <fullName>Orders - Missing Order Alert</fullName>
+                <default>false</default>
+                <label>Orders - Missing Order Alert</label>
+            </value>
+            <value>
+                <fullName>Orders - Order Creation Failure (Retailer)</fullName>
+                <default>false</default>
+                <label>Orders - Order Creation Failure (Retailer)</label>
+            </value>
+            <value>
+                <fullName>Orders - Orders Received for OOS Inventory</fullName>
+                <default>false</default>
+                <label>Orders - Orders Received for OOS Inventory</label>
+            </value>
+            <value>
+                <fullName>Orders - Resend Orders From Dsco</fullName>
+                <default>false</default>
+                <label>Orders - Resend Orders From Dsco</label>
+            </value>
+            <value>
+                <fullName>Orders - Ship Mapping</fullName>
+                <default>false</default>
+                <label>Orders - Ship Mapping</label>
+            </value>
+            <value>
+                <fullName>Orders - SLA Exceptions</fullName>
+                <default>false</default>
+                <label>Orders - SLA Exceptions</label>
+            </value>
+            <value>
+                <fullName>OrderStream Issue</fullName>
+                <default>false</default>
+                <label>OrderStream Issue</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Outreach - Order API Rate Limits</fullName>
+                <default>false</default>
+                <label>Outreach - Order API Rate Limits</label>
+            </value>
+            <value>
+                <fullName>Packing Slip Review</fullName>
+                <default>false</default>
+                <label>Packing Slip Review</label>
+            </value>
+            <value>
+                <fullName>Packing Slips</fullName>
+                <default>false</default>
+                <label>Packing Slips</label>
+            </value>
+            <value>
+                <fullName>Phone Call - General</fullName>
+                <default>false</default>
+                <label>Phone Call - General</label>
+            </value>
+            <value>
+                <fullName>Phone Call - OS Transfer</fullName>
+                <default>false</default>
+                <label>Phone Call - OS Transfer</label>
+            </value>
+            <value>
+                <fullName>Phones - Live Support Announcement</fullName>
+                <default>false</default>
+                <label>Phones - Live Support Announcement</label>
+            </value>
+            <value>
+                <fullName>Pipeline Exceptions - Error</fullName>
+                <default>false</default>
+                <label>Pipeline Exceptions - Error</label>
+            </value>
+            <value>
+                <fullName>Pipeline Exceptions Page Errors</fullName>
+                <default>false</default>
+                <label>Pipeline Exceptions Page Errors</label>
+            </value>
+            <value>
+                <fullName>Releases - Catalogs Duplicate Attribute Exception (Bugs &amp; Feedback)</fullName>
+                <default>false</default>
+                <label>Releases - Catalogs Duplicate Attribute Exception (Bugs &amp; Feedback)</label>
+            </value>
+            <value>
+                <fullName>Releases - Catalogs Duplicate Attribute Exception (Item Removal Request)</fullName>
+                <default>false</default>
+                <label>Releases - Catalogs Duplicate Attribute Exception (Item Removal Request)</label>
+            </value>
+            <value>
+                <fullName>Releases - Catalogs In-App Exceptions, 11/11</fullName>
+                <default>false</default>
+                <label>Releases - Catalogs In-App Exceptions, 11/11</label>
+            </value>
+            <value>
+                <fullName>Releases - Catalogs Red Box Error Reports, 11/10</fullName>
+                <default>false</default>
+                <label>Releases - Catalogs Red Box Error Reports, 11/10</label>
+            </value>
+            <value>
+                <fullName>Releases - Catalogs, API GET attributes, 11/10</fullName>
+                <default>false</default>
+                <label>Releases - Catalogs, API GET attributes, 11/10</label>
+            </value>
+            <value>
+                <fullName>Releases - Order Details Beta, 11/3</fullName>
+                <default>false</default>
+                <label>Releases - Order Details Beta, 11/3</label>
+            </value>
+            <value>
+                <fullName>Releases - Orders Refresh/Beta</fullName>
+                <default>false</default>
+                <label>Releases - Orders Refresh/Beta</label>
+            </value>
+            <value>
+                <fullName>Releases - Redirect Catalog to Products</fullName>
+                <default>false</default>
+                <label>Releases - Redirect Catalog to Products</label>
+            </value>
+            <value>
+                <fullName>Releases - Synchronous APIs</fullName>
+                <default>false</default>
+                <label>Releases - Synchronous APIs</label>
+            </value>
+            <value>
+                <fullName>Releases - Trading Partners Page, 11/3</fullName>
+                <default>false</default>
+                <label>Releases - Trading Partners Page, 11/3</label>
+            </value>
+            <value>
+                <fullName>Releases - UI Change Feedback</fullName>
+                <default>false</default>
+                <label>Releases - UI Change Feedback</label>
+            </value>
+            <value>
+                <fullName>Reporting - Configurable Reports</fullName>
+                <default>false</default>
+                <label>Reporting - Configurable Reports</label>
+            </value>
+            <value>
+                <fullName>Reporting - Dashboard Page</fullName>
+                <default>false</default>
+                <label>Reporting - Dashboard Page</label>
+            </value>
+            <value>
+                <fullName>Request to Dropship</fullName>
+                <default>false</default>
+                <label>Request to Dropship</label>
+            </value>
+            <value>
+                <fullName>Returns</fullName>
+                <default>false</default>
+                <label>Returns</label>
+            </value>
+            <value>
+                <fullName>Ship Mapping</fullName>
+                <default>false</default>
+                <label>Ship Mapping</label>
+            </value>
+            <value>
+                <fullName>Shipment - Bad Service Level Code</fullName>
+                <default>false</default>
+                <label>Shipment - Bad Service Level Code</label>
+            </value>
+            <value>
+                <fullName>Shipment - Bad Tracking Number</fullName>
+                <default>false</default>
+                <label>Shipment - Bad Tracking Number</label>
+            </value>
+            <value>
+                <fullName>Shipment - Error When Shipping</fullName>
+                <default>false</default>
+                <label>Shipment - Error When Shipping</label>
+            </value>
+            <value>
+                <fullName>Shipment - General Questions</fullName>
+                <default>false</default>
+                <label>Shipment - General Questions</label>
+            </value>
+            <value>
+                <fullName>Shipment - How To Ship</fullName>
+                <default>false</default>
+                <label>Shipment - How To Ship</label>
+            </value>
+            <value>
+                <fullName>Shipment - Partial Shipment</fullName>
+                <default>false</default>
+                <label>Shipment - Partial Shipment</label>
+            </value>
+            <value>
+                <fullName>Shipment - Shipment Update Missing</fullName>
+                <default>false</default>
+                <label>Shipment - Shipment Update Missing</label>
+            </value>
+            <value>
+                <fullName>Shipment - Tracking Number Removal</fullName>
+                <default>false</default>
+                <label>Shipment - Tracking Number Removal</label>
+            </value>
+            <value>
+                <fullName>SSO - Email Verification</fullName>
+                <default>false</default>
+                <label>SSO - Email Verification</label>
+            </value>
+            <value>
+                <fullName>SSO - Migration</fullName>
+                <default>false</default>
+                <label>SSO - Migration</label>
+            </value>
+            <value>
+                <fullName>Supplier Down Time</fullName>
+                <default>false</default>
+                <label>Supplier Down Time</label>
+            </value>
+            <value>
+                <fullName>Third-Party Issue</fullName>
+                <default>false</default>
+                <label>Third-Party Issue</label>
+            </value>
+            <value>
+                <fullName>Transfer - Accounting Request</fullName>
+                <default>false</default>
+                <label>Transfer - Accounting Request</label>
+            </value>
+            <value>
+                <fullName>Warehouse - Closure</fullName>
+                <default>false</default>
+                <label>Warehouse - Closure</label>
+            </value>
+            <value>
+                <fullName>Warehouse - How to Create/Manage</fullName>
+                <default>false</default>
+                <label>Warehouse - How to Create/Manage</label>
+            </value>
+            <value>
+                <fullName>Warehouse - Removal</fullName>
+                <default>false</default>
+                <label>Warehouse - Removal</label>
+            </value>
+            <value>
+                <fullName>ZenDesk - Emails Not Making It To Us</fullName>
+                <default>false</default>
+                <label>ZenDesk - Emails Not Making It To Us</label>
+            </value>
+            <value>
+                <fullName>ZenDesk - View Issue, 7/6</fullName>
+                <default>false</default>
+                <label>ZenDesk - View Issue, 7/6</label>
+            </value>
+            <value>
+                <fullName>SFTP - New Solution Connection Issues</fullName>
+                <default>false</default>
+                <label>SFTP - New Solution Connection Issues</label>
+            </value>
+            <value>
+                <fullName>Marketplace - Cost of Goods</fullName>
+                <default>false</default>
+                <label>Marketplace - Cost of Goods</label>
+            </value>
+            <value>
+                <fullName>Marketplace - Orders</fullName>
+                <default>false</default>
+                <label>Marketplace - Orders</label>
+            </value>
+            <value>
+                <fullName>Marketplace - Settlement Reports</fullName>
+                <default>false</default>
+                <label>Marketplace - Settlement Reports</label>
+            </value>
+            <value>
+                <fullName>Marketplace - Commissions</fullName>
+                <default>false</default>
+                <label>Marketplace - Commissions</label>
+            </value>
+            <value>
+                <fullName>Marketplace - Promotions Setup</fullName>
+                <default>false</default>
+                <label>Marketplace - Promotions Setup</label>
+            </value>
+            <value>
+                <fullName>Marketplace - Promotions Troubleshooting</fullName>
+                <default>false</default>
+                <label>Marketplace - Promotions Troubleshooting</label>
+            </value>
+            <value>
+                <fullName>Marketplace - Promotions Performance</fullName>
+                <default>false</default>
+                <label>Marketplace - Promotions Performance</label>
+            </value>
+            <value>
+                <fullName>Marketplace - Promotions Rules Question</fullName>
+                <default>false</default>
+                <label>Marketplace - Promotions Rules Question</label>
+            </value>
+            <value>
+                <fullName>Marketplace - Promotions General Questions</fullName>
+                <default>false</default>
+                <label>Marketplace - Promotions General Questions</label>
+            </value>
+            <value>
+                <fullName>Marketplace - Cost of Goods (unavailable)</fullName>
+                <default>false</default>
+                <label>Marketplace - Cost of Goods (unavailable)</label>
+            </value>
+            <value>
+                <fullName>Performance - Insights Questions</fullName>
+                <default>false</default>
+                <label>Performance - Insights Questions</label>
+            </value>
+            <value>
+                <fullName>Performance - Insights Issue</fullName>
+                <default>false</default>
+                <label>Performance - Insights Issue</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

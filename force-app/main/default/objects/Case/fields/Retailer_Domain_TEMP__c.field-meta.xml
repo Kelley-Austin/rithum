@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Retailer_Domain_TEMP__c</fullName>
+    <formula>OR(
+CONTAINS(  SuppliedEmail, &quot;@academy.com&quot;),
+CONTAINS(  SuppliedEmail ,&quot;@shopsimon.com&quot;),
+CONTAINS(  SuppliedEmail,&quot;@adidas.com&quot;),
+CONTAINS(  SuppliedEmail,&quot;@ae.com&quot;),
+CONTAINS(  SuppliedEmail,&quot;@basspro.com&quot;),
+CONTAINS(  SuppliedEmail,&quot;@Belk.com&quot;),
+CONTAINS(  SuppliedEmail,&quot;@bestbuy.com&quot;),
+CONTAINS(  SuppliedEmail,&quot;@caastle.com&quot;),
+CONTAINS(  SuppliedEmail ,&quot;@cantire.com&quot;),
+CONTAINS(  SuppliedEmail,&quot;@chewy.com&quot;),
+CONTAINS(  SuppliedEmail,&quot;@generac.com&quot;),
+CONTAINS(  SuppliedEmail,&quot;@dcsg.com&quot;),
+CONTAINS(  SuppliedEmail,&quot;@dswinc.com&quot;),
+CONTAINS(  SuppliedEmail,&quot;@designerbrandscanada.com&quot;),
+CONTAINS(  SuppliedEmail,&quot;@dtlr.com&quot;),
+CONTAINS(  SuppliedEmail,&quot;@fabfitfun.com&quot;),
+CONTAINS(  SuppliedEmail,&quot;@fanatics.com&quot;),
+CONTAINS(  SuppliedEmail,&quot;@fantasticfurniture.com.au&quot;),
+CONTAINS(  SuppliedEmail,&quot;@footlocker.com&quot;),
+CONTAINS(  SuppliedEmail,&quot;@itagroup.com&quot;),
+CONTAINS(  SuppliedEmail,&quot;@jcp.com&quot;),
+CONTAINS(  SuppliedEmail,&quot;@jewels.com&quot;),
+CONTAINS(  SuppliedEmail,&quot;@finishline.com&quot;),
+CONTAINS(  SuppliedEmail,&quot;@kohls.com&quot;),
+CONTAINS(  SuppliedEmail,&quot;@lowes.com&quot;),
+CONTAINS(  SuppliedEmail,&quot;@macys.com&quot;),
+CONTAINS(  SuppliedEmail,&quot;@marks-and-spencer.com&quot;),
+CONTAINS(  SuppliedEmail,&quot;@knsint.com&quot;),
+CONTAINS(  SuppliedEmail,&quot;@guess.com&quot;),
+CONTAINS(  SuppliedEmail,&quot;@neimanmarcus.com&quot;),
+CONTAINS(  SuppliedEmail,&quot;@nordstrom.com&quot;),
+CONTAINS(  SuppliedEmail,&quot;@nike.com&quot;),
+CONTAINS(  SuppliedEmail,&quot;@pgatss.com&quot;),
+CONTAINS(  SuppliedEmail,&quot;@poshmark.com&quot;),
+CONTAINS(  SuppliedEmail,&quot;@rei.com&quot;),
+CONTAINS(  SuppliedEmail,&quot;@rona.ca&quot;),
+CONTAINS(  SuppliedEmail ,&quot;@saksinc.com&quot;),
+CONTAINS(  SuppliedEmail,&quot;@scheels.com&quot;),
+CONTAINS(  SuppliedEmail,&quot;@scvl.com&quot;),
+CONTAINS(  SuppliedEmail,&quot;@smartpak.com&quot;),
+CONTAINS(  SuppliedEmail,&quot;@srg.com.au&quot;),
+CONTAINS(  SuppliedEmail,&quot;@tailoredbrands.com&quot;),
+CONTAINS(  SuppliedEmail,&quot;@tapestry.com&quot;),
+CONTAINS(  SuppliedEmail,&quot;@containerstore.com&quot;),
+CONTAINS(  SuppliedEmail,&quot;@homedepot.com&quot;),
+CONTAINS(  SuppliedEmail,&quot;@homedepot.com.mx&quot;),
+CONTAINS(  SuppliedEmail,&quot;@livenation.com&quot;),
+CONTAINS(  SuppliedEmail,&quot;@tillys.com&quot;),
+CONTAINS(  SuppliedEmail,&quot;@tommybahama.com&quot;),
+CONTAINS(  SuppliedEmail,&quot;@urbn.com&quot;),
+CONTAINS(  SuppliedEmail,&quot;@westmarine.com&quot;),
+CONTAINS(  SuppliedEmail,&quot;@zulily.com&quot;),
+CONTAINS(  SuppliedEmail,&quot;@conns.com&quot;),
+CONTAINS(  SuppliedEmail,&quot;@marksandspencer.com&quot;),
+CONTAINS(  SuppliedEmail,&quot;@sakscloudservices.com&quot;),
+CONTAINS(  SuppliedEmail,&quot;@coach.com&quot;),
+CONTAINS(  SuppliedEmail,&quot;@ticketmaster.com&quot;),
+CONTAINS(  SuppliedEmail,&quot;@anthropologie.com&quot;),
+CONTAINS(  SuppliedEmail,&quot;@saksoff5th.com&quot;),
+CONTAINS(  SuppliedEmail,&quot;@katespade.com&quot;),
+CONTAINS(  SuppliedEmail,&quot;@ticketmaster.co.uk&quot;),
+CONTAINS(  SuppliedEmail,&quot;@urbanoutfitters.com&quot;),
+CONTAINS(  SuppliedEmail,&quot;@saks.com&quot;),
+CONTAINS(  SuppliedEmail,&quot;@freepeople.com&quot;)
+
+
+
+
+
+
+
+
+
+
+
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Retailer Domain TEMP</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

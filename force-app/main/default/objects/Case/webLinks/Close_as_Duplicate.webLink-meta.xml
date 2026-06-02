@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Close_as_Duplicate</fullName>
+    <availability>online</availability>
+    <description>Closes selected cases in a list view with a status of Closed - Duplicate</description>
+    <displayType>massActionButton</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Close as Duplicate</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <requireRowSelection>true</requireRowSelection>
+    <url>{!REQUIRESCRIPT(&quot;/soap/ajax/17.0/connection.js&quot;)} 
+
+var records = {!GETRECORDIDS($ObjectType.Case)}; 
+var newRecords = []; 
+
+if (records[0] == null) 
+{ 
+alert(&quot;Please select at least one row&quot;) 
+} 
+else 
+{ 
+for (var n=0; n&lt;records.length; n++) { 
+var c = new sforce.SObject(&quot;Case&quot;); 
+c.id = records[n]; 
+c.Status = &quot;Closed - Duplicate&quot;; 
+c.Reason =&quot;{!Case.Reason}&quot;; 
+c.OwnerId = &quot;00G00000006qEBH&quot;; 
+newRecords.push(c); 
+} 
+
+result = sforce.connection.update(newRecords); 
+
+window.location.reload(); 
+}</url>
+</WebLink>

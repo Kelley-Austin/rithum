@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LOE__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE( Level_of_Effort__c , 
+&quot;Strongly Agree&quot;,5, 
+&quot;Somewhat Agree&quot;,4, 
+&quot;Neither Agree nor Disagree&quot;,3, 
+&quot;Somewhat Disagree&quot;,2, 
+&quot;Strongly Disagree&quot;,1, 
+&quot;LESS than I expected&quot;,1, 
+&quot;5 - Strongly Agree&quot;,5, 
+&quot;4 - Somewhat Agree&quot;,4, 
+&quot;3 - Neither Agree nor Disagree&quot;,3, 
+&quot;2 - Somewhat Disagree&quot;,2, 
+&quot;1 - Strongly Disagree&quot;,1, 
+&quot;2&quot;,2, 
+&quot;3&quot;,3, 
+&quot;4&quot;,4, 
+&quot;What I expected&quot;,5, 
+&quot;6&quot;,6, 
+&quot;7&quot;,7, 
+&quot;8&quot;,8, 
+&quot;9&quot;,9, 
+&quot;MORE than I expected&quot;,10, 
+&quot;强烈同意&quot;,5,
+&quot;有些同意&quot;,4,
+&quot;既不同意也不反对&quot;,3,
+&quot;有些不同意&quot;,2,
+&quot;强烈不同意&quot;,1,
+&quot;trifft zu&quot;,5,
+&quot;trifft eher zu&quot;,4,
+&quot;teils-teils&quot;,3,
+&quot;trifft eher nicht zu&quot;,2,
+&quot;trifft nicht zu&quot;,1,
+NULL)</formula>
+    <label>LOE</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

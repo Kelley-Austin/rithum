@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Testing</fullName>
+    <availability>online</availability>
+    <displayType>link</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>Testing</masterLabel>
+    <openType>noSidebar</openType>
+    <protected>false</protected>
+    <url>/cntc/conedit.jsp?name_firstcon2={!Case.SuppliedName}&amp;con15={!Case.SuppliedEmail}&amp;con10={!Case.SuppliedPhone}</url>
+</WebLink>

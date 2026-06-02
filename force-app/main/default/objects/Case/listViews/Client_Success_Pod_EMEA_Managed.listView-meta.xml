@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Client_Success_Pod_EMEA_Managed</fullName>
+    <booleanFilter>1 AND 2 AND (3 OR 4) AND 5</booleanFilter>
+    <columns>Project_Due_Date__c</columns>
+    <columns>OWNER_NAME</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>Client_Success_Engineer__c</columns>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>equals</operation>
+        <value>C0 - New,C1 - Information Requested,C2 - In Progress,C3 - QA Ready,C4 - Monitoring,On Hold</value>
+    </filters>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.Client_Success</value>
+    </filters>
+    <filters>
+        <field>Client_Success_Engineer__c</field>
+        <operation>equals</operation>
+        <value>Raquel Cartujo,Denny Cob,Kalin Ognyanov,Carlos Rodriguez,Ariadna Cano,Alvita Tkachiova,Eirini Papadaki</value>
+    </filters>
+    <filters>
+        <field>OWNER_NAME</field>
+        <operation>equals</operation>
+        <value>Raquel Cartujo,Denny Cob,Kalin Ognyanov,Carlos Rodriguez,Ariadna Cano,Alvita Tkachiova,Eirini Papadaki</value>
+    </filters>
+    <filters>
+        <field>Case_Classification__c</field>
+        <operation>equals</operation>
+        <value>Solutions Architecture,CSE Engagement</value>
+    </filters>
+    <label>Client Success - Pod EMEA Managed</label>
+</ListView>

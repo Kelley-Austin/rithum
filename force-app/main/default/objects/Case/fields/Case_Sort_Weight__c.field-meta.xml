@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_Sort_Weight__c</fullName>
+    <externalId>false</externalId>
+    <formula>100 * (
+  IF(ISPICKVAL(Priority,&quot;High&quot;), (NOW() - CreatedDate) * 3, 0) +
+  IF(ISPICKVAL(Priority,&quot;Medium&quot;), (NOW() - CreatedDate) * 2, 0) +
+  IF(ISPICKVAL(Priority,&quot;Low&quot;), (NOW() - CreatedDate) * 1, 0) +
+  IF(ISPICKVAL(Priority,&quot;None&quot;), (NOW() - CreatedDate) * 0.5, 0) +
+  IF(AND((NOW() - CreatedDate)&gt;0.5, ISPICKVAL(Priority,&quot;High&quot;)),5,0) +
+  IF(AND((NOW() - CreatedDate)&gt;1, ISPICKVAL(Priority,&quot;Medium&quot;)),5,0) +
+  IF(AND((NOW() - CreatedDate)&gt;2, ISPICKVAL(Priority,&quot;Low&quot;)),5,0) +
+  IF(AND((NOW() - CreatedDate)&gt;2, ISPICKVAL(Priority,&quot;None&quot;)),5,0)
+) *
+IF(ISPICKVAL(Product__c, &quot;Merchant&quot;), 1.25, 1) *
+IF(ISPICKVAL(Product__c, &quot;SearchAdvisor&quot;), 1.5, 1) *
+IF(ISPICKVAL(Product__c, &quot;ShoppingAdvisor&quot;), 1.5, 1) *
+IF(ISPICKVAL(Origin, &quot;SSC&quot;), 1.25, 1)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Sort Weight - not in use</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

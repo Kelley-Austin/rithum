@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sub_Topic__c</fullName>
+    <description>For WTB support. Dependent on Case Topic selection.</description>
+    <label>Sub-Topic</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Case_Topic__c</controllingField>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Add</fullName>
+                <default>false</default>
+                <label>Add</label>
+            </value>
+            <value>
+                <fullName>Adding Category</fullName>
+                <default>false</default>
+                <label>Adding Category</label>
+            </value>
+            <value>
+                <fullName>Additional Data</fullName>
+                <default>false</default>
+                <label>Additional Data</label>
+            </value>
+            <value>
+                <fullName>Add or Change Logo</fullName>
+                <default>false</default>
+                <label>Add or Change Logo</label>
+            </value>
+            <value>
+                <fullName>Add or Remove User</fullName>
+                <default>false</default>
+                <label>Add or Remove User</label>
+            </value>
+            <value>
+                <fullName>Add Preorder</fullName>
+                <default>false</default>
+                <label>Add Preorder</label>
+            </value>
+            <value>
+                <fullName>Add Product</fullName>
+                <default>false</default>
+                <label>Add Product</label>
+            </value>
+            <value>
+                <fullName>Add Tracking</fullName>
+                <default>false</default>
+                <label>Add Tracking</label>
+            </value>
+            <value>
+                <fullName>Ad Hoc Audit Required</fullName>
+                <default>false</default>
+                <label>Ad Hoc Audit Required</label>
+            </value>
+            <value>
+                <fullName>Cannot be Mapped</fullName>
+                <default>false</default>
+                <label>Cannot be Mapped</label>
+            </value>
+            <value>
+                <fullName>Change in Processes</fullName>
+                <default>false</default>
+                <label>Change in Processes</label>
+            </value>
+            <value>
+                <fullName>Contract or Commercial Query</fullName>
+                <default>false</default>
+                <label>Contract or Commercial Query</label>
+            </value>
+            <value>
+                <fullName>Coverage Drop</fullName>
+                <default>false</default>
+                <label>Coverage Drop</label>
+            </value>
+            <value>
+                <fullName>Description Related</fullName>
+                <default>false</default>
+                <label>Description Related</label>
+            </value>
+            <value>
+                <fullName>Exceptioned</fullName>
+                <default>false</default>
+                <label>Exceptioned</label>
+            </value>
+            <value>
+                <fullName>Feed Audit</fullName>
+                <default>false</default>
+                <label>Feed Audit</label>
+            </value>
+            <value>
+                <fullName>Feed Related</fullName>
+                <default>false</default>
+                <label>Feed Related</label>
+            </value>
+            <value>
+                <fullName>In Stock Text Related</fullName>
+                <default>false</default>
+                <label>In Stock Text Related</label>
+            </value>
+            <value>
+                <fullName>Mapped Incorrectly</fullName>
+                <default>false</default>
+                <label>Mapped Incorrectly</label>
+            </value>
+            <value>
+                <fullName>Not in Manufacturer Feed</fullName>
+                <default>false</default>
+                <label>Not in Manufacturer Feed</label>
+            </value>
+            <value>
+                <fullName>Not Loading</fullName>
+                <default>false</default>
+                <label>Not Loading</label>
+            </value>
+            <value>
+                <fullName>One Off</fullName>
+                <default>false</default>
+                <label>One Off</label>
+            </value>
+            <value>
+                <fullName>Price Related</fullName>
+                <default>false</default>
+                <label>Price Related</label>
+            </value>
+            <value>
+                <fullName>Querying Data</fullName>
+                <default>false</default>
+                <label>Querying Data</label>
+            </value>
+            <value>
+                <fullName>Regular</fullName>
+                <default>false</default>
+                <label>Regular</label>
+            </value>
+            <value>
+                <fullName>Remove</fullName>
+                <default>false</default>
+                <label>Remove</label>
+            </value>
+            <value>
+                <fullName>Retailer Feed</fullName>
+                <default>false</default>
+                <label>Retailer Feed</label>
+            </value>
+            <value>
+                <fullName>Retailer Set Up</fullName>
+                <default>false</default>
+                <label>Retailer Set Up</label>
+            </value>
+            <value>
+                <fullName>Search Related</fullName>
+                <default>false</default>
+                <label>Search Related</label>
+            </value>
+            <value>
+                <fullName>Site Cannot be Scraped</fullName>
+                <default>false</default>
+                <label>Site Cannot be Scraped</label>
+            </value>
+            <value>
+                <fullName>Solution Update Request</fullName>
+                <default>false</default>
+                <label>Solution Update Request</label>
+            </value>
+            <value>
+                <fullName>Unable to Log In or Password Change Request</fullName>
+                <default>false</default>
+                <label>Unable to Log In or Password Change Request</label>
+            </value>
+            <value>
+                <fullName>Update Order</fullName>
+                <default>false</default>
+                <label>Update Order</label>
+            </value>
+            <value>
+                <fullName>Upload New Data</fullName>
+                <default>false</default>
+                <label>Upload New Data</label>
+            </value>
+            <value>
+                <fullName>Variant Set Up</fullName>
+                <default>false</default>
+                <label>Variant Set Up</label>
+            </value>
+            <value>
+                <fullName>Waiting to be Mapped</fullName>
+                <default>false</default>
+                <label>Waiting to be Mapped</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Client</controllingFieldValue>
+            <valueName>Change in Processes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Client</controllingFieldValue>
+            <valueName>Contract or Commercial Query</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Client</controllingFieldValue>
+            <valueName>Solution Update Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Data</controllingFieldValue>
+            <valueName>Additional Data</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Data</controllingFieldValue>
+            <valueName>Ad Hoc Audit Required</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Data</controllingFieldValue>
+            <valueName>Feed Audit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Data</controllingFieldValue>
+            <valueName>Upload New Data</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Data</controllingFieldValue>
+            <valueName>Variant Set Up</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mapping</controllingFieldValue>
+            <valueName>Cannot be Mapped</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mapping</controllingFieldValue>
+            <valueName>Exceptioned</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mapping</controllingFieldValue>
+            <valueName>Mapped Incorrectly</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mapping</controllingFieldValue>
+            <valueName>Waiting to be Mapped</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Related</controllingFieldValue>
+            <valueName>Add Preorder</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Related</controllingFieldValue>
+            <valueName>Add Product</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Related</controllingFieldValue>
+            <valueName>Not in Manufacturer Feed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reporting Dashboard</controllingFieldValue>
+            <valueName>Add or Remove User</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reporting Dashboard</controllingFieldValue>
+            <valueName>Querying Data</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reporting Dashboard</controllingFieldValue>
+            <valueName>Unable to Log In or Password Change Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Report Send Out</controllingFieldValue>
+            <valueName>One Off</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Report Send Out</controllingFieldValue>
+            <valueName>Regular</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Retailer</controllingFieldValue>
+            <valueName>Add</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Retailer</controllingFieldValue>
+            <valueName>Adding Category</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Retailer</controllingFieldValue>
+            <valueName>Add or Change Logo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Retailer</controllingFieldValue>
+            <valueName>Coverage Drop</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Retailer</controllingFieldValue>
+            <valueName>Feed Related</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Retailer</controllingFieldValue>
+            <valueName>Remove</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Retailer</controllingFieldValue>
+            <valueName>Retailer Feed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Retailer</controllingFieldValue>
+            <valueName>Retailer Set Up</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Scrape</controllingFieldValue>
+            <valueName>Description Related</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Scrape</controllingFieldValue>
+            <valueName>In Stock Text Related</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Scrape</controllingFieldValue>
+            <valueName>Price Related</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Scrape</controllingFieldValue>
+            <valueName>Search Related</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Scrape</controllingFieldValue>
+            <valueName>Site Cannot be Scraped</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Widget</controllingFieldValue>
+            <valueName>Add Tracking</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Widget</controllingFieldValue>
+            <valueName>Not Loading</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Widget</controllingFieldValue>
+            <valueName>Update Order</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

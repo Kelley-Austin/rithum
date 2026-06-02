@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_Open_Production_Support_Cases</fullName>
+    <columns>Case_Flag__c</columns>
+    <columns>Closed_Junk_Spam__c</columns>
+    <columns>Mark_Case_for_Deletion__c</columns>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>Organization_Contact__c</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>CASES.LAST_UPDATE_DATE_ONLY</columns>
+    <columns>Organization__c</columns>
+    <columns>Retailer_Organization__c</columns>
+    <columns>Organization_Type__c</columns>
+    <columns>JIRA_Ticket__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>CASES.CLOSED</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Mark_Case_for_Deletion__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Closed_Junk_Spam__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.Ongoing_Support</value>
+    </filters>
+    <label>My Open Production Support Cases</label>
+</ListView>

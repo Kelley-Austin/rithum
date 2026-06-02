@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Community_Forum_Layout</fullName>
+    <fields>Subject</fields>
+    <fields>Post_Link__c</fields>
+    <fields>CreatedById</fields>
+    <fields>CreatedDate</fields>
+    <fields>Contact_Email__c</fields>
+    <label>Community Forum Layout</label>
+</CompactLayout>

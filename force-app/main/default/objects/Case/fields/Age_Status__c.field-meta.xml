@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Age_Status__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(AND(NOT(IsClosed),NOW() - CreatedDate&lt;=0.1249998),&quot;0 - 3 hours&quot;, 
+IF(AND(NOT(IsClosed),NOW() - CreatedDate&gt;0.1249998,NOW() - CreatedDate&lt;=0.25),&quot;3 - 6 hours&quot;, 
+IF(AND(NOT(IsClosed),NOW() - CreatedDate&gt;0.25,NOW() - CreatedDate&lt;=0.5),&quot;6 - 12 hours&quot;, 
+IF(AND(NOT(IsClosed),NOW() - CreatedDate&gt;0.5,NOW() - CreatedDate&lt;=1),&quot;12-24 hours&quot;, 
+IF(AND(NOT(IsClosed),NOW() - CreatedDate&gt;1,NOW() - CreatedDate&lt;=2),&quot;24-48 hours&quot;, 
+IF(AND(NOT(IsClosed),NOW() - CreatedDate&gt;2,NOW() - CreatedDate&lt;=3),&quot;2-3 days&quot;, 
+IF(AND(NOT(IsClosed),NOW() - CreatedDate&gt;7),&quot;&gt; 7 days&quot;,
+IF(AND(IsClosed,ClosedDate - CreatedDate&lt;=0.1249998),&quot;0 - 3 hours&quot;, 
+IF(AND(IsClosed,ClosedDate - CreatedDate&gt;0.1249998,ClosedDate - CreatedDate&lt;=0.25),&quot;3 - 6 hours&quot;, 
+IF(AND(IsClosed,ClosedDate - CreatedDate&gt;0.25,ClosedDate - CreatedDate&lt;=0.5),&quot;6 - 12 hours&quot;, 
+IF(AND(IsClosed,ClosedDate - CreatedDate&gt;0.5,ClosedDate - CreatedDate&lt;=1),&quot;12-24 hours&quot;, 
+IF(AND(IsClosed,ClosedDate - CreatedDate&gt;1,ClosedDate - CreatedDate&lt;=2),&quot;24-48 hours&quot;, 
+IF(AND(IsClosed,ClosedDate - CreatedDate&gt;2,ClosedDate - CreatedDate&lt;=3),&quot;2-3 days&quot;, 
+IF(AND(IsClosed,ClosedDate - CreatedDate&gt;7),&quot;&gt; 7 days&quot;,&quot; 3 - 6 days&quot;))))))))))))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Age Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

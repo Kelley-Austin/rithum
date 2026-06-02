@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Brand_Analytics_Free_Trial_Case</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Brand Analytics Free Trial</label>
+    <queue>Brand_Analytics_Free_Trial</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

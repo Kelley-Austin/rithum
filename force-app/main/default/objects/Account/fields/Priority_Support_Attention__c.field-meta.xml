@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Priority_Support_Attention__c</fullName>
+    <label>Priority Support Attention</label>
+    <type>Checkbox</type>
+    <defaultValue>false</defaultValue>
+    <description>Used by Brands team to automatically route Cases for this Account to Brands Tier 2 Queue</description>
+</CustomField>

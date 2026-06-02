@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Impact_on_Customer_Experience__c</fullName>
+    <label>Impact on Customer Experience</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Cost Concerns</fullName>
+                <default>false</default>
+                <label>Cost Concerns</label>
+            </value>
+            <value>
+                <fullName>Non-payment</fullName>
+                <default>false</default>
+                <label>Non-payment</label>
+            </value>
+            <value>
+                <fullName>Client Engagement</fullName>
+                <default>false</default>
+                <label>Client Engagement</label>
+            </value>
+            <value>
+                <fullName>High Take Rate</fullName>
+                <default>false</default>
+                <label>High Take Rate</label>
+            </value>
+            <value>
+                <fullName>Feature Gap</fullName>
+                <default>false</default>
+                <label>Feature Gap</label>
+            </value>
+            <value>
+                <fullName>Platform: Unexpected Behavior/ Bugs</fullName>
+                <default>false</default>
+                <label>Platform: Unexpected Behavior/ Bugs</label>
+            </value>
+            <value>
+                <fullName>Useability</fullName>
+                <default>false</default>
+                <label>Usability</label>
+            </value>
+            <value>
+                <fullName>Integration Challenges</fullName>
+                <default>false</default>
+                <label>Integration Challenges</label>
+            </value>
+            <value>
+                <fullName>Performance Expectations</fullName>
+                <default>false</default>
+                <label>Performance Expectations</label>
+            </value>
+            <value>
+                <fullName>Launch Challenges</fullName>
+                <default>false</default>
+                <label>Launch Challenges</label>
+            </value>
+            <value>
+                <fullName>Product Expectation</fullName>
+                <default>false</default>
+                <label>Product Expectation</label>
+            </value>
+            <value>
+                <fullName>Service Delivery</fullName>
+                <default>false</default>
+                <label>Service Delivery</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>10</visibleLines>
+</CustomField>

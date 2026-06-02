@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Recurring_Case_Child__c</fullName>
+    <defaultValue>false</defaultValue>
+    <inlineHelpText>This Case is the Child of a Recurring Case</inlineHelpText>
+    <label>Recurring Case Child</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

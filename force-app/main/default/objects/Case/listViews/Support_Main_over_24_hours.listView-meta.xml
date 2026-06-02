@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Support_Main_over_24_hours</fullName>
+    <booleanFilter>(1 AND 2 AND 3 AND 4 and (5 OR (7 AND 8))) OR 6</booleanFilter>
+    <columns>CASES.LAST_UPDATE</columns>
+    <columns>CASES.CREATED_DATE</columns>
+    <columns>Priority_Icon__c</columns>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>Defect_Number__c</columns>
+    <columns>Additional_Defects__c</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>Product__c</columns>
+    <columns>Region__c</columns>
+    <columns>Maintain_Case_Ownership__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OWNER_NAME</field>
+        <operation>contains</operation>
+        <value>triage,support,unknown,queue</value>
+    </filters>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>notContain</operation>
+        <value>close,junk,archive,dup,new issue,withdraw,completed</value>
+    </filters>
+    <filters>
+        <field>OWNER_NAME</field>
+        <operation>notContain</operation>
+        <value>admin,Community,Account,channel,hold,business</value>
+    </filters>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>notEqual</operation>
+        <value>Case.Salesforce_com_Enhancement_Request</value>
+    </filters>
+    <filters>
+        <field>CASES.LAST_UPDATE</field>
+        <operation>lessOrEqual</operation>
+        <value>YESTERDAY</value>
+    </filters>
+    <filters>
+        <field>OWNER_NAME</field>
+        <operation>contains</operation>
+        <value>emergency</value>
+    </filters>
+    <filters>
+        <field>CASES.CREATED_DATE_DATE_ONLY</field>
+        <operation>lessOrEqual</operation>
+        <value>YESTERDAY</value>
+    </filters>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>equals</operation>
+        <value>New,New with Comment</value>
+    </filters>
+    <label>** Support Actionable +1 day</label>
+    <language>en_US</language>
+    <sharedTo>
+        <roleAndSubordinatesInternal>DirectorofSupport</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

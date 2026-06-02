@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SME__c</fullName>
+    <label>SME</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Buyer Customer Care</fullName>
+                <default>false</default>
+                <label>Buyer Customer Care</label>
+            </value>
+            <value>
+                <fullName>CA Labs</fullName>
+                <default>false</default>
+                <label>CA Labs</label>
+            </value>
+            <value>
+                <fullName>CA Stores</fullName>
+                <default>false</default>
+                <label>CA Stores</label>
+            </value>
+            <value>
+                <fullName>Checkout</fullName>
+                <default>false</default>
+                <label>Checkout</label>
+            </value>
+            <value>
+                <fullName>Comparison Shopping</fullName>
+                <default>false</default>
+                <label>Comparison Shopping</label>
+            </value>
+            <value>
+                <fullName>Integrations</fullName>
+                <default>false</default>
+                <label>Integrations</label>
+            </value>
+            <value>
+                <fullName>Merchant</fullName>
+                <default>false</default>
+                <label>Merchant</label>
+            </value>
+            <value>
+                <fullName>Paid Search</fullName>
+                <default>false</default>
+                <label>Paid Search</label>
+            </value>
+            <value>
+                <fullName>Pro (US)</fullName>
+                <default>false</default>
+                <label>Pro (US)</label>
+            </value>
+            <value>
+                <fullName>Reporting</fullName>
+                <default>false</default>
+                <label>Reporting</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

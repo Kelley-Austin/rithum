@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sales_Engineer_Split_Override__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Prevents a Sales Engineer Split from being created for this case when it is edited and set to Completed - Resolved</description>
+    <inlineHelpText>Prevents a Sales Engineer Split from being created for this case when it is edited and set to Completed - Resolved</inlineHelpText>
+    <label>Sales Engineer Split Override</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

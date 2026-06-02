@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Support_Germany_open_in_Q_s</fullName>
+    <booleanFilter>2 AND (1 OR 5) AND (3 OR 4)</booleanFilter>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>Priority_Icon__c</columns>
+    <columns>OWNER_NAME</columns>
+    <columns>CASES.RECORDTYPE</columns>
+    <columns>PID__c</columns>
+    <columns>NAME</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.LAST_UPDATE</columns>
+    <columns>CASES.CREATED_DATE</columns>
+    <columns>Product__c</columns>
+    <columns>Last_Case_Comment__c</columns>
+    <columns>Account_Name__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Support_Team_Name__c</field>
+        <operation>equals</operation>
+        <value>DE - Michal</value>
+    </filters>
+    <filters>
+        <field>CASES.CLOSED</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>equals</operation>
+        <value>Reply Received,Solution Identified,Action Required</value>
+    </filters>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>equals</operation>
+        <value>New,Re-Open,New comment,New with Comment</value>
+    </filters>
+    <filters>
+        <field>OWNER_NAME</field>
+        <operation>contains</operation>
+        <value>Support Germany,Steingasser,Sykora,Vanatoru</value>
+    </filters>
+    <label>*Support Germany open in Q&apos;s</label>
+    <language>en_US</language>
+    <sharedTo>
+        <role>SupportAssociate</role>
+    </sharedTo>
+</ListView>

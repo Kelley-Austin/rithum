@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Emerging</fullName>
+        <default>false</default>
+        <label>Emerging (&lt; $25k of Spend)</label>
+    </customValue>
+    <customValue>
+        <fullName>Core</fullName>
+        <default>false</default>
+        <label>Core ($25-100k of Spend)</label>
+    </customValue>
+    <customValue>
+        <fullName>Leading</fullName>
+        <default>false</default>
+        <label>Leading (&gt;=$100k of Spend)</label>
+    </customValue>
+    <masterLabel>Amazon Advertising Package</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

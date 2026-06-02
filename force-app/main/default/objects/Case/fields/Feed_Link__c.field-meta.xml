@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Feed_Link__c</fullName>
+    <description>Link to the Forum Post - will only be populated if the case is created via a Forum Post</description>
+    <inlineHelpText>Link to the Forum Post - will only be populated if the case is created via a Forum Post</inlineHelpText>
+    <label>Feed Link</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Url</type>
+</CustomField>

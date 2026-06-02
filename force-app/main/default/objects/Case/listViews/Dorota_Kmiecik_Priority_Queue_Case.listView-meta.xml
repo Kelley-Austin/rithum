@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dorota_Kmiecik_Priority_Queue_Case</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Dorota Kmiecik Priority Queue</label>
+    <queue>Dorota_Kmiecik_Priority_Queue</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

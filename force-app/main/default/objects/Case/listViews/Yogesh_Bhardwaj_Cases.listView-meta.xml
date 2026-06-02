@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Yogesh_Bhardwaj_Cases</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>OWNER_NAME</columns>
+    <columns>NAME</columns>
+    <columns>CASES.CREATED_DATE</columns>
+    <columns>Project_Due_Date__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Recurring_Case_Child__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.MediaMint_MAP</value>
+    </filters>
+    <filters>
+        <field>CASES.CLOSED</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Active_Recurring_Case__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>OWNER_NAME</field>
+        <operation>equals</operation>
+        <value>Yogesh Bhardwaj</value>
+    </filters>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>equals</operation>
+        <value>New,In Progress,Re-Open,Pending Internal Resource,Pending Info from Customer</value>
+    </filters>
+    <label>Yogesh Bhardwaj - Cases</label>
+    <sharedTo>
+        <group>Services_Subcontractors</group>
+    </sharedTo>
+</ListView>

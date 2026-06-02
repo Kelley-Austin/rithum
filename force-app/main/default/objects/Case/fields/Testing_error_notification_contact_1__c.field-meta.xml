@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Testing_error_notification_contact_1__c</fullName>
+    <description>Testing error notification contact 1
+For usage with Merlin external app and Onboarding error alert process
+SCON Onboarding record types</description>
+    <externalId>false</externalId>
+    <label>Testing error notification contact 1</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Email</type>
+    <unique>false</unique>
+</CustomField>

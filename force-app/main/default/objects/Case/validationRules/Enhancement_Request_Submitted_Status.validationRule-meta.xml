@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Enhancement_Request_Submitted_Status</fullName>
+    <active>false</active>
+    <description>Restricts the use of the &quot;Enhancement Request Submitted&quot; status when closing a case to support management.</description>
+    <errorConditionFormula>$RecordType.Name = &quot;Customer Support&quot; 
+&amp;&amp; 
+ISPICKVAL(Status,&quot;Enhancement Request Submitted&quot;)
+&amp;&amp; 
+($User.Alias &lt;&gt; &quot;zkhan&quot;
+&amp;&amp; $User.Alias &lt;&gt; &quot;smolo&quot;
+&amp;&amp; $User.Alias &lt;&gt; &quot;acoll&quot;
+&amp;&amp; $User.Alias &lt;&gt; &quot;lwoul&quot;
+&amp;&amp; $User.Alias &lt;&gt; &quot;dfish&quot;
+&amp;&amp; $User.Alias &lt;&gt; &quot;jQuin&quot;
+&amp;&amp; $User.Alias &lt;&gt; &quot;aholl&quot;
+&amp;&amp; $User.Alias &lt;&gt; &quot;nstra&quot;
+&amp;&amp; $User.Alias &lt;&gt; &quot;azelm&quot;
+&amp;&amp; $User.Alias &lt;&gt; &quot;lkehs&quot;
+&amp;&amp; $User.Alias &lt;&gt; &quot;myoung&quot;
+&amp;&amp; $User.Alias &lt;&gt; &quot;snahr&quot;
+)</errorConditionFormula>
+    <errorMessage>The Closed Status of Enhancement Request Submitted is restricted to use by Support management only.  Please contact your manager to close the case in this status.</errorMessage>
+</ValidationRule>

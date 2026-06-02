@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Client_Success_EMEA_Strat_M_S_NEWCASE</fullName>
+    <booleanFilter>1 AND 2 AND 3 AND (4 OR 5) AND 6</booleanFilter>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>Project_Due_Date__c</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.EMAIL</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>NAME</columns>
+    <columns>Case_Classification__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Recurring_Case_Child__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.Client_Success</value>
+    </filters>
+    <filters>
+        <field>OWNER_NAME</field>
+        <operation>equals</operation>
+        <value>Client Success</value>
+    </filters>
+    <filters>
+        <field>Case_Classification__c</field>
+        <operation>notEqual</operation>
+        <value>Solutions Architecture,CSE Engagement</value>
+    </filters>
+    <filters>
+        <field>CASES.EMAIL</field>
+        <operation>contains</operation>
+        <value>@marks-and-spencer.com</value>
+    </filters>
+    <filters>
+        <field>Account_Name__c</field>
+        <operation>contains</operation>
+        <value>Marks and Spencer</value>
+    </filters>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Closed - Junk/Spam</value>
+    </filters>
+    <label>Client Success - EMEA Strat M&amp;S NEWCASE</label>
+</ListView>

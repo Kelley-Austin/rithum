@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_close_cases</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>Retailer_Organization__c</columns>
+    <columns>Organization__c</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.CLOSED_DATE</columns>
+    <columns>NAME</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Partner_ID__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>equals</operation>
+        <value>Closed - Resolved,Closed by Customer,Closed - Junk/Spam</value>
+    </filters>
+    <label>My Closed Cases</label>
+</ListView>

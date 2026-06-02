@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Community_Case_Visibility_Updated__c</fullName>
+    <label>Community Case Visibility Updated</label>
+    <type>Checkbox</type>
+    <defaultValue>false</defaultValue>
+    <description>Used in the kbrithum Experience site. This box is ticked whenever the &quot;Community_Case_Visibility__c&quot; box is changed, which then triggers a scheduled Flow to run that updates the User&apos;s Profile</description>
+</CustomField>
