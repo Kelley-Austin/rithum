@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
-    <actionSubtype>ScreenAction</actionSubtype>
     <description>Opens the Update Child Cases screen to post a Chatter comment and/or update the status on all child cases at once.</description>
     <flowDefinition>Brands_Case_Update_Child_Cases</flowDefinition>
     <label>Update Child Cases</label>

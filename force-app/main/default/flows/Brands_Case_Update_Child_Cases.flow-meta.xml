@@ -14,7 +14,7 @@
     <processType>Flow</processType>
     <status>Active</status>
 
-    <!-- Case record ID passed in by the Quick Action -->
+    <!-- ── VARIABLES ─────────────────────────────────────────────────── -->
     <variables>
         <name>recordId</name>
         <dataType>String</dataType>
@@ -22,8 +22,6 @@
         <isInput>true</isInput>
         <isOutput>false</isOutput>
     </variables>
-
-    <!-- "AllUsers" or "InternalUsers" based on the public checkbox -->
     <variables>
         <name>varFeedVisibility</name>
         <dataType>String</dataType>
@@ -31,8 +29,6 @@
         <isInput>false</isInput>
         <isOutput>false</isOutput>
     </variables>
-
-    <!-- Current child Case during loop -->
     <variables>
         <name>varCurrentChildCase</name>
         <dataType>SObject</dataType>
@@ -41,8 +37,6 @@
         <isOutput>false</isOutput>
         <objectType>Case</objectType>
     </variables>
-
-    <!-- Collection of FeedItems to bulk-create after the loop -->
     <variables>
         <name>varChildFeedItems</name>
         <dataType>SObject</dataType>
@@ -51,8 +45,6 @@
         <isOutput>false</isOutput>
         <objectType>FeedItem</objectType>
     </variables>
-
-    <!-- Single FeedItem built per loop iteration before adding to collection -->
     <variables>
         <name>varNewFeedItem</name>
         <dataType>SObject</dataType>
@@ -62,7 +54,7 @@
         <objectType>FeedItem</objectType>
     </variables>
 
-    <!-- Live Case Status picklist values for the dropdown -->
+    <!-- ── CHOICE SETS ───────────────────────────────────────────────── -->
     <dynamicChoiceSets>
         <name>Case_Status_Options</name>
         <dataType>Picklist</dataType>
@@ -72,6 +64,7 @@
         <picklistObject>Case</picklistObject>
     </dynamicChoiceSets>
 
+    <!-- ── START ─────────────────────────────────────────────────────── -->
     <start>
         <locationX>182</locationX>
         <locationY>26</locationY>
@@ -80,7 +73,7 @@
         </connector>
     </start>
 
-    <!-- ── SCREEN ──────────────────────────────────────────────────────── -->
+    <!-- ── SCREEN ────────────────────────────────────────────────────── -->
     <screens>
         <name>Screen_Update_Child_Cases</name>
         <label>Update Child Cases</label>
@@ -120,9 +113,7 @@
         </connector>
     </screens>
 
-    <!-- ── COMMENT PATH ───────────────────────────────────────────────── -->
-
-    <!-- Was a non-blank comment entered? -->
+    <!-- ── DECISIONS (all grouped) ───────────────────────────────────── -->
     <decisions>
         <name>Decision_Has_Comment</name>
         <label>Comment Populated?</label>
@@ -155,32 +146,6 @@
             <label>Comment Populated</label>
         </rules>
     </decisions>
-
-    <!-- Query all child Cases (only Id needed for FeedItem.ParentId) -->
-    <recordLookups>
-        <name>Get_Child_Cases</name>
-        <label>Get Child Cases</label>
-        <locationX>182</locationX>
-        <locationY>350</locationY>
-        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
-        <connector>
-            <targetReference>Decision_Is_Public</targetReference>
-        </connector>
-        <filterLogic>and</filterLogic>
-        <filters>
-            <field>ParentId</field>
-            <operator>EqualTo</operator>
-            <value>
-                <elementReference>recordId</elementReference>
-            </value>
-        </filters>
-        <getFirstRecordOnly>false</getFirstRecordOnly>
-        <object>Case</object>
-        <queriedFields>Id</queriedFields>
-        <storeOutputAutomatically>true</storeOutputAutomatically>
-    </recordLookups>
-
-    <!-- Resolve Chatter Visibility before posting -->
     <decisions>
         <name>Decision_Is_Public</name>
         <label>Comment is Public?</label>
@@ -206,7 +171,61 @@
             <label>Public</label>
         </rules>
     </decisions>
+    <decisions>
+        <name>Decision_Has_Status</name>
+        <label>Status Update Selected?</label>
+        <locationX>182</locationX>
+        <locationY>1106</locationY>
+        <defaultConnectorLabel>No Status Update</defaultConnectorLabel>
+        <rules>
+            <name>Status_Selected</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>pickNewStatus</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>pickNewStatus</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue></stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Child_Case_Statuses</targetReference>
+            </connector>
+            <label>Status Selected</label>
+        </rules>
+    </decisions>
 
+    <!-- ── RECORD LOOKUPS ────────────────────────────────────────────── -->
+    <recordLookups>
+        <name>Get_Child_Cases</name>
+        <label>Get Child Cases</label>
+        <locationX>182</locationX>
+        <locationY>350</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Decision_Is_Public</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>ParentId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>recordId</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>false</getFirstRecordOnly>
+        <object>Case</object>
+        <queriedFields>Id</queriedFields>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+
+    <!-- ── ASSIGNMENTS (all grouped) ─────────────────────────────────── -->
     <assignments>
         <name>Assign_Visibility_Public</name>
         <label>Set Visibility to Public</label>
@@ -223,7 +242,6 @@
             <targetReference>Create_Parent_Chatter_Post</targetReference>
         </connector>
     </assignments>
-
     <assignments>
         <name>Assign_Visibility_Internal</name>
         <label>Set Visibility to Internal</label>
@@ -240,61 +258,6 @@
             <targetReference>Create_Parent_Chatter_Post</targetReference>
         </connector>
     </assignments>
-
-    <!-- Post comment to the parent Case -->
-    <recordCreates>
-        <name>Create_Parent_Chatter_Post</name>
-        <label>Create Parent Chatter Post</label>
-        <locationX>182</locationX>
-        <locationY>674</locationY>
-        <inputAssignments>
-            <field>ParentId</field>
-            <value>
-                <elementReference>recordId</elementReference>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
-            <field>Body</field>
-            <value>
-                <elementReference>txtComment</elementReference>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
-            <field>Visibility</field>
-            <value>
-                <elementReference>varFeedVisibility</elementReference>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
-            <field>Type</field>
-            <value>
-                <stringValue>TextPost</stringValue>
-            </value>
-        </inputAssignments>
-        <object>FeedItem</object>
-        <connector>
-            <targetReference>Loop_Child_Cases</targetReference>
-        </connector>
-    </recordCreates>
-
-    <!-- Build a FeedItem record for every child Case -->
-    <loops>
-        <name>Loop_Child_Cases</name>
-        <label>Loop Through Child Cases</label>
-        <locationX>182</locationX>
-        <locationY>782</locationY>
-        <assignNextValueToReference>varCurrentChildCase</assignNextValueToReference>
-        <collectionReference>Get_Child_Cases</collectionReference>
-        <iterationOrder>Asc</iterationOrder>
-        <nextValueConnector>
-            <targetReference>Assign_Child_Feed_Item</targetReference>
-        </nextValueConnector>
-        <noMoreValuesConnector>
-            <targetReference>Create_Child_Chatter_Posts</targetReference>
-        </noMoreValuesConnector>
-    </loops>
-
-    <!-- Populate one FeedItem and add to the collection -->
     <assignments>
         <name>Assign_Child_Feed_Item</name>
         <label>Build Child Feed Item</label>
@@ -340,7 +303,58 @@
         </connector>
     </assignments>
 
-    <!-- Single DML: create all child Chatter posts at once -->
+    <!-- ── LOOPS ─────────────────────────────────────────────────────── -->
+    <loops>
+        <name>Loop_Child_Cases</name>
+        <label>Loop Through Child Cases</label>
+        <locationX>182</locationX>
+        <locationY>782</locationY>
+        <assignNextValueToReference>varCurrentChildCase</assignNextValueToReference>
+        <collectionReference>Get_Child_Cases</collectionReference>
+        <iterationOrder>Asc</iterationOrder>
+        <nextValueConnector>
+            <targetReference>Assign_Child_Feed_Item</targetReference>
+        </nextValueConnector>
+        <noMoreValuesConnector>
+            <targetReference>Create_Child_Chatter_Posts</targetReference>
+        </noMoreValuesConnector>
+    </loops>
+
+    <!-- ── RECORD CREATES (both grouped) ─────────────────────────────── -->
+    <recordCreates>
+        <name>Create_Parent_Chatter_Post</name>
+        <label>Create Parent Chatter Post</label>
+        <locationX>182</locationX>
+        <locationY>674</locationY>
+        <inputAssignments>
+            <field>ParentId</field>
+            <value>
+                <elementReference>recordId</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Body</field>
+            <value>
+                <elementReference>txtComment</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Visibility</field>
+            <value>
+                <elementReference>varFeedVisibility</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Type</field>
+            <value>
+                <stringValue>TextPost</stringValue>
+            </value>
+        </inputAssignments>
+        <object>FeedItem</object>
+        <connector>
+            <targetReference>Loop_Child_Cases</targetReference>
+        </connector>
+    </recordCreates>
     <recordCreates>
         <name>Create_Child_Chatter_Posts</name>
         <label>Create Child Chatter Posts</label>
@@ -352,40 +366,7 @@
         </connector>
     </recordCreates>
 
-    <!-- ── STATUS PATH ────────────────────────────────────────────────── -->
-
-    <!-- Was a status chosen? (reached from both the comment path and the no-comment path) -->
-    <decisions>
-        <name>Decision_Has_Status</name>
-        <label>Status Update Selected?</label>
-        <locationX>182</locationX>
-        <locationY>1106</locationY>
-        <defaultConnectorLabel>No Status Update</defaultConnectorLabel>
-        <rules>
-            <name>Status_Selected</name>
-            <conditionLogic>and</conditionLogic>
-            <conditions>
-                <leftValueReference>pickNewStatus</leftValueReference>
-                <operator>IsNull</operator>
-                <rightValue>
-                    <booleanValue>false</booleanValue>
-                </rightValue>
-            </conditions>
-            <conditions>
-                <leftValueReference>pickNewStatus</leftValueReference>
-                <operator>NotEqualTo</operator>
-                <rightValue>
-                    <stringValue></stringValue>
-                </rightValue>
-            </conditions>
-            <connector>
-                <targetReference>Update_Child_Case_Statuses</targetReference>
-            </connector>
-            <label>Status Selected</label>
-        </rules>
-    </decisions>
-
-    <!-- Single filter-based DML: update all child Cases in one statement -->
+    <!-- ── RECORD UPDATES ─────────────────────────────────────────────── -->
     <recordUpdates>
         <name>Update_Child_Case_Statuses</name>
         <label>Update Child Case Statuses</label>
