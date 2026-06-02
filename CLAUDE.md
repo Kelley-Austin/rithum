@@ -41,3 +41,10 @@ Many people on this team are comfortable in Salesforce Setup but new to working 
 Add anything specific to your project below this line — coding standards, naming conventions, sandbox aliases, branch strategy, deploy windows, anything else Claude should know.
 
 <!-- Add your project-specific instructions here -->
+
+<!-- BEGIN cheese:decisions -->
+## Project Decisions
+
+- **2026-06-02** — _from [ST-21911: Jira Comments Update Salesforce Case](docs/slices/conv-1780420472030-st-21911-jira-comments-update-salesforce-case.md)_ — **Dual-identifier lookup (caseId OR Jira_Number__c)** — *Why:* Jira may not always have the Salesforce Case ID; fallback to `Jira_Number__c` prevents hard dependency on Salesforce IDs in Jira.
+- **2026-06-02** — _from [ST-21906: Notify Account Team](docs/slices/conv-1780420111781-st-21906-notify-account-team.md)_ — **Notification gated by `Notify_Account_Team_of_Brands_Case__c` checkbox on Account** — *Why:* Not all managed accounts require this notification; the flag gives admins per-account opt-in control.
+<!-- END cheese:decisions -->

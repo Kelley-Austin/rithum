@@ -51,7 +51,7 @@ _Slice summaries append into per-phase blocks below as work completes._
 ### Phase 1
 
 <!-- BEGIN cheese:phase-1 -->
-- ⏳ ST-21911: Jira Comments Update Salesforce Case — ready-to-start
+- ✅ ST-21911: Jira Comments Update Salesforce Case — *summary saved 2026-06-02*. [Decisions & details](docs/slices/conv-1780420472030-st-21911-jira-comments-update-salesforce-case.md). Lesson: Using a DateTime stamp field (`Last_Jira_Comment_Date_Time__c`) as the flow trigger is more reliable than firing from a platform event or invoking Chatter from within the REST endpoint — it survives async boundaries and is easy to re-trigger manually in testing..
 - ⏳ ST-21919: Update all Child Cases — ready-to-start
 <!-- END cheese:phase-1 -->
 
