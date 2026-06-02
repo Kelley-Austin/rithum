@@ -2,8 +2,8 @@
 <QueueRoutingConfig xmlns="http://soap.sforce.com/2006/04/metadata">
     <capacityWeight>1.0</capacityWeight>
     <isAttributeBased>false</isAttributeBased>
-    <label>Brands Tier 2 Routing</label>
+    <label>Support Brands - Tier 2 Routing</label>
     <pushTimeout>180</pushTimeout>
     <routingModel>MOST_AVAILABLE</routingModel>
-    <routingPriority>50</routingPriority>
+    <routingPriority>20</routingPriority>
 </QueueRoutingConfig>
