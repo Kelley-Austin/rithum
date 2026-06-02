@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>User.Test__c.field</members>
-        <name>CustomField</name>
+        <members>Brands_New_Case_Notify_Account_Team</members>
+        <name>CustomNotificationType</name>
+    </types>
+    <types>
+        <members>Brands_Notify_Account_Team_on_New_Case</members>
+        <name>Flow</name>
     </types>
     <version>61.0</version>
 </Package>
