@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Brands_Administration.queue</members>
-        <members>Brands_Tier_1.queue</members>
-        <members>Brands_Tier_1_Urgent.queue</members>
-        <members>Brands_Tier_2.queue</members>
-        <members>Brands_Tier_2_Urgent.queue</members>
+        <members>Brands_Administration</members>
+        <members>Brands_Tier_1</members>
+        <members>Brands_Tier_1_Urgent</members>
+        <members>Brands_Tier_2</members>
+        <members>Brands_Tier_2_Urgent</members>
         <name>Queue</name>
+    </types>
+    <types>
+        <members>Brands_Administration_Routing</members>
+        <members>Brands_Tier_1_Routing</members>
+        <members>Brands_Tier_1_Urgent_Routing</members>
+        <members>Brands_Tier_2_Routing</members>
+        <members>Brands_Tier_2_Urgent_Routing</members>
+        <name>QueueRoutingConfig</name>
     </types>
     <version>61.0</version>
 </Package>
