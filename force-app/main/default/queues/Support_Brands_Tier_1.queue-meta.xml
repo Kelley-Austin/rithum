@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Queue xmlns="http://soap.sforce.com/2006/04/metadata">
     <doesSendEmailToMembers>false</doesSendEmailToMembers>
-    <name>Brands Tier 2</name>
-    <queueRoutingConfig>Brands_Tier_2_Routing</queueRoutingConfig>
+    <name>Support Brands - Tier 1</name>
+    <queueRoutingConfig>Support_Brands_Tier_1_Routing</queueRoutingConfig>
     <queueSobject>
         <sobjectType>Case</sobjectType>
     </queueSobject>

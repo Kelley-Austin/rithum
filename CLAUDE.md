@@ -63,3 +63,10 @@ Direct deployment to the **production org** (`clare.segrue@kelleyaustin.com`) is
 4. GitHub Actions picks up the PR and runs the deploy pipeline automatically.
 
 Sandbox deployments (`sf project deploy start --target-org rithum-sandbox`) work fine from the terminal and can be used for testing before opening a PR.
+
+<!-- BEGIN cheese:decisions -->
+## Project Decisions
+
+- **2026-06-02** — _from [# ST-21832: Case Queues (Part 1)
+**Statu](docs/slices/conv-1780338159721-st-21832-case-queues-part-1-statu.md)_ — **Urgent queues given lower priority numbers (10, 20) than standard queues (40, 50)** — *Why:* Lower `routingPriority` number = higher Omni-Channel precedence, ensuring urgent cases route first.
+<!-- END cheese:decisions -->
