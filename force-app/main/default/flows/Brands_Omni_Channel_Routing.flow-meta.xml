@@ -82,10 +82,26 @@
         </connector>
     </assignments>
     <assignments>
+        <name>Priority_Account_Tier_2</name>
+        <label>Priority Account, Tier 2</label>
+        <locationX>836</locationX>
+        <locationY>1248</locationY>
+        <assignmentItems>
+            <assignToReference>inputCase.OwnerId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>varT_Tier2</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Update_Triggering_Record</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
         <name>Tier_1_is_Owner</name>
         <label>Tier 1 is Owner</label>
         <locationX>176</locationX>
-        <locationY>1248</locationY>
+        <locationY>1488</locationY>
         <assignmentItems>
             <assignToReference>inputCase.OwnerId</assignToReference>
             <operator>Assign</operator>
@@ -101,7 +117,7 @@
         <name>Brands_Admin_is_Owner</name>
         <label>Brands Admin is Owner</label>
         <locationX>440</locationX>
-        <locationY>1248</locationY>
+        <locationY>1488</locationY>
         <assignmentItems>
             <assignToReference>inputCase.OwnerId</assignToReference>
             <operator>Assign</operator>
@@ -117,7 +133,7 @@
         <name>Tier_2_is_Owner</name>
         <label>Tier 2 is Owner</label>
         <locationX>704</locationX>
-        <locationY>1248</locationY>
+        <locationY>1488</locationY>
         <assignmentItems>
             <assignToReference>inputCase.OwnerId</assignToReference>
             <operator>Assign</operator>
@@ -218,7 +234,7 @@
         <name>Case_Owner_Assignment</name>
         <label>Case Owner Assignment</label>
         <locationX>176</locationX>
-        <locationY>1128</locationY>
+        <locationY>1368</locationY>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
             <name>Brands_Tier_2_Support_Users_Path</name>
@@ -358,7 +374,7 @@
         <locationY>1008</locationY>
         <assignNullValuesIfNoRecordsFound>true</assignNullValuesIfNoRecordsFound>
         <connector>
-            <targetReference>Case_Owner_Assignment</targetReference>
+            <targetReference>Get_Cases_Account</targetReference>
         </connector>
         <filterLogic>and</filterLogic>
         <filters>
@@ -382,11 +398,42 @@
             <field>Id</field>
         </outputAssignments>
     </recordLookups>
+    <recordLookups>
+        <name>Get_Cases_Account</name>
+        <label>Get Case&apos;s Account</label>
+        <locationX>176</locationX>
+        <locationY>1128</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Priority_Account_Tier_2</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>inputCase.AccountId</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>Priority_Support_Attention__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <noRecordsFoundConnector>
+            <targetReference>Case_Owner_Assignment</targetReference>
+        </noRecordsFoundConnector>
+        <object>Account</object>
+        <queriedFields>Id</queriedFields>
+    </recordLookups>
     <recordUpdates>
         <name>Update_Triggering_Record</name>
         <label>Update Triggering Record</label>
         <locationX>176</locationX>
-        <locationY>1368</locationY>
+        <locationY>1608</locationY>
         <inputReference>inputCase</inputReference>
     </recordUpdates>
     <start>
