@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "claude": "^0.1.1",
     "sf": "^0.2.0",
     "sf-cli": "^3.2.1"
   }
