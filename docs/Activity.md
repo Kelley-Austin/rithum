@@ -8,3 +8,5 @@ Use `git log -p docs/Activity.md` to audit changes over time.
 - `2026-06-01T17:16:02.566Z` · **target-org-switched** · Target org switched to rithum-sandbox · source=watcher
 - `2026-06-01T18:30:12.628Z` · **target-org-switched** · Target org switched to rithum-sandbox · source=watcher
 - `2026-06-02T14:47:02.600Z` · **branch-switched** · Branch switched to feature/st-21832-case-queues-part-1-statu · source=watcher
+- `2026-06-02T14:48:53.652Z` · **slice-summary** · Saved summary for "# ST-21832: Case Queues (Part 1)
+**Statu" ([docs/slices/conv-1780338159721-st-21832-case-queues-part-1-statu.md](docs/slices/conv-1780338159721-st-21832-case-queues-part-1-statu.md)) · decisions=1 · phase=0
