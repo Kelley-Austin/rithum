@@ -13,3 +13,4 @@ Use `git log -p docs/Activity.md` to audit changes over time.
 - `2026-06-02T14:51:55.166Z` · **orchestration-plan** · Initialized Orchestration Plan ([docs/Orchestration_Plan.md](docs/Orchestration_Plan.md)) · slices=5 · phases=3 · conflicts=1
 - `2026-06-02T14:52:02.745Z` · **branch-switched** · Branch switched to agent/st-21904-internal-tier2-routing · source=agent-run · conversationId=conv-1780411803098
 - `2026-06-02T14:52:43.521Z` · **project-artifact** · Generated Personas ([docs/Personas.md](docs/Personas.md))
+- `2026-06-02T14:52:51.640Z` · **project-artifact** · Generated Project Brief ([docs/Project_Brief.md](docs/Project_Brief.md))
