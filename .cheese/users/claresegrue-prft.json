@@ -2,15 +2,16 @@
   "githubUsername": "claresegrue-prft",
   "displayName": "claresegrue-prft",
   "avatarUrl": "https://avatars.githubusercontent.com/u/279048664?v=4",
-  "xp": 2095,
-  "level": 4,
+  "xp": 2545,
+  "level": 5,
   "currentStreakDays": 2,
   "longestStreakDays": 2,
   "unlockedBadges": [
     "pilot_cohort",
     "first_deploy",
     "speed_demon",
-    "frugal_dev"
+    "frugal_dev",
+    "level_5"
   ],
-  "lastGitHubSyncAt": "2026-06-02T18:51:40.284Z"
+  "lastGitHubSyncAt": "2026-06-02T22:18:50.419Z"
 }
