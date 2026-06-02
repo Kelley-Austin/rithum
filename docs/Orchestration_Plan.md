@@ -52,7 +52,7 @@ _Slice summaries append into per-phase blocks below as work completes._
 
 <!-- BEGIN cheese:phase-1 -->
 - ⏳ ST-21911: Jira Comments Update Salesforce Case — ready-to-start
-- ⏳ ST-21919: Update all Child Cases — ready-to-start
+- ✅ ST-21919: Update all Child Cases — *summary saved 2026-06-02*. [Decisions & details](docs/slices/conv-1780420460497-st-21919-update-all-child-cases.md). Lesson: Batch child record Chatter posts via a collection variable + single `recordCreate` rather than calling `Create Records` inside the loop — this is the pattern to reach for any time you're posting to an unbounded child collection..
 <!-- END cheese:phase-1 -->
 
 ### Phase 2

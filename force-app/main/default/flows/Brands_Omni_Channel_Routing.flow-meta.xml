@@ -82,42 +82,10 @@
         </connector>
     </assignments>
     <assignments>
-        <name>Priority_Account_Tier_2</name>
-        <label>Priority Account, Tier 2</label>
-        <locationX>836</locationX>
-        <locationY>1248</locationY>
-        <assignmentItems>
-            <assignToReference>inputCase.OwnerId</assignToReference>
-            <operator>Assign</operator>
-            <value>
-                <elementReference>varT_Tier2</elementReference>
-            </value>
-        </assignmentItems>
-        <connector>
-            <targetReference>Update_Triggering_Record</targetReference>
-        </connector>
-    </assignments>
-    <assignments>
-        <name>Tier_1_is_Owner</name>
-        <label>Tier 1 is Owner</label>
-        <locationX>176</locationX>
-        <locationY>1488</locationY>
-        <assignmentItems>
-            <assignToReference>inputCase.OwnerId</assignToReference>
-            <operator>Assign</operator>
-            <value>
-                <elementReference>varT_Tier1</elementReference>
-            </value>
-        </assignmentItems>
-        <connector>
-            <targetReference>Update_Triggering_Record</targetReference>
-        </connector>
-    </assignments>
-    <assignments>
         <name>Brands_Admin_is_Owner</name>
         <label>Brands Admin is Owner</label>
         <locationX>440</locationX>
-        <locationY>1488</locationY>
+        <locationY>1248</locationY>
         <assignmentItems>
             <assignToReference>inputCase.OwnerId</assignToReference>
             <operator>Assign</operator>
@@ -130,10 +98,26 @@
         </connector>
     </assignments>
     <assignments>
+        <name>Tier_1_is_Owner</name>
+        <label>Tier 1 is Owner</label>
+        <locationX>176</locationX>
+        <locationY>1248</locationY>
+        <assignmentItems>
+            <assignToReference>inputCase.OwnerId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>varT_Tier1</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Update_Triggering_Record</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
         <name>Tier_2_is_Owner</name>
         <label>Tier 2 is Owner</label>
         <locationX>704</locationX>
-        <locationY>1488</locationY>
+        <locationY>1248</locationY>
         <assignmentItems>
             <assignToReference>inputCase.OwnerId</assignToReference>
             <operator>Assign</operator>
@@ -145,6 +129,79 @@
             <targetReference>Update_Triggering_Record</targetReference>
         </connector>
     </assignments>
+    <decisions>
+        <name>Case_Owner_Assignment</name>
+        <label>Case Owner Assignment</label>
+        <locationX>176</locationX>
+        <locationY>1128</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Brands_Tier_2_Support_Users_Path</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>varT_Tier2SupportUsers</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Tier_2_is_Owner</targetReference>
+            </connector>
+            <label>Brands Tier 2 Support Users</label>
+        </rules>
+        <rules>
+            <name>Tier_1</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>inputCase.RecordType.DeveloperName</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Ongoing_Support</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>inputCase.Platform__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Brands</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Tier_1_is_Owner</targetReference>
+            </connector>
+            <label>Tier 1</label>
+        </rules>
+        <rules>
+            <name>Administration</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>inputCase.RecordType.DeveloperName</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Support_Admin</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>inputCase.Platform__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Brands</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>inputCase.Category_dsco__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Account administration</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Brands_Admin_is_Owner</targetReference>
+            </connector>
+            <label>Administration</label>
+        </rules>
+    </decisions>
     <decisions>
         <name>Which_Group</name>
         <label>Which Group?</label>
@@ -230,79 +287,6 @@
             <label>Support Brands - Tier 2 Urgent</label>
         </rules>
     </decisions>
-    <decisions>
-        <name>Case_Owner_Assignment</name>
-        <label>Case Owner Assignment</label>
-        <locationX>176</locationX>
-        <locationY>1368</locationY>
-        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
-        <rules>
-            <name>Brands_Tier_2_Support_Users_Path</name>
-            <conditionLogic>and</conditionLogic>
-            <conditions>
-                <leftValueReference>varT_Tier2SupportUsers</leftValueReference>
-                <operator>IsNull</operator>
-                <rightValue>
-                    <booleanValue>false</booleanValue>
-                </rightValue>
-            </conditions>
-            <connector>
-                <targetReference>Tier_2_is_Owner</targetReference>
-            </connector>
-            <label>Brands Tier 2 Support Users</label>
-        </rules>
-        <rules>
-            <name>Tier_1</name>
-            <conditionLogic>and</conditionLogic>
-            <conditions>
-                <leftValueReference>inputCase.RecordType.DeveloperName</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <stringValue>Ongoing_Support</stringValue>
-                </rightValue>
-            </conditions>
-            <conditions>
-                <leftValueReference>inputCase.Platform__c</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <stringValue>Brands</stringValue>
-                </rightValue>
-            </conditions>
-            <connector>
-                <targetReference>Tier_1_is_Owner</targetReference>
-            </connector>
-            <label>Tier 1</label>
-        </rules>
-        <rules>
-            <name>Administration</name>
-            <conditionLogic>and</conditionLogic>
-            <conditions>
-                <leftValueReference>inputCase.RecordType.DeveloperName</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <stringValue>Support_Admin</stringValue>
-                </rightValue>
-            </conditions>
-            <conditions>
-                <leftValueReference>inputCase.Platform__c</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <stringValue>Brands</stringValue>
-                </rightValue>
-            </conditions>
-            <conditions>
-                <leftValueReference>inputCase.Category_dsco__c</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <stringValue>Account administration</stringValue>
-                </rightValue>
-            </conditions>
-            <connector>
-                <targetReference>Brands_Admin_is_Owner</targetReference>
-            </connector>
-            <label>Administration</label>
-        </rules>
-    </decisions>
     <description>Omni-Channel routing for Brands Cases and Chats. Currently used for Cases only; structured for future Chat and call routing.</description>
     <label>Brands - Omni Channel Routing</label>
     <loops>
@@ -337,11 +321,40 @@
                 <stringValue>Support Brands</stringValue>
             </value>
         </filters>
-        <getFirstRecordOnly>false</getFirstRecordOnly>
         <object>Group</object>
         <outputReference>collR_SupportBrandsGroups</outputReference>
         <queriedFields>Id</queriedFields>
         <queriedFields>Name</queriedFields>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_Tier2_Group_Membership</name>
+        <label>Get Tier 2 Group Membership</label>
+        <locationX>176</locationX>
+        <locationY>1008</locationY>
+        <assignNullValuesIfNoRecordsFound>true</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Case_Owner_Assignment</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>GroupId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>varT_Tier2SupportGroupId</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>UserOrGroupId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>inputCase.CreatedById</elementReference>
+            </value>
+        </filters>
+        <object>GroupMember</object>
+        <outputAssignments>
+            <assignToReference>varT_Tier2SupportUsers</assignToReference>
+            <field>Id</field>
+        </outputAssignments>
     </recordLookups>
     <recordLookups>
         <name>Get_Tier2_Support_Group</name>
@@ -360,80 +373,17 @@
                 <stringValue>Brands_Tier_2_Support_Users</stringValue>
             </value>
         </filters>
-        <getFirstRecordOnly>true</getFirstRecordOnly>
         <object>Group</object>
         <outputAssignments>
             <assignToReference>varT_Tier2SupportGroupId</assignToReference>
             <field>Id</field>
         </outputAssignments>
     </recordLookups>
-    <recordLookups>
-        <name>Get_Tier2_Group_Membership</name>
-        <label>Get Tier 2 Group Membership</label>
-        <locationX>176</locationX>
-        <locationY>1008</locationY>
-        <assignNullValuesIfNoRecordsFound>true</assignNullValuesIfNoRecordsFound>
-        <connector>
-            <targetReference>Get_Cases_Account</targetReference>
-        </connector>
-        <filterLogic>and</filterLogic>
-        <filters>
-            <field>GroupId</field>
-            <operator>EqualTo</operator>
-            <value>
-                <elementReference>varT_Tier2SupportGroupId</elementReference>
-            </value>
-        </filters>
-        <filters>
-            <field>UserOrGroupId</field>
-            <operator>EqualTo</operator>
-            <value>
-                <elementReference>inputCase.CreatedById</elementReference>
-            </value>
-        </filters>
-        <getFirstRecordOnly>true</getFirstRecordOnly>
-        <object>GroupMember</object>
-        <outputAssignments>
-            <assignToReference>varT_Tier2SupportUsers</assignToReference>
-            <field>Id</field>
-        </outputAssignments>
-    </recordLookups>
-    <recordLookups>
-        <name>Get_Cases_Account</name>
-        <label>Get Case&apos;s Account</label>
-        <locationX>176</locationX>
-        <locationY>1128</locationY>
-        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
-        <connector>
-            <targetReference>Priority_Account_Tier_2</targetReference>
-        </connector>
-        <filterLogic>and</filterLogic>
-        <filters>
-            <field>Id</field>
-            <operator>EqualTo</operator>
-            <value>
-                <elementReference>inputCase.AccountId</elementReference>
-            </value>
-        </filters>
-        <filters>
-            <field>Priority_Support_Attention__c</field>
-            <operator>EqualTo</operator>
-            <value>
-                <booleanValue>true</booleanValue>
-            </value>
-        </filters>
-        <getFirstRecordOnly>true</getFirstRecordOnly>
-        <noRecordsFoundConnector>
-            <targetReference>Case_Owner_Assignment</targetReference>
-        </noRecordsFoundConnector>
-        <object>Account</object>
-        <queriedFields>Id</queriedFields>
-    </recordLookups>
     <recordUpdates>
         <name>Update_Triggering_Record</name>
         <label>Update Triggering Record</label>
         <locationX>176</locationX>
-        <locationY>1608</locationY>
+        <locationY>1368</locationY>
         <inputReference>inputCase</inputReference>
     </recordUpdates>
     <start>
@@ -445,20 +395,20 @@
     </start>
     <status>Active</status>
     <variables>
-        <name>inputCase</name>
-        <dataType>SObject</dataType>
-        <isCollection>false</isCollection>
-        <isInput>true</isInput>
-        <isOutput>false</isOutput>
-        <objectType>Case</objectType>
-    </variables>
-    <variables>
         <name>collR_SupportBrandsGroups</name>
         <dataType>SObject</dataType>
         <isCollection>true</isCollection>
         <isInput>false</isInput>
         <isOutput>false</isOutput>
         <objectType>Group</objectType>
+    </variables>
+    <variables>
+        <name>inputCase</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+        <objectType>Case</objectType>
     </variables>
     <variables>
         <name>varT_Admin</name>
@@ -489,13 +439,6 @@
         <isOutput>false</isOutput>
     </variables>
     <variables>
-        <name>varT_Tier2Urgent</name>
-        <dataType>String</dataType>
-        <isCollection>false</isCollection>
-        <isInput>false</isInput>
-        <isOutput>false</isOutput>
-    </variables>
-    <variables>
         <name>varT_Tier2SupportGroupId</name>
         <dataType>String</dataType>
         <isCollection>false</isCollection>
@@ -504,6 +447,13 @@
     </variables>
     <variables>
         <name>varT_Tier2SupportUsers</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>varT_Tier2Urgent</name>
         <dataType>String</dataType>
         <isCollection>false</isCollection>
         <isInput>false</isInput>

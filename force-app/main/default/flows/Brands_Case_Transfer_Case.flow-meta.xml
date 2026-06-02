@@ -12,36 +12,60 @@
         </value>
     </processMetadataValues>
     <processType>Flow</processType>
-    <status>Active</status>
-
-    <!-- ── VARIABLES ─────────────────────────────────────────────────── -->
-    <variables>
-        <name>recordId</name>
-        <dataType>String</dataType>
-        <isCollection>false</isCollection>
-        <isInput>true</isInput>
-        <isOutput>false</isOutput>
-    </variables>
-
-    <!-- ── TEXT TEMPLATES ────────────────────────────────────────────── -->
-    <!-- Organization__c is a custom object (Organization__c);
-         Organization_Contact__c is a custom object (Organization_Contact__c). -->
-    <textTemplates>
-        <name>tmplChatterBody</name>
-        <isViewedAsPlainText>false</isViewedAsPlainText>
-        <text>&lt;p&gt;This Case has been transferred&lt;/p&gt;&lt;p&gt;Account: &lt;a href=&quot;/{!Get_Case.AccountId}&quot;&gt;{!Get_Account.Name}&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Contact: &lt;a href=&quot;/{!Get_Case.ContactId}&quot;&gt;{!Get_Contact.Name}&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Organization: &lt;a href=&quot;/{!Get_Case.Organization__c}&quot;&gt;{!Get_Organization.Name}&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Organization Contact: &lt;a href=&quot;/{!Get_Case.Organization_Contact__c}&quot;&gt;{!Get_OrgContact.Name}&lt;/a&gt;&lt;/p&gt;</text>
-    </textTemplates>
-
-    <!-- ── START ─────────────────────────────────────────────────────── -->
-    <start>
+    <recordCreates>
+        <name>Create_Chatter_Post</name>
+        <label>Create Transfer Chatter Post</label>
         <locationX>182</locationX>
-        <locationY>26</locationY>
+        <locationY>890</locationY>
+        <inputAssignments>
+            <field>Body</field>
+            <value>
+                <elementReference>tmplChatterBody</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>ParentId</field>
+            <value>
+                <elementReference>recordId</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Type</field>
+            <value>
+                <stringValue>RichTextPost</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Visibility</field>
+            <value>
+                <stringValue>InternalUsers</stringValue>
+            </value>
+        </inputAssignments>
+        <object>FeedItem</object>
+    </recordCreates>
+    <recordLookups>
+        <name>Get_Account</name>
+        <label>Get Account</label>
+        <locationX>182</locationX>
+        <locationY>458</locationY>
+        <assignNullValuesIfNoRecordsFound>true</assignNullValuesIfNoRecordsFound>
         <connector>
-            <targetReference>Get_Case</targetReference>
+            <targetReference>Get_Contact</targetReference>
         </connector>
-    </start>
-
-    <!-- ── RECORD LOOKUPS ────────────────────────────────────────────── -->
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Get_Case.AccountId</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Account</object>
+        <queriedFields>Id</queriedFields>
+        <queriedFields>Name</queriedFields>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
     <recordLookups>
         <name>Get_Case</name>
         <label>Get Case</label>
@@ -69,31 +93,6 @@
         <queriedFields>Organization_Contact__c</queriedFields>
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordLookups>
-
-    <recordLookups>
-        <name>Get_Account</name>
-        <label>Get Account</label>
-        <locationX>182</locationX>
-        <locationY>458</locationY>
-        <assignNullValuesIfNoRecordsFound>true</assignNullValuesIfNoRecordsFound>
-        <connector>
-            <targetReference>Get_Contact</targetReference>
-        </connector>
-        <filterLogic>and</filterLogic>
-        <filters>
-            <field>Id</field>
-            <operator>EqualTo</operator>
-            <value>
-                <elementReference>Get_Case.AccountId</elementReference>
-            </value>
-        </filters>
-        <getFirstRecordOnly>true</getFirstRecordOnly>
-        <object>Account</object>
-        <queriedFields>Id</queriedFields>
-        <queriedFields>Name</queriedFields>
-        <storeOutputAutomatically>true</storeOutputAutomatically>
-    </recordLookups>
-
     <recordLookups>
         <name>Get_Contact</name>
         <label>Get Contact</label>
@@ -117,7 +116,6 @@
         <queriedFields>Name</queriedFields>
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordLookups>
-
     <recordLookups>
         <name>Get_Organization</name>
         <label>Get Organization</label>
@@ -141,7 +139,6 @@
         <queriedFields>Name</queriedFields>
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordLookups>
-
     <recordLookups>
         <name>Get_OrgContact</name>
         <label>Get Organization Contact</label>
@@ -165,34 +162,6 @@
         <queriedFields>Name</queriedFields>
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordLookups>
-
-    <!-- ── SCREEN ────────────────────────────────────────────────────── -->
-    <screens>
-        <name>Screen_Transfer_Case</name>
-        <label>Transfer Case</label>
-        <locationX>182</locationX>
-        <locationY>242</locationY>
-        <allowBack>false</allowBack>
-        <allowFinish>true</allowFinish>
-        <allowPause>false</allowPause>
-        <nextOrFinishButtonLabel>Save</nextOrFinishButtonLabel>
-        <fields>
-            <name>lookupNewOwner</name>
-            <dataType>String</dataType>
-            <defaultValue>
-                <elementReference>Get_Case.OwnerId</elementReference>
-            </defaultValue>
-            <fieldText>Transfer the Case Owner by selecting the User or Queue below</fieldText>
-            <fieldType>InputField</fieldType>
-            <isRequired>true</isRequired>
-            <objectFieldReference>Case.OwnerId</objectFieldReference>
-        </fields>
-        <connector>
-            <targetReference>Update_Case_Owner</targetReference>
-        </connector>
-    </screens>
-
-    <!-- ── RECORD UPDATES ─────────────────────────────────────────────── -->
     <recordUpdates>
         <name>Update_Case_Owner</name>
         <label>Update Case Owner</label>
@@ -212,43 +181,54 @@
         <inputAssignments>
             <field>OwnerId</field>
             <value>
-                <elementReference>lookupNewOwner</elementReference>
+                <elementReference>_0</elementReference>
             </value>
         </inputAssignments>
         <object>Case</object>
     </recordUpdates>
-
-    <!-- ── RECORD CREATES ────────────────────────────────────────────── -->
-    <recordCreates>
-        <name>Create_Chatter_Post</name>
-        <label>Create Transfer Chatter Post</label>
+    <screens>
+        <name>Screen_Transfer_Case</name>
+        <label>Transfer Case</label>
         <locationX>182</locationX>
-        <locationY>890</locationY>
-        <inputAssignments>
-            <field>ParentId</field>
-            <value>
-                <elementReference>recordId</elementReference>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
-            <field>Body</field>
-            <value>
-                <elementReference>tmplChatterBody</elementReference>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
-            <field>Type</field>
-            <value>
-                <stringValue>RichTextPost</stringValue>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
-            <field>Visibility</field>
-            <value>
-                <stringValue>InternalUsers</stringValue>
-            </value>
-        </inputAssignments>
-        <object>FeedItem</object>
-    </recordCreates>
-
+        <locationY>242</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <connector>
+            <targetReference>Update_Case_Owner</targetReference>
+        </connector>
+        <fields>
+            <dataType>String</dataType>
+            <defaultValue>
+                <elementReference>Get_Case.OwnerId</elementReference>
+            </defaultValue>
+            <fieldText>Transfer the Case Owner by selecting the User or Queue below</fieldText>
+            <fieldType>ObjectProvided</fieldType>
+            <isRequired>false</isRequired>
+            <objectFieldReference>Get_Case.OwnerId</objectFieldReference>
+        </fields>
+        <nextOrFinishButtonLabel>Save</nextOrFinishButtonLabel>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <start>
+        <locationX>182</locationX>
+        <locationY>26</locationY>
+        <connector>
+            <targetReference>Get_Case</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+    <textTemplates>
+        <name>tmplChatterBody</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
+        <text>&lt;p&gt;This Case has been transferred&lt;/p&gt;&lt;p&gt;Account: &lt;a href=&quot;/{!Get_Case.AccountId}&quot;&gt;{!Get_Account.Name}&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Contact: &lt;a href=&quot;/{!Get_Case.ContactId}&quot;&gt;{!Get_Contact.Name}&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Organization: &lt;a href=&quot;/{!Get_Case.Organization__c}&quot;&gt;{!Get_Organization.Name}&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Organization Contact: &lt;a href=&quot;/{!Get_Case.Organization_Contact__c}&quot;&gt;{!Get_OrgContact.Name}&lt;/a&gt;&lt;/p&gt;</text>
+    </textTemplates>
+    <variables>
+        <name>recordId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
 </Flow>

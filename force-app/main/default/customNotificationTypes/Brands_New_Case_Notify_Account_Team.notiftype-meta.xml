@@ -5,4 +5,5 @@
     <desktop>true</desktop>
     <masterLabel>Brands -  New Case Notify Account Team</masterLabel>
     <mobile>true</mobile>
+    <slack>false</slack>
 </CustomNotificationType>

@@ -77,3 +77,18 @@ See `docs/Personas.md` for full persona definitions.
 - **(2026-06-02) Jira webhook authentication and payload schema are undefined.** The ST-21911 implementation cannot be finalized until the Jira-side contract (auth token, payload format, retry behavior) is confirmed with the integration owner.
 - **(2026-06-02) ST-21906 (Notify Account Team) is in progress with no documented blocker or assignee in the provided slice data.** If this slice is blocked, the Account Team persona has no completed deliverable and the risk of go-live without that notification path should be acknowledged.
 - **(2026-06-02) "Update all Child Cases" scope is ambiguous** — the slice description is truncated. It is unclear whether all field changes on a parent trigger propagation or only specific fields, which affects the flow's governor limit profile on accounts with large case hierarchies.
+
+<!-- BEGIN cheese:slice-index -->
+| Slice | Status | Doc | Persona served |
+| --- | --- | --- | --- |
+| ST-21911: Jira Comments Update Salesforce Case | pr-created | [view](docs/slices/conv-1780420472030-st-21911-jira-comments-update-salesforce-case.md) | (see file) |
+| ST-21919: Update all Child Cases | deployed | [view](docs/slices/conv-1780420460497-st-21919-update-all-child-cases.md) | (see file) |
+| ST-21914: Transfer Case | ready-to-start | [view](docs/slices/conv-1780420457448-st-21914-transfer-case.md) | (see file) |
+| ST-21906: Notify Account Team | deployed | [view](docs/slices/conv-1780420111781-st-21906-notify-account-team.md) | (see file) |
+| ST-21905: Priority Attention Account (part 4) | pr-created | [view](docs/slices/conv-1780411822782-st-21905-priority-attention-account-part-4.md) | (see file) |
+| ST-21900: Case Sub-Categories Route to Tier 2 (Part 3) | pr-created | [view](docs/slices/conv-1780411821832-st-21900-case-sub-categories-route-to-tier-2-part-.md) | (see file) |
+| ST-21904: Internal Route to Tier 2 (Part 2) | pr-created | [view](docs/slices/conv-1780411803098-st-21904-internal-route-to-tier-2-part-2.md) | (see file) |
+| # ST-21832: Case Queues (Part 1)
+**Statu | pr-created | [view](docs/slices/conv-1780338159721-st-21832-case-queues-part-1-statu.md) | (see file) |
+| # ST-22674: ST-21903 \| Rithum \| Field Cr | pr-created | [view](docs/slices/conv-1780333762821-st-22674-st-21903-rithum-field-cr.md) | (see file) |
+<!-- END cheese:slice-index -->

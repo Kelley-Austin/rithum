@@ -2,7 +2,6 @@
 <Queue xmlns="http://soap.sforce.com/2006/04/metadata">
     <doesSendEmailToMembers>false</doesSendEmailToMembers>
     <name>Support Brands - Tier 1 Urgent</name>
-    <queueRoutingConfig>Support_Brands_Tier_1_Urgent_Routing</queueRoutingConfig>
     <queueSobject>
         <sobjectType>Case</sobjectType>
     </queueSobject>
