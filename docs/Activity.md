@@ -14,3 +14,4 @@ Use `git log -p docs/Activity.md` to audit changes over time.
 - `2026-06-02T15:06:52.213Z` · **target-org-switched** · Target org switched to rithum-sandbox · source=watcher
 - `2026-06-02T16:06:15.387Z` · **slice-summary** · Saved summary for "ST-21904: Internal Route to Tier 2 (Part 2)" ([docs/slices/conv-1780411803098-st-21904-internal-route-to-tier-2-part-2.md](docs/slices/conv-1780411803098-st-21904-internal-route-to-tier-2-part-2.md)) · decisions=1 · phase=1
 - `2026-06-02T16:06:23.013Z` · **branch-switched** · Branch switched to agent/st-21900-subcategory-tier2-routing · source=agent-run · conversationId=conv-1780411821832
+- `2026-06-02T16:08:18.838Z` · **branch-switched** · Branch switched to agent/st-21905-priority-account-tier2-routing · source=agent-run · conversationId=conv-1780411822782
