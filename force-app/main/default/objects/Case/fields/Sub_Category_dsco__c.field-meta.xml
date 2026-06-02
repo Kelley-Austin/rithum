@@ -1204,11 +1204,7 @@
                 <default>false</default>
                 <label>Product Limit Increase</label>
             </value>
-            <value>
-                <fullName>Proxy Connection</fullName>
-                <default>false</default>
-                <label>Proxy Connection</label>
-            </value>
+
             <value>
                 <fullName>Repricer</fullName>
                 <default>false</default>
@@ -2211,10 +2207,7 @@
             <controllingFieldValue>Account administration</controllingFieldValue>
             <valueName>Product Limit Increase</valueName>
         </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Configuration</controllingFieldValue>
-            <valueName>Proxy Connection</valueName>
-        </valueSettings>
+
         <valueSettings>
             <controllingFieldValue>Listings</controllingFieldValue>
             <valueName>Repricer</valueName>
