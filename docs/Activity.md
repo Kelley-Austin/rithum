@@ -11,3 +11,4 @@ Use `git log -p docs/Activity.md` to audit changes over time.
 - `2026-06-02T14:48:53.652Z` · **slice-summary** · Saved summary for "# ST-21832: Case Queues (Part 1)
 **Statu" ([docs/slices/conv-1780338159721-st-21832-case-queues-part-1-statu.md](docs/slices/conv-1780338159721-st-21832-case-queues-part-1-statu.md)) · decisions=1 · phase=0
 - `2026-06-02T14:51:55.166Z` · **orchestration-plan** · Initialized Orchestration Plan ([docs/Orchestration_Plan.md](docs/Orchestration_Plan.md)) · slices=5 · phases=3 · conflicts=1
+- `2026-06-02T15:06:52.213Z` · **target-org-switched** · Target org switched to rithum-sandbox · source=watcher
