@@ -7,3 +7,4 @@ Use `git log -p docs/Activity.md` to audit changes over time.
 - `2026-05-28T23:08:47.060Z` · **branch-switched** · Branch switched to feature/st-21894-queue-assignment-status · source=watcher
 - `2026-06-01T17:16:02.566Z` · **target-org-switched** · Target org switched to rithum-sandbox · source=watcher
 - `2026-06-01T18:30:12.628Z` · **target-org-switched** · Target org switched to rithum-sandbox · source=watcher
+- `2026-06-02T17:09:02.625Z` · **branch-switched** · Branch switched to agent/conv-1780420111781 · source=agent-run · conversationId=conv-1780420111781
