@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Drift handraiser</fullName>
+        <default>false</default>
+        <label>Drift handraiser</label>
+    </customValue>
+    <customValue>
+        <fullName>LinkedIn Lead Gen handraiser</fullName>
+        <default>false</default>
+        <label>LinkedIn Lead Gen handraiser</label>
+    </customValue>
+    <customValue>
+        <fullName>Marketo handraiser</fullName>
+        <default>false</default>
+        <label>Marketo handraiser</label>
+    </customValue>
+    <customValue>
+        <fullName>Marketo intent scoring progression</fullName>
+        <default>false</default>
+        <label>Marketo intent scoring progression</label>
+    </customValue>
+    <customValue>
+        <fullName>Marketo scoring progression</fullName>
+        <default>false</default>
+        <label>Marketo scoring progression</label>
+    </customValue>
+    <customValue>
+        <fullName>Pathfactory handraiser</fullName>
+        <default>false</default>
+        <label>Pathfactory handraiser</label>
+    </customValue>
+    <masterLabel>MQL Conversion Type</masterLabel>
+    <sorted>true</sorted>
+</GlobalValueSet>

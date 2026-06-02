@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>AU-APAC</fullName>
+        <default>false</default>
+        <label>AU-APAC</label>
+    </customValue>
+    <customValue>
+        <fullName>DE-Europe</fullName>
+        <default>false</default>
+        <label>DE-Europe</label>
+    </customValue>
+    <customValue>
+        <fullName>Latin America</fullName>
+        <default>false</default>
+        <label>Latin America</label>
+    </customValue>
+    <customValue>
+        <fullName>UK-Europe</fullName>
+        <default>false</default>
+        <label>UK-Europe</label>
+    </customValue>
+    <customValue>
+        <fullName>US-NA</fullName>
+        <default>false</default>
+        <label>US-NA</label>
+    </customValue>
+    <description>Global Picklist outlining all the regions that are in use</description>
+    <masterLabel>Region</masterLabel>
+    <sorted>true</sorted>
+</GlobalValueSet>

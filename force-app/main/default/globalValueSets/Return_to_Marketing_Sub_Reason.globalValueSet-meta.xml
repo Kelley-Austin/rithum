@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Mirakl</fullName>
+        <default>false</default>
+        <label>Mirakl</label>
+    </customValue>
+    <customValue>
+        <fullName>ChannelEngine</fullName>
+        <default>false</default>
+        <label>ChannelEngine</label>
+    </customValue>
+    <customValue>
+        <fullName>TradeByte</fullName>
+        <default>false</default>
+        <label>TradeByte</label>
+    </customValue>
+    <customValue>
+        <fullName>Linnworks</fullName>
+        <default>false</default>
+        <label>Linnworks</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Marketplace Channel Missing</fullName>
+        <default>false</default>
+        <label>Marketplace Channel Missing</label>
+    </customValue>
+    <customValue>
+        <fullName>Features Missing</fullName>
+        <default>false</default>
+        <label>Features Missing</label>
+    </customValue>
+    <customValue>
+        <fullName>Integration Capability Missing</fullName>
+        <default>false</default>
+        <label>Integration Capability Missing</label>
+    </customValue>
+    <customValue>
+        <fullName>Security/Compliance</fullName>
+        <default>false</default>
+        <label>Security/Compliance</label>
+    </customValue>
+    <customValue>
+        <fullName>Product Complexity</fullName>
+        <default>false</default>
+        <label>Product Complexity</label>
+    </customValue>
+    <customValue>
+        <fullName>UX/UI</fullName>
+        <default>false</default>
+        <label>UX/UI</label>
+    </customValue>
+    <customValue>
+        <fullName>Competitor with superior functionality</fullName>
+        <default>false</default>
+        <label>Competitor with superior functionality</label>
+    </customValue>
+    <masterLabel>Return to Marketing Sub-Reason</masterLabel>
+    <sorted>true</sorted>
+</GlobalValueSet>

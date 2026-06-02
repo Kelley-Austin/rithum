@@ -67,7 +67,7 @@ _Slice summaries append into per-phase blocks below as work completes._
 ### Phase 1
 
 <!-- BEGIN cheese:phase-1 -->
-- ⏳ ST-21904: Internal Route to Tier 2 (Part 2) — ready-to-start
+- ✅ ST-21904: Internal Route to Tier 2 (Part 2) — *summary saved 2026-06-02*. [Decisions & details](docs/slices/conv-1780411803098-st-21904-internal-route-to-tier-2-part-2.md). Lesson: ST-21832's `CreatedById` setup is a load-bearing prerequisite; any future routing stories that inspect case origin should confirm ST-21832 is deployed first..
 <!-- END cheese:phase-1 -->
 
 ### Phase 2

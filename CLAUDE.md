@@ -69,4 +69,5 @@ Sandbox deployments (`sf project deploy start --target-org rithum-sandbox`) work
 
 - **2026-06-02** — _from [# ST-21832: Case Queues (Part 1)
 **Statu](docs/slices/conv-1780338159721-st-21832-case-queues-part-1-statu.md)_ — **Urgent queues given lower priority numbers (10, 20) than standard queues (40, 50)** — *Why:* Lower `routingPriority` number = higher Omni-Channel precedence, ensuring urgent cases route first.
+- **2026-06-02** — _from [ST-21904: Internal Route to Tier 2 (Part 2)](docs/slices/conv-1780411803098-st-21904-internal-route-to-tier-2-part-2.md)_ — **ST-21832 must complete before ST-21904 runs** — *Why:* The routing flow depends on `CreatedById` being populated by the ST-21832 flow; sequencing is required.
 <!-- END cheese:decisions -->

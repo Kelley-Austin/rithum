@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>AvantLink</fullName>
+        <default>false</default>
+        <label>AvantLink</label>
+    </customValue>
+    <customValue>
+        <fullName>Bazaarvoice US</fullName>
+        <default>false</default>
+        <label>Bazaarvoice US</label>
+    </customValue>
+    <customValue>
+        <fullName>Bing Shopping</fullName>
+        <default>false</default>
+        <label>Bing Shopping</label>
+    </customValue>
+    <customValue>
+        <fullName>BloomReach US</fullName>
+        <default>false</default>
+        <label>BloomReach US</label>
+    </customValue>
+    <customValue>
+        <fullName>Bronto US</fullName>
+        <default>false</default>
+        <label>Bronto US</label>
+    </customValue>
+    <customValue>
+        <fullName>Buzzillions</fullName>
+        <default>false</default>
+        <label>Buzzillions</label>
+    </customValue>
+    <customValue>
+        <fullName>Certona</fullName>
+        <default>false</default>
+        <label>Certona</label>
+    </customValue>
+    <customValue>
+        <fullName>CNET Shopper</fullName>
+        <default>false</default>
+        <label>CNET Shopper</label>
+    </customValue>
+    <customValue>
+        <fullName>Commission Junction</fullName>
+        <default>false</default>
+        <label>Commission Junction</label>
+    </customValue>
+    <customValue>
+        <fullName>Connexity</fullName>
+        <default>false</default>
+        <label>Connexity</label>
+    </customValue>
+    <customValue>
+        <fullName>Criteo</fullName>
+        <default>false</default>
+        <label>Criteo</label>
+    </customValue>
+    <customValue>
+        <fullName>Dotomi / Conversant</fullName>
+        <default>false</default>
+        <label>Dotomi / Conversant</label>
+    </customValue>
+    <customValue>
+        <fullName>eBay Commerce Network</fullName>
+        <default>false</default>
+        <label>eBay Commerce Network</label>
+    </customValue>
+    <customValue>
+        <fullName>Facebook Ads</fullName>
+        <default>false</default>
+        <label>Facebook Ads</label>
+    </customValue>
+    <customValue>
+        <fullName>Fetchback</fullName>
+        <default>false</default>
+        <label>Fetchback</label>
+    </customValue>
+    <customValue>
+        <fullName>FindGift.com</fullName>
+        <default>false</default>
+        <label>FindGift.com</label>
+    </customValue>
+    <customValue>
+        <fullName>Google Manufacturer Center</fullName>
+        <default>false</default>
+        <label>Google Manufacturer Center</label>
+    </customValue>
+    <customValue>
+        <fullName>Google Shopping</fullName>
+        <default>false</default>
+        <label>Google Shopping</label>
+    </customValue>
+    <customValue>
+        <fullName>Houzz</fullName>
+        <default>false</default>
+        <label>Houzz</label>
+    </customValue>
+    <customValue>
+        <fullName>Rakuten Linkshare</fullName>
+        <default>false</default>
+        <label>Rakuten Linkshare</label>
+    </customValue>
+    <customValue>
+        <fullName>MyBuys</fullName>
+        <default>false</default>
+        <label>MyBuys</label>
+    </customValue>
+    <customValue>
+        <fullName>NexTag</fullName>
+        <default>false</default>
+        <label>NexTag</label>
+    </customValue>
+    <customValue>
+        <fullName>Olapic</fullName>
+        <default>false</default>
+        <label>Olapic</label>
+    </customValue>
+    <customValue>
+        <fullName>Pinterest</fullName>
+        <default>false</default>
+        <label>Pinterest</label>
+    </customValue>
+    <customValue>
+        <fullName>Polyvore</fullName>
+        <default>false</default>
+        <label>Polyvore</label>
+    </customValue>
+    <customValue>
+        <fullName>PowerReviews</fullName>
+        <default>false</default>
+        <label>PowerReviews</label>
+    </customValue>
+    <customValue>
+        <fullName>Salesfloor</fullName>
+        <default>false</default>
+        <label>Salesfloor</label>
+    </customValue>
+    <customValue>
+        <fullName>Sellpoints</fullName>
+        <default>false</default>
+        <label>Sellpoints</label>
+    </customValue>
+    <customValue>
+        <fullName>ShareASale</fullName>
+        <default>false</default>
+        <label>ShareASale</label>
+    </customValue>
+    <customValue>
+        <fullName>Shopbot CA</fullName>
+        <default>false</default>
+        <label>Shopbot CA</label>
+    </customValue>
+    <customValue>
+        <fullName>SortPrice</fullName>
+        <default>false</default>
+        <label>SortPrice</label>
+    </customValue>
+    <customValue>
+        <fullName>Transcosmos</fullName>
+        <default>false</default>
+        <label>Transcosmos</label>
+    </customValue>
+    <customValue>
+        <fullName>Wanelo</fullName>
+        <default>false</default>
+        <label>Wanelo</label>
+    </customValue>
+    <customValue>
+        <fullName>Wishabi CA</fullName>
+        <default>false</default>
+        <label>Wishabi CA</label>
+    </customValue>
+    <customValue>
+        <fullName>Yahoo Gemini Shopping</fullName>
+        <default>false</default>
+        <label>Yahoo Gemini Shopping</label>
+    </customValue>
+    <masterLabel>Standard Feeds</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

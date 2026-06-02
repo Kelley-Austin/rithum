@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Active</fullName>
+        <default>false</default>
+        <label>Active</label>
+    </customValue>
+    <customValue>
+        <fullName>Inactive</fullName>
+        <default>false</default>
+        <label>Inactive</label>
+    </customValue>
+    <customValue>
+        <fullName>Bundle - Active</fullName>
+        <default>false</default>
+        <label>Bundle - Active</label>
+    </customValue>
+    <customValue>
+        <fullName>60 Day Service</fullName>
+        <default>false</default>
+        <label>60 Day Service</label>
+    </customValue>
+    <customValue>
+        <fullName>90 Day Service</fullName>
+        <default>false</default>
+        <label>90 Day Service</label>
+    </customValue>
+    <customValue>
+        <fullName>30 Day Service</fullName>
+        <default>false</default>
+        <label>30 Day Service</label>
+    </customValue>
+    <customValue>
+        <fullName>120 Day Service</fullName>
+        <default>false</default>
+        <label>120 Day Service</label>
+    </customValue>
+    <masterLabel>Asset Status</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>
