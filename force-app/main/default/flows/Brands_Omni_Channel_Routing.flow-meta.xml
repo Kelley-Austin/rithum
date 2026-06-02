@@ -113,6 +113,22 @@
             <targetReference>Update_Triggering_Record</targetReference>
         </connector>
     </assignments>
+    <assignments>
+        <name>Tier_2_is_Owner</name>
+        <label>Tier 2 is Owner</label>
+        <locationX>704</locationX>
+        <locationY>1248</locationY>
+        <assignmentItems>
+            <assignToReference>inputCase.OwnerId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>varT_Tier2</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Update_Triggering_Record</targetReference>
+        </connector>
+    </assignments>
     <decisions>
         <name>Which_Group</name>
         <label>Which Group?</label>
@@ -311,22 +327,6 @@
         <queriedFields>Id</queriedFields>
         <queriedFields>Name</queriedFields>
     </recordLookups>
-    <assignments>
-        <name>Tier_2_is_Owner</name>
-        <label>Tier 2 is Owner</label>
-        <locationX>704</locationX>
-        <locationY>1248</locationY>
-        <assignmentItems>
-            <assignToReference>inputCase.OwnerId</assignToReference>
-            <operator>Assign</operator>
-            <value>
-                <elementReference>varT_Tier2</elementReference>
-            </value>
-        </assignmentItems>
-        <connector>
-            <targetReference>Update_Triggering_Record</targetReference>
-        </connector>
-    </assignments>
     <recordLookups>
         <name>Get_Tier2_Support_Group</name>
         <label>Get Tier 2 Support Group</label>
