@@ -16,3 +16,4 @@ Use `git log -p docs/Activity.md` to audit changes over time.
 - `2026-06-02T14:52:51.640Z` · **project-artifact** · Generated Project Brief ([docs/Project_Brief.md](docs/Project_Brief.md))
 - `2026-06-02T14:53:09.319Z` · **context-fed** · Fed project context to slice conv-1780411803098 · chars=11774 · sections=2
 - `2026-06-02T16:13:17.833Z` · **slice-summary** · Saved summary for "ST-21900: Case Sub-Categories Route to Tier 2 (Part 3)" ([docs/slices/conv-1780411821832-st-21900-case-sub-categories-route-to-tier-2-part-.md](docs/slices/conv-1780411821832-st-21900-case-sub-categories-route-to-tier-2-part-.md)) · decisions=1 · phase=2
+- `2026-06-02T16:14:50.271Z` · **slice-summary** · Saved summary for "ST-21905: Priority Attention Account (part 4)" ([docs/slices/conv-1780411822782-st-21905-priority-attention-account-part-4.md](docs/slices/conv-1780411822782-st-21905-priority-attention-account-part-4.md)) · decisions=1 · phase=3
