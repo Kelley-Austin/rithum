@@ -1,0 +1,851 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Access ChannelAdvisor</fullName>
+        <default>false</default>
+        <label>Access ChannelAdvisor</label>
+    </customValue>
+    <customValue>
+        <fullName>Additional Image Hosting</fullName>
+        <default>false</default>
+        <label>Additional Image Hosting</label>
+    </customValue>
+    <customValue>
+        <fullName>Agency</fullName>
+        <default>false</default>
+        <label>Agency</label>
+    </customValue>
+    <customValue>
+        <fullName>Amazon Advertising</fullName>
+        <default>false</default>
+        <label>Amazon Advertising</label>
+    </customValue>
+    <customValue>
+        <fullName>Amazon DSP</fullName>
+        <default>false</default>
+        <label>Amazon DSP</label>
+    </customValue>
+    <customValue>
+        <fullName>Brand Data Direct</fullName>
+        <default>false</default>
+        <label>Brand Data Direct</label>
+    </customValue>
+    <customValue>
+        <fullName>ChannelAdvisor Commerce Core</fullName>
+        <default>false</default>
+        <label>ChannelAdvisor Commerce Core</label>
+    </customValue>
+    <customValue>
+        <fullName>ChannelAdvisor Connector for Netsuite</fullName>
+        <default>false</default>
+        <label>ChannelAdvisor Connector for Netsuite</label>
+    </customValue>
+    <customValue>
+        <fullName>ChannelAdvisor Fulfillment Services</fullName>
+        <default>false</default>
+        <label>ChannelAdvisor Fulfillment Services</label>
+    </customValue>
+    <customValue>
+        <fullName>Commerce Solutions for Brands</fullName>
+        <default>false</default>
+        <label>Commerce Solutions for Brands</label>
+    </customValue>
+    <customValue>
+        <fullName>Commerce Solutions for Brands - Essential</fullName>
+        <default>false</default>
+        <label>Commerce Solutions for Brands - Essential</label>
+    </customValue>
+    <customValue>
+        <fullName>Commerce Solutions for Retailers</fullName>
+        <default>false</default>
+        <label>Commerce Solutions for Retailers</label>
+    </customValue>
+    <customValue>
+        <fullName>Commerce Suite</fullName>
+        <default>false</default>
+        <label>Commerce Suite</label>
+    </customValue>
+    <customValue>
+        <fullName>Connector for Netsuite</fullName>
+        <default>false</default>
+        <label>Connector for Netsuite</label>
+    </customValue>
+    <customValue>
+        <fullName>Custom Marketplace Integration</fullName>
+        <default>false</default>
+        <label>Custom Marketplace Integration</label>
+    </customValue>
+    <customValue>
+        <fullName>Delivery Promise</fullName>
+        <default>false</default>
+        <label>Delivery Promise</label>
+    </customValue>
+    <customValue>
+        <fullName>Delivery Solutions for Retailers</fullName>
+        <default>false</default>
+        <label>Delivery Solutions for Retailers</label>
+    </customValue>
+    <customValue>
+        <fullName>Delivery Suite</fullName>
+        <default>false</default>
+        <label>Delivery Suite</label>
+    </customValue>
+    <customValue>
+        <fullName>DemandStream</fullName>
+        <default>false</default>
+        <label>DemandStream</label>
+    </customValue>
+    <customValue>
+        <fullName>Digital Marketing</fullName>
+        <default>false</default>
+        <label>Digital Marketing</label>
+    </customValue>
+    <customValue>
+        <fullName>Digital Marketing and Webstore Amplifier</fullName>
+        <default>false</default>
+        <label>Digital Marketing and Webstore Amplifier</label>
+    </customValue>
+    <customValue>
+        <fullName>Discovery Solutions</fullName>
+        <default>false</default>
+        <label>Discovery Solutions</label>
+    </customValue>
+    <customValue>
+        <fullName>EDI Integration Partnership</fullName>
+        <default>false</default>
+        <label>EDI Integration Partnership</label>
+    </customValue>
+    <customValue>
+        <fullName>Enterprise Data</fullName>
+        <default>false</default>
+        <label>Enterprise Data</label>
+    </customValue>
+    <customValue>
+        <fullName>Fast Last Mile DoorDash</fullName>
+        <default>false</default>
+        <label>Fast Last Mile DoorDash</label>
+    </customValue>
+    <customValue>
+        <fullName>Fast Last Mile Instacart</fullName>
+        <default>false</default>
+        <label>Fast Last Mile Instacart</label>
+    </customValue>
+    <customValue>
+        <fullName>Feeds</fullName>
+        <default>false</default>
+        <label>Feeds</label>
+    </customValue>
+    <customValue>
+        <fullName>First Party Dropship</fullName>
+        <default>false</default>
+        <label>First Party Dropship</label>
+    </customValue>
+    <customValue>
+        <fullName>First Party Wholesale</fullName>
+        <default>false</default>
+        <label>First Party Wholesale</label>
+    </customValue>
+    <customValue>
+        <fullName>Fulfillment Solutions for Brands</fullName>
+        <default>false</default>
+        <label>Fulfillment Solutions for Brands</label>
+    </customValue>
+    <customValue>
+        <fullName>Managed Fast Last Mile</fullName>
+        <default>false</default>
+        <label>Managed Fast Last Mile</label>
+    </customValue>
+    <customValue>
+        <fullName>Managed Marketplaces</fullName>
+        <default>false</default>
+        <label>Managed Marketplaces</label>
+    </customValue>
+    <customValue>
+        <fullName>Managed Next ACS</fullName>
+        <default>false</default>
+        <label>Managed Next ACS</label>
+    </customValue>
+    <customValue>
+        <fullName>Managed Performance Marketing for Brands</fullName>
+        <default>false</default>
+        <label>Managed Performance Marketing for Brands</label>
+    </customValue>
+    <customValue>
+        <fullName>Managed Performance Marketing for Retailers</fullName>
+        <default>false</default>
+        <label>Managed Performance Marketing for Retailers</label>
+    </customValue>
+    <customValue>
+        <fullName>Marketing Solutions for Brands</fullName>
+        <default>false</default>
+        <label>Marketing Solutions for Brands</label>
+    </customValue>
+    <customValue>
+        <fullName>Marketing Solutions for Retailers</fullName>
+        <default>false</default>
+        <label>Marketing Solutions for Retailers</label>
+    </customValue>
+    <customValue>
+        <fullName>MarketplaceAdvisor Premium</fullName>
+        <default>false</default>
+        <label>MarketplaceAdvisor Premium</label>
+    </customValue>
+    <customValue>
+        <fullName>Marketplaces and Digital Marketing</fullName>
+        <default>false</default>
+        <label>Marketplaces and Digital Marketing</label>
+    </customValue>
+    <customValue>
+        <fullName>Marketplaces and Digital Marketing and First Party Drop Ship</fullName>
+        <default>false</default>
+        <label>Marketplaces and Digital Marketing and First Party Drop Ship</label>
+    </customValue>
+    <customValue>
+        <fullName>Marketplaces and Digital Marketing and Webstore Amplifier</fullName>
+        <default>false</default>
+        <label>Marketplaces and Digital Marketing and Webstore Amplifier</label>
+    </customValue>
+    <customValue>
+        <fullName>Marketplaces and Digital Marketing and Webstore Amplifier and First Party Drop Ship</fullName>
+        <default>false</default>
+        <label>Marketplaces and Digital Marketing and Webstore Amplifier and First Party Drop Ship</label>
+    </customValue>
+    <customValue>
+        <fullName>Marketplaces and First Party Drop Ship</fullName>
+        <default>false</default>
+        <label>Marketplaces and First Party Drop Ship</label>
+    </customValue>
+    <customValue>
+        <fullName>Marketplaces and Webstore Amplifier</fullName>
+        <default>false</default>
+        <label>Marketplaces and Webstore Amplifier</label>
+    </customValue>
+    <customValue>
+        <fullName>Marketplaces and Webstore Amplifier and First Party Drop Ship</fullName>
+        <default>false</default>
+        <label>Marketplaces and Webstore Amplifier and First Party Drop Ship</label>
+    </customValue>
+    <customValue>
+        <fullName>Marketplace Seller Network Access</fullName>
+        <default>false</default>
+        <label>Marketplace Seller Network Access</label>
+    </customValue>
+    <customValue>
+        <fullName>Mirakl Integration Agreement</fullName>
+        <default>false</default>
+        <label>Mirakl Integration Agreement</label>
+    </customValue>
+    <customValue>
+        <fullName>Next ACS</fullName>
+        <default>false</default>
+        <label>Next ACS</label>
+    </customValue>
+    <customValue>
+        <fullName>Partner Sales &amp; Marketing Package</fullName>
+        <default>false</default>
+        <label>Partner Sales &amp; Marketing Package</label>
+    </customValue>
+    <customValue>
+        <fullName>Partnership</fullName>
+        <default>false</default>
+        <label>Partnership</label>
+    </customValue>
+    <customValue>
+        <fullName>Preferred CFS Partner</fullName>
+        <default>false</default>
+        <label>Preferred CFS Partner</label>
+    </customValue>
+    <customValue>
+        <fullName>Referral Partnerships</fullName>
+        <default>false</default>
+        <label>Referral Partnerships</label>
+    </customValue>
+    <customValue>
+        <fullName>Retail Content Management</fullName>
+        <default>false</default>
+        <label>Retail Content Management</label>
+    </customValue>
+    <customValue>
+        <fullName>Retailer Content</fullName>
+        <default>false</default>
+        <label>Retailer Content</label>
+    </customValue>
+    <customValue>
+        <fullName>Retail Media</fullName>
+        <default>false</default>
+        <label>Retail Media</label>
+    </customValue>
+    <customValue>
+        <fullName>RichImage</fullName>
+        <default>false</default>
+        <label>RichImage</label>
+    </customValue>
+    <customValue>
+        <fullName>Rich Media</fullName>
+        <default>false</default>
+        <label>Rich Media</label>
+    </customValue>
+    <customValue>
+        <fullName>Self Service Plus</fullName>
+        <default>false</default>
+        <label>Self Service Plus</label>
+    </customValue>
+    <customValue>
+        <fullName>SEO</fullName>
+        <default>false</default>
+        <label>SEO</label>
+    </customValue>
+    <customValue>
+        <fullName>Shipping Labels</fullName>
+        <default>false</default>
+        <label>Shipping Labels</label>
+    </customValue>
+    <customValue>
+        <fullName>Shipping Optimization</fullName>
+        <default>false</default>
+        <label>Shipping Optimization</label>
+    </customValue>
+    <customValue>
+        <fullName>ShoppingAdvisor</fullName>
+        <default>false</default>
+        <label>ShoppingAdvisor</label>
+    </customValue>
+    <customValue>
+        <fullName>Sponsorship</fullName>
+        <default>false</default>
+        <label>Sponsorship</label>
+    </customValue>
+    <customValue>
+        <fullName>Strategy as a Service</fullName>
+        <default>false</default>
+        <label>Strategy as a Service</label>
+    </customValue>
+    <customValue>
+        <fullName>System Integrations (MindCloud)</fullName>
+        <default>false</default>
+        <label>System Integrations (MindCloud)</label>
+    </customValue>
+    <customValue>
+        <fullName>Webstore Amplifier</fullName>
+        <default>false</default>
+        <label>Webstore Amplifier</label>
+    </customValue>
+    <customValue>
+        <fullName>Fulfillment Launch</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Fulfillment Launch</label>
+    </customValue>
+    <customValue>
+        <fullName>Google Display Network</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Google Display Network</label>
+    </customValue>
+    <customValue>
+        <fullName>Google Product Listing Ads</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Google Product Listing Ads</label>
+    </customValue>
+    <customValue>
+        <fullName>Google Remarketing Lists</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Google Remarketing Lists</label>
+    </customValue>
+    <customValue>
+        <fullName>Google Search Engine Marketing</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Google Search Engine Marketing</label>
+    </customValue>
+    <customValue>
+        <fullName>Google Shopping Flex Feed</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Google Shopping Flex Feed</label>
+    </customValue>
+    <customValue>
+        <fullName>Image Resizing</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Image Resizing</label>
+    </customValue>
+    <customValue>
+        <fullName>Launch Assistance</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Launch Assistance</label>
+    </customValue>
+    <customValue>
+        <fullName>Launch Plus</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Launch Plus</label>
+    </customValue>
+    <customValue>
+        <fullName>Listing Error Resolution Services</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Listing Error Resolution Services</label>
+    </customValue>
+    <customValue>
+        <fullName>Marketplaces and Digital Marketing and First Party Drop Shop</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Marketplaces and Digital Marketing and First Party Drop Shop</label>
+    </customValue>
+    <customValue>
+        <fullName>Marketplace Listing Effectiveness</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Marketplace Listing Effectiveness</label>
+    </customValue>
+    <customValue>
+        <fullName>Marketplace Listing Optimization Services</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Marketplace Listing Optimization Services</label>
+    </customValue>
+    <customValue>
+        <fullName>Marketplaces Platform</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Marketplaces Platform</label>
+    </customValue>
+    <customValue>
+        <fullName>Optimization Suite Launch</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Optimization Suite Launch</label>
+    </customValue>
+    <customValue>
+        <fullName>Professional Services Training</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Professional Services Training</label>
+    </customValue>
+    <customValue>
+        <fullName>Network Site</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Network Site</label>
+    </customValue>
+    <customValue>
+        <fullName>Comprehensive Health Check</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Comprehensive Health Check</label>
+    </customValue>
+    <customValue>
+        <fullName>First Party Launch</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>First Party Launch</label>
+    </customValue>
+    <customValue>
+        <fullName>Rate Shopping</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Rate Shopping</label>
+    </customValue>
+    <customValue>
+        <fullName>Managed Marketplaces - Network Site</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Managed Marketplaces - Network Site</label>
+    </customValue>
+    <customValue>
+        <fullName>Launch Lite</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Launch Lite</label>
+    </customValue>
+    <customValue>
+        <fullName>Launch Assist</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Launch Assist</label>
+    </customValue>
+    <customValue>
+        <fullName>Launch Advantage</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Launch Advantage</label>
+    </customValue>
+    <customValue>
+        <fullName>Launch Complete</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Launch Complete</label>
+    </customValue>
+    <customValue>
+        <fullName>Personalized Launch</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Personalized Launch</label>
+    </customValue>
+    <customValue>
+        <fullName>Demand Forecaster Premium</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Demand Forecaster Premium</label>
+    </customValue>
+    <customValue>
+        <fullName>Agency of Record</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Agency of Record</label>
+    </customValue>
+    <customValue>
+        <fullName>Google Fulfillment</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Google Fulfillment</label>
+    </customValue>
+    <customValue>
+        <fullName>Elevate for Amazon</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Elevate for Amazon</label>
+    </customValue>
+    <customValue>
+        <fullName>Managed Growth for Amazon Advertising</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Managed Growth for Amazon Advertising</label>
+    </customValue>
+    <customValue>
+        <fullName>ChannelAdvisor Primer Plus for Amazon Advertising</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ChannelAdvisor Primer Plus for Amazon Advertising</label>
+    </customValue>
+    <customValue>
+        <fullName>Campaign Management - Video Advertising Services</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Campaign Management - Video Advertising Services</label>
+    </customValue>
+    <customValue>
+        <fullName>Shoppable Media</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Shoppable Media</label>
+    </customValue>
+    <customValue>
+        <fullName>Shoppable Media - Buy Local</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Shoppable Media - Buy Local</label>
+    </customValue>
+    <customValue>
+        <fullName>Shoppable Media - Buy Online</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Shoppable Media - Buy Online</label>
+    </customValue>
+    <customValue>
+        <fullName>ChannelAdvisor Brand Analytics</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ChannelAdvisor Brand Analytics</label>
+    </customValue>
+    <customValue>
+        <fullName>Brand Data Direct Revenue Share Agreement (CFS)</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Brand Data Direct Revenue Share Agreement (CFS)</label>
+    </customValue>
+    <customValue>
+        <fullName>Brand Data Direct Revenue Share Agreement (PIM)</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Brand Data Direct Revenue Share Agreement (PIM)</label>
+    </customValue>
+    <customValue>
+        <fullName>Amazon Advertising Primer Plus</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Amazon Advertising Primer Plus</label>
+    </customValue>
+    <customValue>
+        <fullName>ChannelAdvisor Starter Edition</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ChannelAdvisor Starter Edition</label>
+    </customValue>
+    <customValue>
+        <fullName>Brands Launch</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Brands Launch</label>
+    </customValue>
+    <customValue>
+        <fullName>Paid Social</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Paid Social</label>
+    </customValue>
+    <customValue>
+        <fullName>RichCatalog</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>RichCatalog</label>
+    </customValue>
+    <customValue>
+        <fullName>Flex Feeds</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Flex Feeds</label>
+    </customValue>
+    <customValue>
+        <fullName>CA Complete</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>CA Complete</label>
+    </customValue>
+    <customValue>
+        <fullName>Where to Buy</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Where to Buy</label>
+    </customValue>
+    <customValue>
+        <fullName>Product Content Optimization - Retail</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Product Content Optimization - Retail</label>
+    </customValue>
+    <customValue>
+        <fullName>Product Content Optimization - Digital Marketing</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Product Content Optimization - Digital Marketing</label>
+    </customValue>
+    <customValue>
+        <fullName>Vendor Services</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Vendor Services</label>
+    </customValue>
+    <customValue>
+        <fullName>Marketing Services</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Marketing Services</label>
+    </customValue>
+    <customValue>
+        <fullName>Platform</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Platform</label>
+    </customValue>
+    <customValue>
+        <fullName>ChannelAdvisor Connector for Magento</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ChannelAdvisor Connector for Magento</label>
+    </customValue>
+    <customValue>
+        <fullName>Product Intelligence</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Product Intelligence</label>
+    </customValue>
+    <customValue>
+        <fullName>Where to Buy - Local</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Where to Buy - Local</label>
+    </customValue>
+    <customValue>
+        <fullName>Where to Buy - Online</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Where to Buy - Online</label>
+    </customValue>
+    <customValue>
+        <fullName>SearchAdvisor</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SearchAdvisor</label>
+    </customValue>
+    <customValue>
+        <fullName>StoreAdvisor Premium</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>StoreAdvisor Premium</label>
+    </customValue>
+    <customValue>
+        <fullName>Professional Software Platform Base</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Professional Software Platform Base</label>
+    </customValue>
+    <customValue>
+        <fullName>NULL</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>NULL</label>
+    </customValue>
+    <customValue>
+        <fullName>Additional Service Order</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Additional Service Order</label>
+    </customValue>
+    <customValue>
+        <fullName>Shopping Advisor</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Shopping Advisor</label>
+    </customValue>
+    <customValue>
+        <fullName>MarketplaceAdvisor Standard</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MarketplaceAdvisor Standard</label>
+    </customValue>
+    <customValue>
+        <fullName>Private MarketplaceAdvisor Premium</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Private MarketplaceAdvisor Premium</label>
+    </customValue>
+    <customValue>
+        <fullName>Search Advisor</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Search Advisor</label>
+    </customValue>
+    <customValue>
+        <fullName>Natural Search</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Natural Search</label>
+    </customValue>
+    <customValue>
+        <fullName>D2W</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>D2W</label>
+    </customValue>
+    <customValue>
+        <fullName>Private Marketplaces</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Private Marketplaces</label>
+    </customValue>
+    <customValue>
+        <fullName>Catalog Syndication</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Catalog Syndication</label>
+    </customValue>
+    <customValue>
+        <fullName>RichFX Platform(s)</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>RichFX Platform(s)</label>
+    </customValue>
+    <customValue>
+        <fullName>Brands</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Brands</label>
+    </customValue>
+    <customValue>
+        <fullName>AuktionMaster</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>AuktionMaster</label>
+    </customValue>
+    <customValue>
+        <fullName>Social</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Social</label>
+    </customValue>
+    <customValue>
+        <fullName>RichFX</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>RichFX</label>
+    </customValue>
+    <customValue>
+        <fullName>Amendment</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Amendment</label>
+    </customValue>
+    <customValue>
+        <fullName>Marketplaces and First Party (Drop Ship)</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Marketplaces and First Party (Drop Ship)</label>
+    </customValue>
+    <customValue>
+        <fullName>StoreAdvisorPremium</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>StoreAdvisorPremium</label>
+    </customValue>
+    <customValue>
+        <fullName>Additional Posting Account(s)</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Additional Posting Account(s)</label>
+    </customValue>
+    <customValue>
+        <fullName>Bing Product Listing Ads</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Bing Product Listing Ads</label>
+    </customValue>
+    <customValue>
+        <fullName>Bing Search Engine Marketing</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Bing Search Engine Marketing</label>
+    </customValue>
+    <customValue>
+        <fullName>Category Optimization Services</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Category Optimization Services</label>
+    </customValue>
+    <customValue>
+        <fullName>DCi Integration Assistance</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>DCi Integration Assistance</label>
+    </customValue>
+    <customValue>
+        <fullName>Digital Marketing Domain(s)</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Digital Marketing Domain(s)</label>
+    </customValue>
+    <customValue>
+        <fullName>Digital Marketing Network Site</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Digital Marketing Network Site</label>
+    </customValue>
+    <customValue>
+        <fullName>eBay Data Import &amp; Listing Sync Services (eBay EDIT)</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>eBay Data Import &amp; Listing Sync Services (eBay EDIT)</label>
+    </customValue>
+    <customValue>
+        <fullName>Feature Configuration Service</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Feature Configuration Service</label>
+    </customValue>
+    <masterLabel>Customer Asset</masterLabel>
+    <sorted>true</sorted>
+</GlobalValueSet>

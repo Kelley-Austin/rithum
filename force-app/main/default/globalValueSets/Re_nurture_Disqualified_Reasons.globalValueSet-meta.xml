@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Company Size</fullName>
+        <default>false</default>
+        <label>Company Size</label>
+    </customValue>
+    <customValue>
+        <fullName>Competitor</fullName>
+        <default>false</default>
+        <label>Competitor</label>
+    </customValue>
+    <customValue>
+        <fullName>Competitor Relationship</fullName>
+        <default>false</default>
+        <label>Competitor Relationship</label>
+    </customValue>
+    <customValue>
+        <fullName>Contract Commitment</fullName>
+        <default>false</default>
+        <label>Contract Commitment</label>
+    </customValue>
+    <customValue>
+        <fullName>Existing Customer - No new Opportunity</fullName>
+        <default>false</default>
+        <label>Existing Customer - No new Opportunity</label>
+    </customValue>
+    <customValue>
+        <fullName>Functionality Missing</fullName>
+        <default>false</default>
+        <label>Functionality Missing</label>
+    </customValue>
+    <customValue>
+        <fullName>Interviewing or Rithum Employee</fullName>
+        <default>false</default>
+        <label>Interviewing or Rithum Employee</label>
+    </customValue>
+    <customValue>
+        <fullName>Language Barrier</fullName>
+        <default>false</default>
+        <label>Language Barrier</label>
+    </customValue>
+    <customValue>
+        <fullName>No Longer at Company</fullName>
+        <default>false</default>
+        <label>No Longer at Company</label>
+    </customValue>
+    <customValue>
+        <fullName>Open Opportunity</fullName>
+        <default>false</default>
+        <label>Open Opportunity</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Out of Business</fullName>
+        <default>false</default>
+        <label>Out of Business</label>
+    </customValue>
+    <customValue>
+        <fullName>Pricing</fullName>
+        <default>false</default>
+        <label>Pricing</label>
+    </customValue>
+    <customValue>
+        <fullName>Reputation Questions</fullName>
+        <default>false</default>
+        <label>Reputation Questions</label>
+    </customValue>
+    <customValue>
+        <fullName>Researching Only</fullName>
+        <default>false</default>
+        <label>Researching Only</label>
+    </customValue>
+    <customValue>
+        <fullName>Spam</fullName>
+        <default>false</default>
+        <label>Spam</label>
+    </customValue>
+    <customValue>
+        <fullName>Time to Engage</fullName>
+        <default>false</default>
+        <label>Time to Engage</label>
+    </customValue>
+    <customValue>
+        <fullName>Unable to Contact</fullName>
+        <default>false</default>
+        <label>Unable to Contact</label>
+    </customValue>
+    <masterLabel>Re-nurture/Disqualified Reasons</masterLabel>
+    <sorted>true</sorted>
+</GlobalValueSet>

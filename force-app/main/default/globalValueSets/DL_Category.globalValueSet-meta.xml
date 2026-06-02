@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Launch Service</fullName>
+        <default>false</default>
+        <label>Launch Service</label>
+    </customValue>
+    <customValue>
+        <fullName>Professional Service</fullName>
+        <default>false</default>
+        <label>Professional Service</label>
+    </customValue>
+    <customValue>
+        <fullName>Subscription</fullName>
+        <default>false</default>
+        <label>Subscription</label>
+    </customValue>
+    <customValue>
+        <fullName>Platform</fullName>
+        <default>false</default>
+        <label>Platform</label>
+    </customValue>
+    <customValue>
+        <fullName>ProfessionalService</fullName>
+        <default>false</default>
+        <label>ProfessionalService</label>
+    </customValue>
+    <customValue>
+        <fullName>SelfService</fullName>
+        <default>false</default>
+        <label>SelfService</label>
+    </customValue>
+    <customValue>
+        <fullName>LaunchService</fullName>
+        <default>false</default>
+        <label>LaunchService</label>
+    </customValue>
+    <customValue>
+        <fullName>Managed</fullName>
+        <default>false</default>
+        <label>Managed</label>
+    </customValue>
+    <customValue>
+        <fullName>Brands</fullName>
+        <default>false</default>
+        <label>Brands</label>
+    </customValue>
+    <masterLabel>DL Category</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

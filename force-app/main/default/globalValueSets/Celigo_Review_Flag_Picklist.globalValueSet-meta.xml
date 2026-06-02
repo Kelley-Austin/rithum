@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>False</fullName>
+        <default>false</default>
+        <label>False</label>
+    </customValue>
+    <customValue>
+        <fullName>True</fullName>
+        <default>false</default>
+        <label>True</label>
+    </customValue>
+    <customValue>
+        <fullName>Reviewed</fullName>
+        <default>false</default>
+        <label>Reviewed</label>
+    </customValue>
+    <description>Used as part of Celigo Fuzzy Matching, when confidence score is less than a threshold the value is set to True and reviewers can change the value after that</description>
+    <masterLabel>Celigo Review Flag Picklist</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

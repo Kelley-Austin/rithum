@@ -1,0 +1,3071 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>11 Main</fullName>
+        <default>false</default>
+        <label>11 Main</label>
+    </customValue>
+    <customValue>
+        <fullName>1P Advertising</fullName>
+        <default>false</default>
+        <label>1P Advertising</label>
+    </customValue>
+    <customValue>
+        <fullName>AAFES Drop Ship</fullName>
+        <default>false</default>
+        <label>AAFES Drop Ship</label>
+    </customValue>
+    <customValue>
+        <fullName>AAFES Drop Ship - Early Adopter</fullName>
+        <default>false</default>
+        <label>AAFES Drop Ship - Early Adopter</label>
+    </customValue>
+    <customValue>
+        <fullName>AAFES via Radial Drop Ship</fullName>
+        <default>false</default>
+        <label>AAFES via Radial Drop Ship</label>
+    </customValue>
+    <customValue>
+        <fullName>About You Drop Ship</fullName>
+        <default>false</default>
+        <label>About You Drop Ship</label>
+    </customValue>
+    <customValue>
+        <fullName>Absolute Snow</fullName>
+        <default>false</default>
+        <label>Absolute Snow</label>
+    </customValue>
+    <customValue>
+        <fullName>Access ChannelAdvisor</fullName>
+        <default>false</default>
+        <label>Access ChannelAdvisor</label>
+    </customValue>
+    <customValue>
+        <fullName>Accuratime</fullName>
+        <default>false</default>
+        <label>Accuratime</label>
+    </customValue>
+    <customValue>
+        <fullName>ACD Distribution</fullName>
+        <default>false</default>
+        <label>ACD Distribution</label>
+    </customValue>
+    <customValue>
+        <fullName>Advance Auto Parts Drop Ship</fullName>
+        <default>false</default>
+        <label>Advance Auto Parts Drop Ship</label>
+    </customValue>
+    <customValue>
+        <fullName>Afound</fullName>
+        <default>false</default>
+        <label>Afound</label>
+    </customValue>
+    <customValue>
+        <fullName>Ahlens</fullName>
+        <default>false</default>
+        <label>Ahlens</label>
+    </customValue>
+    <customValue>
+        <fullName>Albertson&apos;s - Early Adopter</fullName>
+        <default>false</default>
+        <label>Albertson&apos;s - Early Adopter</label>
+    </customValue>
+    <customValue>
+        <fullName>Aldi Drop Ship - Early Adopter</fullName>
+        <default>false</default>
+        <label>Aldi Drop Ship - Early Adopter</label>
+    </customValue>
+    <customValue>
+        <fullName>AliExpress</fullName>
+        <default>false</default>
+        <label>AliExpress</label>
+    </customValue>
+    <customValue>
+        <fullName>Allegro</fullName>
+        <default>false</default>
+        <label>Allegro</label>
+    </customValue>
+    <customValue>
+        <fullName>Allegro 3P Retail Media</fullName>
+        <default>false</default>
+        <label>Allegro 3P Retail Media</label>
+    </customValue>
+    <customValue>
+        <fullName>Alliance 3PL</fullName>
+        <default>false</default>
+        <label>Alliance 3PL</label>
+    </customValue>
+    <customValue>
+        <fullName>Altitude Sports</fullName>
+        <default>false</default>
+        <label>Altitude Sports</label>
+    </customValue>
+    <customValue>
+        <fullName>Amazon</fullName>
+        <default>false</default>
+        <label>Amazon</label>
+    </customValue>
+    <customValue>
+        <fullName>Amazon 1P</fullName>
+        <default>false</default>
+        <label>Amazon 1P</label>
+    </customValue>
+    <customValue>
+        <fullName>Amazon 3P</fullName>
+        <default>false</default>
+        <label>Amazon 3P</label>
+    </customValue>
+    <customValue>
+        <fullName>Amazon Drop Ship</fullName>
+        <default>false</default>
+        <label>Amazon Drop Ship</label>
+    </customValue>
+    <customValue>
+        <fullName>Amazon Drop Ship - Early Adopter</fullName>
+        <default>false</default>
+        <label>Amazon Drop Ship - Early Adopter</label>
+    </customValue>
+    <customValue>
+        <fullName>Amazon DSP</fullName>
+        <default>false</default>
+        <label>Amazon DSP</label>
+    </customValue>
+    <customValue>
+        <fullName>Amazon FOLEX - Early Adopter</fullName>
+        <default>false</default>
+        <label>Amazon FOLEX - Early Adopter</label>
+    </customValue>
+    <customValue>
+        <fullName>Amazon Webstore</fullName>
+        <default>false</default>
+        <label>Amazon Webstore</label>
+    </customValue>
+    <customValue>
+        <fullName>American Outlets</fullName>
+        <default>false</default>
+        <label>American Outlets</label>
+    </customValue>
+    <customValue>
+        <fullName>American Tire Distributors</fullName>
+        <default>false</default>
+        <label>American Tire Distributors</label>
+    </customValue>
+    <customValue>
+        <fullName>AMS Fulfillment</fullName>
+        <default>false</default>
+        <label>AMS Fulfillment</label>
+    </customValue>
+    <customValue>
+        <fullName>Anthropologie</fullName>
+        <default>false</default>
+        <label>Anthropologie</label>
+    </customValue>
+    <customValue>
+        <fullName>Apex Foot Health</fullName>
+        <default>false</default>
+        <label>Apex Foot Health</label>
+    </customValue>
+    <customValue>
+        <fullName>Aries</fullName>
+        <default>false</default>
+        <label>Aries</label>
+    </customValue>
+    <customValue>
+        <fullName>Asda 1P (Criteo)</fullName>
+        <default>false</default>
+        <label>Asda 1P (Criteo)</label>
+    </customValue>
+    <customValue>
+        <fullName>Ashley Furniture Drop Ship</fullName>
+        <default>false</default>
+        <label>Ashley Furniture Drop Ship</label>
+    </customValue>
+    <customValue>
+        <fullName>Asos</fullName>
+        <default>false</default>
+        <label>Asos</label>
+    </customValue>
+    <customValue>
+        <fullName>ATECH</fullName>
+        <default>false</default>
+        <label>ATECH</label>
+    </customValue>
+    <customValue>
+        <fullName>Atlas For Men</fullName>
+        <default>false</default>
+        <label>Atlas For Men</label>
+    </customValue>
+    <customValue>
+        <fullName>Automatic Distributors</fullName>
+        <default>false</default>
+        <label>Automatic Distributors</label>
+    </customValue>
+    <customValue>
+        <fullName>AutoZone Drop Ship</fullName>
+        <default>false</default>
+        <label>AutoZone Drop Ship</label>
+    </customValue>
+    <customValue>
+        <fullName>Axima 3PL</fullName>
+        <default>false</default>
+        <label>Axima 3PL</label>
+    </customValue>
+    <customValue>
+        <fullName>B&amp;Q/Kingfisher</fullName>
+        <default>false</default>
+        <label>B&amp;Q/Kingfisher</label>
+    </customValue>
+    <customValue>
+        <fullName>B&amp;Q 3P (Citrus Ad)</fullName>
+        <default>false</default>
+        <label>B&amp;Q 3P (Citrus Ad)</label>
+    </customValue>
+    <customValue>
+        <fullName>Back Market</fullName>
+        <default>false</default>
+        <label>Back Market</label>
+    </customValue>
+    <customValue>
+        <fullName>Bed Bath &amp; Beyond</fullName>
+        <default>false</default>
+        <label>Bed Bath &amp; Beyond</label>
+    </customValue>
+    <customValue>
+        <fullName>Belk Drop Ship</fullName>
+        <default>false</default>
+        <label>Belk Drop Ship</label>
+    </customValue>
+    <customValue>
+        <fullName>Bergen Logistics</fullName>
+        <default>false</default>
+        <label>Bergen Logistics</label>
+    </customValue>
+    <customValue>
+        <fullName>Best Buy</fullName>
+        <default>false</default>
+        <label>Best Buy</label>
+    </customValue>
+    <customValue>
+        <fullName>BestBuy 1P (Criteo)</fullName>
+        <default>false</default>
+        <label>BestBuy 1P (Criteo)</label>
+    </customValue>
+    <customValue>
+        <fullName>BestBuy Ca 1P (Criteo)</fullName>
+        <default>false</default>
+        <label>BestBuy Ca 1P (Criteo)</label>
+    </customValue>
+    <customValue>
+        <fullName>BestBuy Ca 3P (Criteo)</fullName>
+        <default>false</default>
+        <label>BestBuy Ca 3P (Criteo)</label>
+    </customValue>
+    <customValue>
+        <fullName>Best Buy Drop Ship</fullName>
+        <default>false</default>
+        <label>Best Buy Drop Ship</label>
+    </customValue>
+    <customValue>
+        <fullName>Best Secret</fullName>
+        <default>false</default>
+        <label>Best Secret</label>
+    </customValue>
+    <customValue>
+        <fullName>Beyond</fullName>
+        <default>false</default>
+        <label>Beyond</label>
+    </customValue>
+    <customValue>
+        <fullName>Beyond (Overstock.com)</fullName>
+        <default>false</default>
+        <label>Beyond (Overstock.com)</label>
+    </customValue>
+    <customValue>
+        <fullName>Big Commerce</fullName>
+        <default>false</default>
+        <label>Big Commerce</label>
+    </customValue>
+    <customValue>
+        <fullName>Bing</fullName>
+        <default>false</default>
+        <label>Bing</label>
+    </customValue>
+    <customValue>
+        <fullName>BJ&apos;s Wholesale</fullName>
+        <default>false</default>
+        <label>BJ&apos;s Wholesale</label>
+    </customValue>
+    <customValue>
+        <fullName>BJ&apos;s Wholesale Club Drop Ship</fullName>
+        <default>false</default>
+        <label>BJ&apos;s Wholesale Club Drop Ship</label>
+    </customValue>
+    <customValue>
+        <fullName>Blokker</fullName>
+        <default>false</default>
+        <label>Blokker</label>
+    </customValue>
+    <customValue>
+        <fullName>Blokker 1P (Criteo)</fullName>
+        <default>false</default>
+        <label>Blokker 1P (Criteo)</label>
+    </customValue>
+    <customValue>
+        <fullName>Bloomingdale&apos;s Drop Ship - Early Adopter</fullName>
+        <default>false</default>
+        <label>Bloomingdale&apos;s Drop Ship - Early Adopter</label>
+    </customValue>
+    <customValue>
+        <fullName>Bloomingdales</fullName>
+        <default>false</default>
+        <label>Bloomingdales</label>
+    </customValue>
+    <customValue>
+        <fullName>Bloomingdales 1P (Criteo)</fullName>
+        <default>false</default>
+        <label>Bloomingdales 1P (Criteo)</label>
+    </customValue>
+    <customValue>
+        <fullName>Bluefly</fullName>
+        <default>false</default>
+        <label>Bluefly</label>
+    </customValue>
+    <customValue>
+        <fullName>Bol.com</fullName>
+        <default>false</default>
+        <label>Bol.com</label>
+    </customValue>
+    <customValue>
+        <fullName>Boulanger 1P (Criteo)</fullName>
+        <default>false</default>
+        <label>Boulanger 1P (Criteo)</label>
+    </customValue>
+    <customValue>
+        <fullName>Boxed</fullName>
+        <default>false</default>
+        <label>Boxed</label>
+    </customValue>
+    <customValue>
+        <fullName>BrandAlley</fullName>
+        <default>false</default>
+        <label>BrandAlley</label>
+    </customValue>
+    <customValue>
+        <fullName>BrandAlley - Early Adopter</fullName>
+        <default>false</default>
+        <label>BrandAlley - Early Adopter</label>
+    </customValue>
+    <customValue>
+        <fullName>Brand Data Direct</fullName>
+        <default>false</default>
+        <label>Brand Data Direct</label>
+    </customValue>
+    <customValue>
+        <fullName>Bray Solutions</fullName>
+        <default>false</default>
+        <label>Bray Solutions</label>
+    </customValue>
+    <customValue>
+        <fullName>Brich</fullName>
+        <default>false</default>
+        <label>Brich</label>
+    </customValue>
+    <customValue>
+        <fullName>Bunnings</fullName>
+        <default>false</default>
+        <label>Bunnings</label>
+    </customValue>
+    <customValue>
+        <fullName>BuySeasons</fullName>
+        <default>false</default>
+        <label>BuySeasons</label>
+    </customValue>
+    <customValue>
+        <fullName>Carolina Wholesale</fullName>
+        <default>false</default>
+        <label>Carolina Wholesale</label>
+    </customValue>
+    <customValue>
+        <fullName>Carquest Drop Ship</fullName>
+        <default>false</default>
+        <label>Carquest Drop Ship</label>
+    </customValue>
+    <customValue>
+        <fullName>Carrefour 1P (Criteo)</fullName>
+        <default>false</default>
+        <label>Carrefour 1P (Criteo)</label>
+    </customValue>
+    <customValue>
+        <fullName>CDiscount</fullName>
+        <default>false</default>
+        <label>CDiscount</label>
+    </customValue>
+    <customValue>
+        <fullName>Century Martial Arts</fullName>
+        <default>false</default>
+        <label>Century Martial Arts</label>
+    </customValue>
+    <customValue>
+        <fullName>CGS BlueCherry ERP</fullName>
+        <default>false</default>
+        <label>CGS BlueCherry ERP</label>
+    </customValue>
+    <customValue>
+        <fullName>Chat GPT - Early Adopter</fullName>
+        <default>false</default>
+        <label>Chat GPT - Early Adopter</label>
+    </customValue>
+    <customValue>
+        <fullName>Check24</fullName>
+        <default>false</default>
+        <label>Check24</label>
+    </customValue>
+    <customValue>
+        <fullName>Chewy Drop Ship - Early Adopter</fullName>
+        <default>false</default>
+        <label>Chewy Drop Ship - Early Adopter</label>
+    </customValue>
+    <customValue>
+        <fullName>Christmas.com</fullName>
+        <default>false</default>
+        <label>Christmas.com</label>
+    </customValue>
+    <customValue>
+        <fullName>CID Resources, Inc.</fullName>
+        <default>false</default>
+        <label>CID Resources, Inc.</label>
+    </customValue>
+    <customValue>
+        <fullName>Click Central</fullName>
+        <default>false</default>
+        <label>Click Central</label>
+    </customValue>
+    <customValue>
+        <fullName>Colizey</fullName>
+        <default>false</default>
+        <label>Colizey</label>
+    </customValue>
+    <customValue>
+        <fullName>Conforama</fullName>
+        <default>false</default>
+        <label>Conforama</label>
+    </customValue>
+    <customValue>
+        <fullName>Connexity</fullName>
+        <default>false</default>
+        <label>Connexity</label>
+    </customValue>
+    <customValue>
+        <fullName>Conrad</fullName>
+        <default>false</default>
+        <label>Conrad</label>
+    </customValue>
+    <customValue>
+        <fullName>Costco</fullName>
+        <default>false</default>
+        <label>Costco</label>
+    </customValue>
+    <customValue>
+        <fullName>Costco 1P (Criteo)</fullName>
+        <default>false</default>
+        <label>Costco 1P (Criteo)</label>
+    </customValue>
+    <customValue>
+        <fullName>Costco Business Delivery 1P (Criteo)</fullName>
+        <default>false</default>
+        <label>Costco Business Delivery 1P (Criteo)</label>
+    </customValue>
+    <customValue>
+        <fullName>Costco Ca 1P (Criteo)</fullName>
+        <default>false</default>
+        <label>Costco Ca 1P (Criteo)</label>
+    </customValue>
+    <customValue>
+        <fullName>Costco Drop Ship</fullName>
+        <default>false</default>
+        <label>Costco Drop Ship</label>
+    </customValue>
+    <customValue>
+        <fullName>Crate and Barrel Drop Ship</fullName>
+        <default>false</default>
+        <label>Crate and Barrel Drop Ship</label>
+    </customValue>
+    <customValue>
+        <fullName>Criteo Only</fullName>
+        <default>false</default>
+        <label>Criteo Only</label>
+    </customValue>
+    <customValue>
+        <fullName>Custom</fullName>
+        <default>false</default>
+        <label>Custom</label>
+    </customValue>
+    <customValue>
+        <fullName>CVS 1P (Criteo)</fullName>
+        <default>false</default>
+        <label>CVS 1P (Criteo)</label>
+    </customValue>
+    <customValue>
+        <fullName>CVS Drop Ship</fullName>
+        <default>false</default>
+        <label>CVS Drop Ship</label>
+    </customValue>
+    <customValue>
+        <fullName>CWR Electronics</fullName>
+        <default>false</default>
+        <label>CWR Electronics</label>
+    </customValue>
+    <customValue>
+        <fullName>D&amp;H</fullName>
+        <default>false</default>
+        <label>D&amp;H</label>
+    </customValue>
+    <customValue>
+        <fullName>DDI Fulfillment</fullName>
+        <default>false</default>
+        <label>DDI Fulfillment</label>
+    </customValue>
+    <customValue>
+        <fullName>Dealbar</fullName>
+        <default>false</default>
+        <label>Dealbar</label>
+    </customValue>
+    <customValue>
+        <fullName>Debenhams</fullName>
+        <default>false</default>
+        <label>Debenhams</label>
+    </customValue>
+    <customValue>
+        <fullName>Decathlon</fullName>
+        <default>false</default>
+        <label>Decathlon</label>
+    </customValue>
+    <customValue>
+        <fullName>Dick&apos;s Sporting Goods</fullName>
+        <default>false</default>
+        <label>Dick&apos;s Sporting Goods (Legacy Integration)</label>
+    </customValue>
+    <customValue>
+        <fullName>Dickies</fullName>
+        <default>false</default>
+        <label>Dickies</label>
+    </customValue>
+    <customValue>
+        <fullName>Dick’s Sporting Goods Drop Ship (Logic Broker) - Early Adopter</fullName>
+        <default>false</default>
+        <label>Dick’s Sporting Goods Drop Ship (Logic Broker) - Early Adopter</label>
+    </customValue>
+    <customValue>
+        <fullName>Digital Marketing</fullName>
+        <default>false</default>
+        <label>Digital Marketing</label>
+    </customValue>
+    <customValue>
+        <fullName>Dillard&apos;s Drop Ship - Early Adopter</fullName>
+        <default>false</default>
+        <label>Dillard&apos;s Drop Ship - Early Adopter</label>
+    </customValue>
+    <customValue>
+        <fullName>Distriartisan</fullName>
+        <default>false</default>
+        <label>Distriartisan</label>
+    </customValue>
+    <customValue>
+        <fullName>Dollar General Drop Ship - Early Adopter</fullName>
+        <default>false</default>
+        <label>Dollar General Drop Ship - Early Adopter</label>
+    </customValue>
+    <customValue>
+        <fullName>Domain</fullName>
+        <default>false</default>
+        <label>Domain</label>
+    </customValue>
+    <customValue>
+        <fullName>DoorDash</fullName>
+        <default>false</default>
+        <label>DoorDash</label>
+    </customValue>
+    <customValue>
+        <fullName>Douglas</fullName>
+        <default>false</default>
+        <label>Douglas</label>
+    </customValue>
+    <customValue>
+        <fullName>DSCO (DropShip.com)</fullName>
+        <default>false</default>
+        <label>DSCO (DropShip.com)</label>
+    </customValue>
+    <customValue>
+        <fullName>DSW Drop Ship</fullName>
+        <default>false</default>
+        <label>DSW Drop Ship</label>
+    </customValue>
+    <customValue>
+        <fullName>eBay</fullName>
+        <default>false</default>
+        <label>eBay</label>
+    </customValue>
+    <customValue>
+        <fullName>eBay 3P</fullName>
+        <default>false</default>
+        <label>eBay 3P</label>
+    </customValue>
+    <customValue>
+        <fullName>eBay Motors</fullName>
+        <default>false</default>
+        <label>eBay Motors</label>
+    </customValue>
+    <customValue>
+        <fullName>El Corte Inglés</fullName>
+        <default>false</default>
+        <label>El Corte Inglés - Early Adopter</label>
+    </customValue>
+    <customValue>
+        <fullName>El Dorado Trading Company</fullName>
+        <default>false</default>
+        <label>El Dorado Trading Company</label>
+    </customValue>
+    <customValue>
+        <fullName>Elkjøp</fullName>
+        <default>false</default>
+        <label>Elkjøp</label>
+    </customValue>
+    <customValue>
+        <fullName>ePRICE</fullName>
+        <default>false</default>
+        <label>ePRICE</label>
+    </customValue>
+    <customValue>
+        <fullName>Essendant (formerly United Stationers)</fullName>
+        <default>false</default>
+        <label>Essendant (formerly United Stationers)</label>
+    </customValue>
+    <customValue>
+        <fullName>Evertek</fullName>
+        <default>false</default>
+        <label>Evertek</label>
+    </customValue>
+    <customValue>
+        <fullName>Facebook</fullName>
+        <default>false</default>
+        <label>Facebook</label>
+    </customValue>
+    <customValue>
+        <fullName>Fanatics Drop Ship</fullName>
+        <default>false</default>
+        <label>Fanatics Drop Ship</label>
+    </customValue>
+    <customValue>
+        <fullName>Fantastic Furniture Drop Ship - Early Adopter</fullName>
+        <default>false</default>
+        <label>Fantastic Furniture Drop Ship - Early Adopter</label>
+    </customValue>
+    <customValue>
+        <fullName>Farris Brothers, Inc.</fullName>
+        <default>false</default>
+        <label>Farris Brothers, Inc.</label>
+    </customValue>
+    <customValue>
+        <fullName>Fast Last Mile</fullName>
+        <default>false</default>
+        <label>Fast Last Mile</label>
+    </customValue>
+    <customValue>
+        <fullName>Feeds</fullName>
+        <default>false</default>
+        <label>Feeds</label>
+    </customValue>
+    <customValue>
+        <fullName>Flaconi 1P (Criteo)</fullName>
+        <default>false</default>
+        <label>Flaconi 1P (Criteo)</label>
+    </customValue>
+    <customValue>
+        <fullName>Flip.Shop - Early Adopter</fullName>
+        <default>false</default>
+        <label>Flip.Shop - Early Adopter</label>
+    </customValue>
+    <customValue>
+        <fullName>Fogdog Drop Ship</fullName>
+        <default>false</default>
+        <label>Fogdog Drop Ship</label>
+    </customValue>
+    <customValue>
+        <fullName>FonQ 1P (Criteo)</fullName>
+        <default>false</default>
+        <label>FonQ 1P (Criteo)</label>
+    </customValue>
+    <customValue>
+        <fullName>Foot Locker Drop Ship</fullName>
+        <default>false</default>
+        <label>Foot Locker Drop Ship</label>
+    </customValue>
+    <customValue>
+        <fullName>Freemans Private Marketplace - Early Adopter</fullName>
+        <default>false</default>
+        <label>Freemans Private Marketplace - Early Adopter</label>
+    </customValue>
+    <customValue>
+        <fullName>Free People</fullName>
+        <default>false</default>
+        <label>Free People</label>
+    </customValue>
+    <customValue>
+        <fullName>FreshDirect 1P (Criteo)</fullName>
+        <default>false</default>
+        <label>FreshDirect 1P (Criteo)</label>
+    </customValue>
+    <customValue>
+        <fullName>Freshop 1P (Criteo)</fullName>
+        <default>false</default>
+        <label>Freshop 1P (Criteo)</label>
+    </customValue>
+    <customValue>
+        <fullName>Fruugo</fullName>
+        <default>false</default>
+        <label>Fruugo</label>
+    </customValue>
+    <customValue>
+        <fullName>Full Beauty Drop Ship</fullName>
+        <default>false</default>
+        <label>Full Beauty Drop Ship</label>
+    </customValue>
+    <customValue>
+        <fullName>FullCircle</fullName>
+        <default>false</default>
+        <label>FullCircle</label>
+    </customValue>
+    <customValue>
+        <fullName>Galaxus CH</fullName>
+        <default>false</default>
+        <label>Galaxus CH</label>
+    </customValue>
+    <customValue>
+        <fullName>Galeries Lafayette - Early Adopter</fullName>
+        <default>false</default>
+        <label>Galeries Lafayette - Early Adopter</label>
+    </customValue>
+    <customValue>
+        <fullName>GemaFina</fullName>
+        <default>false</default>
+        <label>GemaFina</label>
+    </customValue>
+    <customValue>
+        <fullName>Goat</fullName>
+        <default>false</default>
+        <label>Goat</label>
+    </customValue>
+    <customValue>
+        <fullName>Google</fullName>
+        <default>false</default>
+        <label>Google</label>
+    </customValue>
+    <customValue>
+        <fullName>Google GSuite</fullName>
+        <default>false</default>
+        <label>Google GSuite</label>
+    </customValue>
+    <customValue>
+        <fullName>Google PLA</fullName>
+        <default>false</default>
+        <label>Google PLA</label>
+    </customValue>
+    <customValue>
+        <fullName>Google SEM</fullName>
+        <default>false</default>
+        <label>Google SEM</label>
+    </customValue>
+    <customValue>
+        <fullName>Google Shopping Actions</fullName>
+        <default>false</default>
+        <label>Google Shopping Actions</label>
+    </customValue>
+    <customValue>
+        <fullName>GO Sport</fullName>
+        <default>false</default>
+        <label>GO Sport</label>
+    </customValue>
+    <customValue>
+        <fullName>Gun Accessory Supply</fullName>
+        <default>false</default>
+        <label>Gun Accessory Supply</label>
+    </customValue>
+    <customValue>
+        <fullName>Hanson</fullName>
+        <default>false</default>
+        <label>Hanson</label>
+    </customValue>
+    <customValue>
+        <fullName>Hayneedle Drop Ship</fullName>
+        <default>false</default>
+        <label>Hayneedle Drop Ship</label>
+    </customValue>
+    <customValue>
+        <fullName>Hearst - Early Adopter</fullName>
+        <default>false</default>
+        <label>Hearst - Early Adopter</label>
+    </customValue>
+    <customValue>
+        <fullName>Helmet House</fullName>
+        <default>false</default>
+        <label>Helmet House</label>
+    </customValue>
+    <customValue>
+        <fullName>Hofer Drop Ship - Early Adopter</fullName>
+        <default>false</default>
+        <label>Hofer Drop Ship - Early Adopter</label>
+    </customValue>
+    <customValue>
+        <fullName>Home24</fullName>
+        <default>false</default>
+        <label>Home24</label>
+    </customValue>
+    <customValue>
+        <fullName>Home Depot</fullName>
+        <default>false</default>
+        <label>Home Depot</label>
+    </customValue>
+    <customValue>
+        <fullName>Home Depot 1P</fullName>
+        <default>false</default>
+        <label>Home Depot 1P</label>
+    </customValue>
+    <customValue>
+        <fullName>Home Depot Drop Ship</fullName>
+        <default>false</default>
+        <label>Home Depot Drop Ship</label>
+    </customValue>
+    <customValue>
+        <fullName>Home Depot Drop Ship - Early Adopter</fullName>
+        <default>false</default>
+        <label>Home Depot Drop Ship - Early Adopter</label>
+    </customValue>
+    <customValue>
+        <fullName>Horizon</fullName>
+        <default>false</default>
+        <label>Horizon</label>
+    </customValue>
+    <customValue>
+        <fullName>Houzz</fullName>
+        <default>false</default>
+        <label>Houzz</label>
+    </customValue>
+    <customValue>
+        <fullName>Houzz Drop Ship</fullName>
+        <default>false</default>
+        <label>Houzz Drop Ship</label>
+    </customValue>
+    <customValue>
+        <fullName>HSN Drop Ship</fullName>
+        <default>false</default>
+        <label>HSN Drop Ship</label>
+    </customValue>
+    <customValue>
+        <fullName>ICS</fullName>
+        <default>false</default>
+        <label>ICS</label>
+    </customValue>
+    <customValue>
+        <fullName>IDP Initiated Flow</fullName>
+        <default>false</default>
+        <label>IDP Initiated Flow</label>
+    </customValue>
+    <customValue>
+        <fullName>Inbound</fullName>
+        <default>false</default>
+        <label>Inbound</label>
+    </customValue>
+    <customValue>
+        <fullName>Ingram Micro Canada</fullName>
+        <default>false</default>
+        <label>Ingram Micro Canada</label>
+    </customValue>
+    <customValue>
+        <fullName>Ingram Micro US</fullName>
+        <default>false</default>
+        <label>Ingram Micro US</label>
+    </customValue>
+    <customValue>
+        <fullName>Insight Drop Ship</fullName>
+        <default>false</default>
+        <label>Insight Drop Ship</label>
+    </customValue>
+    <customValue>
+        <fullName>Instagram</fullName>
+        <default>false</default>
+        <label>Instagram</label>
+    </customValue>
+    <customValue>
+        <fullName>Interpark</fullName>
+        <default>false</default>
+        <label>Interpark</label>
+    </customValue>
+    <customValue>
+        <fullName>jClub Drop Ship</fullName>
+        <default>false</default>
+        <label>jClub Drop Ship</label>
+    </customValue>
+    <customValue>
+        <fullName>JCPenney Drop Ship</fullName>
+        <default>false</default>
+        <label>JCPenney Drop Ship</label>
+    </customValue>
+    <customValue>
+        <fullName>JD Sports</fullName>
+        <default>false</default>
+        <label>JD Sports</label>
+    </customValue>
+    <customValue>
+        <fullName>John Lewis</fullName>
+        <default>false</default>
+        <label>John Lewis</label>
+    </customValue>
+    <customValue>
+        <fullName>Journey&apos;s Drop Ship</fullName>
+        <default>false</default>
+        <label>Journey&apos;s Drop Ship</label>
+    </customValue>
+    <customValue>
+        <fullName>KaDeWe</fullName>
+        <default>false</default>
+        <label>KaDeWe</label>
+    </customValue>
+    <customValue>
+        <fullName>Kaufland</fullName>
+        <default>false</default>
+        <label>Kaufland</label>
+    </customValue>
+    <customValue>
+        <fullName>Keystone</fullName>
+        <default>false</default>
+        <label>Keystone</label>
+    </customValue>
+    <customValue>
+        <fullName>King Solutions</fullName>
+        <default>false</default>
+        <label>King Solutions</label>
+    </customValue>
+    <customValue>
+        <fullName>Kogan</fullName>
+        <default>false</default>
+        <label>Kogan</label>
+    </customValue>
+    <customValue>
+        <fullName>Kohl&apos;s Drop Ship - Early Adopter</fullName>
+        <default>false</default>
+        <label>Kohl&apos;s Drop Ship - Early Adopter</label>
+    </customValue>
+    <customValue>
+        <fullName>Kroger Drop Ship - Early Adopter</fullName>
+        <default>false</default>
+        <label>Kroger Drop Ship - Early Adopter</label>
+    </customValue>
+    <customValue>
+        <fullName>Kroll</fullName>
+        <default>false</default>
+        <label>Kroll</label>
+    </customValue>
+    <customValue>
+        <fullName>L&apos;Equipe</fullName>
+        <default>false</default>
+        <label>L&apos;Equipe</label>
+    </customValue>
+    <customValue>
+        <fullName>Landau</fullName>
+        <default>false</default>
+        <label>Landau</label>
+    </customValue>
+    <customValue>
+        <fullName>La Redoute</fullName>
+        <default>false</default>
+        <label>La Redoute</label>
+    </customValue>
+    <customValue>
+        <fullName>Lazada</fullName>
+        <default>false</default>
+        <label>Lazada</label>
+    </customValue>
+    <customValue>
+        <fullName>Limango</fullName>
+        <default>false</default>
+        <label>Limango</label>
+    </customValue>
+    <customValue>
+        <fullName>Lord &amp; Taylor Drop Ship</fullName>
+        <default>false</default>
+        <label>Lord &amp; Taylor Drop Ship</label>
+    </customValue>
+    <customValue>
+        <fullName>Love the Sales</fullName>
+        <default>false</default>
+        <label>Love the Sales</label>
+    </customValue>
+    <customValue>
+        <fullName>Lowe&apos;s (Hardware) Drop Ship</fullName>
+        <default>false</default>
+        <label>Lowe&apos;s (Hardware) Drop Ship</label>
+    </customValue>
+    <customValue>
+        <fullName>Lowe&apos;s 1P (Citrus Ad)</fullName>
+        <default>false</default>
+        <label>Lowe&apos;s 1P (Citrus Ad)</label>
+    </customValue>
+    <customValue>
+        <fullName>Lowe&apos;s Direct</fullName>
+        <default>false</default>
+        <label>Lowe&apos;s Direct</label>
+    </customValue>
+    <customValue>
+        <fullName>Lowe&apos;s</fullName>
+        <default>false</default>
+        <label>Lowe&apos;s - Early Adopter</label>
+    </customValue>
+    <customValue>
+        <fullName>Lowe&apos;s Wholesale</fullName>
+        <default>false</default>
+        <label>Lowe&apos;s Wholesale</label>
+    </customValue>
+    <customValue>
+        <fullName>Lowes US 1P (Criteo)</fullName>
+        <default>false</default>
+        <label>Lowes US 1P (Criteo)</label>
+    </customValue>
+    <customValue>
+        <fullName>Macy&apos;s</fullName>
+        <default>false</default>
+        <label>Macy&apos;s</label>
+    </customValue>
+    <customValue>
+        <fullName>Macy&apos;s Drop Ship</fullName>
+        <default>false</default>
+        <label>Macy&apos;s Drop Ship</label>
+    </customValue>
+    <customValue>
+        <fullName>Macys 1P (Criteo)</fullName>
+        <default>false</default>
+        <label>Macys 1P (Criteo)</label>
+    </customValue>
+    <customValue>
+        <fullName>Macys 3P (Criteo)</fullName>
+        <default>false</default>
+        <label>Macys 3P (Criteo)</label>
+    </customValue>
+    <customValue>
+        <fullName>Maisons Du Monde</fullName>
+        <default>false</default>
+        <label>Maisons Du Monde</label>
+    </customValue>
+    <customValue>
+        <fullName>ManoMano</fullName>
+        <default>false</default>
+        <label>ManoMano</label>
+    </customValue>
+    <customValue>
+        <fullName>Manor</fullName>
+        <default>false</default>
+        <label>Manor</label>
+    </customValue>
+    <customValue>
+        <fullName>Marks and Spencer Drop Ship</fullName>
+        <default>false</default>
+        <label>Marks and Spencer Drop Ship</label>
+    </customValue>
+    <customValue>
+        <fullName>Martha Stewart Drop Ship</fullName>
+        <default>false</default>
+        <label>Martha Stewart Drop Ship</label>
+    </customValue>
+    <customValue>
+        <fullName>MBlock</fullName>
+        <default>false</default>
+        <label>MBlock</label>
+    </customValue>
+    <customValue>
+        <fullName>MediaMarkt</fullName>
+        <default>false</default>
+        <label>MediaMarkt</label>
+    </customValue>
+    <customValue>
+        <fullName>MediaMarkt 1P (Criteo)</fullName>
+        <default>false</default>
+        <label>MediaMarkt 1P (Criteo)</label>
+    </customValue>
+    <customValue>
+        <fullName>MediaMarktSaturn IT</fullName>
+        <default>false</default>
+        <label>MediaMarktSaturn IT</label>
+    </customValue>
+    <customValue>
+        <fullName>Meijer 1P (Criteo)</fullName>
+        <default>false</default>
+        <label>Meijer 1P (Criteo)</label>
+    </customValue>
+    <customValue>
+        <fullName>Meinpaket</fullName>
+        <default>false</default>
+        <label>Meinpaket</label>
+    </customValue>
+    <customValue>
+        <fullName>MercadoLibre</fullName>
+        <default>false</default>
+        <label>MercadoLibre</label>
+    </customValue>
+    <customValue>
+        <fullName>Meta</fullName>
+        <default>false</default>
+        <label>Meta</label>
+    </customValue>
+    <customValue>
+        <fullName>Meyer Distributing</fullName>
+        <default>false</default>
+        <label>Meyer Distributing</label>
+    </customValue>
+    <customValue>
+        <fullName>Michaels</fullName>
+        <default>false</default>
+        <label>Michaels</label>
+    </customValue>
+    <customValue>
+        <fullName>Michaels 1P (Criteo)</fullName>
+        <default>false</default>
+        <label>Michaels 1P (Criteo)</label>
+    </customValue>
+    <customValue>
+        <fullName>Michaels DropShip</fullName>
+        <default>false</default>
+        <label>Michaels DropShip</label>
+    </customValue>
+    <customValue>
+        <fullName>Microsoft Azure</fullName>
+        <default>false</default>
+        <label>Microsoft Azure</label>
+    </customValue>
+    <customValue>
+        <fullName>Microsoft Dynamics 365 Business Central</fullName>
+        <default>false</default>
+        <label>Microsoft Dynamics 365 Business Central</label>
+    </customValue>
+    <customValue>
+        <fullName>Microsoft Dynamics 365 Commerce</fullName>
+        <default>false</default>
+        <label>Microsoft Dynamics 365 Commerce</label>
+    </customValue>
+    <customValue>
+        <fullName>Miravia</fullName>
+        <default>false</default>
+        <label>Miravia</label>
+    </customValue>
+    <customValue>
+        <fullName>MI Technologies, Inc.</fullName>
+        <default>false</default>
+        <label>MI Technologies, Inc.</label>
+    </customValue>
+    <customValue>
+        <fullName>MoreCommerce</fullName>
+        <default>false</default>
+        <label>MoreCommerce</label>
+    </customValue>
+    <customValue>
+        <fullName>Moteng</fullName>
+        <default>false</default>
+        <label>Moteng</label>
+    </customValue>
+    <customValue>
+        <fullName>Motoroso</fullName>
+        <default>false</default>
+        <label>Motoroso</label>
+    </customValue>
+    <customValue>
+        <fullName>Motor State Distributing</fullName>
+        <default>false</default>
+        <label>Motor State Distributing</label>
+    </customValue>
+    <customValue>
+        <fullName>MSS</fullName>
+        <default>false</default>
+        <label>MSS</label>
+    </customValue>
+    <customValue>
+        <fullName>Mutual</fullName>
+        <default>false</default>
+        <label>Mutual</label>
+    </customValue>
+    <customValue>
+        <fullName>MyDeal</fullName>
+        <default>false</default>
+        <label>MyDeal</label>
+    </customValue>
+    <customValue>
+        <fullName>Myer Drop Ship</fullName>
+        <default>false</default>
+        <label>Myer Drop Ship</label>
+    </customValue>
+    <customValue>
+        <fullName>MyUS</fullName>
+        <default>false</default>
+        <label>MyUS</label>
+    </customValue>
+    <customValue>
+        <fullName>Nautica Drop Ship - Early Adopter</fullName>
+        <default>false</default>
+        <label>Nautica Drop Ship - Early Adopter</label>
+    </customValue>
+    <customValue>
+        <fullName>Neiman Marcus Drop Ship</fullName>
+        <default>false</default>
+        <label>Neiman Marcus Drop Ship</label>
+    </customValue>
+    <customValue>
+        <fullName>Newegg</fullName>
+        <default>false</default>
+        <label>Newegg</label>
+    </customValue>
+    <customValue>
+        <fullName>Newegg Business</fullName>
+        <default>false</default>
+        <label>Newegg Business</label>
+    </customValue>
+    <customValue>
+        <fullName>Newegg Distribution</fullName>
+        <default>false</default>
+        <label>Newegg Distribution</label>
+    </customValue>
+    <customValue>
+        <fullName>Newegg Drop Ship</fullName>
+        <default>false</default>
+        <label>Newegg Drop Ship</label>
+    </customValue>
+    <customValue>
+        <fullName>New Request</fullName>
+        <default>false</default>
+        <label>New Request</label>
+    </customValue>
+    <customValue>
+        <fullName>Next ACS</fullName>
+        <default>false</default>
+        <label>Next ACS</label>
+    </customValue>
+    <customValue>
+        <fullName>Nicor Lighting</fullName>
+        <default>false</default>
+        <label>Nicor Lighting</label>
+    </customValue>
+    <customValue>
+        <fullName>Nielsen</fullName>
+        <default>false</default>
+        <label>Nielsen</label>
+    </customValue>
+    <customValue>
+        <fullName>NL Expansion</fullName>
+        <default>false</default>
+        <label>NL Expansion</label>
+    </customValue>
+    <customValue>
+        <fullName>Non-Native Endpoint</fullName>
+        <default>false</default>
+        <label>Non-Native Endpoint</label>
+    </customValue>
+    <customValue>
+        <fullName>Nordstrom</fullName>
+        <default>false</default>
+        <label>Nordstrom</label>
+    </customValue>
+    <customValue>
+        <fullName>Nordstrom 1P (Criteo)</fullName>
+        <default>false</default>
+        <label>Nordstrom 1P (Criteo)</label>
+    </customValue>
+    <customValue>
+        <fullName>Nordstrom Drop Ship</fullName>
+        <default>false</default>
+        <label>Nordstrom Drop Ship</label>
+    </customValue>
+    <customValue>
+        <fullName>Nordstrom Rack 1P (Criteo)</fullName>
+        <default>false</default>
+        <label>Nordstrom Rack 1P (Criteo)</label>
+    </customValue>
+    <customValue>
+        <fullName>Nordstrom Rack Drop Ship</fullName>
+        <default>false</default>
+        <label>Nordstrom Rack Drop Ship</label>
+    </customValue>
+    <customValue>
+        <fullName>NPW</fullName>
+        <default>false</default>
+        <label>NPW</label>
+    </customValue>
+    <customValue>
+        <fullName>Office Depot Drop Ship - Early Adopter</fullName>
+        <default>false</default>
+        <label>Office Depot Drop Ship - Early Adopter</label>
+    </customValue>
+    <customValue>
+        <fullName>OKTA</fullName>
+        <default>false</default>
+        <label>OKTA</label>
+    </customValue>
+    <customValue>
+        <fullName>OnBuy</fullName>
+        <default>false</default>
+        <label>OnBuy</label>
+    </customValue>
+    <customValue>
+        <fullName>Onceit</fullName>
+        <default>false</default>
+        <label>Onceit</label>
+    </customValue>
+    <customValue>
+        <fullName>OnceIT - AccessByPartner - Early Adopter</fullName>
+        <default>false</default>
+        <label>OnceIT - AccessByPartner - Early Adopter</label>
+    </customValue>
+    <customValue>
+        <fullName>One Stop Plus</fullName>
+        <default>false</default>
+        <label>One Stop Plus</label>
+    </customValue>
+    <customValue>
+        <fullName>Op5</fullName>
+        <default>false</default>
+        <label>Op5</label>
+    </customValue>
+    <customValue>
+        <fullName>Open Sky</fullName>
+        <default>false</default>
+        <label>Open Sky</label>
+    </customValue>
+    <customValue>
+        <fullName>Oracle Fusion Cloud ERP</fullName>
+        <default>false</default>
+        <label>Oracle Fusion Cloud ERP</label>
+    </customValue>
+    <customValue>
+        <fullName>Oracle Netsuite</fullName>
+        <default>false</default>
+        <label>Oracle Netsuite</label>
+    </customValue>
+    <customValue>
+        <fullName>Orange Theory Drop Ship</fullName>
+        <default>false</default>
+        <label>Orange Theory Drop Ship</label>
+    </customValue>
+    <customValue>
+        <fullName>Oriental</fullName>
+        <default>false</default>
+        <label>Oriental</label>
+    </customValue>
+    <customValue>
+        <fullName>Otto</fullName>
+        <default>false</default>
+        <label>Otto</label>
+    </customValue>
+    <customValue>
+        <fullName>OTTO VAL Drop Ship - Early Adopter</fullName>
+        <default>false</default>
+        <label>OTTO VAL Drop Ship - Early Adopter</label>
+    </customValue>
+    <customValue>
+        <fullName>Outbound</fullName>
+        <default>false</default>
+        <label>Outbound</label>
+    </customValue>
+    <customValue>
+        <fullName>Overstock</fullName>
+        <default>false</default>
+        <label>Overstock</label>
+    </customValue>
+    <customValue>
+        <fullName>Overstock Drop Ship</fullName>
+        <default>false</default>
+        <label>Overstock Drop Ship</label>
+    </customValue>
+    <customValue>
+        <fullName>Parts Authority</fullName>
+        <default>false</default>
+        <label>Parts Authority</label>
+    </customValue>
+    <customValue>
+        <fullName>PartsTown</fullName>
+        <default>false</default>
+        <label>PartsTown</label>
+    </customValue>
+    <customValue>
+        <fullName>Parts Unlimited</fullName>
+        <default>false</default>
+        <label>Parts Unlimited</label>
+    </customValue>
+    <customValue>
+        <fullName>Paysfer</fullName>
+        <default>false</default>
+        <label>Paysfer</label>
+    </customValue>
+    <customValue>
+        <fullName>PC Componentes</fullName>
+        <default>false</default>
+        <label>PC Componentes</label>
+    </customValue>
+    <customValue>
+        <fullName>Penny Drop Ship</fullName>
+        <default>false</default>
+        <label>Penny Drop Ship</label>
+    </customValue>
+    <customValue>
+        <fullName>Pep Boys Drop Ship</fullName>
+        <default>false</default>
+        <label>Pep Boys Drop Ship</label>
+    </customValue>
+    <customValue>
+        <fullName>Petco Drop Ship</fullName>
+        <default>false</default>
+        <label>Petco Drop Ship</label>
+    </customValue>
+    <customValue>
+        <fullName>Petra Industries</fullName>
+        <default>false</default>
+        <label>Petra Industries</label>
+    </customValue>
+    <customValue>
+        <fullName>PicWicToys 1P (Criteo)</fullName>
+        <default>false</default>
+        <label>PicWicToys 1P (Criteo)</label>
+    </customValue>
+    <customValue>
+        <fullName>Pinterest</fullName>
+        <default>false</default>
+        <label>Pinterest</label>
+    </customValue>
+    <customValue>
+        <fullName>Play.com</fullName>
+        <default>false</default>
+        <label>Play.com</label>
+    </customValue>
+    <customValue>
+        <fullName>Pomeroy</fullName>
+        <default>false</default>
+        <label>Pomeroy</label>
+    </customValue>
+    <customValue>
+        <fullName>Poshmark</fullName>
+        <default>false</default>
+        <label>Poshmark</label>
+    </customValue>
+    <customValue>
+        <fullName>Premier Performance CA</fullName>
+        <default>false</default>
+        <label>Premier Performance CA</label>
+    </customValue>
+    <customValue>
+        <fullName>Premier Performance US</fullName>
+        <default>false</default>
+        <label>Premier Performance US</label>
+    </customValue>
+    <customValue>
+        <fullName>Privalia</fullName>
+        <default>false</default>
+        <label>Privalia</label>
+    </customValue>
+    <customValue>
+        <fullName>Propper</fullName>
+        <default>false</default>
+        <label>Propper</label>
+    </customValue>
+    <customValue>
+        <fullName>Public</fullName>
+        <default>false</default>
+        <label>Public</label>
+    </customValue>
+    <customValue>
+        <fullName>Pureland Supply</fullName>
+        <default>false</default>
+        <label>Pureland Supply</label>
+    </customValue>
+    <customValue>
+        <fullName>Quiet Logistics</fullName>
+        <default>false</default>
+        <label>Quiet Logistics</label>
+    </customValue>
+    <customValue>
+        <fullName>QVC Drop Ship</fullName>
+        <default>false</default>
+        <label>QVC Drop Ship</label>
+    </customValue>
+    <customValue>
+        <fullName>R.R. Donnelly</fullName>
+        <default>false</default>
+        <label>R.R. Donnelly</label>
+    </customValue>
+    <customValue>
+        <fullName>R1 Concepts</fullName>
+        <default>false</default>
+        <label>R1 Concepts</label>
+    </customValue>
+    <customValue>
+        <fullName>Rakuten</fullName>
+        <default>false</default>
+        <label>Rakuten</label>
+    </customValue>
+    <customValue>
+        <fullName>RampLogistics</fullName>
+        <default>false</default>
+        <label>RampLogistics</label>
+    </customValue>
+    <customValue>
+        <fullName>Rebel Sport Limited</fullName>
+        <default>false</default>
+        <label>Rebel Sport Limited</label>
+    </customValue>
+    <customValue>
+        <fullName>Reebelo</fullName>
+        <default>false</default>
+        <label>Reebelo</label>
+    </customValue>
+    <customValue>
+        <fullName>Reebelo Canada</fullName>
+        <default>false</default>
+        <label>Reebelo Canada</label>
+    </customValue>
+    <customValue>
+        <fullName>Refurbed</fullName>
+        <default>false</default>
+        <label>Refurbed</label>
+    </customValue>
+    <customValue>
+        <fullName>Reitman&apos;s</fullName>
+        <default>false</default>
+        <label>Reitman&apos;s</label>
+    </customValue>
+    <customValue>
+        <fullName>Retail Content Management</fullName>
+        <default>false</default>
+        <label>Retail Content Management</label>
+    </customValue>
+    <customValue>
+        <fullName>Rite Aid Drop Ship</fullName>
+        <default>false</default>
+        <label>Rite Aid Drop Ship</label>
+    </customValue>
+    <customValue>
+        <fullName>RPM Athletic</fullName>
+        <default>false</default>
+        <label>RPM Athletic</label>
+    </customValue>
+    <customValue>
+        <fullName>RSR Group</fullName>
+        <default>false</default>
+        <label>RSR Group</label>
+    </customValue>
+    <customValue>
+        <fullName>Rue Gilt Groupe Drop Ship</fullName>
+        <default>false</default>
+        <label>Rue Gilt Groupe Drop Ship</label>
+    </customValue>
+    <customValue>
+        <fullName>Sage Intacct</fullName>
+        <default>false</default>
+        <label>Sage Intacct</label>
+    </customValue>
+    <customValue>
+        <fullName>Sage X3</fullName>
+        <default>false</default>
+        <label>Sage X3</label>
+    </customValue>
+    <customValue>
+        <fullName>Saks - Early Adopter</fullName>
+        <default>false</default>
+        <label>Saks - Early Adopter</label>
+    </customValue>
+    <customValue>
+        <fullName>Salesforce Commerce Cloud</fullName>
+        <default>false</default>
+        <label>Salesforce Commerce Cloud</label>
+    </customValue>
+    <customValue>
+        <fullName>Salon Centric US</fullName>
+        <default>false</default>
+        <label>Salon Centric US</label>
+    </customValue>
+    <customValue>
+        <fullName>Sam&apos;s</fullName>
+        <default>false</default>
+        <label>Sam&apos;s</label>
+    </customValue>
+    <customValue>
+        <fullName>Sam&apos;s Club Drop Ship</fullName>
+        <default>false</default>
+        <label>Sam&apos;s Club Drop Ship</label>
+    </customValue>
+    <customValue>
+        <fullName>SanMar</fullName>
+        <default>false</default>
+        <label>SanMar</label>
+    </customValue>
+    <customValue>
+        <fullName>SAP S/4HANA Cloud</fullName>
+        <default>false</default>
+        <label>SAP S/4HANA Cloud</label>
+    </customValue>
+    <customValue>
+        <fullName>Sarenza</fullName>
+        <default>false</default>
+        <label>Sarenza</label>
+    </customValue>
+    <customValue>
+        <fullName>Satco</fullName>
+        <default>false</default>
+        <label>Satco</label>
+    </customValue>
+    <customValue>
+        <fullName>Scheels DSCO - Early Adopter</fullName>
+        <default>false</default>
+        <label>Scheels DSCO - Early Adopter</label>
+    </customValue>
+    <customValue>
+        <fullName>Sears</fullName>
+        <default>false</default>
+        <label>Sears</label>
+    </customValue>
+    <customValue>
+        <fullName>Secret Sales</fullName>
+        <default>false</default>
+        <label>Secret Sales</label>
+    </customValue>
+    <customValue>
+        <fullName>Sephora</fullName>
+        <default>false</default>
+        <label>Sephora</label>
+    </customValue>
+    <customValue>
+        <fullName>Shein</fullName>
+        <default>false</default>
+        <label>Shein</label>
+    </customValue>
+    <customValue>
+        <fullName>Shein - Early Adopter</fullName>
+        <default>false</default>
+        <label>Shein - Early Adopter</label>
+    </customValue>
+    <customValue>
+        <fullName>Shipt 1P (Criteo)</fullName>
+        <default>false</default>
+        <label>Shipt 1P (Criteo)</label>
+    </customValue>
+    <customValue>
+        <fullName>Shopee</fullName>
+        <default>false</default>
+        <label>Shopee</label>
+    </customValue>
+    <customValue>
+        <fullName>Shopify</fullName>
+        <default>false</default>
+        <label>Shopify</label>
+    </customValue>
+    <customValue>
+        <fullName>Shop Premium Outlets</fullName>
+        <default>false</default>
+        <label>Shop Premium Outlets</label>
+    </customValue>
+    <customValue>
+        <fullName>Shop Simon Private Marketplace</fullName>
+        <default>false</default>
+        <label>Shop Simon Private Marketplace</label>
+    </customValue>
+    <customValue>
+        <fullName>Showroom Prive</fullName>
+        <default>false</default>
+        <label>Showroom Prive</label>
+    </customValue>
+    <customValue>
+        <fullName>Smart Warehousing</fullName>
+        <default>false</default>
+        <label>Smart Warehousing</label>
+    </customValue>
+    <customValue>
+        <fullName>Spartoo</fullName>
+        <default>false</default>
+        <label>Spartoo</label>
+    </customValue>
+    <customValue>
+        <fullName>Spencer&apos;s - Early Adopter</fullName>
+        <default>false</default>
+        <label>Spencer&apos;s - Early Adopter</label>
+    </customValue>
+    <customValue>
+        <fullName>SP Initiated Flow</fullName>
+        <default>false</default>
+        <label>SP Initiated Flow</label>
+    </customValue>
+    <customValue>
+        <fullName>Spirit Halloween</fullName>
+        <default>false</default>
+        <label>Spirit Halloween - Early Adopter</label>
+    </customValue>
+    <customValue>
+        <fullName>Sponsorship</fullName>
+        <default>false</default>
+        <label>Sponsorship</label>
+    </customValue>
+    <customValue>
+        <fullName>Sports South</fullName>
+        <default>false</default>
+        <label>Sports South</label>
+    </customValue>
+    <customValue>
+        <fullName>Sprinter</fullName>
+        <default>false</default>
+        <label>Sprinter</label>
+    </customValue>
+    <customValue>
+        <fullName>StackCommerce</fullName>
+        <default>false</default>
+        <label>StackCommerce</label>
+    </customValue>
+    <customValue>
+        <fullName>Staples 1P (Criteo)</fullName>
+        <default>false</default>
+        <label>Staples 1P (Criteo)</label>
+    </customValue>
+    <customValue>
+        <fullName>Staples Advantage Drop Ship</fullName>
+        <default>false</default>
+        <label>Staples Advantage Drop Ship</label>
+    </customValue>
+    <customValue>
+        <fullName>Staples Drop Ship - Early Adopter</fullName>
+        <default>false</default>
+        <label>Staples Drop Ship - Early Adopter</label>
+    </customValue>
+    <customValue>
+        <fullName>Staples Quill Drop Ship</fullName>
+        <default>false</default>
+        <label>Staples Quill Drop Ship</label>
+    </customValue>
+    <customValue>
+        <fullName>Stein Mart Drop Ship</fullName>
+        <default>false</default>
+        <label>Stein Mart Drop Ship</label>
+    </customValue>
+    <customValue>
+        <fullName>Stockd.</fullName>
+        <default>false</default>
+        <label>Stockd.</label>
+    </customValue>
+    <customValue>
+        <fullName>Stockland - Early Adopter</fullName>
+        <default>false</default>
+        <label>Stockland - Early Adopter</label>
+    </customValue>
+    <customValue>
+        <fullName>StockX</fullName>
+        <default>false</default>
+        <label>StockX</label>
+    </customValue>
+    <customValue>
+        <fullName>Stripe - Early Adopter</fullName>
+        <default>false</default>
+        <label>Stripe - Early Adopter</label>
+    </customValue>
+    <customValue>
+        <fullName>Style Index America (PopIn Border)</fullName>
+        <default>false</default>
+        <label>Style Index America (PopIn Border)</label>
+    </customValue>
+    <customValue>
+        <fullName>Sullivan’s Inc.</fullName>
+        <default>false</default>
+        <label>Sullivan’s Inc.</label>
+    </customValue>
+    <customValue>
+        <fullName>Sunlite</fullName>
+        <default>false</default>
+        <label>Sunlite</label>
+    </customValue>
+    <customValue>
+        <fullName>Supershop</fullName>
+        <default>false</default>
+        <label>Supershop</label>
+    </customValue>
+    <customValue>
+        <fullName>Synnex CA</fullName>
+        <default>false</default>
+        <label>Synnex CA</label>
+    </customValue>
+    <customValue>
+        <fullName>Synnex US</fullName>
+        <default>false</default>
+        <label>Synnex US</label>
+    </customValue>
+    <customValue>
+        <fullName>Tanga</fullName>
+        <default>false</default>
+        <label>Tanga</label>
+    </customValue>
+    <customValue>
+        <fullName>Tanguay Drop Ship</fullName>
+        <default>false</default>
+        <label>Tanguay Drop Ship</label>
+    </customValue>
+    <customValue>
+        <fullName>Target +</fullName>
+        <default>false</default>
+        <label>Target +</label>
+    </customValue>
+    <customValue>
+        <fullName>Target+ (Criteo)</fullName>
+        <default>false</default>
+        <label>Target+ (Criteo)</label>
+    </customValue>
+    <customValue>
+        <fullName>Target+ (Roundel)</fullName>
+        <default>false</default>
+        <label>Target+ (Roundel)</label>
+    </customValue>
+    <customValue>
+        <fullName>Target 1P (Citrus Ad)</fullName>
+        <default>false</default>
+        <label>Target 1P (Citrus Ad)</label>
+    </customValue>
+    <customValue>
+        <fullName>Target 1P (Criteo)</fullName>
+        <default>false</default>
+        <label>Target 1P (Criteo)</label>
+    </customValue>
+    <customValue>
+        <fullName>Target 1P (Roundel)</fullName>
+        <default>false</default>
+        <label>Target 1P (Roundel)</label>
+    </customValue>
+    <customValue>
+        <fullName>Target 3P (Citrus Ad)</fullName>
+        <default>false</default>
+        <label>Target 3P (Citrus Ad)</label>
+    </customValue>
+    <customValue>
+        <fullName>Target 3P (Criteo)</fullName>
+        <default>false</default>
+        <label>Target 3P (Criteo)</label>
+    </customValue>
+    <customValue>
+        <fullName>Target 3P (Roundel)</fullName>
+        <default>false</default>
+        <label>Target 3P (Roundel)</label>
+    </customValue>
+    <customValue>
+        <fullName>Target Drop Ship</fullName>
+        <default>false</default>
+        <label>Target Drop Ship</label>
+    </customValue>
+    <customValue>
+        <fullName>TBD</fullName>
+        <default>false</default>
+        <label>TBD</label>
+    </customValue>
+    <customValue>
+        <fullName>Temu - Early Adopter</fullName>
+        <default>false</default>
+        <label>Temu</label>
+    </customValue>
+    <customValue>
+        <fullName>The Iconic</fullName>
+        <default>false</default>
+        <label>The Iconic</label>
+    </customValue>
+    <customValue>
+        <fullName>The Wholesale House</fullName>
+        <default>false</default>
+        <label>The Wholesale House</label>
+    </customValue>
+    <customValue>
+        <fullName>THG 1P (Criteo)</fullName>
+        <default>false</default>
+        <label>THG 1P (Criteo)</label>
+    </customValue>
+    <customValue>
+        <fullName>TikTok</fullName>
+        <default>false</default>
+        <label>TikTok</label>
+    </customValue>
+    <customValue>
+        <fullName>TikTok - Paid Social</fullName>
+        <default>false</default>
+        <label>TikTok - Paid Social</label>
+    </customValue>
+    <customValue>
+        <fullName>Toys R Us Drop Ship</fullName>
+        <default>false</default>
+        <label>Toys R Us Drop Ship</label>
+    </customValue>
+    <customValue>
+        <fullName>Tractor Supply Drop Ship - Early Adopter</fullName>
+        <default>false</default>
+        <label>Tractor Supply Drop Ship - Early Adopter</label>
+    </customValue>
+    <customValue>
+        <fullName>TradeMe</fullName>
+        <default>false</default>
+        <label>TradeMe</label>
+    </customValue>
+    <customValue>
+        <fullName>Tradesy</fullName>
+        <default>false</default>
+        <label>Tradesy</label>
+    </customValue>
+    <customValue>
+        <fullName>Trevco, Inc</fullName>
+        <default>false</default>
+        <label>Trevco, Inc</label>
+    </customValue>
+    <customValue>
+        <fullName>Tucker Rocky</fullName>
+        <default>false</default>
+        <label>Tucker Rocky</label>
+    </customValue>
+    <customValue>
+        <fullName>Turn 14 Distribution</fullName>
+        <default>false</default>
+        <label>Turn 14 Distribution</label>
+    </customValue>
+    <customValue>
+        <fullName>Twitter</fullName>
+        <default>false</default>
+        <label>Twitter</label>
+    </customValue>
+    <customValue>
+        <fullName>Ulta 1P (Criteo)</fullName>
+        <default>false</default>
+        <label>Ulta 1P (Criteo)</label>
+    </customValue>
+    <customValue>
+        <fullName>Until Gone</fullName>
+        <default>false</default>
+        <label>Until Gone</label>
+    </customValue>
+    <customValue>
+        <fullName>Urban Outfitters</fullName>
+        <default>false</default>
+        <label>Urban Outfitters</label>
+    </customValue>
+    <customValue>
+        <fullName>Urban Outfitters Drop Ship</fullName>
+        <default>false</default>
+        <label>Urban Outfitters Drop Ship</label>
+    </customValue>
+    <customValue>
+        <fullName>Ushio America, Inc.</fullName>
+        <default>false</default>
+        <label>Ushio America, Inc.</label>
+    </customValue>
+    <customValue>
+        <fullName>Veepee</fullName>
+        <default>false</default>
+        <label>Veepee</label>
+    </customValue>
+    <customValue>
+        <fullName>Velocity Marketplaces</fullName>
+        <default>false</default>
+        <label>Velocity Marketplaces</label>
+    </customValue>
+    <customValue>
+        <fullName>Vickerman</fullName>
+        <default>false</default>
+        <label>Vickerman</label>
+    </customValue>
+    <customValue>
+        <fullName>VidaXL</fullName>
+        <default>false</default>
+        <label>VidaXL</label>
+    </customValue>
+    <customValue>
+        <fullName>Voelkner</fullName>
+        <default>false</default>
+        <label>Voelkner</label>
+    </customValue>
+    <customValue>
+        <fullName>VogaCloset</fullName>
+        <default>false</default>
+        <label>VogaCloset</label>
+    </customValue>
+    <customValue>
+        <fullName>VoyageOne</fullName>
+        <default>false</default>
+        <label>VoyageOne</label>
+    </customValue>
+    <customValue>
+        <fullName>Walgreens 1P (Criteo)</fullName>
+        <default>false</default>
+        <label>Walgreens 1P (Criteo)</label>
+    </customValue>
+    <customValue>
+        <fullName>Walgreens Drop Ship - Early Adopter</fullName>
+        <default>false</default>
+        <label>Walgreens Drop Ship - Early Adopter</label>
+    </customValue>
+    <customValue>
+        <fullName>Walmart</fullName>
+        <default>false</default>
+        <label>Walmart</label>
+    </customValue>
+    <customValue>
+        <fullName>Walmart 1P</fullName>
+        <default>false</default>
+        <label>Walmart 1P</label>
+    </customValue>
+    <customValue>
+        <fullName>Walmart 3P</fullName>
+        <default>false</default>
+        <label>Walmart 3P</label>
+    </customValue>
+    <customValue>
+        <fullName>Walmart Advertising</fullName>
+        <default>false</default>
+        <label>Walmart Advertising</label>
+    </customValue>
+    <customValue>
+        <fullName>Walmart Ca 1P (Criteo)</fullName>
+        <default>false</default>
+        <label>Walmart Ca 1P (Criteo)</label>
+    </customValue>
+    <customValue>
+        <fullName>Walmart Content Management</fullName>
+        <default>false</default>
+        <label>Walmart Content Management</label>
+    </customValue>
+    <customValue>
+        <fullName>Walmart Drop Ship</fullName>
+        <default>false</default>
+        <label>Walmart Drop Ship</label>
+    </customValue>
+    <customValue>
+        <fullName>Walmart DSP</fullName>
+        <default>false</default>
+        <label>Walmart DSP</label>
+    </customValue>
+    <customValue>
+        <fullName>Walmart Supplier Content</fullName>
+        <default>false</default>
+        <label>Walmart Supplier Content</label>
+    </customValue>
+    <customValue>
+        <fullName>Warren</fullName>
+        <default>false</default>
+        <label>Warren</label>
+    </customValue>
+    <customValue>
+        <fullName>Wayfair 1P</fullName>
+        <default>false</default>
+        <label>Wayfair 1P</label>
+    </customValue>
+    <customValue>
+        <fullName>Wayfair Drop Ship</fullName>
+        <default>false</default>
+        <label>Wayfair Drop Ship</label>
+    </customValue>
+    <customValue>
+        <fullName>Wayfair Drop Ship - Early Adopter</fullName>
+        <default>false</default>
+        <label>Wayfair Drop Ship - Early Adopter</label>
+    </customValue>
+    <customValue>
+        <fullName>WebShopManager</fullName>
+        <default>false</default>
+        <label>WebShopManager</label>
+    </customValue>
+    <customValue>
+        <fullName>Wehkamp Private Marketplace</fullName>
+        <default>false</default>
+        <label>Wehkamp Private Marketplace</label>
+    </customValue>
+    <customValue>
+        <fullName>Western Power Sports</fullName>
+        <default>false</default>
+        <label>Western Power Sports</label>
+    </customValue>
+    <customValue>
+        <fullName>Westfield Direct</fullName>
+        <default>false</default>
+        <label>Westfield Direct</label>
+    </customValue>
+    <customValue>
+        <fullName>WheelPros</fullName>
+        <default>false</default>
+        <label>WheelPros</label>
+    </customValue>
+    <customValue>
+        <fullName>Williams Sonoma Drop Ship</fullName>
+        <default>false</default>
+        <label>Williams Sonoma Drop Ship</label>
+    </customValue>
+    <customValue>
+        <fullName>Wintergreen Lighting</fullName>
+        <default>false</default>
+        <label>Wintergreen Lighting</label>
+    </customValue>
+    <customValue>
+        <fullName>Wish</fullName>
+        <default>false</default>
+        <label>Wish</label>
+    </customValue>
+    <customValue>
+        <fullName>Everyday Market</fullName>
+        <default>false</default>
+        <label>Woolworths Everyday Market</label>
+    </customValue>
+    <customValue>
+        <fullName>Worten 1P (Criteo)</fullName>
+        <default>false</default>
+        <label>Worten 1P (Criteo)</label>
+    </customValue>
+    <customValue>
+        <fullName>YouTube</fullName>
+        <default>false</default>
+        <label>YouTube</label>
+    </customValue>
+    <customValue>
+        <fullName>Zalando</fullName>
+        <default>false</default>
+        <label>Zalando</label>
+    </customValue>
+    <customValue>
+        <fullName>Zalando Marketing Services</fullName>
+        <default>false</default>
+        <label>Zalando Marketing Services</label>
+    </customValue>
+    <customValue>
+        <fullName>Zalando MCF - Early Adopter</fullName>
+        <default>false</default>
+        <label>Zalando MCF - Early Adopter</label>
+    </customValue>
+    <customValue>
+        <fullName>Zalora - Early Adopter</fullName>
+        <default>false</default>
+        <label>Zalora - Early Adopter</label>
+    </customValue>
+    <customValue>
+        <fullName>Zappos Drop Ship - Early Adopter</fullName>
+        <default>false</default>
+        <label>Zappos Drop Ship - Early Adopter</label>
+    </customValue>
+    <customValue>
+        <fullName>Zoro Drop Ship</fullName>
+        <default>false</default>
+        <label>Zoro Drop Ship</label>
+    </customValue>
+    <customValue>
+        <fullName>Zulily Drop Ship</fullName>
+        <default>false</default>
+        <label>Zulily Drop Ship</label>
+    </customValue>
+    <customValue>
+        <fullName>Zulily DSCO - Early Adopter</fullName>
+        <default>false</default>
+        <label>Zulily DSCO - Early Adopter</label>
+    </customValue>
+    <customValue>
+        <fullName>Premier Performance (US)</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Premier Performance (US)</label>
+    </customValue>
+    <customValue>
+        <fullName>Premier Performance (Canada)</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Premier Performance (Canada)</label>
+    </customValue>
+    <customValue>
+        <fullName>Pape’s, Inc</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Pape’s, Inc</label>
+    </customValue>
+    <customValue>
+        <fullName>Tmall</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Tmall</label>
+    </customValue>
+    <customValue>
+        <fullName>OneSource</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OneSource</label>
+    </customValue>
+    <customValue>
+        <fullName>Morris Costumes</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Morris Costumes</label>
+    </customValue>
+    <customValue>
+        <fullName>MercadoLibre CBT</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MercadoLibre CBT</label>
+    </customValue>
+    <customValue>
+        <fullName>Tophatter</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Tophatter</label>
+    </customValue>
+    <customValue>
+        <fullName>MassGenie</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MassGenie</label>
+    </customValue>
+    <customValue>
+        <fullName>Transamerican Auto Parts</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Transamerican Auto Parts</label>
+    </customValue>
+    <customValue>
+        <fullName>Lorenz and Jones</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Lorenz and Jones</label>
+    </customValue>
+    <customValue>
+        <fullName>Lonestar Pet Supply</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Lonestar Pet Supply</label>
+    </customValue>
+    <customValue>
+        <fullName>Transamerican Vendor Direct</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Transamerican Vendor Direct</label>
+    </customValue>
+    <customValue>
+        <fullName>Keystone Automotive</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Keystone Automotive</label>
+    </customValue>
+    <customValue>
+        <fullName>Jet Drop Ship</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Jet Drop Ship</label>
+    </customValue>
+    <customValue>
+        <fullName>Jet</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Jet</label>
+    </customValue>
+    <customValue>
+        <fullName>Jenne, Inc.</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Jenne, Inc.</label>
+    </customValue>
+    <customValue>
+        <fullName>Ingram Micro</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Ingram Micro</label>
+    </customValue>
+    <customValue>
+        <fullName>Iguama</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Iguama</label>
+    </customValue>
+    <customValue>
+        <fullName>Honest Green</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Honest Green</label>
+    </customValue>
+    <customValue>
+        <fullName>Hollar</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Hollar</label>
+    </customValue>
+    <customValue>
+        <fullName>Green Supply</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Green Supply</label>
+    </customValue>
+    <customValue>
+        <fullName>Google Express</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Google Express</label>
+    </customValue>
+    <customValue>
+        <fullName>Gerson</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Gerson</label>
+    </customValue>
+    <customValue>
+        <fullName>Game</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Game</label>
+    </customValue>
+    <customValue>
+        <fullName>FullBeauty</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FullBeauty</label>
+    </customValue>
+    <customValue>
+        <fullName>Flubit</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Flubit</label>
+    </customValue>
+    <customValue>
+        <fullName>VF Imagewear, Inc</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>VF Imagewear, Inc</label>
+    </customValue>
+    <customValue>
+        <fullName>Where to Buy - Other</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Where to Buy - Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Williams Trading, LLC</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Williams Trading, LLC</label>
+    </customValue>
+    <customValue>
+        <fullName>Xiu</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Xiu</label>
+    </customValue>
+    <customValue>
+        <fullName>Click To Collect</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Click To Collect</label>
+    </customValue>
+    <customValue>
+        <fullName>CDON</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>CDON</label>
+    </customValue>
+    <customValue>
+        <fullName>Eumeria</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Eumeria</label>
+    </customValue>
+    <customValue>
+        <fullName>Dorman</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Dorman</label>
+    </customValue>
+    <customValue>
+        <fullName>Curt</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Curt</label>
+    </customValue>
+    <customValue>
+        <fullName>GameStop Drop Ship</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>GameStop Drop Ship</label>
+    </customValue>
+    <customValue>
+        <fullName>Crane/Telequip</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Crane/Telequip</label>
+    </customValue>
+    <customValue>
+        <fullName>Google Display Network</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Google Display Network</label>
+    </customValue>
+    <customValue>
+        <fullName>Idealo</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Idealo</label>
+    </customValue>
+    <customValue>
+        <fullName>CoolShop</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>CoolShop</label>
+    </customValue>
+    <customValue>
+        <fullName>Catch</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Catch</label>
+    </customValue>
+    <customValue>
+        <fullName>Cardsource</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Cardsource</label>
+    </customValue>
+    <customValue>
+        <fullName>Cadabra Express</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Cadabra Express</label>
+    </customValue>
+    <customValue>
+        <fullName>BluTag</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BluTag</label>
+    </customValue>
+    <customValue>
+        <fullName>Bluestar Inc.</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Bluestar Inc.</label>
+    </customValue>
+    <customValue>
+        <fullName>Azoya</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Azoya</label>
+    </customValue>
+    <customValue>
+        <fullName>Hudson Bay</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Hudson Bay</label>
+    </customValue>
+    <customValue>
+        <fullName>ASI</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ASI</label>
+    </customValue>
+    <customValue>
+        <fullName>Amazon Wholesale</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Amazon Wholesale</label>
+    </customValue>
+    <customValue>
+        <fullName>Allyouneed</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Allyouneed</label>
+    </customValue>
+    <customValue>
+        <fullName>Lowe&apos;s 1P</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Lowe&apos;s 1P</label>
+    </customValue>
+    <customValue>
+        <fullName>AcuSport</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>AcuSport</label>
+    </customValue>
+    <customValue>
+        <fullName>ShopO</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ShopO</label>
+    </customValue>
+    <customValue>
+        <fullName>Target 1P</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Target 1P</label>
+    </customValue>
+    <customValue>
+        <fullName>Market</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Market</label>
+    </customValue>
+    <customValue>
+        <fullName>Chaco</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Chaco</label>
+    </customValue>
+    <customValue>
+        <fullName>Exborders</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Exborders</label>
+    </customValue>
+    <customValue>
+        <fullName>Facebook/Instagram</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Facebook/Instagram</label>
+    </customValue>
+    <customValue>
+        <fullName>Curt Manufacturing CA</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Curt Manufacturing CA</label>
+    </customValue>
+    <customValue>
+        <fullName>Curt US</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Curt US</label>
+    </customValue>
+    <customValue>
+        <fullName>Big Rock Sports</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Big Rock Sports</label>
+    </customValue>
+    <customValue>
+        <fullName>S&amp;B Filters</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>S&amp;B Filters</label>
+    </customValue>
+    <customValue>
+        <fullName>ParTech</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ParTech</label>
+    </customValue>
+    <customValue>
+        <fullName>Office Depot</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Office Depot</label>
+    </customValue>
+    <customValue>
+        <fullName>Target 3P</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Target 3P</label>
+    </customValue>
+    <customValue>
+        <fullName>Southern Glazer&apos;s Wine &amp; Spirits</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Southern Glazer&apos;s Wine &amp; Spirits</label>
+    </customValue>
+    <customValue>
+        <fullName>Zalando - Early Adopter</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Zalando - Early Adopter</label>
+    </customValue>
+    <customValue>
+        <fullName>McKesson</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>McKesson</label>
+    </customValue>
+    <customValue>
+        <fullName>Curt Manufacturing Canada</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Curt Manufacturing Canada</label>
+    </customValue>
+    <customValue>
+        <fullName>Bluestar US</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Bluestar US</label>
+    </customValue>
+    <customValue>
+        <fullName>Kala</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Kala</label>
+    </customValue>
+    <customValue>
+        <fullName>Bluestar CA</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Bluestar CA</label>
+    </customValue>
+    <customValue>
+        <fullName>Globus</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Globus</label>
+    </customValue>
+    <customValue>
+        <fullName>Trendyol</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Trendyol</label>
+    </customValue>
+    <customValue>
+        <fullName>Bluestar UK</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Bluestar UK</label>
+    </customValue>
+    <customValue>
+        <fullName>SamsClub 1P (Criteo)</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SamsClub 1P (Criteo)</label>
+    </customValue>
+    <customValue>
+        <fullName>Auto Parts 4 Less</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Auto Parts 4 Less</label>
+    </customValue>
+    <customValue>
+        <fullName>Pixmania</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Pixmania</label>
+    </customValue>
+    <customValue>
+        <fullName>Boscov Drop Ship - Early Adopter</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Boscov Drop Ship - Early Adopter</label>
+    </customValue>
+    <customValue>
+        <fullName>Pyramyd Air</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Pyramyd Air</label>
+    </customValue>
+    <customValue>
+        <fullName>YOOX</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>YOOX</label>
+    </customValue>
+    <customValue>
+        <fullName>GameSeek</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>GameSeek</label>
+    </customValue>
+    <customValue>
+        <fullName>FlexShopper</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FlexShopper</label>
+    </customValue>
+    <customValue>
+        <fullName>WowConcept</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>WowConcept</label>
+    </customValue>
+    <customValue>
+        <fullName>Wupti</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Wupti</label>
+    </customValue>
+    <customValue>
+        <fullName>TheDrop</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TheDrop</label>
+    </customValue>
+    <customValue>
+        <fullName>Tokopedia - Early Adopter</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Tokopedia - Early Adopter</label>
+    </customValue>
+    <customValue>
+        <fullName>Steals</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Steals</label>
+    </customValue>
+    <customValue>
+        <fullName>Mathis Brothers</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Mathis Brothers</label>
+    </customValue>
+    <customValue>
+        <fullName>Secret Sales Expansion</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Secret Sales Expansion</label>
+    </customValue>
+    <customValue>
+        <fullName>Avenue51</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Avenue51</label>
+    </customValue>
+    <customValue>
+        <fullName>Bed Bath &amp; Beyond Drop Ship</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Bed Bath &amp; Beyond Drop Ship</label>
+    </customValue>
+    <customValue>
+        <fullName>NBCUniversal</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>NBCUniversal</label>
+    </customValue>
+    <customValue>
+        <fullName>DARTY</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>DARTY</label>
+    </customValue>
+    <customValue>
+        <fullName>Kroger</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Kroger</label>
+    </customValue>
+    <customValue>
+        <fullName>Etsy</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Etsy</label>
+    </customValue>
+    <customValue>
+        <fullName>Amazon Belgium</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Amazon Belgium</label>
+    </customValue>
+    <customValue>
+        <fullName>Bluestem Drop Ship - Early Adopter</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Bluestem Drop Ship - Early Adopter</label>
+    </customValue>
+    <customValue>
+        <fullName>Brand Analytics</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Brand Analytics</label>
+    </customValue>
+    <customValue>
+        <fullName>CJ Onstyle</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>CJ Onstyle</label>
+    </customValue>
+    <customValue>
+        <fullName>Grupo Éxito</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Grupo Éxito</label>
+    </customValue>
+    <customValue>
+        <fullName>Shoppable Media - Other</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Shoppable Media - Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Shoppable Media - On-Demand</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Shoppable Media - On-Demand</label>
+    </customValue>
+    <customValue>
+        <fullName>24S - Early Adopter</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>24S - Early Adopter</label>
+    </customValue>
+    <customValue>
+        <fullName>Etsy - Early Adopter</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Etsy - Early Adopter</label>
+    </customValue>
+    <customValue>
+        <fullName>Zalora Malaysia (MY) Locale</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Zalora Malaysia (MY) Locale</label>
+    </customValue>
+    <customValue>
+        <fullName>Michaels - Early Adopter</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Michaels - Early Adopter</label>
+    </customValue>
+    <customValue>
+        <fullName>Linio</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Linio</label>
+    </customValue>
+    <customValue>
+        <fullName>Shopee - Early Adopter</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Shopee - Early Adopter</label>
+    </customValue>
+    <customValue>
+        <fullName>MediaMarkt - Early Adopter</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MediaMarkt - Early Adopter</label>
+    </customValue>
+    <customValue>
+        <fullName>Joom</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Joom</label>
+    </customValue>
+    <customValue>
+        <fullName>ComEd</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ComEd</label>
+    </customValue>
+    <customValue>
+        <fullName>Where to Buy - On-Demand</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Where to Buy - On-Demand</label>
+    </customValue>
+    <customValue>
+        <fullName>Otto Drop Ship</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Otto Drop Ship</label>
+    </customValue>
+    <customValue>
+        <fullName>OfferUp</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OfferUp</label>
+    </customValue>
+    <customValue>
+        <fullName>Sprii</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Sprii</label>
+    </customValue>
+    <customValue>
+        <fullName>Kixify</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Kixify</label>
+    </customValue>
+    <customValue>
+        <fullName>Zalora Hong Kong (HK) Locale</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Zalora Hong Kong (HK) Locale</label>
+    </customValue>
+    <customValue>
+        <fullName>Leroy Merlin - Early Adopter</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Leroy Merlin - Early Adopter</label>
+    </customValue>
+    <customValue>
+        <fullName>24S Marketplace</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>24S Marketplace</label>
+    </customValue>
+    <customValue>
+        <fullName>Tech Data</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Tech Data</label>
+    </customValue>
+    <customValue>
+        <fullName>Container Door</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Container Door</label>
+    </customValue>
+    <customValue>
+        <fullName>MediaMarkt IT &amp; NL Expansion</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MediaMarkt IT &amp; NL Expansion</label>
+    </customValue>
+    <customValue>
+        <fullName>Debenhams AU - Early Adoption</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Debenhams AU - Early Adoption</label>
+    </customValue>
+    <customValue>
+        <fullName>AllSale</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>AllSale</label>
+    </customValue>
+    <customValue>
+        <fullName>CoEdition</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>CoEdition</label>
+    </customValue>
+    <customValue>
+        <fullName>GunBroker</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>GunBroker</label>
+    </customValue>
+    <customValue>
+        <fullName>Harvey Nichols</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Harvey Nichols</label>
+    </customValue>
+    <customValue>
+        <fullName>Walmart - Early Adopter</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Walmart - Early Adopter</label>
+    </customValue>
+    <customValue>
+        <fullName>Managed Retail Media</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Managed Retail Media</label>
+    </customValue>
+    <customValue>
+        <fullName>Worten</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Worten</label>
+    </customValue>
+    <customValue>
+        <fullName>The Warehouse</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>The Warehouse</label>
+    </customValue>
+    <customValue>
+        <fullName>SKUCloud</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SKUCloud</label>
+    </customValue>
+    <customValue>
+        <fullName>Overstock Marketplace</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Overstock Marketplace</label>
+    </customValue>
+    <customValue>
+        <fullName>MySale</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MySale</label>
+    </customValue>
+    <customValue>
+        <fullName>Albertsons</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Albertsons</label>
+    </customValue>
+    <customValue>
+        <fullName>Breeze</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Breeze</label>
+    </customValue>
+    <customValue>
+        <fullName>Temu</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Temu</label>
+    </customValue>
+    <customValue>
+        <fullName>TeleDynamics</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TeleDynamics</label>
+    </customValue>
+    <customValue>
+        <fullName>Synnex (US)</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Synnex (US)</label>
+    </customValue>
+    <customValue>
+        <fullName>SkuVault with Shipstation</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SkuVault with Shipstation</label>
+    </customValue>
+    <customValue>
+        <fullName>ShopTo</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ShopTo</label>
+    </customValue>
+    <customValue>
+        <fullName>Shop.com</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Shop.com</label>
+    </customValue>
+    <customValue>
+        <fullName>SeaWide</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SeaWide</label>
+    </customValue>
+    <customValue>
+        <fullName>Rocky Boots</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Rocky Boots</label>
+    </customValue>
+    <customValue>
+        <fullName>Rockline</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Rockline</label>
+    </customValue>
+    <customValue>
+        <fullName>Ringside</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Ringside</label>
+    </customValue>
+    <customValue>
+        <fullName>Rakuten - Early Adopter</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Rakuten - Early Adopter</label>
+    </customValue>
+    <customValue>
+        <fullName>Pricefalls</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Pricefalls</label>
+    </customValue>
+    <customValue>
+        <fullName>Tesco</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Tesco</label>
+    </customValue>
+    <masterLabel>Site</masterLabel>
+    <sorted>true</sorted>
+</GlobalValueSet>
