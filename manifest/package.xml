@@ -1,21 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Brands_New_Case_Notify_Account_Team</members>
-        <name>CustomNotificationType</name>
+        <members>Case_support_lightning_page.flexipage</members>
+        <name>FlexiPage</name>
     </types>
     <types>
-        <members>Brands_Notify_Account_Team_on_New_Case</members>
-        <members>Brands_Omni_Channel_Routing</members>
+        <members>Brands_Case_Transfer_Case.flow</members>
         <name>Flow</name>
-    </types>
-    <types>
-        <members>Brands_Administration.queue</members>
-        <members>Brands_Tier_1.queue</members>
-        <members>Brands_Tier_1_Urgent.queue</members>
-        <members>Brands_Tier_2.queue</members>
-        <members>Brands_Tier_2_Urgent.queue</members>
-        <name>Queue</name>
     </types>
     <version>61.0</version>
 </Package>
