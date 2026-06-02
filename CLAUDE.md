@@ -69,4 +69,6 @@ Sandbox deployments (`sf project deploy start --target-org rithum-sandbox`) work
 
 - **2026-06-02** — _from [# ST-21832: Case Queues (Part 1)
 **Statu](docs/slices/conv-1780338159721-st-21832-case-queues-part-1-statu.md)_ — **Urgent queues given lower priority numbers (10, 20) than standard queues (40, 50)** — *Why:* Lower `routingPriority` number = higher Omni-Channel precedence, ensuring urgent cases route first.
+- **2026-06-02** — _from [ST-21900: Case Sub-Categories Route to Tier 2 (Part 3)](docs/slices/conv-1780411821832-st-21900-case-sub-categories-route-to-tier-2-part-.md)_ — **Flow Decision node evaluated on Sub_Category_dsco__c value, not Category** — *Why:* Granular sub-category targeting avoids over-routing entire categories; only specific escalation-worthy sub-types reach Tier 2.
+- **2026-06-02** — _from [ST-21905: Priority Attention Account (part 4)](docs/slices/conv-1780411822782-st-21905-priority-attention-account-part-4.md)_ — **Get Records node filters on `Priority_Support_Attention__c` at query time, not in a Decision node** — *Why:* Single-node check avoids a separate Decision element; null/no-match path is handled by the `noRecordsFoundConnector`.
 <!-- END cheese:decisions -->
