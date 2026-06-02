@@ -4,6 +4,6 @@
     <label>PID Hyperlinks</label>
     <type>Html</type>
     <length>20000</length>
-    <visibleLines>3</visibleLines>
+    <visibleLines>10</visibleLines>
     <description>Used by the Brands team to have links to their external PID records that are related to the Case</description>
 </CustomField>
