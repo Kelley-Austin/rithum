@@ -82,3 +82,14 @@ connector layout"| P3A
 - **(2026-06-02)** "Priority Attention Account" criteria are not defined in the ST-21905 slice detail — whether this is a checkbox field, a record type, or an account tier field must be confirmed before implementation begins.
 - **(2026-06-02)** ST-22674 (field creation) and ST-21832 (queue/flow foundation) are both in `pr-created` status; if either PR merge is delayed, Phase 1–3 slices cannot safely deploy to the sandbox for testing.
 - **(2026-06-02)** Brand queue membership governance is undocumented — no process currently exists for adding or removing agents from brand queues as the support org changes, creating a long-term operational risk.
+
+<!-- BEGIN cheese:slice-index -->
+| Slice | Status | Doc | Persona served |
+| --- | --- | --- | --- |
+| ST-21905: Priority Attention Account (part 4) | deployed | [view](docs/slices/conv-1780411822782-st-21905-priority-attention-account-part-4.md) | (see file) |
+| ST-21900: Case Sub-Categories Route to Tier 2 (Part 3) | pr-created | [view](docs/slices/conv-1780411821832-st-21900-case-sub-categories-route-to-tier-2-part-.md) | (see file) |
+| ST-21904: Internal Route to Tier 2 (Part 2) | pr-created | [view](docs/slices/conv-1780411803098-st-21904-internal-route-to-tier-2-part-2.md) | (see file) |
+| # ST-21832: Case Queues (Part 1)
+**Statu | pr-created | [view](docs/slices/conv-1780338159721-st-21832-case-queues-part-1-statu.md) | (see file) |
+| # ST-22674: ST-21903 \| Rithum \| Field Cr | pr-created | [view](docs/slices/conv-1780333762821-st-22674-st-21903-rithum-field-cr.md) | (see file) |
+<!-- END cheese:slice-index -->

@@ -73,13 +73,13 @@ _Slice summaries append into per-phase blocks below as work completes._
 ### Phase 2
 
 <!-- BEGIN cheese:phase-2 -->
-- ⏳ ST-21900: Case Sub-Categories Route to Tier 2 (Part 3) — ready-to-start
+- ✅ ST-21900: Case Sub-Categories Route to Tier 2 (Part 3) — *summary saved 2026-06-02*. [Decisions & details](docs/slices/conv-1780411821832-st-21900-case-sub-categories-route-to-tier-2-part-.md). Lesson: The "Brands - Omni Channel Routing" Flow is not version-controlled locally — org-side flow changes made by this slice are invisible to git history. Retrieve and commit flow metadata as part of any slice that modifies it to keep the repo and org in sync..
 <!-- END cheese:phase-2 -->
 
 ### Phase 3
 
 <!-- BEGIN cheese:phase-3 -->
-- ⏳ ST-21905: Priority Attention Account (part 4) — ready-to-start
+- ✅ ST-21905: Priority Attention Account (part 4) — *summary saved 2026-06-02*. [Decisions & details](docs/slices/conv-1780411822782-st-21905-priority-attention-account-part-4.md). Lesson: Retrieving the flow as part of the story (not after) is the right sequencing — this slice avoided the git-invisible-change problem that ST-21900 hit by pulling `Brands_Omni_Channel_Routing` into source control before modifying it..
 <!-- END cheese:phase-3 -->
 
 ## Changelog
