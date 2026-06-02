@@ -85,7 +85,7 @@
         <name>Tier_1_is_Owner</name>
         <label>Tier 1 is Owner</label>
         <locationX>176</locationX>
-        <locationY>888</locationY>
+        <locationY>1248</locationY>
         <assignmentItems>
             <assignToReference>inputCase.OwnerId</assignToReference>
             <operator>Assign</operator>
@@ -101,7 +101,7 @@
         <name>Brands_Admin_is_Owner</name>
         <label>Brands Admin is Owner</label>
         <locationX>440</locationX>
-        <locationY>888</locationY>
+        <locationY>1248</locationY>
         <assignmentItems>
             <assignToReference>inputCase.OwnerId</assignToReference>
             <operator>Assign</operator>
@@ -202,8 +202,23 @@
         <name>Case_Owner_Assignment</name>
         <label>Case Owner Assignment</label>
         <locationX>176</locationX>
-        <locationY>768</locationY>
+        <locationY>1128</locationY>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Brands_Tier_2_Support_Users_Path</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>varT_Tier2SupportUsers</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Tier_2_is_Owner</targetReference>
+            </connector>
+            <label>Brands Tier 2 Support Users</label>
+        </rules>
         <rules>
             <name>Tier_1</name>
             <conditionLogic>and</conditionLogic>
@@ -269,7 +284,7 @@
             <targetReference>Which_Group</targetReference>
         </nextValueConnector>
         <noMoreValuesConnector>
-            <targetReference>Case_Owner_Assignment</targetReference>
+            <targetReference>Get_Tier2_Support_Group</targetReference>
         </noMoreValuesConnector>
     </loops>
     <processType>AutoLaunchedFlow</processType>
@@ -296,11 +311,82 @@
         <queriedFields>Id</queriedFields>
         <queriedFields>Name</queriedFields>
     </recordLookups>
+    <assignments>
+        <name>Tier_2_is_Owner</name>
+        <label>Tier 2 is Owner</label>
+        <locationX>704</locationX>
+        <locationY>1248</locationY>
+        <assignmentItems>
+            <assignToReference>inputCase.OwnerId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>varT_Tier2</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Update_Triggering_Record</targetReference>
+        </connector>
+    </assignments>
+    <recordLookups>
+        <name>Get_Tier2_Support_Group</name>
+        <label>Get Tier 2 Support Group</label>
+        <locationX>176</locationX>
+        <locationY>888</locationY>
+        <assignNullValuesIfNoRecordsFound>true</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Get_Tier2_Group_Membership</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>DeveloperName</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Brands_Tier_2_Support_Users</stringValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Group</object>
+        <outputAssignments>
+            <assignToReference>varT_Tier2SupportGroupId</assignToReference>
+            <field>Id</field>
+        </outputAssignments>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_Tier2_Group_Membership</name>
+        <label>Get Tier 2 Group Membership</label>
+        <locationX>176</locationX>
+        <locationY>1008</locationY>
+        <assignNullValuesIfNoRecordsFound>true</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Case_Owner_Assignment</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>GroupId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>varT_Tier2SupportGroupId</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>UserOrGroupId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>inputCase.CreatedById</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>GroupMember</object>
+        <outputAssignments>
+            <assignToReference>varT_Tier2SupportUsers</assignToReference>
+            <field>Id</field>
+        </outputAssignments>
+    </recordLookups>
     <recordUpdates>
         <name>Update_Triggering_Record</name>
         <label>Update Triggering Record</label>
         <locationX>176</locationX>
-        <locationY>1008</locationY>
+        <locationY>1368</locationY>
         <inputReference>inputCase</inputReference>
     </recordUpdates>
     <start>
@@ -357,6 +443,20 @@
     </variables>
     <variables>
         <name>varT_Tier2Urgent</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>varT_Tier2SupportGroupId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>varT_Tier2SupportUsers</name>
         <dataType>String</dataType>
         <isCollection>false</isCollection>
         <isInput>false</isInput>
