@@ -49,6 +49,10 @@
         <name>Layout</name>
     </types>
     <types>
+        <members>Brands_Customer_Support</members>
+        <name>PresenceUserConfig</name>
+    </types>
+    <types>
         <members>Support_Brands_Admin</members>
         <members>Support_Brands_Tier_1</members>
         <members>Support_Brands_Tier_1_Urgent</members>
