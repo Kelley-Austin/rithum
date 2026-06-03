@@ -18,3 +18,4 @@ Use `git log -p docs/Activity.md` to audit changes over time.
 - `2026-06-03T15:02:02.738Z` · **context-fed** · Fed project context to slice conv-1780497887739 · chars=13119 · sections=2
 - `2026-06-03T15:02:43.303Z` · **context-fed** · Fed project context to slice conv-1780497887739 · chars=13119 · sections=2
 - `2026-06-03T15:04:11.186Z` · **context-fed** · Fed project context to slice conv-1780497887739 · chars=13119 · sections=2
+- `2026-06-03T17:42:43.056Z` · **branch-switched** · Branch switched to main · source=watcher
