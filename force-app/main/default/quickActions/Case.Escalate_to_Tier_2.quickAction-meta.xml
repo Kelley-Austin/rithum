@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionSubtype>ScreenFlow</actionSubtype>
+    <description>Escalate this case to the Tier 2 support queue. Prompts the agent for urgency and reassigns the case owner without changing any other case values.</description>
+    <flowDefinition>Brands_Case_Escalate_to_Tier_2</flowDefinition>
+    <label>Escalate to Tier 2</label>
+    <optionsCreateFeedItem>false</optionsCreateFeedItem>
+    <targetObject>Case</targetObject>
+    <type>Flow</type>
+</QuickAction>

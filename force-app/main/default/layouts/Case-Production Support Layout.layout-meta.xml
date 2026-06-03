@@ -644,6 +644,11 @@
             <actionType>QuickAction</actionType>
             <sortOrder>15</sortOrder>
         </platformActionListItems>
+        <platformActionListItems>
+            <actionName>Case.Escalate_to_Tier_2</actionName>
+            <actionType>QuickAction</actionType>
+            <sortOrder>16</sortOrder>
+        </platformActionListItems>
     </platformActionList>
     <quickActionList>
         <quickActionListItems>
