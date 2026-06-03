@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>61.0</apiVersion>
+    <description>Record-triggered flow that fires when Case Status changes on an update. Calls Brands - Case, Status Changed to set or clear the Brands Status Datetime field based on the Status transition.</description>
+    <environments>Default</environments>
+    <interviewLabel>Brands - Case, Status Change Trigger {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Brands - Case, Status Change Trigger</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>182</locationX>
+        <locationY>26</locationY>
+        <filterLogic>1</filterLogic>
+        <filters>
+            <field>Status</field>
+            <operator>IsChanged</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <object>Case</object>
+        <recordTriggerType>Update</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+        <connector>
+            <targetReference>Call_Status_Changed_Flow</targetReference>
+        </connector>
+    </start>
+    <subflows>
+        <name>Call_Status_Changed_Flow</name>
+        <label>Handle Status Change</label>
+        <locationX>182</locationX>
+        <locationY>134</locationY>
+        <flowName>Brands_Case_Status_Changed</flowName>
+        <inputAssignments>
+            <name>varR_Case</name>
+            <value>
+                <elementReference>$Record</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <name>varT_StatusPriorValue</name>
+            <value>
+                <elementReference>$Record__Prior.Status</elementReference>
+            </value>
+        </inputAssignments>
+    </subflows>
+</Flow>

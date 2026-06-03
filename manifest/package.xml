@@ -35,6 +35,9 @@
     <types>
         <members>Brands_Case_Created</members>
         <members>Brands_Case_Jira_Comment_Received</members>
+        <members>Brands_Case_Status_Change_Trigger</members>
+        <members>Brands_Case_Status_Changed</members>
+        <members>Brands_Case_Status_Timestamp</members>
         <members>Brands_Case_Transfer_Case</members>
         <members>Brands_Case_Update_Child_Cases</members>
         <members>Brands_Notify_Account_Team_on_New_Case</members>
