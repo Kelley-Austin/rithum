@@ -22,3 +22,5 @@ Use `git log -p docs/Activity.md` to audit changes over time.
 - `2026-06-03T17:43:30.175Z` · **context-fed** · Fed project context to slice conv-1780508572409 · chars=13119 · sections=2
 - `2026-06-03T17:44:15.901Z` · **context-fed** · Fed project context to slice conv-1780420457448 · chars=13119 · sections=2
 - `2026-06-03T17:50:21.660Z` · **context-fed** · Fed project context to slice conv-1780508572409 · chars=13119 · sections=2
+- `2026-06-03T17:58:08.538Z` · **branch-switched** · Branch switched to agent/conv-1780508662892 · source=agent-run · conversationId=conv-1780508662892
+- `2026-06-03T17:58:08.539Z` · **context-fed** · Fed project context to slice conv-1780508662892 · chars=13119 · sections=2
