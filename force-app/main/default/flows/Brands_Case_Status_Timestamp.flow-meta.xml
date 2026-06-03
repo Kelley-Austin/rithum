@@ -34,8 +34,7 @@
             <label>5 Days After Brands Status Datetime</label>
             <offsetNumber>5</offsetNumber>
             <offsetUnit>Days</offsetUnit>
-            <pathType>ScheduledPath</pathType>
-            <timeSource>Case.Brands_Status_Datetime__c</timeSource>
+<timeSource>Case.Brands_Status_Datetime__c</timeSource>
         </scheduledPaths>
     </start>
     <decisions>
