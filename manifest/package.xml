@@ -1,82 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>JiraCommentController</members>
-        <members>JiraCommentControllerTest</members>
-        <name>ApexClass</name>
-    </types>
-    <types>
-        <members>Account.Notify_Account_Team_of_Brands_Case__c</members>
-        <members>Account.Priority_Support_Attention__c</members>
-        <members>Brands_Channel_Case__c.Brands_Channel__c</members>
-        <members>Brands_Channel_Case__c.Case__c</members>
-        <members>Brands_Channel__c.Channel_Status__c</members>
-        <members>Brands_Channel__c.Channel_Type__c</members>
-        <members>Brands_Channel__c.Country__c</members>
-        <members>Brands_Channel__c.Parent_Channel__c</members>
-        <members>Case.Last_Jira_Comment_Date_Time__c</members>
-        <members>Case.PID_Hyperlinks__c</members>
-        <members>Case.Category_dsco__c</members>
-        <members>Case.Sub_Category_dsco__c</members>
+        <members>Case.Case_Contains_PII__c.field</members>
+        <members>Case.PII_Info__c.field</members>
         <name>CustomField</name>
     </types>
     <types>
-        <members>Brands_New_Case_Notify_Account_Team</members>
-        <name>CustomNotificationType</name>
+        <members>Brands_Admin_Reports</members>
+        <name>Report</name>
     </types>
     <types>
-        <members>Brands_Channel_Case__c</members>
-        <name>CustomObject</name>
-    </types>
-    <types>
-        <members>Case_support_lightning_page</members>
-        <name>FlexiPage</name>
-    </types>
-    <types>
-        <members>Brands_Case_Created</members>
-        <members>Brands_Case_Jira_Comment_Received</members>
-        <members>Brands_Case_Transfer_Case</members>
-        <members>Brands_Case_Update_Child_Cases</members>
-        <members>Brands_Notify_Account_Team_on_New_Case</members>
-        <members>Brands_Omni_Channel_Routing</members>
-        <name>Flow</name>
-    </types>
-    <types>
-        <members>Case-Production Support Layout.layout</members>
-        <name>Layout</name>
-    </types>
-    <types>
-        <members>Case.Escalate_to_Tier_2.quickAction</members>
-        <name>QuickAction</name>
-    </types>
-    <types>
-        <members>Case-Production Support Layout</members>
-        <name>Layout</name>
-    </types>
-    <types>
-        <members>Brands_Customer_Support</members>
-        <name>PresenceUserConfig</name>
-    </types>
-    <types>
-        <members>Support_Brands_Admin</members>
-        <members>Support_Brands_Tier_1</members>
-        <members>Support_Brands_Tier_1_Urgent</members>
-        <members>Support_Brands_Tier_2</members>
-        <members>Support_Brands_Tier_2_Urgent</members>
-        <name>Queue</name>
-    </types>
-    <types>
-        <members>Support_Brands_Admin_Routing</members>
-        <members>Support_Brands_Tier_1_Routing</members>
-        <members>Support_Brands_Tier_1_Urgent_Routing</members>
-        <members>Support_Brands_Tier_2_Routing</members>
-        <members>Support_Brands_Tier_2_Urgent_Routing</members>
-        <name>QueueRoutingConfig</name>
-    </types>
-    <types>
-        <members>Case.Transfer_Case</members>
-        <members>Case.Update_Child_Cases</members>
-        <name>QuickAction</name>
+        <members>Case.PII_Info_Required.validationRule</members>
+        <name>ValidationRule</name>
     </types>
     <version>61.0</version>
 </Package>

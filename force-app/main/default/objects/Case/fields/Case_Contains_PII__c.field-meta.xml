@@ -3,9 +3,6 @@
     <fullName>Case_Contains_PII__c</fullName>
     <label>Case Contains PII</label>
     <required>false</required>
-    <trackFeedHistory>false</trackFeedHistory>
-    <trackHistory>false</trackHistory>
-    <trackTrending>false</trackTrending>
     <type>Picklist</type>
     <valueSet>
         <valueSetDefinition>
