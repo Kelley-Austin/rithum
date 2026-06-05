@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PII_Info__c</fullName>
+    <description>Used by the Brands team to indicate the information about the PII that a Case contains. When &quot;Contains_PII__c&quot; is set to &apos;Yes&apos;, this field is required via a validation rule.</description>
+    <label>PII Info</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>
