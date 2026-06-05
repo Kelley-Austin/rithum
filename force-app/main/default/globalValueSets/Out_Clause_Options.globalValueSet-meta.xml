@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Non-Standard Out Clause</fullName>
+        <default>false</default>
+        <label>Non-Standard Out Clause</label>
+    </customValue>
+    <customValue>
+        <fullName>10 day window w/ 30 day notice - 6 months</fullName>
+        <default>false</default>
+        <label>10 day window w/ 30 day notice - 6 months</label>
+    </customValue>
+    <customValue>
+        <fullName>10 day window w/ 30 day notice - 3 months</fullName>
+        <default>false</default>
+        <label>10 day window w/ 30 day notice - 3 months</label>
+    </customValue>
+    <customValue>
+        <fullName>10 day window w/ 30 day notice - 12 months</fullName>
+        <default>false</default>
+        <label>10 day window w/ 30 day notice - 12 months</label>
+    </customValue>
+    <customValue>
+        <fullName>Standard 90 Day Termination Fee</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Standard 90 Day Termination Fee</label>
+    </customValue>
+    <customValue>
+        <fullName>Custom Out Clause</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Custom Out Clause</label>
+    </customValue>
+    <customValue>
+        <fullName>Custom Special Terms</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Custom Special Terms</label>
+    </customValue>
+    <customValue>
+        <fullName>None</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>None</label>
+    </customValue>
+    <customValue>
+        <fullName>10 day window w/ 30 day notice - 5 months</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>10 day window w/ 30 day notice - 5 months</label>
+    </customValue>
+    <customValue>
+        <fullName>10 day window w/ 30 day notice - 8 months</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>10 day window w/ 30 day notice - 8 months</label>
+    </customValue>
+    <description>For Opportunity and Contracts</description>
+    <masterLabel>Out Clause Options</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

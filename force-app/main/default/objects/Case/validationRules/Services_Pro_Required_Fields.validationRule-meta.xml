@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Services_Pro_Required_Fields</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+NOT( $Profile.Name =&quot;System Administrator&quot;),
+RecordType.DeveloperName =&quot;Services_Projects&quot;,
+ISPICKVAL(Status , &quot;Completed - Resolved&quot;),
+ISBLANK(TEXT( Case_Classification__c )))</errorConditionFormula>
+    <errorMessage>Please make sure the fields Case Classification is filled in before closing the case</errorMessage>
+</ValidationRule>

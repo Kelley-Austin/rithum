@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Amazon Partner Day 2026</fullName>
+        <default>false</default>
+        <label>Amazon Partner Day 2026</label>
+    </customValue>
+    <customValue>
+        <fullName>AMER Fashion Focus</fullName>
+        <default>false</default>
+        <label>AMER Fashion Focus</label>
+    </customValue>
+    <customValue>
+        <fullName>AMER Target+</fullName>
+        <default>false</default>
+        <label>AMER Target+</label>
+    </customValue>
+    <customValue>
+        <fullName>EMEA Bol On-Site</fullName>
+        <default>false</default>
+        <label>EMEA Bol On-Site</label>
+    </customValue>
+    <customValue>
+        <fullName>EMEA Client Referral</fullName>
+        <default>false</default>
+        <label>EMEA Client Referral</label>
+    </customValue>
+    <customValue>
+        <fullName>EMEA - Coffee Club</fullName>
+        <default>false</default>
+        <label>EMEA - Coffee Club</label>
+    </customValue>
+    <customValue>
+        <fullName>EMEA Fashion</fullName>
+        <default>false</default>
+        <label>EMEA Fashion</label>
+    </customValue>
+    <customValue>
+        <fullName>EMEA Priority Seller List</fullName>
+        <default>false</default>
+        <label>EMEA Priority Seller List</label>
+    </customValue>
+    <customValue>
+        <fullName>EMEA Project Rainforest</fullName>
+        <default>false</default>
+        <label>EMEA Project Rainforest</label>
+    </customValue>
+    <customValue>
+        <fullName>EMEA TikTok</fullName>
+        <default>false</default>
+        <label>EMEA TikTok</label>
+    </customValue>
+    <customValue>
+        <fullName>EMEA ZEOS Q2’26</fullName>
+        <default>false</default>
+        <label>EMEA ZEOS Q2’26</label>
+    </customValue>
+    <customValue>
+        <fullName>Essential Package</fullName>
+        <default>false</default>
+        <label>Essential Package</label>
+    </customValue>
+    <customValue>
+        <fullName>Monthly Call Blitz</fullName>
+        <default>false</default>
+        <label>Monthly Call Blitz</label>
+    </customValue>
+    <customValue>
+        <fullName>Next UK ACS</fullName>
+        <default>false</default>
+        <label>Next UK ACS</label>
+    </customValue>
+    <customValue>
+        <fullName>Prime Squeeze</fullName>
+        <default>false</default>
+        <label>Prime Squeeze</label>
+    </customValue>
+    <customValue>
+        <fullName>Reignite &amp; Reclaim</fullName>
+        <default>false</default>
+        <label>Reignite &amp; Reclaim</label>
+    </customValue>
+    <customValue>
+        <fullName>Secret Sales April Campaign</fullName>
+        <default>false</default>
+        <label>Secret Sales April Campaign</label>
+    </customValue>
+    <customValue>
+        <fullName>System Integration</fullName>
+        <default>false</default>
+        <label>System Integration</label>
+    </customValue>
+    <customValue>
+        <fullName>The Managed Mix</fullName>
+        <default>false</default>
+        <label>The Managed Mix</label>
+    </customValue>
+    <customValue>
+        <fullName>Zalando Zing</fullName>
+        <default>false</default>
+        <label>Zalando Zing</label>
+    </customValue>
+    <customValue>
+        <fullName>EMEA Debenhams</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EMEA Debenhams</label>
+    </customValue>
+    <customValue>
+        <fullName>AMER Retail Media</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>AMER Retail Media</label>
+    </customValue>
+    <customValue>
+        <fullName>AMER Shop Talk</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>AMER Shop Talk</label>
+    </customValue>
+    <customValue>
+        <fullName>Retail Media Initiative</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Retail Media Initiative</label>
+    </customValue>
+    <customValue>
+        <fullName>Launch Now Pay Later</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Launch Now Pay Later</label>
+    </customValue>
+    <customValue>
+        <fullName>Early Renewal</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Early Renewal</label>
+    </customValue>
+    <customValue>
+        <fullName>Peak Season Expansion</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Peak Season Expansion</label>
+    </customValue>
+    <customValue>
+        <fullName>Customer “Boomerang” Play</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Customer “Boomerang” Play</label>
+    </customValue>
+    <customValue>
+        <fullName>EMEA Steal Deal Play</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EMEA Steal Deal Play</label>
+    </customValue>
+    <customValue>
+        <fullName>Amazon Promo</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Amazon Promo</label>
+    </customValue>
+    <customValue>
+        <fullName>Amazon Today</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Amazon Today</label>
+    </customValue>
+    <customValue>
+        <fullName>EMEA ShopTalk</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EMEA ShopTalk</label>
+    </customValue>
+    <customValue>
+        <fullName>EMEA Amsterdam Dinner</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EMEA Amsterdam Dinner</label>
+    </customValue>
+    <masterLabel>Targeted Sales Play</masterLabel>
+    <sorted>true</sorted>
+</GlobalValueSet>

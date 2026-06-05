@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Setup in Contrax</fullName>
+        <default>false</default>
+        <label>Setup in NetSuite</label>
+    </customValue>
+    <customValue>
+        <fullName>Setup Pending Followup</fullName>
+        <default>false</default>
+        <label>Setup Pending Followup</label>
+    </customValue>
+    <customValue>
+        <fullName>No Setup Needed</fullName>
+        <default>false</default>
+        <label>No Setup Needed</label>
+    </customValue>
+    <customValue>
+        <fullName>Pending Review of Signed Contract</fullName>
+        <default>false</default>
+        <label>Pending Review of Signed Contract</label>
+    </customValue>
+    <customValue>
+        <fullName>Pending Finance Review</fullName>
+        <default>false</default>
+        <label>Pending Finance Review</label>
+    </customValue>
+    <customValue>
+        <fullName>Not Setup Yet</fullName>
+        <default>false</default>
+        <label>Not Setup Yet</label>
+    </customValue>
+    <customValue>
+        <fullName>Awaiting Additional Work/Billing</fullName>
+        <default>false</default>
+        <label>Awaiting Additional Work/Billing</label>
+    </customValue>
+    <masterLabel>NetSuite Status</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

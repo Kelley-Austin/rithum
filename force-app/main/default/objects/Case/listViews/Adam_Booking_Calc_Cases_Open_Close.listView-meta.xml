@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Adam_Booking_Calc_Cases_Open_Close</fullName>
+    <booleanFilter>1 AND 2 AND 3 AND (4 OR 5)</booleanFilter>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.CREATED_DATE</columns>
+    <columns>Estimated_Completion_Date__c</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>NAME</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>notContain</operation>
+        <value>Closed,Duplicate,Canceled</value>
+    </filters>
+    <filters>
+        <field>Contract_Help_Request_Type__c</field>
+        <operation>notEqual</operation>
+        <value>Contingent Approval</value>
+    </filters>
+    <filters>
+        <field>CASES.SUBJECT</field>
+        <operation>startsWith</operation>
+        <value>Calculation Required</value>
+    </filters>
+    <filters>
+        <field>Estimated_Completion_Date__c</field>
+        <operation>equals</operation>
+    </filters>
+    <filters>
+        <field>Estimated_Completion_Date__c</field>
+        <operation>lessThan</operation>
+        <value>2/10/2019</value>
+    </filters>
+    <label>Adam - Booking Calc Cases - Open (Close)</label>
+    <language>en_US</language>
+    <sharedTo>
+        <role>InfrastructureTeamMember</role>
+        <role>SystemAdministratorMISSalesOps</role>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Buyer__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>This is a lookup to the Contact which has a filter that will only show the Retailers Contacts.</description>
+    <label>Buyer</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Contact.AccountId</field>
+            <operation>equals</operation>
+            <value>001TN000001j0heYAA, 0016S00003JbsZtQAJ, 00100000002J4XZAA0, 001000000034VkwAAE</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Cases (Buyer)</relationshipLabel>
+    <relationshipName>Cases3</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

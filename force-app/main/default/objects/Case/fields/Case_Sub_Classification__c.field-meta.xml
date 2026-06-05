@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_Sub_Classification__c</fullName>
+    <label>Case Sub-Classification</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Case_Classification__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Financial</fullName>
+                <default>false</default>
+                <label>Financial</label>
+            </value>
+            <value>
+                <fullName>Listings</fullName>
+                <default>false</default>
+                <label>Listings</label>
+            </value>
+            <value>
+                <fullName>Orders</fullName>
+                <default>false</default>
+                <label>Orders</label>
+            </value>
+            <value>
+                <fullName>Custom</fullName>
+                <default>false</default>
+                <label>Custom</label>
+            </value>
+            <value>
+                <fullName>Buy Box</fullName>
+                <default>false</default>
+                <label>Buy Box</label>
+            </value>
+            <value>
+                <fullName>Data Import</fullName>
+                <default>false</default>
+                <label>Data Import</label>
+            </value>
+            <value>
+                <fullName>Order/Fulfillment Testing</fullName>
+                <default>false</default>
+                <label>Order/Fulfillment Testing</label>
+            </value>
+            <value>
+                <fullName>Refunds/Cancellation Testing</fullName>
+                <default>false</default>
+                <label>Refunds/Cancellation Testing</label>
+            </value>
+            <value>
+                <fullName>EMEA Strat MS OOO</fullName>
+                <default>false</default>
+                <label>EMEA Strat MS OOO</label>
+            </value>
+            <value>
+                <fullName>EMEA Ent MS OOO</fullName>
+                <default>false</default>
+                <label>EMEA Ent MS OOO</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Reporting</controllingFieldValue>
+            <valueName>Financial</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reporting</controllingFieldValue>
+            <controllingFieldValue>Error Resolution</controllingFieldValue>
+            <controllingFieldValue>Mapping and Optimization</controllingFieldValue>
+            <valueName>Listings</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reporting</controllingFieldValue>
+            <valueName>Orders</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reporting</controllingFieldValue>
+            <valueName>Custom</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reporting</controllingFieldValue>
+            <valueName>Buy Box</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>OOO</controllingFieldValue>
+            <valueName>EMEA Strat MS OOO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>OOO</controllingFieldValue>
+            <valueName>EMEA Ent MS OOO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSE Engagement</controllingFieldValue>
+            <valueName>Data Import</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSE Engagement</controllingFieldValue>
+            <valueName>Order/Fulfillment Testing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSE Engagement</controllingFieldValue>
+            <valueName>Refunds/Cancellation Testing</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

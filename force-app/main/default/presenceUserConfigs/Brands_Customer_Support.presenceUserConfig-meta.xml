@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PresenceUserConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <capacity>4</capacity>
+    <label>Brands Customer Support</label>
+    <presenceStatusOnDecline>Not_Ready_Not_Accepting_Cases</presenceStatusOnDecline>
+    <presenceStatusOnPushTimeout>Not_Ready_Not_Accepting_Cases</presenceStatusOnPushTimeout>
+</PresenceUserConfig>

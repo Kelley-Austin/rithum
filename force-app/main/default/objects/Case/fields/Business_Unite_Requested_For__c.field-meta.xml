@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Business_Unite_Requested_For__c</fullName>
+    <label>Business Unit Requested For</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Sales - US Strat</fullName>
+                <default>false</default>
+                <label>Sales - US Strat</label>
+            </value>
+            <value>
+                <fullName>Sales - US Core</fullName>
+                <default>false</default>
+                <label>Sales - US Core</label>
+            </value>
+            <value>
+                <fullName>Sales - EMEA Core</fullName>
+                <default>false</default>
+                <label>Sales - EMEA Core</label>
+            </value>
+            <value>
+                <fullName>Sales - EMEA Strat</fullName>
+                <default>false</default>
+                <label>Sales - EMEA Strat</label>
+            </value>
+            <value>
+                <fullName>Sales - APAC</fullName>
+                <default>false</default>
+                <label>Sales - APAC</label>
+            </value>
+            <value>
+                <fullName>Sales - Business Development</fullName>
+                <default>false</default>
+                <label>Sales - Business Development</label>
+            </value>
+            <value>
+                <fullName>Sales - CH</fullName>
+                <default>false</default>
+                <label>Sales - CH</label>
+            </value>
+            <value>
+                <fullName>Sales Engineering</fullName>
+                <default>false</default>
+                <label>Sales Engineering</label>
+            </value>
+            <value>
+                <fullName>Account Management</fullName>
+                <default>false</default>
+                <label>Account Management</label>
+            </value>
+            <value>
+                <fullName>Customer Success Manager</fullName>
+                <default>false</default>
+                <label>Customer Success Manager</label>
+            </value>
+            <value>
+                <fullName>Managed Services</fullName>
+                <default>false</default>
+                <label>Managed Services</label>
+            </value>
+            <value>
+                <fullName>Business Operations</fullName>
+                <default>false</default>
+                <label>Business Operations</label>
+            </value>
+            <value>
+                <fullName>Legal</fullName>
+                <default>false</default>
+                <label>Legal</label>
+            </value>
+            <value>
+                <fullName>Finance</fullName>
+                <default>false</default>
+                <label>Finance</label>
+            </value>
+            <value>
+                <fullName>Renewals</fullName>
+                <default>false</default>
+                <label>Renewals</label>
+            </value>
+            <value>
+                <fullName>Marketing</fullName>
+                <default>false</default>
+                <label>Marketing</label>
+            </value>
+            <value>
+                <fullName>Implementation</fullName>
+                <default>false</default>
+                <label>Implementation</label>
+            </value>
+            <value>
+                <fullName>Product Management</fullName>
+                <default>false</default>
+                <label>Product Management</label>
+            </value>
+            <value>
+                <fullName>Support</fullName>
+                <default>false</default>
+                <label>Support</label>
+            </value>
+            <value>
+                <fullName>Business Intelligence</fullName>
+                <default>false</default>
+                <label>Business Intelligence</label>
+            </value>
+            <value>
+                <fullName>Engineering</fullName>
+                <default>false</default>
+                <label>Engineering</label>
+            </value>
+            <value>
+                <fullName>IT</fullName>
+                <default>false</default>
+                <label>IT</label>
+            </value>
+            <value>
+                <fullName>HR</fullName>
+                <default>false</default>
+                <label>HR</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

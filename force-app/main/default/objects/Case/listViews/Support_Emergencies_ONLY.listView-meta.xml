@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Support_Emergencies_ONLY</fullName>
+    <booleanFilter>1 AND 2 AND 3 AND 4 AND 5 AND 6</booleanFilter>
+    <columns>CASES.LAST_UPDATE</columns>
+    <columns>CASES.CREATED_DATE</columns>
+    <columns>Priority_Icon__c</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>OWNER_NAME</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>Account_Name__c</columns>
+    <columns>Defect_Number__c</columns>
+    <columns>Product__c</columns>
+    <columns>Component__c</columns>
+    <columns>SubComponent__c</columns>
+    <columns>PARENT.CASE_NUMBER</columns>
+    <columns>CASES.ORIGIN</columns>
+    <columns>Region__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OWNER_NAME</field>
+        <operation>contains</operation>
+        <value>triage,unknown,Support,queue</value>
+    </filters>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>notContain</operation>
+        <value>close,junk,archive,dup,new issue,withdraw</value>
+    </filters>
+    <filters>
+        <field>OWNER_NAME</field>
+        <operation>notContain</operation>
+        <value>admin,Community,Account,channel,brands,hold,germany</value>
+    </filters>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>notEqual</operation>
+        <value>Case.Salesforce_com_Enhancement_Request</value>
+    </filters>
+    <filters>
+        <field>Routing_Priority__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>Product__c</field>
+        <operation>notContain</operation>
+        <value>Product Intelligence,Where To Buy</value>
+    </filters>
+    <label>*** Support Emergencies ONLY</label>
+    <language>en_US</language>
+    <sharedTo>
+        <roleAndSubordinatesInternal>DirectorofSupport</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Notify_Sales</fullName>
+    <availability>online</availability>
+    <description>Notify Sales team of info from Case</description>
+    <displayType>link</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>Notify Sales</masterLabel>
+    <openType>sidebar</openType>
+    <protected>false</protected>
+    <url>mailto:ussmbsales@channeladvisor.com?subject=Sales Inquiry via Support: {!Case.Subject}</url>
+</WebLink>

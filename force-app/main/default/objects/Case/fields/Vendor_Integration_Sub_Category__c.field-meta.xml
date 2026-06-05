@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vendor_Integration_Sub_Category__c</fullName>
+    <description>Vendor Integration (VI) Support case Sub Category picklist</description>
+    <label>Vendor Integration Sub Category</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Vendor_Integration_VI_Category__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>VI Documentation Question</fullName>
+                <default>false</default>
+                <label>VI Documentation Question</label>
+            </value>
+            <value>
+                <fullName>VI Other</fullName>
+                <default>false</default>
+                <label>VI Other</label>
+            </value>
+            <value>
+                <fullName>VI Request Document</fullName>
+                <default>false</default>
+                <label>VI Request Document</label>
+            </value>
+            <value>
+                <fullName>VI Training Request</fullName>
+                <default>false</default>
+                <label>VI Training Request</label>
+            </value>
+            <value>
+                <fullName>VI Setup Question</fullName>
+                <default>false</default>
+                <label>VI Setup Question</label>
+            </value>
+            <value>
+                <fullName>VI Testing Issue</fullName>
+                <default>false</default>
+                <label>VI Testing Issue</label>
+            </value>
+            <value>
+                <fullName>VI Config Change</fullName>
+                <default>false</default>
+                <label>VI Config Change</label>
+            </value>
+            <value>
+                <fullName>VI Cust Production Problem</fullName>
+                <default>false</default>
+                <label>VI Cust Production Problem</label>
+            </value>
+            <value>
+                <fullName>VI Partner Builder</fullName>
+                <default>false</default>
+                <label>VI Partner Builder</label>
+            </value>
+            <value>
+                <fullName>VI PGEN</fullName>
+                <default>false</default>
+                <label>VI PGEN</label>
+            </value>
+            <value>
+                <fullName>VI Systems</fullName>
+                <default>false</default>
+                <label>VI Systems</label>
+            </value>
+            <value>
+                <fullName>AS2 Issue</fullName>
+                <default>false</default>
+                <label>AS2 Issue</label>
+            </value>
+            <value>
+                <fullName>BPMI Support</fullName>
+                <default>false</default>
+                <label>BPMI Support</label>
+            </value>
+            <value>
+                <fullName>FTP Issue</fullName>
+                <default>false</default>
+                <label>FTP Issue</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>PGEN</fullName>
+                <default>false</default>
+                <label>PGEN</label>
+            </value>
+            <value>
+                <fullName>VAN Issue</fullName>
+                <default>false</default>
+                <label>VAN Issue</label>
+            </value>
+            <value>
+                <fullName>XR Request</fullName>
+                <default>false</default>
+                <label>XR Request</label>
+            </value>
+            <value>
+                <fullName>AS2 Update</fullName>
+                <default>false</default>
+                <label>AS2 Update</label>
+            </value>
+            <value>
+                <fullName>Configuration Change</fullName>
+                <default>false</default>
+                <label>Configuration Change</label>
+            </value>
+            <value>
+                <fullName>Documentation Request</fullName>
+                <default>false</default>
+                <label>Documentation Request</label>
+            </value>
+            <value>
+                <fullName>EDI ID Update</fullName>
+                <default>false</default>
+                <label>EDI ID Update</label>
+            </value>
+            <value>
+                <fullName>FA Nag Email</fullName>
+                <default>false</default>
+                <label>FA Nag Email</label>
+            </value>
+            <value>
+                <fullName>FTP Update</fullName>
+                <default>false</default>
+                <label>FTP Update</label>
+            </value>
+            <value>
+                <fullName>Inventory Issue</fullName>
+                <default>false</default>
+                <label>Inventory Issue</label>
+            </value>
+            <value>
+                <fullName>Packing Slip Issue</fullName>
+                <default>false</default>
+                <label>Packing Slip Issue</label>
+            </value>
+            <value>
+                <fullName>Remit ID</fullName>
+                <default>false</default>
+                <label>Remit ID</label>
+            </value>
+            <value>
+                <fullName>Terminations</fullName>
+                <default>false</default>
+                <label>Terminations</label>
+            </value>
+            <value>
+                <fullName>Training Request</fullName>
+                <default>false</default>
+                <label>Training Request</label>
+            </value>
+            <value>
+                <fullName>Vendor ID</fullName>
+                <default>false</default>
+                <label>Vendor ID</label>
+            </value>
+            <value>
+                <fullName>Project</fullName>
+                <default>false</default>
+                <label>Project</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Cust Info Request</controllingFieldValue>
+            <valueName>VI Documentation Question</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cust Info Request</controllingFieldValue>
+            <controllingFieldValue>Cust Pre Production Issue</controllingFieldValue>
+            <controllingFieldValue>VI Other</controllingFieldValue>
+            <valueName>VI Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cust Info Request</controllingFieldValue>
+            <valueName>VI Request Document</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cust Info Request</controllingFieldValue>
+            <valueName>VI Training Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cust Pre Production Issue</controllingFieldValue>
+            <valueName>VI Setup Question</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cust Pre Production Issue</controllingFieldValue>
+            <controllingFieldValue>Pre-Production Issue</controllingFieldValue>
+            <valueName>VI Testing Issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cust Production Issue</controllingFieldValue>
+            <valueName>VI Config Change</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cust Production Issue</controllingFieldValue>
+            <valueName>VI Cust Production Problem</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Internal Issue</controllingFieldValue>
+            <valueName>VI Partner Builder</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Internal Issue</controllingFieldValue>
+            <valueName>VI PGEN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Internal Issue</controllingFieldValue>
+            <valueName>VI Systems</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pre-Production Issue</controllingFieldValue>
+            <valueName>AS2 Issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pre-Production Issue</controllingFieldValue>
+            <valueName>FTP Issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pre-Production Issue</controllingFieldValue>
+            <controllingFieldValue>Production Issue</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pre-Production Issue</controllingFieldValue>
+            <valueName>PGEN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pre-Production Issue</controllingFieldValue>
+            <controllingFieldValue>Production Issue</controllingFieldValue>
+            <valueName>VAN Issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pre-Production Issue</controllingFieldValue>
+            <controllingFieldValue>Production Issue</controllingFieldValue>
+            <valueName>XR Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Production Issue</controllingFieldValue>
+            <valueName>AS2 Update</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Production Issue</controllingFieldValue>
+            <valueName>Configuration Change</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Production Issue</controllingFieldValue>
+            <valueName>Documentation Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Production Issue</controllingFieldValue>
+            <valueName>EDI ID Update</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Production Issue</controllingFieldValue>
+            <valueName>FA Nag Email</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Production Issue</controllingFieldValue>
+            <valueName>FTP Update</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Production Issue</controllingFieldValue>
+            <valueName>Inventory Issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Production Issue</controllingFieldValue>
+            <valueName>Packing Slip Issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Production Issue</controllingFieldValue>
+            <valueName>Remit ID</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Production Issue</controllingFieldValue>
+            <valueName>Terminations</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Production Issue</controllingFieldValue>
+            <valueName>Training Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Production Issue</controllingFieldValue>
+            <valueName>Vendor ID</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Project</controllingFieldValue>
+            <valueName>Project</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KB_Article_Needed__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Checkbox to mark a case with a solution for the knowledge base</description>
+    <inlineHelpText>Check this field if the solution to the case is worthy of being documented on the Wiki or any other Knowledge Base.</inlineHelpText>
+    <label>KB Article Needed</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

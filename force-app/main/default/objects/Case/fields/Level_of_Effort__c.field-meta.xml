@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Level_of_Effort__c</fullName>
+    <description>Level of effort customer perceived to have the issue resolved. Scale 1-10 where 1=Far less effort than expected and 10=Far more.</description>
+    <externalId>false</externalId>
+    <label>Level of Effort</label>
+    <length>100</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

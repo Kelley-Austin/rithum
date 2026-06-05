@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WTB_Classification__c</fullName>
+    <label>WTB Classification</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Add new country</fullName>
+                <default>false</default>
+                <label>Add new country</label>
+            </value>
+            <value>
+                <fullName>Add new retailer, existing country</fullName>
+                <default>false</default>
+                <label>Add new retailer, existing country</label>
+            </value>
+            <value>
+                <fullName>Add new sales reporting source</fullName>
+                <default>false</default>
+                <label>Add new sales reporting source</label>
+            </value>
+            <value>
+                <fullName>Add/Edit/Remove standard BR logic</fullName>
+                <default>false</default>
+                <label>Add/Edit/Remove standard BR logic</label>
+            </value>
+            <value>
+                <fullName>Remove retailer</fullName>
+                <default>false</default>
+                <label>Remove retailer</label>
+            </value>
+            <value>
+                <fullName>Remove specific products/groups/categories from retailers</fullName>
+                <default>false</default>
+                <label>Remove specific products/groups/categories from retailers</label>
+            </value>
+            <value>
+                <fullName>Add products/groups/categories from retailers</fullName>
+                <default>false</default>
+                <label>Add products/groups/categories from retailers</label>
+            </value>
+            <value>
+                <fullName>Edit retailer data</fullName>
+                <default>false</default>
+                <label>Edit retailer data</label>
+            </value>
+            <value>
+                <fullName>Provide logged info on requested changes</fullName>
+                <default>false</default>
+                <label>Provide logged info on requested changes</label>
+            </value>
+            <value>
+                <fullName>Create abstract of retailer database</fullName>
+                <default>false</default>
+                <label>Create abstract of retailer database</label>
+            </value>
+            <value>
+                <fullName>Implement new retailer API for stock info</fullName>
+                <default>false</default>
+                <label>Implement new retailer API for stock info</label>
+            </value>
+            <value>
+                <fullName>Implement SAP and dentists data sources</fullName>
+                <default>false</default>
+                <label>Implement SAP and dentists data sources</label>
+            </value>
+            <value>
+                <fullName>Third Party complaints</fullName>
+                <default>false</default>
+                <label>Third Party complaints</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

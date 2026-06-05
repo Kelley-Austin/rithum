@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Trigger_Case_Accept_Flow__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Checkbox field to trigger Case Ownership to running user flow for Service macro</description>
+    <label>Trigger Case Accept Flow</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

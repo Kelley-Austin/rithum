@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Assigned_Open_Production_Support_Cas</fullName>
+    <columns>Case_Flag__c</columns>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>Owner_Fullname__c</columns>
+    <columns>Organization_Contact__c</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>CASES.LAST_UPDATE_DATE_ONLY</columns>
+    <columns>Organization__c</columns>
+    <columns>Retailer_Organization__c</columns>
+    <columns>Organization_Type__c</columns>
+    <columns>JIRA_Ticket__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.CLOSED</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Mark_Case_for_Deletion__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Owned_by_Queue__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.Ongoing_Support</value>
+    </filters>
+    <filters>
+        <field>Closed_Junk_Spam__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>All Assigned Open Production Support Cas</label>
+</ListView>

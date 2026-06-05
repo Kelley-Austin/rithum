@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mediamint_Contractor_Time_Estimate_New</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ISBLANK(TEXT( Recurring_Case_Rate__c )),
+CONTAINS(RecordType.DeveloperName,&quot;MediaMint&quot;),
+NOT(ISPICKVAL( Status ,&quot;New&quot;)),
+ISBLANK(  Contractor_Time_Estimate__c  ),
+$Profile.Name &lt;&gt; &quot;System Administrator&quot;)</errorConditionFormula>
+    <errorMessage>Please fill in a value for &quot;CONTRACTOR TIME ESTIMATE (hrs)&quot; before moving a case out of New</errorMessage>
+</ValidationRule>

@@ -1,0 +1,760 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contract_Help_Request_Type__c</fullName>
+    <label>Request Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Contract to Draft (No DocuSign)</fullName>
+                <default>false</default>
+                <label>Contract to Draft (No DocuSign)</label>
+            </value>
+            <value>
+                <fullName>Contract to Draft + DocuSign</fullName>
+                <default>false</default>
+                <label>Contract to Draft + DocuSign</label>
+            </value>
+            <value>
+                <fullName>Legal Redlines/Edits</fullName>
+                <default>false</default>
+                <label>Legal Redlines/Edits</label>
+            </value>
+            <value>
+                <fullName>Initiate DocuSign</fullName>
+                <default>false</default>
+                <label>Initiate DocuSign</label>
+            </value>
+            <value>
+                <fullName>Update DocuSign</fullName>
+                <default>false</default>
+                <label>Update DocuSign</label>
+            </value>
+            <value>
+                <fullName>Docusign to Save</fullName>
+                <default>false</default>
+                <label>Docusign to Save</label>
+            </value>
+            <value>
+                <fullName>Contract to Activate</fullName>
+                <default>false</default>
+                <label>Contract to Activate</label>
+            </value>
+            <value>
+                <fullName>NDA to Review</fullName>
+                <default>false</default>
+                <label>NDA to Review</label>
+            </value>
+            <value>
+                <fullName>Partner Agreement</fullName>
+                <default>false</default>
+                <label>Partner Agreement</label>
+            </value>
+            <value>
+                <fullName>Partner Agreement Redlines</fullName>
+                <default>false</default>
+                <label>Partner Agreement Redlines</label>
+            </value>
+            <value>
+                <fullName>DPA/GDPR</fullName>
+                <default>false</default>
+                <label>DPA/GDPR</label>
+            </value>
+            <value>
+                <fullName>Sample Contract</fullName>
+                <default>false</default>
+                <label>Sample Contract</label>
+            </value>
+            <value>
+                <fullName>Question</fullName>
+                <default>false</default>
+                <label>Question</label>
+            </value>
+            <value>
+                <fullName>Correction</fullName>
+                <default>false</default>
+                <label>Correction</label>
+            </value>
+            <value>
+                <fullName>Payment Form</fullName>
+                <default>false</default>
+                <label>Payment Form</label>
+            </value>
+            <value>
+                <fullName>Customer Name Change</fullName>
+                <default>false</default>
+                <label>Customer Name Change</label>
+            </value>
+            <value>
+                <fullName>Customer Request (Other)</fullName>
+                <default>false</default>
+                <label>Customer Request (Other)</label>
+            </value>
+            <value>
+                <fullName>Remove DNC</fullName>
+                <default>false</default>
+                <label>Remove DNC</label>
+            </value>
+            <value>
+                <fullName>Price Increase Initiative</fullName>
+                <default>false</default>
+                <label>Price Increase Initiative</label>
+            </value>
+            <value>
+                <fullName>Content: New</fullName>
+                <default>false</default>
+                <label>Content: New</label>
+            </value>
+            <value>
+                <fullName>Design: PowerPoint Slide(s) Design</fullName>
+                <default>false</default>
+                <label>Design: PowerPoint Slide(s) Design</label>
+            </value>
+            <value>
+                <fullName>Content: Edit/Update</fullName>
+                <default>false</default>
+                <label>Content: Edit/Update</label>
+            </value>
+            <value>
+                <fullName>Creative: New Art</fullName>
+                <default>false</default>
+                <label>Creative: New Art</label>
+            </value>
+            <value>
+                <fullName>Design: Graphics Assistance</fullName>
+                <default>false</default>
+                <label>Design: Graphics Assistance</label>
+            </value>
+            <value>
+                <fullName>Email: Outage/Upgrade Notification</fullName>
+                <default>false</default>
+                <label>Email: Outage/Upgrade Notification</label>
+            </value>
+            <value>
+                <fullName>Email: Sales Insight/Marketo</fullName>
+                <default>false</default>
+                <label>Email: Sales Insight/Marketo</label>
+            </value>
+            <value>
+                <fullName>Email: Special Event/Offer</fullName>
+                <default>false</default>
+                <label>Email: Special Event/Offer</label>
+            </value>
+            <value>
+                <fullName>Email: Other (See Description)</fullName>
+                <default>false</default>
+                <label>Email: Other (See Description)</label>
+            </value>
+            <value>
+                <fullName>PR/Communications: Information Needed</fullName>
+                <default>false</default>
+                <label>PR/Communications: Information Needed</label>
+            </value>
+            <value>
+                <fullName>PR/Communications: Review/Proofread Document</fullName>
+                <default>false</default>
+                <label>PR/Communications: Review/Proofread Document</label>
+            </value>
+            <value>
+                <fullName>Website: Edit/Update</fullName>
+                <default>false</default>
+                <label>Website: Edit/Update</label>
+            </value>
+            <value>
+                <fullName>Other (See Description)</fullName>
+                <default>false</default>
+                <label>Other (See Description)</label>
+            </value>
+            <value>
+                <fullName>New Content</fullName>
+                <default>false</default>
+                <label>New Content</label>
+            </value>
+            <value>
+                <fullName>Update Content</fullName>
+                <default>false</default>
+                <label>Update Content</label>
+            </value>
+            <value>
+                <fullName>New Video</fullName>
+                <default>false</default>
+                <label>New Video</label>
+            </value>
+            <value>
+                <fullName>Video Update</fullName>
+                <default>false</default>
+                <label>Video Update</label>
+            </value>
+            <value>
+                <fullName>Archive Content</fullName>
+                <default>false</default>
+                <label>Archive Content</label>
+            </value>
+            <value>
+                <fullName>Translate Content</fullName>
+                <default>false</default>
+                <label>Translate Content</label>
+            </value>
+            <value>
+                <fullName>Data</fullName>
+                <default>false</default>
+                <label>Data</label>
+            </value>
+            <value>
+                <fullName>Image</fullName>
+                <default>false</default>
+                <label>Image</label>
+            </value>
+            <value>
+                <fullName>Reports</fullName>
+                <default>false</default>
+                <label>Reports</label>
+            </value>
+            <value>
+                <fullName>Marketing</fullName>
+                <default>false</default>
+                <label>Marketing</label>
+            </value>
+            <value>
+                <fullName>Contingent Approval</fullName>
+                <default>false</default>
+                <label>Contingent Approval</label>
+            </value>
+            <value>
+                <fullName>Feed Optimization</fullName>
+                <default>false</default>
+                <label>Feed Optimization</label>
+            </value>
+            <value>
+                <fullName>Campaign Optimization</fullName>
+                <default>false</default>
+                <label>Campaign Optimization</label>
+            </value>
+            <value>
+                <fullName>Question - Digital Marketing</fullName>
+                <default>false</default>
+                <label>Question - Digital Marketing</label>
+            </value>
+            <value>
+                <fullName>Question - Marketplaces</fullName>
+                <default>false</default>
+                <label>Question - Marketplaces</label>
+            </value>
+            <value>
+                <fullName>Question - Where to Buy</fullName>
+                <default>false</default>
+                <label>Question - Where to Buy</label>
+            </value>
+            <value>
+                <fullName>Question - ChannelAdvisor Platform</fullName>
+                <default>false</default>
+                <label>Question - ChannelAdvisor Platform</label>
+            </value>
+            <value>
+                <fullName>Evaluate Account: Are Subcontractor Services allowed?</fullName>
+                <default>false</default>
+                <label>Evaluate Account: Are Subcontractor Services allowed?</label>
+            </value>
+            <value>
+                <fullName>Vendor Agreement</fullName>
+                <default>false</default>
+                <label>Vendor Agreement</label>
+            </value>
+            <value>
+                <fullName>Ad Copy</fullName>
+                <default>false</default>
+                <label>Ad Copy</label>
+            </value>
+            <value>
+                <fullName>Ad Scheduling Tasks</fullName>
+                <default>false</default>
+                <label>Ad Scheduling Tasks</label>
+            </value>
+            <value>
+                <fullName>Base URL Updates</fullName>
+                <default>false</default>
+                <label>Base URL Updates</label>
+            </value>
+            <value>
+                <fullName>Bidding</fullName>
+                <default>false</default>
+                <label>Bidding</label>
+            </value>
+            <value>
+                <fullName>Cleanup</fullName>
+                <default>false</default>
+                <label>Cleanup</label>
+            </value>
+            <value>
+                <fullName>Clone</fullName>
+                <default>false</default>
+                <label>Clone</label>
+            </value>
+            <value>
+                <fullName>Create AB Test</fullName>
+                <default>false</default>
+                <label>Create AB Test</label>
+            </value>
+            <value>
+                <fullName>Create Super Insert</fullName>
+                <default>false</default>
+                <label>Create Super Insert</label>
+            </value>
+            <value>
+                <fullName>Create Weekly Report</fullName>
+                <default>false</default>
+                <label>Create Weekly Report</label>
+            </value>
+            <value>
+                <fullName>ERS Analysis</fullName>
+                <default>false</default>
+                <label>ERS Analysis</label>
+            </value>
+            <value>
+                <fullName>Geo-Targeting</fullName>
+                <default>false</default>
+                <label>Geo-Targeting</label>
+            </value>
+            <value>
+                <fullName>IDS</fullName>
+                <default>false</default>
+                <label>IDS</label>
+            </value>
+            <value>
+                <fullName>Keyword Build</fullName>
+                <default>false</default>
+                <label>Keyword Build</label>
+            </value>
+            <value>
+                <fullName>Keyword Growth</fullName>
+                <default>false</default>
+                <label>Keyword Growth</label>
+            </value>
+            <value>
+                <fullName>Landing Page</fullName>
+                <default>false</default>
+                <label>Landing Page</label>
+            </value>
+            <value>
+                <fullName>Landing Page Audit</fullName>
+                <default>false</default>
+                <label>Landing Page Audit</label>
+            </value>
+            <value>
+                <fullName>Pause/Unpause</fullName>
+                <default>false</default>
+                <label>Pause/Unpause</label>
+            </value>
+            <value>
+                <fullName>Project</fullName>
+                <default>false</default>
+                <label>Project</label>
+            </value>
+            <value>
+                <fullName>Remove Duplicates</fullName>
+                <default>false</default>
+                <label>Remove Duplicates</label>
+            </value>
+            <value>
+                <fullName>Systems Workflow</fullName>
+                <default>false</default>
+                <label>Systems Workflow</label>
+            </value>
+            <value>
+                <fullName>Analysis/Strategy</fullName>
+                <default>false</default>
+                <label>Analysis/Strategy</label>
+            </value>
+            <value>
+                <fullName>Technical Call</fullName>
+                <default>false</default>
+                <label>Technical Call</label>
+            </value>
+            <value>
+                <fullName>Technical Email</fullName>
+                <default>false</default>
+                <label>Technical Email</label>
+            </value>
+            <value>
+                <fullName>Product Demonstration</fullName>
+                <default>false</default>
+                <label>Product Demonstration</label>
+            </value>
+            <value>
+                <fullName>Feed Audit</fullName>
+                <default>false</default>
+                <label>Feed Audit</label>
+            </value>
+            <value>
+                <fullName>Forecast / ROI</fullName>
+                <default>false</default>
+                <label>Forecast / ROI</label>
+            </value>
+            <value>
+                <fullName>Discovery Call</fullName>
+                <default>false</default>
+                <label>Discovery Call</label>
+            </value>
+            <value>
+                <fullName>Opportunity Analysis</fullName>
+                <default>false</default>
+                <label>Opportunity Analysis</label>
+            </value>
+            <value>
+                <fullName>Opportunity Analysis Call</fullName>
+                <default>false</default>
+                <label>Opportunity Analysis Call</label>
+            </value>
+            <value>
+                <fullName>Channel Spec</fullName>
+                <default>false</default>
+                <label>Channel Spec</label>
+            </value>
+            <value>
+                <fullName>Retailer Review</fullName>
+                <default>false</default>
+                <label>Retailer Review</label>
+            </value>
+            <value>
+                <fullName>Projections</fullName>
+                <default>false</default>
+                <label>Benchmarking Review</label>
+            </value>
+            <value>
+                <fullName>F2F meeting</fullName>
+                <default>false</default>
+                <label>F2F meeting</label>
+            </value>
+            <value>
+                <fullName>RFP</fullName>
+                <default>false</default>
+                <label>RFP</label>
+            </value>
+            <value>
+                <fullName>CFS Warehouse Spec</fullName>
+                <default>false</default>
+                <label>CFS Warehouse Spec</label>
+            </value>
+            <value>
+                <fullName>Non-Guaranteed Bookings</fullName>
+                <default>false</default>
+                <label>Non-Guaranteed Bookings</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Restructure Account</fullName>
+                <default>false</default>
+                <label>Restructure Account</label>
+            </value>
+            <value>
+                <fullName>Settings</fullName>
+                <default>false</default>
+                <label>Settings</label>
+            </value>
+            <value>
+                <fullName>Uploads</fullName>
+                <default>false</default>
+                <label>Uploads</label>
+            </value>
+            <value>
+                <fullName>Upload Super Insert</fullName>
+                <default>false</default>
+                <label>Upload Super Insert</label>
+            </value>
+            <value>
+                <fullName>ABM Request</fullName>
+                <default>false</default>
+                <label>ABM Request</label>
+            </value>
+            <value>
+                <fullName>Automatic Email</fullName>
+                <default>false</default>
+                <label>Automatic Email</label>
+            </value>
+            <value>
+                <fullName>Category Mapping</fullName>
+                <default>false</default>
+                <label>Category Mapping</label>
+            </value>
+            <value>
+                <fullName>Client Calls</fullName>
+                <default>false</default>
+                <label>Client Calls</label>
+            </value>
+            <value>
+                <fullName>CSE Health Check</fullName>
+                <default>false</default>
+                <label>CSE Health Check</label>
+            </value>
+            <value>
+                <fullName>CSE Maintenance</fullName>
+                <default>false</default>
+                <label>CSE Maintenance</label>
+            </value>
+            <value>
+                <fullName>Customer Service</fullName>
+                <default>false</default>
+                <label>Customer Service</label>
+            </value>
+            <value>
+                <fullName>Fire Fighting / Troubleshooting</fullName>
+                <default>false</default>
+                <label>Fire Fighting / Troubleshooting</label>
+            </value>
+            <value>
+                <fullName>Kill Reports</fullName>
+                <default>false</default>
+                <label>Kill Reports</label>
+            </value>
+            <value>
+                <fullName>Launch Account Set up (Merchant)</fullName>
+                <default>false</default>
+                <label>Launch Account Set up (Merchant)</label>
+            </value>
+            <value>
+                <fullName>Launch Account Set up (Shopping Sites)</fullName>
+                <default>false</default>
+                <label>Launch Account Set up (Shopping Sites)</label>
+            </value>
+            <value>
+                <fullName>Launch - Testing</fullName>
+                <default>false</default>
+                <label>Launch - Testing</label>
+            </value>
+            <value>
+                <fullName>Manual Bidding</fullName>
+                <default>false</default>
+                <label>Manual Bidding</label>
+            </value>
+            <value>
+                <fullName>Manual Data Feed Creation</fullName>
+                <default>false</default>
+                <label>Manual Data Feed Creation</label>
+            </value>
+            <value>
+                <fullName>Meeting Re-cap</fullName>
+                <default>false</default>
+                <label>Meeting Re-cap</label>
+            </value>
+            <value>
+                <fullName>Product Related Issues (Analysis and Troubleshooting)</fullName>
+                <default>false</default>
+                <label>Product Related Issues (Analysis and Troubleshooting)</label>
+            </value>
+            <value>
+                <fullName>Client Security Question</fullName>
+                <default>false</default>
+                <label>Client Security Question</label>
+            </value>
+            <value>
+                <fullName>IO for AOR</fullName>
+                <default>false</default>
+                <label>IO for AOR</label>
+            </value>
+            <value>
+                <fullName>Bookings Calculation Escalation</fullName>
+                <default>false</default>
+                <label>Bookings Calculation Escalation</label>
+            </value>
+            <value>
+                <fullName>Request &quot;Payment Method&quot; Override</fullName>
+                <default>false</default>
+                <label>Request &quot;Payment Method&quot; Override</label>
+            </value>
+            <value>
+                <fullName>Request &quot;Billing Terms&quot; Override</fullName>
+                <default>false</default>
+                <label>Request &quot;Billing Terms&quot; Override</label>
+            </value>
+            <value>
+                <fullName>Routine Maintenance</fullName>
+                <default>false</default>
+                <label>Routine Maintenance</label>
+            </value>
+            <value>
+                <fullName>Customer Request</fullName>
+                <default>false</default>
+                <label>Customer Request</label>
+            </value>
+            <value>
+                <fullName>Connector Audit</fullName>
+                <default>false</default>
+                <label>Connector Audit</label>
+            </value>
+            <value>
+                <fullName>Update Special Terms</fullName>
+                <default>false</default>
+                <label>Update Special Terms</label>
+            </value>
+            <value>
+                <fullName>Spyfu Reporting</fullName>
+                <default>false</default>
+                <label>Spyfu Reporting</label>
+            </value>
+            <value>
+                <fullName>Brands</fullName>
+                <default>false</default>
+                <label>Brands</label>
+            </value>
+            <value>
+                <fullName>Account Merge Request</fullName>
+                <default>false</default>
+                <label>Account Merge Request</label>
+            </value>
+            <value>
+                <fullName>Media Release Authorization/Customer Success Story</fullName>
+                <default>false</default>
+                <label>Media Release Authorization/Customer Success Story</label>
+            </value>
+            <value>
+                <fullName>Connector Assistance</fullName>
+                <default>false</default>
+                <label>Connector Assistance</label>
+            </value>
+            <value>
+                <fullName>Comprehensive Health Check</fullName>
+                <default>false</default>
+                <label>Comprehensive Health Check</label>
+            </value>
+            <value>
+                <fullName>Training/Consulting</fullName>
+                <default>false</default>
+                <label>Training/Consulting</label>
+            </value>
+            <value>
+                <fullName>Custom Product</fullName>
+                <default>false</default>
+                <label>Custom Product</label>
+            </value>
+            <value>
+                <fullName>Feature Configuration Service</fullName>
+                <default>false</default>
+                <label>Feature Configuration Service</label>
+            </value>
+            <value>
+                <fullName>Image Resizing</fullName>
+                <default>false</default>
+                <label>Image Resizing</label>
+            </value>
+            <value>
+                <fullName>Error Resolution</fullName>
+                <default>false</default>
+                <label>Error Resolution</label>
+            </value>
+            <value>
+                <fullName>Strategy as a Service</fullName>
+                <default>false</default>
+                <label>Strategy as a Service</label>
+            </value>
+            <value>
+                <fullName>Data/PID Migration</fullName>
+                <default>false</default>
+                <label>Data/PID Migration</label>
+            </value>
+            <value>
+                <fullName>eDIT sync</fullName>
+                <default>false</default>
+                <label>eDIT sync</label>
+            </value>
+            <value>
+                <fullName>Integration Call</fullName>
+                <default>false</default>
+                <label>Integration Call</label>
+            </value>
+            <value>
+                <fullName>Dispute</fullName>
+                <default>false</default>
+                <label>Dispute</label>
+            </value>
+            <value>
+                <fullName>Managed Services Assist</fullName>
+                <default>false</default>
+                <label>Managed Services Assist</label>
+            </value>
+            <value>
+                <fullName>PreSales</fullName>
+                <default>false</default>
+                <label>PreSales</label>
+            </value>
+            <value>
+                <fullName>Salvage</fullName>
+                <default>false</default>
+                <label>Salvage</label>
+            </value>
+            <value>
+                <fullName>Handover</fullName>
+                <default>false</default>
+                <label>Handover</label>
+            </value>
+            <value>
+                <fullName>Major Legal Redlines</fullName>
+                <default>false</default>
+                <label>Major Legal Redlines</label>
+            </value>
+            <value>
+                <fullName>White Glove Account Review</fullName>
+                <default>false</default>
+                <label>White Glove Account Review</label>
+            </value>
+            <value>
+                <fullName>Customer Request for Certificate of Insurance</fullName>
+                <default>false</default>
+                <label>Customer Request for Certificate of Insurance</label>
+            </value>
+            <value>
+                <fullName>Sales Support</fullName>
+                <default>false</default>
+                <label>Sales Support</label>
+            </value>
+            <value>
+                <fullName>Unsupported Retailer Scoping</fullName>
+                <default>false</default>
+                <label>Unsupported Retailer Scoping</label>
+            </value>
+            <value>
+                <fullName>Customer Vendor Form</fullName>
+                <default>false</default>
+                <label>Customer Vendor Form</label>
+            </value>
+            <value>
+                <fullName>Channel Status</fullName>
+                <default>false</default>
+                <label>Channel Status</label>
+            </value>
+            <value>
+                <fullName>Renewal Opportunity</fullName>
+                <default>false</default>
+                <label>Renewal Opportunity</label>
+            </value>
+            <value>
+                <fullName>Non-Auto Renew Amendment</fullName>
+                <default>false</default>
+                <label>Non-Auto Renew Amendment</label>
+            </value>
+            <value>
+                <fullName>Price Change Amendment</fullName>
+                <default>false</default>
+                <label>Price Change Amendment</label>
+            </value>
+            <value>
+                <fullName>Activate Launch</fullName>
+                <default>false</default>
+                <label>Activate Launch</label>
+            </value>
+            <value>
+                <fullName>Launch or Site Swap</fullName>
+                <default>false</default>
+                <label>Launch or Site Swap</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

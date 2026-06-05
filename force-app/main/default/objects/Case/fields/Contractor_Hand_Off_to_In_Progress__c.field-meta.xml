@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contractor_Hand_Off_to_In_Progress__c</fullName>
+    <externalId>false</externalId>
+    <formula>New_to_In_Progress__c -  Contractor_Hand_Off__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Calculates time from Contractor Hand Off to when the Case is set to In progress</inlineHelpText>
+    <label>Contractor Hand Off to In Progress</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>3</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>61.0</apiVersion>
+    <description>Record-triggered time-based flow for Cases. Schedules a path 5 days after the Brands Status Datetime field is set. If the Case is still in Escalated to Engineering at that time, posts a private Chatter message and sets Status to Action Required.</description>
+    <environments>Default</environments>
+    <interviewLabel>Brands - Case, Status Timestamp {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Brands - Case, Status Timestamp</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>182</locationX>
+        <locationY>26</locationY>
+        <filterLogic>1</filterLogic>
+        <filters>
+            <field>Brands_Status_Datetime__c</field>
+            <operator>IsNull</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <object>Case</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+        <scheduledPaths>
+            <name>Five_Days_After_Timestamp</name>
+            <connector>
+                <targetReference>Is_Still_Escalated_to_Engineering</targetReference>
+            </connector>
+            <label>5 Days After Brands Status Datetime</label>
+            <offsetNumber>5</offsetNumber>
+            <offsetUnit>Days</offsetUnit>
+            <pathType>ScheduledPath</pathType>
+            <timeSource>Case.Brands_Status_Datetime__c</timeSource>
+        </scheduledPaths>
+    </start>
+    <decisions>
+        <name>Is_Still_Escalated_to_Engineering</name>
+        <label>Is Status Still Escalated to Engineering?</label>
+        <locationX>182</locationX>
+        <locationY>134</locationY>
+        <defaultConnectorLabel>No - Skip</defaultConnectorLabel>
+        <rules>
+            <name>Status_Still_Escalated</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Escalated to Engineering</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Post_Chatter_Message</targetReference>
+            </connector>
+            <label>Yes - Still Escalated</label>
+        </rules>
+    </decisions>
+    <recordCreates>
+        <description>Posts a private (internal) Chatter message on the Case explaining the automated status change</description>
+        <name>Post_Chatter_Message</name>
+        <label>Post Private Chatter Message</label>
+        <locationX>50</locationX>
+        <locationY>242</locationY>
+        <inputAssignments>
+            <field>Body</field>
+            <value>
+                <stringValue>This case has been in &quot;Escalated to Engineering&quot; status for 5 days without resolution. Status has been automatically updated to &quot;Action Required&quot;.</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>ParentId</field>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Type</field>
+            <value>
+                <stringValue>TextPost</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Visibility</field>
+            <value>
+                <stringValue>InternalUsers</stringValue>
+            </value>
+        </inputAssignments>
+        <object>FeedItem</object>
+        <storeOutputAutomatically>false</storeOutputAutomatically>
+        <connector>
+            <targetReference>Set_Status_to_Action_Required</targetReference>
+        </connector>
+    </recordCreates>
+    <recordUpdates>
+        <description>Updates the Case Status to Action Required</description>
+        <name>Set_Status_to_Action_Required</name>
+        <label>Set Status to Action Required</label>
+        <locationX>50</locationX>
+        <locationY>350</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Status</field>
+            <value>
+                <stringValue>Action Required</stringValue>
+            </value>
+        </inputAssignments>
+        <object>Case</object>
+    </recordUpdates>
+</Flow>

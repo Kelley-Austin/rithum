@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Salesforce_com_Request_Type__c</fullName>
+    <label>Salesforce.com Request Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Agency</fullName>
+                <default>false</default>
+                <label>Agency</label>
+            </value>
+            <value>
+                <fullName>Amendment</fullName>
+                <default>false</default>
+                <label>Amendment</label>
+            </value>
+            <value>
+                <fullName>Approvals</fullName>
+                <default>false</default>
+                <label>Approvals</label>
+            </value>
+            <value>
+                <fullName>Bookings</fullName>
+                <default>false</default>
+                <label>Bookings</label>
+            </value>
+            <value>
+                <fullName>Problem</fullName>
+                <default>false</default>
+                <label>Bug / Problem</label>
+            </value>
+            <value>
+                <fullName>Calidus</fullName>
+                <default>false</default>
+                <label>Callidus</label>
+            </value>
+            <value>
+                <fullName>Case Queue</fullName>
+                <default>false</default>
+                <label>Case Queue</label>
+            </value>
+            <value>
+                <fullName>Change Management</fullName>
+                <default>false</default>
+                <label>Change Management</label>
+            </value>
+            <value>
+                <fullName>Charket</fullName>
+                <default>false</default>
+                <label>Charket</label>
+            </value>
+            <value>
+                <fullName>Clicktooks</fullName>
+                <default>false</default>
+                <label>Clicktooks</label>
+            </value>
+            <value>
+                <fullName>Communities Enhancement Request</fullName>
+                <default>false</default>
+                <label>Communities</label>
+            </value>
+            <value>
+                <fullName>CPQ Release</fullName>
+                <default>false</default>
+                <label>CPQ Release</label>
+            </value>
+            <value>
+                <fullName>Data Clean-up</fullName>
+                <default>false</default>
+                <label>Data Clean-up</label>
+            </value>
+            <value>
+                <fullName>Development</fullName>
+                <default>false</default>
+                <label>Development</label>
+            </value>
+            <value>
+                <fullName>Documentation</fullName>
+                <default>false</default>
+                <label>Documentation</label>
+            </value>
+            <value>
+                <fullName>Flash Dashboard</fullName>
+                <default>false</default>
+                <label>Flash Dashboard</label>
+            </value>
+            <value>
+                <fullName>IDE Search</fullName>
+                <default>false</default>
+                <label>IDE Search</label>
+            </value>
+            <value>
+                <fullName>Integration</fullName>
+                <default>false</default>
+                <label>Integration</label>
+            </value>
+            <value>
+                <fullName>Jitterbit</fullName>
+                <default>false</default>
+                <label>Jitterbit</label>
+            </value>
+            <value>
+                <fullName>Known Issue</fullName>
+                <default>false</default>
+                <label>Known Issue</label>
+            </value>
+            <value>
+                <fullName>Lead distribution / Distrabution Engine</fullName>
+                <default>false</default>
+                <label>Lead distribution / Distrabution Engine</label>
+            </value>
+            <value>
+                <fullName>Merge Records</fullName>
+                <default>false</default>
+                <label>Merge Records</label>
+            </value>
+            <value>
+                <fullName>Milestone</fullName>
+                <default>false</default>
+                <label>Milestone</label>
+            </value>
+            <value>
+                <fullName>NDA</fullName>
+                <default>false</default>
+                <label>NDA</label>
+            </value>
+            <value>
+                <fullName>Nintex (Drawloop)</fullName>
+                <default>false</default>
+                <label>Nintex (Drawloop)</label>
+            </value>
+            <value>
+                <fullName>Non-Standard Pricing</fullName>
+                <default>false</default>
+                <label>Non-Standard Pricing</label>
+            </value>
+            <value>
+                <fullName>Org Cleanse</fullName>
+                <default>false</default>
+                <label>Org Cleanse</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Payment Method Request</fullName>
+                <default>false</default>
+                <label>Payment Method Request</label>
+            </value>
+            <value>
+                <fullName>Professional Services Agreement</fullName>
+                <default>false</default>
+                <label>Professional Services Agreement</label>
+            </value>
+            <value>
+                <fullName>Project</fullName>
+                <default>false</default>
+                <label>Project</label>
+            </value>
+            <value>
+                <fullName>Question</fullName>
+                <default>true</default>
+                <label>Question</label>
+            </value>
+            <value>
+                <fullName>Redlines</fullName>
+                <default>false</default>
+                <label>Redlines</label>
+            </value>
+            <value>
+                <fullName>Reporting</fullName>
+                <default>false</default>
+                <label>Reporting</label>
+            </value>
+            <value>
+                <fullName>Request (Change/Enhancement)</fullName>
+                <default>false</default>
+                <label>Request (Change/Enhancement)</label>
+            </value>
+            <value>
+                <fullName>RichFX Contract</fullName>
+                <default>false</default>
+                <label>RichFX Contract</label>
+            </value>
+            <value>
+                <fullName>Salesforce Analytics (Wave)</fullName>
+                <default>false</default>
+                <label>Salesforce Analytics (Wave)</label>
+            </value>
+            <value>
+                <fullName>Site Request</fullName>
+                <default>false</default>
+                <label>Site Request</label>
+            </value>
+            <value>
+                <fullName>Special Terms</fullName>
+                <default>false</default>
+                <label>Special Terms</label>
+            </value>
+            <value>
+                <fullName>Salesforce.com User Management</fullName>
+                <default>false</default>
+                <label>User Management</label>
+            </value>
+            <value>
+                <fullName>User Permissions</fullName>
+                <default>false</default>
+                <label>User Permissions</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

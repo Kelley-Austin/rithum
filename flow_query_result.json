@@ -1,0 +1,290 @@
+{
+  "status": 0,
+  "result": {
+    "records": [
+      {
+        "attributes": { "type": "Flow", "url": "/services/data/v66.0/tooling/sobjects/Flow/301TN000006r7xZYAQ" },
+        "Id": "301TN000006r7xZYAQ", "MasterLabel": "AdminCloseCase", "ProcessType": "AutoLaunchedFlow", "Status": "Active", "DefinitionId": "300TN00000DddV4YAJ"
+      },
+      {
+        "attributes": { "type": "Flow", "url": "/services/data/v66.0/tooling/sobjects/Flow/301TN00000oO6IrYAK" },
+        "Id": "301TN00000oO6IrYAK", "MasterLabel": "Alert - Onboarding Case Ownership Change", "ProcessType": "AutoLaunchedFlow", "Status": "Active", "DefinitionId": "300TN00002lZ5YdYAK"
+      },
+      {
+        "attributes": { "type": "Flow", "url": "/services/data/v66.0/tooling/sobjects/Flow/3010H000000cUVWQA2" },
+        "Id": "3010H000000cUVWQA2", "MasterLabel": "Biz Ops Update Case First Accepted Date", "ProcessType": "AutoLaunchedFlow", "Status": "Active", "DefinitionId": "3000H000000bteVQAQ"
+      },
+      {
+        "attributes": { "type": "Flow", "url": "/services/data/v66.0/tooling/sobjects/Flow/301cX00000ZIqf8QAD" },
+        "Id": "301cX00000ZIqf8QAD", "MasterLabel": "Brands - Case, Created", "ProcessType": "AutoLaunchedFlow", "Status": "Active", "DefinitionId": "300cX00000RYaXmQAL"
+      },
+      {
+        "attributes": { "type": "Flow", "url": "/services/data/v66.0/tooling/sobjects/Flow/301cX00000ZI1hYQAT" },
+        "Id": "301cX00000ZI1hYQAT", "MasterLabel": "Brands - Case, Jira Comment Received", "ProcessType": "AutoLaunchedFlow", "Status": "Active", "DefinitionId": "300cX00000RYu8IQAT"
+      },
+      {
+        "attributes": { "type": "Flow", "url": "/services/data/v66.0/tooling/sobjects/Flow/301cX00000ZIOFzQAP" },
+        "Id": "301cX00000ZIOFzQAP", "MasterLabel": "Brands - Case, Scheduled Paths", "ProcessType": "AutoLaunchedFlow", "Status": "Active", "DefinitionId": "300cX00000RZHrFQAX"
+      },
+      {
+        "attributes": { "type": "Flow", "url": "/services/data/v66.0/tooling/sobjects/Flow/301cX00000ZHHDCQA5" },
+        "Id": "301cX00000ZHHDCQA5", "MasterLabel": "Brands - Omni Channel Routing", "ProcessType": "AutoLaunchedFlow", "Status": "Active", "DefinitionId": "300cX00000RYaXlQAL"
+      },
+      {
+        "attributes": { "type": "Flow", "url": "/services/data/v66.0/tooling/sobjects/Flow/301cX00000ZHs37QAD" },
+        "Id": "301cX00000ZHs37QAD", "MasterLabel": "Brands - Sub-Flow: Notify Account Team on New Cases", "ProcessType": "AutoLaunchedFlow", "Status": "Active", "DefinitionId": "300cX00000RYw8XQAT"
+      },
+      {
+        "attributes": { "type": "Flow", "url": "/services/data/v66.0/tooling/sobjects/Flow/301TN00000F1qYhYAJ" },
+        "Id": "301TN00000F1qYhYAJ", "MasterLabel": "Business Unit Requested for Biz Ops Team Case Updates", "ProcessType": "AutoLaunchedFlow", "Status": "Active", "DefinitionId": "300TN000002EcAkYAK"
+      },
+      {
+        "attributes": { "type": "Flow", "url": "/services/data/v66.0/tooling/sobjects/Flow/3016S000000gwajQAA" },
+        "Id": "3016S000000gwajQAA", "MasterLabel": "Case - Contractor Hand Off Field ON CREATE", "ProcessType": "AutoLaunchedFlow", "Status": "Active", "DefinitionId": "3006S000000gCUKQA2"
+      },
+      {
+        "attributes": { "type": "Flow", "url": "/services/data/v66.0/tooling/sobjects/Flow/301TN00000IRJKPYA5" },
+        "Id": "301TN00000IRJKPYA5", "MasterLabel": "Case - Contractor Hand Off Field ON EDIT", "ProcessType": "AutoLaunchedFlow", "Status": "Active", "DefinitionId": "3006S000000gBw8QAE"
+      },
+      {
+        "attributes": { "type": "Flow", "url": "/services/data/v66.0/tooling/sobjects/Flow/301TN00000Sdpa0YAB" },
+        "Id": "301TN00000Sdpa0YAB", "MasterLabel": "Case Call Log Case Sync", "ProcessType": "AutoLaunchedFlow", "Status": "Active", "DefinitionId": "300TN00001A3VSTYA3"
+      },
+      {
+        "attributes": { "type": "Flow", "url": "/services/data/v66.0/tooling/sobjects/Flow/301TN00000I7kdJYAR" },
+        "Id": "301TN00000I7kdJYAR", "MasterLabel": "Case Client Success Create Actions", "ProcessType": "AutoLaunchedFlow", "Status": "Active", "DefinitionId": "300TN00000iYMbBYAW"
+      },
+      {
+        "attributes": { "type": "Flow", "url": "/services/data/v66.0/tooling/sobjects/Flow/301TN00000I81izYAB" },
+        "Id": "301TN00000I81izYAB", "MasterLabel": "Case Client Success QA", "ProcessType": "AutoLaunchedFlow", "Status": "Active", "DefinitionId": "300TN00000iYMbAYAW"
+      },
+      {
+        "attributes": { "type": "Flow", "url": "/services/data/v66.0/tooling/sobjects/Flow/301TN00000MeTxvYAF" },
+        "Id": "301TN00000MeTxvYAF", "MasterLabel": "Case Client Success Requires QA based on Classification", "ProcessType": "AutoLaunchedFlow", "Status": "Active", "DefinitionId": "300TN00000t2MrDYAU"
+      },
+      {
+        "attributes": { "type": "Flow", "url": "/services/data/v66.0/tooling/sobjects/Flow/301TN00000jbCJiYAM" },
+        "Id": "301TN00000jbCJiYAM", "MasterLabel": "Case Comment Added Exclude SCON", "ProcessType": "Workflow", "Status": "Active", "DefinitionId": "3002A000000D2GrQAK"
+      },
+      {
+        "attributes": { "type": "Flow", "url": "/services/data/v66.0/tooling/sobjects/Flow/301TN00000mBNVWYA4" },
+        "Id": "301TN00000mBNVWYA4", "MasterLabel": "Case Comment create from CCL", "ProcessType": "AutoLaunchedFlow", "Status": "Active", "DefinitionId": "300TN00002Sw4ACYAZ"
+      },
+      {
+        "attributes": { "type": "Flow", "url": "/services/data/v66.0/tooling/sobjects/Flow/3016S000000d8t4QAA" },
+        "Id": "3016S000000d8t4QAA", "MasterLabel": "Case Contractor Error/Accuracy Actions", "ProcessType": "AutoLaunchedFlow", "Status": "Active", "DefinitionId": "3006S000000c4psQAA"
+      },
+      {
+        "attributes": { "type": "Flow", "url": "/services/data/v66.0/tooling/sobjects/Flow/301TN00000kEa5xYAC" },
+        "Id": "301TN00000kEa5xYAC", "MasterLabel": "Case Entitlement Mapping Flow", "ProcessType": "AutoLaunchedFlow", "Status": "Active", "DefinitionId": "300TN00001hYSa6YAG"
+      },
+      {
+        "attributes": { "type": "Flow", "url": "/services/data/v66.0/tooling/sobjects/Flow/3010H000000cVLTQA2" },
+        "Id": "3010H000000cVLTQA2", "MasterLabel": "Case Master Process", "ProcessType": "Workflow", "Status": "Active", "DefinitionId": "3000H000000bteQQAQ"
+      },
+      {
+        "attributes": { "type": "Flow", "url": "/services/data/v66.0/tooling/sobjects/Flow/301TN000001m7v5YAA" },
+        "Id": "301TN000001m7v5YAA", "MasterLabel": "Case MediaMint Creation Actions", "ProcessType": "AutoLaunchedFlow", "Status": "Active", "DefinitionId": "3006S000000gCPFQA2"
+      },
+      {
+        "attributes": { "type": "Flow", "url": "/services/data/v66.0/tooling/sobjects/Flow/3016S000000gtm8QAA" },
+        "Id": "3016S000000gtm8QAA", "MasterLabel": "Case New to In Progress TimeStamp", "ProcessType": "AutoLaunchedFlow", "Status": "Active", "DefinitionId": "3006S000000gBvtQAE"
+      },
+      {
+        "attributes": { "type": "Flow", "url": "/services/data/v66.0/tooling/sobjects/Flow/301TN00000SEptoYAD" },
+        "Id": "301TN00000SEptoYAD", "MasterLabel": "Case Owner to Running User", "ProcessType": "AutoLaunchedFlow", "Status": "Active", "DefinitionId": "300TN00001KiohqYAB"
+      },
+      {
+        "attributes": { "type": "Flow", "url": "/services/data/v66.0/tooling/sobjects/Flow/301TN00000lnftSYAQ" },
+        "Id": "301TN00000lnftSYAQ", "MasterLabel": "Case SCON Onboarding Owner AMER/EMEA", "ProcessType": "AutoLaunchedFlow", "Status": "Active", "DefinitionId": "300TN00002Z83QGYAZ"
+      },
+      {
+        "attributes": { "type": "Flow", "url": "/services/data/v66.0/tooling/sobjects/Flow/301TN00000ml4SkYAI" },
+        "Id": "301TN00000ml4SkYAI", "MasterLabel": "Case SCONBoarding Status Change Actions", "ProcessType": "AutoLaunchedFlow", "Status": "Active", "DefinitionId": "300TN00002IsiU2YAJ"
+      },
+      {
+        "attributes": { "type": "Flow", "url": "/services/data/v66.0/tooling/sobjects/Flow/301TN00000i5ENdYAM" },
+        "Id": "301TN00000i5ENdYAM", "MasterLabel": "Case- Send Survey email on case closure", "ProcessType": "AutoLaunchedFlow", "Status": "Active", "DefinitionId": "300TN00001KiohzYAB"
+      },
+      {
+        "attributes": { "type": "Flow", "url": "/services/data/v66.0/tooling/sobjects/Flow/301TN00000cUvFyYAK" },
+        "Id": "301TN00000cUvFyYAK", "MasterLabel": "Case-Notify end user after a ticket has been Pending for 2 days (Onboarding)", "ProcessType": "AutoLaunchedFlow", "Status": "Active", "DefinitionId": "300TN00001KiohyYAB"
+      },
+      {
+        "attributes": { "type": "Flow", "url": "/services/data/v66.0/tooling/sobjects/Flow/301TN00000YVzRsYAL" },
+        "Id": "301TN00000YVzRsYAL", "MasterLabel": "Check Web Case Retailer or Supplier", "ProcessType": "AutoLaunchedFlow", "Status": "Active", "DefinitionId": "300TN00001hpzpmYAA"
+      },
+      {
+        "attributes": { "type": "Flow", "url": "/services/data/v66.0/tooling/sobjects/Flow/3016S000000QgT3QAK" },
+        "Id": "3016S000000QgT3QAK", "MasterLabel": "Closed child case updates parent and GDPR cases flow", "ProcessType": "Workflow", "Status": "Active", "DefinitionId": "3002A000000D2j5QAC"
+      },
+      {
+        "attributes": { "type": "Flow", "url": "/services/data/v66.0/tooling/sobjects/Flow/301TN00000Z0BlhYAF" },
+        "Id": "301TN00000Z0BlhYAF", "MasterLabel": "Complete milestone upon case closure", "ProcessType": "AutoLaunchedFlow", "Status": "Active", "DefinitionId": "300TN00001hYSa7YAG"
+      },
+      {
+        "attributes": { "type": "Flow", "url": "/services/data/v66.0/tooling/sobjects/Flow/301TN00000VkTQ9YAN" },
+        "Id": "301TN00000VkTQ9YAN", "MasterLabel": "Contact Status Change Triggering Lifecycle and Owner Updates", "ProcessType": "AutoLaunchedFlow", "Status": "Active", "DefinitionId": "300TN00001F1vEQYAZ"
+      },
+      {
+        "attributes": { "type": "Flow", "url": "/services/data/v66.0/tooling/sobjects/Flow/301TN00000nbJ98YAE" },
+        "Id": "301TN00000nbJ98YAE", "MasterLabel": "Contract Agreement Status Last Updated Date population", "ProcessType": "AutoLaunchedFlow", "Status": "Active", "DefinitionId": "300TN00002hiH50YAE"
+      },
+      {
+        "attributes": { "type": "Flow", "url": "/services/data/v66.0/tooling/sobjects/Flow/301TN00000XwaePYAR" },
+        "Id": "301TN00000XwaePYAR", "MasterLabel": "Count Cases on Contact", "ProcessType": "AutoLaunchedFlow", "Status": "Active", "DefinitionId": "300TN00001ejSS1YAM"
+      },
+      {
+        "attributes": { "type": "Flow", "url": "/services/data/v66.0/tooling/sobjects/Flow/301TN00000LV3iOYAT" },
+        "Id": "301TN00000LV3iOYAT", "MasterLabel": "Count Cases where Contact is Related Batch", "ProcessType": "AutoLaunchedFlow", "Status": "Active", "DefinitionId": "300TN00000sUxrcYAC"
+      },
+      {
+        "attributes": { "type": "Flow", "url": "/services/data/v66.0/tooling/sobjects/Flow/301TN00000Svy2YYAR" },
+        "Id": "301TN00000Svy2YYAR", "MasterLabel": "Create CaptivateIQ Case", "ProcessType": "AutoLaunchedFlow", "Status": "Active", "DefinitionId": "3006S0000006JQKQA2"
+      },
+      {
+        "attributes": { "type": "Flow", "url": "/services/data/v66.0/tooling/sobjects/Flow/301TN00000IykK9YAJ" },
+        "Id": "301TN00000IykK9YAJ", "MasterLabel": "CS Transaction Recipient 1 Status Update", "ProcessType": "AutoLaunchedFlow", "Status": "Active", "DefinitionId": "300TN00000VERhgYAH"
+      },
+      {
+        "attributes": { "type": "Flow", "url": "/services/data/v66.0/tooling/sobjects/Flow/3016S000000dCm6QAE" },
+        "Id": "3016S000000dCm6QAE", "MasterLabel": "Delay Project Status Stamp Upon Creation", "ProcessType": "AutoLaunchedFlow", "Status": "Active", "DefinitionId": "3006S000000gC21QAE"
+      },
+      {
+        "attributes": { "type": "Flow", "url": "/services/data/v66.0/tooling/sobjects/Flow/301TN00000K27WeYAJ" },
+        "Id": "301TN00000K27WeYAJ", "MasterLabel": "Docusign Recipient Status", "ProcessType": "Workflow", "Status": "Active", "DefinitionId": "3002A000000D2jUQAS"
+      },
+      {
+        "attributes": { "type": "Flow", "url": "/services/data/v66.0/tooling/sobjects/Flow/301TN000006IYPZYA4" },
+        "Id": "301TN000006IYPZYA4", "MasterLabel": "DocuSign Recipient Status Complete Email Alert AMER", "ProcessType": "AutoLaunchedFlow", "Status": "Active", "DefinitionId": "3006S0000009ougQAA"
+      },
+      {
+        "attributes": { "type": "Flow", "url": "/services/data/v66.0/tooling/sobjects/Flow/301TN00000Vkf9dYAB" },
+        "Id": "301TN00000Vkf9dYAB", "MasterLabel": "Docusign Status Envelope", "ProcessType": "Workflow", "Status": "Active", "DefinitionId": "3000H000000g1zZQAQ"
+      },
+      {
+        "attributes": { "type": "Flow", "url": "/services/data/v66.0/tooling/sobjects/Flow/301TN00000k6fyuYAA" },
+        "Id": "301TN00000k6fyuYAA", "MasterLabel": "Email Case Creator when Child case closes", "ProcessType": "AutoLaunchedFlow", "Status": "Active", "DefinitionId": "300TN00002SaPBeYAN"
+      },
+      {
+        "attributes": { "type": "Flow", "url": "/services/data/v66.0/tooling/sobjects/Flow/301TN00000kQclVYAS" },
+        "Id": "301TN00000kQclVYAS", "MasterLabel": "Email Support Admin Cases to ServiceNow", "ProcessType": "AutoLaunchedFlow", "Status": "Active", "DefinitionId": "3006S0000006JHcQAM"
+      },
+      {
+        "attributes": { "type": "Flow", "url": "/services/data/v66.0/tooling/sobjects/Flow/3010H000000Yh1rQAC" },
+        "Id": "3010H000000Yh1rQAC", "MasterLabel": "Finance Case Processes", "ProcessType": "Workflow", "Status": "Active", "DefinitionId": "3002A000000HSO8QAO"
+      },
+      {
+        "attributes": { "type": "Flow", "url": "/services/data/v66.0/tooling/sobjects/Flow/3010H000000DchbQAC" },
+        "Id": "3010H000000DchbQAC", "MasterLabel": "General Case Processes (on Create and Edit)", "ProcessType": "Workflow", "Status": "Active", "DefinitionId": "3002A000000HSYwQAO"
+      },
+      {
+        "attributes": { "type": "Flow", "url": "/services/data/v66.0/tooling/sobjects/Flow/3012A000000ULVHQA4" },
+        "Id": "3012A000000ULVHQA4", "MasterLabel": "InventoryChangeProtectException Case Set to Emergency", "ProcessType": "Workflow", "Status": "Active", "DefinitionId": "3002A000000D377QAC"
+      },
+      {
+        "attributes": { "type": "Flow", "url": "/services/data/v66.0/tooling/sobjects/Flow/301TN00000lJYEHYA4" },
+        "Id": "301TN00000lJYEHYA4", "MasterLabel": "Lead Status Change Triggering Lifecycle and Owner Updates", "ProcessType": "AutoLaunchedFlow", "Status": "Active", "DefinitionId": "300TN00001F1vEUYAZ"
+      },
+      {
+        "attributes": { "type": "Flow", "url": "/services/data/v66.0/tooling/sobjects/Flow/301TN00000QfCRLYA3" },
+        "Id": "301TN00000QfCRLYA3", "MasterLabel": "Lead Status Prior to Converted", "ProcessType": "AutoLaunchedFlow", "Status": "Active", "DefinitionId": "300TN00001F1vEVYAZ"
+      },
+      {
+        "attributes": { "type": "Flow", "url": "/services/data/v66.0/tooling/sobjects/Flow/301TN00000Wlkg7YAB" },
+        "Id": "301TN00000Wlkg7YAB", "MasterLabel": "Marketing Lifecycle and Status Mapping On Lead Conversion From Contact", "ProcessType": "AutoLaunchedFlow", "Status": "Active", "DefinitionId": "300TN00001F1vEWYAZ"
+      },
+      {
+        "attributes": { "type": "Flow", "url": "/services/data/v66.0/tooling/sobjects/Flow/3010H000000cVUMQA2" },
+        "Id": "3010H000000cVUMQA2", "MasterLabel": "New Case Comment Email Alert", "ProcessType": "InvocableProcess", "Status": "Active", "DefinitionId": "3002A000000D2GwQAK"
+      },
+      {
+        "attributes": { "type": "Flow", "url": "/services/data/v66.0/tooling/sobjects/Flow/3010H000000cU5TQAU" },
+        "Id": "3010H000000cU5TQAU", "MasterLabel": "New Client or Existing Customer Case Creation", "ProcessType": "Workflow", "Status": "Active", "DefinitionId": "3002A000000D2hiQAC"
+      },
+      {
+        "attributes": { "type": "Flow", "url": "/services/data/v66.0/tooling/sobjects/Flow/301TN00000VqvDFYAZ" },
+        "Id": "301TN00000VqvDFYAZ", "MasterLabel": "New Contact Create Lead Source and Status Update", "ProcessType": "AutoLaunchedFlow", "Status": "Active", "DefinitionId": "300TN00001VN7T4YAL"
+      },
+      {
+        "attributes": { "type": "Flow", "url": "/services/data/v66.0/tooling/sobjects/Flow/301TN00000DoRryYAF" },
+        "Id": "301TN00000DoRryYAF", "MasterLabel": "Opportunity - Auto Populate Renewal Status \"Completed - Renewed\"", "ProcessType": "AutoLaunchedFlow", "Status": "Active", "DefinitionId": "300TN00000UehxrYAB"
+      },
+      {
+        "attributes": { "type": "Flow", "url": "/services/data/v66.0/tooling/sobjects/Flow/3010H000000Yh8TQAS" },
+        "Id": "3010H000000Yh8TQAS", "MasterLabel": "Personal Queue Case Assignment", "ProcessType": "Workflow", "Status": "Active", "DefinitionId": "3002A000000D3F6QAK"
+      },
+      {
+        "attributes": { "type": "Flow", "url": "/services/data/v66.0/tooling/sobjects/Flow/301TN00000Flz94YAB" },
+        "Id": "301TN00000Flz94YAB", "MasterLabel": "Project Owner or Status Change Email Alerts", "ProcessType": "AutoLaunchedFlow", "Status": "Active", "DefinitionId": "300TN00000avs5SYAQ"
+      },
+      {
+        "attributes": { "type": "Flow", "url": "/services/data/v66.0/tooling/sobjects/Flow/301TN00000PUOw9YAH" },
+        "Id": "301TN00000PUOw9YAH", "MasterLabel": "Recurring Case Cancel Terminated Customer", "ProcessType": "AutoLaunchedFlow", "Status": "Active", "DefinitionId": "300TN00001AHSpeYAH"
+      },
+      {
+        "attributes": { "type": "Flow", "url": "/services/data/v66.0/tooling/sobjects/Flow/301TN00000alvirYAA" },
+        "Id": "301TN00000alvirYAA", "MasterLabel": "Sales Activity Triggering Update to Lead or Contact Status", "ProcessType": "AutoLaunchedFlow", "Status": "Active", "DefinitionId": "300TN00001F1vEZYAZ"
+      },
+      {
+        "attributes": { "type": "Flow", "url": "/services/data/v66.0/tooling/sobjects/Flow/301TN00000D4H2nYAF" },
+        "Id": "301TN00000D4H2nYAF", "MasterLabel": "SE Case Rollup to Opp", "ProcessType": "AutoLaunchedFlow", "Status": "Active", "DefinitionId": "300TN00000S3mL4YAJ"
+      },
+      {
+        "attributes": { "type": "Flow", "url": "/services/data/v66.0/tooling/sobjects/Flow/301TN00000k1DbpYAE" },
+        "Id": "301TN00000k1DbpYAE", "MasterLabel": "Set Email Message date/time fields on Cases", "ProcessType": "AutoLaunchedFlow", "Status": "Active", "DefinitionId": "300TN00001hYSaBYAW"
+      },
+      {
+        "attributes": { "type": "Flow", "url": "/services/data/v66.0/tooling/sobjects/Flow/3012A000000HZR6QAO" },
+        "Id": "3012A000000HZR6QAO", "MasterLabel": "Set Support Case Category", "ProcessType": "Workflow", "Status": "Active", "DefinitionId": "3002A000000D3IFQA0"
+      },
+      {
+        "attributes": { "type": "Flow", "url": "/services/data/v66.0/tooling/sobjects/Flow/301TN00000dKmA9YAK" },
+        "Id": "301TN00000dKmA9YAK", "MasterLabel": "Stamp 'Case Initiated By' field - Production Support", "ProcessType": "AutoLaunchedFlow", "Status": "Active", "DefinitionId": "300TN000020jRfvYAE"
+      },
+      {
+        "attributes": { "type": "Flow", "url": "/services/data/v66.0/tooling/sobjects/Flow/301TN00000V5Ic1YAF" },
+        "Id": "301TN00000V5Ic1YAF", "MasterLabel": "Stamp Case DSCO Internal Tool Link (hidden) field", "ProcessType": "AutoLaunchedFlow", "Status": "Active", "DefinitionId": "300TN00001SFsHJYA1"
+      },
+      {
+        "attributes": { "type": "Flow", "url": "/services/data/v66.0/tooling/sobjects/Flow/301TN00000X0D0fYAF" },
+        "Id": "301TN00000X0D0fYAF", "MasterLabel": "Stamp Case Jira issue link (hidden) field", "ProcessType": "AutoLaunchedFlow", "Status": "Active", "DefinitionId": "300TN00001aVkCbYAK"
+      },
+      {
+        "attributes": { "type": "Flow", "url": "/services/data/v66.0/tooling/sobjects/Flow/301TN00000PMBEXYA5" },
+        "Id": "301TN00000PMBEXYA5", "MasterLabel": "Status Last modified by", "ProcessType": "AutoLaunchedFlow", "Status": "Active", "DefinitionId": "300TN000019rUf0YAE"
+      },
+      {
+        "attributes": { "type": "Flow", "url": "/services/data/v66.0/tooling/sobjects/Flow/301TN00000N9NoCYAV" },
+        "Id": "301TN00000N9NoCYAV", "MasterLabel": "Sync the status for Parent & Child Contract Agreement", "ProcessType": "AutoLaunchedFlow", "Status": "Active", "DefinitionId": "300TN00000VERhjYAH"
+      },
+      {
+        "attributes": { "type": "Flow", "url": "/services/data/v66.0/tooling/sobjects/Flow/301TN00000NrDwLYAV" },
+        "Id": "301TN00000NrDwLYAV", "MasterLabel": "Task to Case total Duration FLow Create Only", "ProcessType": "AutoLaunchedFlow", "Status": "Active", "DefinitionId": "300TN000013WjeAYAS"
+      },
+      {
+        "attributes": { "type": "Flow", "url": "/services/data/v66.0/tooling/sobjects/Flow/301TN00000SEpttYAD" },
+        "Id": "301TN00000SEpttYAD", "MasterLabel": "Update Case Owner as Chat Owner", "ProcessType": "AutoLaunchedFlow", "Status": "Active", "DefinitionId": "300TN00001KiohvYAB"
+      },
+      {
+        "attributes": { "type": "Flow", "url": "/services/data/v66.0/tooling/sobjects/Flow/301TN00000XadawYAB" },
+        "Id": "301TN00000XadawYAB", "MasterLabel": "Update Case status for incoming email", "ProcessType": "AutoLaunchedFlow", "Status": "Active", "DefinitionId": "300TN00001KiohwYAB"
+      },
+      {
+        "attributes": { "type": "Flow", "url": "/services/data/v66.0/tooling/sobjects/Flow/301TN00000SEptvYAD" },
+        "Id": "301TN00000SEptvYAD", "MasterLabel": "Update organization Account on Case", "ProcessType": "AutoLaunchedFlow", "Status": "Active", "DefinitionId": "300TN00001KiohxYAB"
+      },
+      {
+        "attributes": { "type": "Flow", "url": "/services/data/v66.0/tooling/sobjects/Flow/301TN00000XwaeRYAR" },
+        "Id": "301TN00000XwaeRYAR", "MasterLabel": "Weekly Run of \"Count Cases on Contact\" flow through Batch Management", "ProcessType": "AutoLaunchedFlow", "Status": "Active", "DefinitionId": "300TN00001ejSS3YAM"
+      },
+      {
+        "attributes": { "type": "Flow", "url": "/services/data/v66.0/tooling/sobjects/Flow/301TN00000M2hozYAB" },
+        "Id": "301TN00000M2hozYAB", "MasterLabel": "Weekly Run of \"Count Cases where Contact is Related Batch\" flow through Batch Management", "ProcessType": "AutoLaunchedFlow", "Status": "Active", "DefinitionId": "300TN00000sUxreYAC"
+      }
+    ],
+    "totalSize": 70,
+    "done": true
+  },
+  "warnings": []
+}

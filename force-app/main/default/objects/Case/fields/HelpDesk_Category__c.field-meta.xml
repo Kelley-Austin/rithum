@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HelpDesk_Category__c</fullName>
+    <label>HelpDesk Category</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Development Environment Problems</fullName>
+                <default>false</default>
+                <label>Development Environment Problems</label>
+            </value>
+            <value>
+                <fullName>Email Problem</fullName>
+                <default>false</default>
+                <label>Email Problem</label>
+            </value>
+            <value>
+                <fullName>Equipment Problem</fullName>
+                <default>false</default>
+                <label>Equipment Problem</label>
+            </value>
+            <value>
+                <fullName>Equipment Request</fullName>
+                <default>false</default>
+                <label>Equipment Request</label>
+            </value>
+            <value>
+                <fullName>New Support Mailbox/Email Address</fullName>
+                <default>false</default>
+                <label>New Support Mailbox/Email Address</label>
+            </value>
+            <value>
+                <fullName>New User Request</fullName>
+                <default>false</default>
+                <label>New User Request</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Security/Permissions</fullName>
+                <default>false</default>
+                <label>Security/Permissions</label>
+            </value>
+            <value>
+                <fullName>Software Problem</fullName>
+                <default>false</default>
+                <label>Software Problem</label>
+            </value>
+            <value>
+                <fullName>Software Request</fullName>
+                <default>false</default>
+                <label>Software Request</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

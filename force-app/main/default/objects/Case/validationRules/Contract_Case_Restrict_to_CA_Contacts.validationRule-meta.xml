@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contract_Case_Restrict_to_CA_Contacts</fullName>
+    <active>true</active>
+    <errorConditionFormula>OR($RecordType.Id = &quot;012000000000j1H&quot;,($RecordType.Id = &quot;012000000000g0D&quot; &amp;&amp;  ISPICKVAL(Origin,&quot;Credit Check Button&quot;)))  &amp;&amp;  
+Contact.Account_18_Digit_ID__c  &lt;&gt; &quot;001000000034Nt8AAE&quot; &amp;&amp;
+/*Rithum account id*/ 
+Contact.Account_18_Digit_ID__c  &lt;&gt; &quot;0012A00002S3drbQAB&quot; &amp;&amp;
+/*Rithum_Archive account id*/
+Contact.Account_18_Digit_ID__c  &lt;&gt; &quot;001F000000ku5TSIAY&quot; &amp;&amp;
+/*Commerce Technologies, LLC dba CommerceHub account id*/
+$Profile.Name &lt;&gt; &quot;SystemAccess&quot; &amp;&amp; 
+NOT(ISPICKVAL(Origin,&quot;Email-Data Privacy or GDPR&quot;))</errorConditionFormula>
+    <errorDisplayField>ContactId</errorDisplayField>
+    <errorMessage>The Case Contact with this Contract Help Request needs to be a Rithum employee! This person will receive all notifications on the status of this case. Choose your Contact at the Rithum Account.</errorMessage>
+</ValidationRule>

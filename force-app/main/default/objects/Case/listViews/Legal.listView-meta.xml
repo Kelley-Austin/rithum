@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Legal</fullName>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.Contract_Help_Request</value>
+    </filters>
+    <label>Legal</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>Legal</group>
+    </sharedTo>
+</ListView>

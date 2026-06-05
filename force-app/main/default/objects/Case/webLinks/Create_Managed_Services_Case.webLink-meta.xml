@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Create_Managed_Services_Case</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>Create Managed Services Case</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>/500/e?
+CF00N00000006ypfy={!Case.Contract__c}
+&amp;CF00N00000006ypfy_lkid={!Contract.Id}
+&amp;retURL=%2F{!Case.ContractId__c}
+&amp;cas28={!Case.CaseNumber}
+&amp;RecordType=012F0000001Er5H
+&amp;cas8=Low
+&amp;cas11=Contract+Help+Request+Button
+&amp;cas4={!Case.Account}&amp;cas4_lkid={!Case.AccountId}
+&amp;cas3_lkid={!$User.Contact_SF_ID__c}
+&amp;cas3={!URLENCODE($User.FirstName)} {!URLENCODE($User.LastName)}
+&amp;cas21=1
+&amp;ent=Case</url>
+</WebLink>

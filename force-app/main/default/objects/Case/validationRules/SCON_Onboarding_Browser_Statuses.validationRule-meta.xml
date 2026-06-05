@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SCON_Onboarding_Browser_Statuses</fullName>
+    <active>false</active>
+    <errorConditionFormula>AND(
+RecordType.DeveloperName =&quot;SCON_Onboarding&quot;,
+ISPICKVAL(Connection_Type__c ,&quot;Browser&quot;),
+OR(
+ISPICKVAL(Status ,&quot;Test Preparation&quot;),
+ISPICKVAL(Status ,&quot;Testing&quot;),
+ISPICKVAL(Status ,&quot;Needs MIgration&quot;))
+)</errorConditionFormula>
+    <errorMessage>SCON Onboarding Cases with the Connection type of Browser only use the &quot;New&quot; and &quot;Migrated&quot; statuses</errorMessage>
+</ValidationRule>

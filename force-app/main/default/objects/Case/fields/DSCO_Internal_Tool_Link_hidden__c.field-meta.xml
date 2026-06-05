@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DSCO_Internal_Tool_Link_hidden__c</fullName>
+    <description>Hidden text field to provide for Global Search lookup to field value as URL&apos;s data type fields are not currently supported in global search queries</description>
+    <label>DSCO Internal Tool Link (hidden)</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

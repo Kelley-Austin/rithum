@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>61.0</apiVersion>
+    <description>Triggers on Brands Case creation. Launches the Omni-Channel routing flow, and the Notify Account Team on New Cases Flow</description>
+    <environments>Default</environments>
+    <interviewLabel>Brands - Case, Created {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Brands - Case, Created</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Launch_Omni_Channel_Routing</targetReference>
+        </connector>
+        <filterLogic>1 AND (2 OR 3)</filterLogic>
+        <filters>
+            <field>Platform__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Brands</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Record_Type_Name__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Support_Admin</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Record_Type_Name__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Ongoing_Support</stringValue>
+            </value>
+        </filters>
+        <object>Case</object>
+        <recordTriggerType>Create</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+    <subflows>
+        <name>Launch_Omni_Channel_Routing</name>
+        <label>Launch Brands - Omni Channel Routing</label>
+        <locationX>176</locationX>
+        <locationY>323</locationY>
+        <connector>
+            <targetReference>Notify_Account_Team_on_New_Cases</targetReference>
+        </connector>
+        <flowName>Brands_Omni_Channel_Routing</flowName>
+        <inputAssignments>
+            <name>inputCase</name>
+            <value>
+                <elementReference>$Record</elementReference>
+            </value>
+        </inputAssignments>
+    </subflows>
+    <subflows>
+        <name>Notify_Account_Team_on_New_Cases</name>
+        <label>Notify Account Team on New Cases</label>
+        <locationX>176</locationX>
+        <locationY>431</locationY>
+        <flowName>Brands_Sub_Flow_Notify_Account_Team_on_New_Cases</flowName>
+        <inputAssignments>
+            <name>varR_Case</name>
+            <value>
+                <elementReference>$Record</elementReference>
+            </value>
+        </inputAssignments>
+    </subflows>
+</Flow>

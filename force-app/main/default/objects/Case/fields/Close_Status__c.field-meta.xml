@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Close_Status__c</fullName>
+    <label>Close Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Closed - Resolved</fullName>
+                <default>false</default>
+                <label>Closed - Resolved</label>
+            </value>
+            <value>
+                <fullName>Closed by Customer</fullName>
+                <default>false</default>
+                <label>Closed by Customer</label>
+            </value>
+            <value>
+                <fullName>Closed - Answered on Forum</fullName>
+                <default>false</default>
+                <label>Closed - Answered on Forum</label>
+            </value>
+            <value>
+                <fullName>Closed - Junk/Spam</fullName>
+                <default>false</default>
+                <label>Closed - Junk/Spam</label>
+            </value>
+            <value>
+                <fullName>Closed - Duplicate</fullName>
+                <default>false</default>
+                <label>Closed - Duplicate</label>
+            </value>
+            <value>
+                <fullName>Closed- Sales Team Referral</fullName>
+                <default>false</default>
+                <label>Closed- Sales Team Referral</label>
+            </value>
+            <value>
+                <fullName>Closed- Termination/Grievance</fullName>
+                <default>false</default>
+                <label>Closed- Termination/Grievance</label>
+            </value>
+            <value>
+                <fullName>Enhancement Request Submitted</fullName>
+                <default>false</default>
+                <label>Enhancement Request Submitted</label>
+            </value>
+            <value>
+                <fullName>Archived</fullName>
+                <default>false</default>
+                <label>Archived</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

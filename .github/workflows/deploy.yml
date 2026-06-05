@@ -1,0 +1,37 @@
+name: Deploy to Salesforce
+
+on:
+  push:
+    branches:
+      - developer/**
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Salesforce CLI
+        run: npm install -g @salesforce/cli
+
+      - name: Authenticate to Salesforce
+        run: |
+          echo "${{ secrets.RITHUM_SFDX_URL }}" > sfdx-auth-url.txt
+          sf org login sfdx-url --sfdx-url-file sfdx-auth-url.txt --alias target-org
+          rm sfdx-auth-url.txt
+
+      - name: Deploy metadata
+        run: |
+          if [ -f manifest/destructiveChangesPost.xml ] && grep -q '<members>' manifest/destructiveChangesPost.xml; then
+            echo "Running destructive deploy..."
+            sf project deploy start \
+              --metadata-dir manifest \
+              --target-org target-org \
+              --wait 30
+          fi
+          echo "Deploying via package.xml..."
+          sf project deploy start \
+            --manifest manifest/package.xml \
+            --target-org target-org \
+            --test-level NoTestRun \
+            --wait 30

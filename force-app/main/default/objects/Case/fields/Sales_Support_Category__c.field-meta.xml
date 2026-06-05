@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sales_Support_Category__c</fullName>
+    <description>Category picklist for Sales Support process</description>
+    <label>Sales Support Category</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Accounting Issue</fullName>
+                <default>false</default>
+                <label>Accounting Issue</label>
+            </value>
+            <value>
+                <fullName>Change Order</fullName>
+                <default>false</default>
+                <label>Change Order</label>
+            </value>
+            <value>
+                <fullName>Dsco Platform</fullName>
+                <default>false</default>
+                <label>Dsco Platform</label>
+            </value>
+            <value>
+                <fullName>Inactive Vendor</fullName>
+                <default>false</default>
+                <label>Inactive Vendor</label>
+            </value>
+            <value>
+                <fullName>Internal New Request with SS</fullName>
+                <default>false</default>
+                <label>Internal New Request with SS</label>
+            </value>
+            <value>
+                <fullName>Lead</fullName>
+                <default>false</default>
+                <label>Lead</label>
+            </value>
+            <value>
+                <fullName>Legal</fullName>
+                <default>false</default>
+                <label>Legal</label>
+            </value>
+            <value>
+                <fullName>Name Change</fullName>
+                <default>false</default>
+                <label>Name Change</label>
+            </value>
+            <value>
+                <fullName>Offline Contracts</fullName>
+                <default>false</default>
+                <label>Offline Contracts</label>
+            </value>
+            <value>
+                <fullName>Project Escalations</fullName>
+                <default>false</default>
+                <label>Project Escalations</label>
+            </value>
+            <value>
+                <fullName>Retailer Escalation</fullName>
+                <default>false</default>
+                <label>Retailer Escalation</label>
+            </value>
+            <value>
+                <fullName>Retailer Inquiry</fullName>
+                <default>false</default>
+                <label>Retailer Inquiry</label>
+            </value>
+            <value>
+                <fullName>Retailer new request</fullName>
+                <default>false</default>
+                <label>Retailer new request</label>
+            </value>
+            <value>
+                <fullName>SPAM</fullName>
+                <default>false</default>
+                <label>SPAM</label>
+            </value>
+            <value>
+                <fullName>Supplier Inquiry</fullName>
+                <default>false</default>
+                <label>Supplier Inquiry</label>
+            </value>
+            <value>
+                <fullName>Supplier Payment</fullName>
+                <default>false</default>
+                <label>Supplier Payment</label>
+            </value>
+            <value>
+                <fullName>Terminations</fullName>
+                <default>false</default>
+                <label>Terminations</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

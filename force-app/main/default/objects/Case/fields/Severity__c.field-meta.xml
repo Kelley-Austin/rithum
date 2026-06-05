@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Severity__c</fullName>
+    <description>Severity level to help Ops determine what needs more attention.  Set by CSA&apos;s.</description>
+    <inlineHelpText>Severity level to help Ops determine what needs more attention.  Set by CSA&apos;s.</inlineHelpText>
+    <label>Severity</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>5 - Minor level issue</fullName>
+                <default>false</default>
+                <label>5 - Minor level issue</label>
+            </value>
+            <value>
+                <fullName>4 - Low: affects one account, but not a showstopper.</fullName>
+                <default>true</default>
+                <label>4 - Low: affects one account, but not a showstopper.</label>
+            </value>
+            <value>
+                <fullName>3 - Medium: affects many accounts, but not a showstopper.</fullName>
+                <default>false</default>
+                <label>3 - Medium: affects many accounts, but not a showstopper.</label>
+            </value>
+            <value>
+                <fullName>2 - High: affects one account that can not do business.</fullName>
+                <default>false</default>
+                <label>2 - High: affects one account that can not do business.</label>
+            </value>
+            <value>
+                <fullName>1 - Critical: affects many accounts that can not do business.</fullName>
+                <default>false</default>
+                <label>1 - Critical: affects many accounts that can not do business.</label>
+            </value>
+            <value>
+                <fullName>High</fullName>
+                <default>false</default>
+                <label>High</label>
+            </value>
+            <value>
+                <fullName>Normal</fullName>
+                <default>false</default>
+                <label>Normal</label>
+            </value>
+            <value>
+                <fullName>Low</fullName>
+                <default>false</default>
+                <label>Low</label>
+            </value>
+            <value>
+                <fullName>Critical</fullName>
+                <default>false</default>
+                <label>Critical</label>
+            </value>
+            <value>
+                <fullName>Medium</fullName>
+                <default>false</default>
+                <label>Medium</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

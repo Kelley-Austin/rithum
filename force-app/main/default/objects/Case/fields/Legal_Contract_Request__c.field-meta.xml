@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Legal_Contract_Request__c</fullName>
+    <label>Legal/Contract Request</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Contract to Activate</fullName>
+                <default>false</default>
+                <label>Contract to Activate</label>
+            </value>
+            <value>
+                <fullName>Contract to Draft</fullName>
+                <default>false</default>
+                <label>Contract to Draft</label>
+            </value>
+            <value>
+                <fullName>Docusign to Save</fullName>
+                <default>false</default>
+                <label>Docusign to Save</label>
+            </value>
+            <value>
+                <fullName>Legal Approval Required: Template</fullName>
+                <default>false</default>
+                <label>Legal Approval Required: Template</label>
+            </value>
+            <value>
+                <fullName>Legal Approval Required: Website Content</fullName>
+                <default>false</default>
+                <label>Legal Approval Required: Website Content</label>
+            </value>
+            <value>
+                <fullName>NDA To Process</fullName>
+                <default>false</default>
+                <label>NDA To Process</label>
+            </value>
+            <value>
+                <fullName>NDA to Review</fullName>
+                <default>false</default>
+                <label>NDA to Review</label>
+            </value>
+            <value>
+                <fullName>Other (See Description)</fullName>
+                <default>false</default>
+                <label>Other (See Description)</label>
+            </value>
+            <value>
+                <fullName>Payment Form</fullName>
+                <default>false</default>
+                <label>Payment Form</label>
+            </value>
+            <value>
+                <fullName>Question</fullName>
+                <default>false</default>
+                <label>Question</label>
+            </value>
+            <value>
+                <fullName>Redlines (Contract changes)</fullName>
+                <default>false</default>
+                <label>Redlines (Contract changes)</label>
+            </value>
+            <value>
+                <fullName>Resend Docusign</fullName>
+                <default>false</default>
+                <label>Resend Docusign</label>
+            </value>
+            <value>
+                <fullName>Send agreement through DocuSign</fullName>
+                <default>false</default>
+                <label>Send agreement through DocuSign</label>
+            </value>
+            <value>
+                <fullName>Update Existing Docusign</fullName>
+                <default>false</default>
+                <label>Update Existing Docusign</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>7</visibleLines>
+</CustomField>

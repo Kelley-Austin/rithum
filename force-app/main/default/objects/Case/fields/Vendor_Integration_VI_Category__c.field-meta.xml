@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vendor_Integration_VI_Category__c</fullName>
+    <description>Category field for Vendor Integration (VI) Support</description>
+    <label>Vendor Integration Category</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Change Compliance</fullName>
+                <default>false</default>
+                <label>Change Compliance</label>
+            </value>
+            <value>
+                <fullName>Cust Info Request</fullName>
+                <default>false</default>
+                <label>Cust Info Request</label>
+            </value>
+            <value>
+                <fullName>Cust Pre Production Issue</fullName>
+                <default>false</default>
+                <label>Cust Pre Production Issue</label>
+            </value>
+            <value>
+                <fullName>Cust Production Issue</fullName>
+                <default>false</default>
+                <label>Cust Production Issue</label>
+            </value>
+            <value>
+                <fullName>Internal Issue</fullName>
+                <default>false</default>
+                <label>Internal Issue</label>
+            </value>
+            <value>
+                <fullName>Pre-Production Issue</fullName>
+                <default>false</default>
+                <label>Pre-Production Issue</label>
+            </value>
+            <value>
+                <fullName>Production Issue</fullName>
+                <default>false</default>
+                <label>Production Issue</label>
+            </value>
+            <value>
+                <fullName>Project</fullName>
+                <default>false</default>
+                <label>Project</label>
+            </value>
+            <value>
+                <fullName>VI Other</fullName>
+                <default>false</default>
+                <label>VI Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

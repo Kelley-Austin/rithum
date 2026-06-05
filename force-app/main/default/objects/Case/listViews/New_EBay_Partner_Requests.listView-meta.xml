@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_EBay_Partner_Requests</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>NAME</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.EMAIL</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>CASES.CREATED_DATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.ORIGIN</field>
+        <operation>contains</operation>
+        <value>BD Request - eBay</value>
+    </filters>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.BD_Request</value>
+    </filters>
+    <filters>
+        <field>CASES.SUBJECT</field>
+        <operation>contains</operation>
+        <value>ebay</value>
+    </filters>
+    <filters>
+        <field>Marketplace_Status__c</field>
+        <operation>equals</operation>
+        <value>New Referral Request</value>
+    </filters>
+    <label>New EBay Partner Requests</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>All_Internal_Users_excl_Subcontractors</group>
+    </sharedTo>
+</ListView>

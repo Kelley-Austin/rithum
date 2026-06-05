@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Walmart_partner_request</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>Marketplace_Status__c</columns>
+    <columns>NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Account_Status__c</columns>
+    <columns>CASES.EMAIL</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.ORIGIN</columns>
+    <columns>CASES.CREATED_DATE</columns>
+    <columns>CASES.LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.BD_Request</value>
+    </filters>
+    <filters>
+        <field>CASES.SUBJECT</field>
+        <operation>contains</operation>
+        <value>Walmart</value>
+    </filters>
+    <filters>
+        <field>CASES.EMAIL</field>
+        <operation>notContain</operation>
+        <value>channeladvisor.com</value>
+    </filters>
+    <filters>
+        <field>CASES.ORIGIN</field>
+        <operation>equals</operation>
+        <value>BD Request - Walmart,From Walmart Opportunity List</value>
+    </filters>
+    <label>Walmart partner request</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>All_Internal_Users_excl_Subcontractors</group>
+    </sharedTo>
+</ListView>

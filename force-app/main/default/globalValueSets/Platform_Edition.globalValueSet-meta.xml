@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Complete</fullName>
+        <default>true</default>
+        <label>Complete</label>
+    </customValue>
+    <customValue>
+        <fullName>Elevate</fullName>
+        <default>false</default>
+        <label>Elevate</label>
+    </customValue>
+    <customValue>
+        <fullName>Starter</fullName>
+        <default>false</default>
+        <label>Starter</label>
+    </customValue>
+    <description>This value set encompasses all the various editions of the Platform that are currently offered.</description>
+    <masterLabel>Platform Edition</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

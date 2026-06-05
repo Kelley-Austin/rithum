@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Client_Success_Solutions_Architecture</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>Project_Due_Date__c</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>OWNER_NAME</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>equals</operation>
+        <value>C0 - New,C1 - Information Requested,C2 - In Progress,C3 - QA Ready,C4 - Monitoring,On Hold</value>
+    </filters>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.Client_Success</value>
+    </filters>
+    <filters>
+        <field>Case_Classification__c</field>
+        <operation>equals</operation>
+        <value>Solutions Architecture,CSE Engagement</value>
+    </filters>
+    <label>Client Success - CSE &amp; SA Engagement</label>
+</ListView>

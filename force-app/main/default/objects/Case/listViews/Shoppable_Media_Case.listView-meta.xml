@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Shoppable_Media_Case</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Shoppable Media</label>
+    <queue>Shoppable_Media</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ZTS_E_Commerce_Platform__c</fullName>
+    <description>This field was created as part of the Zendesk to Salesforce migration. It is populated from the Account&apos;s E-Commerce field value.</description>
+    <externalId>false</externalId>
+    <formula>TEXT(Account.E_Commerce_Platform__c)</formula>
+    <label>E-Commerce Platform</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

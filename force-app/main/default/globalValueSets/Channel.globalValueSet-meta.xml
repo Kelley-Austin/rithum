@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Access ChannelAdvisor</fullName>
+        <default>false</default>
+        <label>Access ChannelAdvisor</label>
+    </customValue>
+    <customValue>
+        <fullName>Amazon Advertising</fullName>
+        <default>false</default>
+        <label>Amazon Advertising</label>
+    </customValue>
+    <customValue>
+        <fullName>Amazon DSP</fullName>
+        <default>false</default>
+        <label>Amazon DSP</label>
+    </customValue>
+    <customValue>
+        <fullName>Brands</fullName>
+        <default>false</default>
+        <label>Brands</label>
+    </customValue>
+    <customValue>
+        <fullName>Business Development</fullName>
+        <default>false</default>
+        <label>Business Development</label>
+    </customValue>
+    <customValue>
+        <fullName>Campaign Management</fullName>
+        <default>false</default>
+        <label>Campaign Management</label>
+    </customValue>
+    <customValue>
+        <fullName>ChannelAdvisor Brand Analytics</fullName>
+        <default>false</default>
+        <label>ChannelAdvisor Brand Analytics</label>
+    </customValue>
+    <customValue>
+        <fullName>ChannelAdvisor Fulfillment Services</fullName>
+        <default>false</default>
+        <label>ChannelAdvisor Fulfillment Services</label>
+    </customValue>
+    <customValue>
+        <fullName>ChannelAdvisor Primer Plus for Amazon Advertising</fullName>
+        <default>false</default>
+        <label>ChannelAdvisor Primer Plus for Amazon Advertising</label>
+    </customValue>
+    <customValue>
+        <fullName>Commerce Solutions for Brands - Essential 30</fullName>
+        <default>false</default>
+        <label>Commerce Solutions for Brands - Essential 30</label>
+    </customValue>
+    <customValue>
+        <fullName>Commerce Solutions for Brands - Essential 60</fullName>
+        <default>false</default>
+        <label>Commerce Solutions for Brands - Essential 60</label>
+    </customValue>
+    <customValue>
+        <fullName>Digital Marketing</fullName>
+        <default>false</default>
+        <label>Digital Marketing</label>
+    </customValue>
+    <customValue>
+        <fullName>Fast Last Mile</fullName>
+        <default>false</default>
+        <label>Fast Last Mile</label>
+    </customValue>
+    <customValue>
+        <fullName>Feed Management</fullName>
+        <default>false</default>
+        <label>Feed Management</label>
+    </customValue>
+    <customValue>
+        <fullName>First Party</fullName>
+        <default>false</default>
+        <label>First Party</label>
+    </customValue>
+    <customValue>
+        <fullName>Google Display Network</fullName>
+        <default>false</default>
+        <label>Google Display Network</label>
+    </customValue>
+    <customValue>
+        <fullName>Managed Dropship (Listing Management)</fullName>
+        <default>false</default>
+        <label>Managed Dropship (Listing Management)</label>
+    </customValue>
+    <customValue>
+        <fullName>Managed Dropship (No Listing Management)</fullName>
+        <default>false</default>
+        <label>Managed Dropship (No Listing Management)</label>
+    </customValue>
+    <customValue>
+        <fullName>Marketing Services</fullName>
+        <default>false</default>
+        <label>Marketing Services</label>
+    </customValue>
+    <customValue>
+        <fullName>Marketplaces</fullName>
+        <default>false</default>
+        <label>Marketplaces</label>
+    </customValue>
+    <customValue>
+        <fullName>Marketplaces Fashion Bundle</fullName>
+        <default>false</default>
+        <label>Marketplaces Fashion Bundle</label>
+    </customValue>
+    <customValue>
+        <fullName>Next ACS</fullName>
+        <default>false</default>
+        <label>Next ACS</label>
+    </customValue>
+    <customValue>
+        <fullName>Paid Social</fullName>
+        <default>false</default>
+        <label>Paid Social</label>
+    </customValue>
+    <customValue>
+        <fullName>Platform</fullName>
+        <default>false</default>
+        <label>Platform</label>
+    </customValue>
+    <customValue>
+        <fullName>Premium Webstores</fullName>
+        <default>false</default>
+        <label>Premium Webstores</label>
+    </customValue>
+    <customValue>
+        <fullName>Referral Partnerships</fullName>
+        <default>false</default>
+        <label>Referral Partnerships</label>
+    </customValue>
+    <customValue>
+        <fullName>Retail</fullName>
+        <default>false</default>
+        <label>Retail</label>
+    </customValue>
+    <customValue>
+        <fullName>Retail Media</fullName>
+        <default>false</default>
+        <label>Retail Media</label>
+    </customValue>
+    <customValue>
+        <fullName>Retail Media Criteo</fullName>
+        <default>false</default>
+        <label>Retail Media Criteo</label>
+    </customValue>
+    <customValue>
+        <fullName>Rich Media</fullName>
+        <default>false</default>
+        <label>Rich Media</label>
+    </customValue>
+    <customValue>
+        <fullName>Search</fullName>
+        <default>false</default>
+        <label>Search</label>
+    </customValue>
+    <customValue>
+        <fullName>Shopping</fullName>
+        <default>false</default>
+        <label>Shopping</label>
+    </customValue>
+    <customValue>
+        <fullName>Sponsorship</fullName>
+        <default>false</default>
+        <label>Sponsorship</label>
+    </customValue>
+    <customValue>
+        <fullName>SSO Integration</fullName>
+        <default>false</default>
+        <label>SSO Integration</label>
+    </customValue>
+    <customValue>
+        <fullName>System Integrations (MindCloud)</fullName>
+        <default>false</default>
+        <label>System Integrations (MindCloud)</label>
+    </customValue>
+    <customValue>
+        <fullName>Webstore Amplifier</fullName>
+        <default>false</default>
+        <label>Webstore Amplifier</label>
+    </customValue>
+    <customValue>
+        <fullName>Where to Buy</fullName>
+        <default>false</default>
+        <label>Where to Buy</label>
+    </customValue>
+    <masterLabel>Channel</masterLabel>
+    <sorted>true</sorted>
+</GlobalValueSet>

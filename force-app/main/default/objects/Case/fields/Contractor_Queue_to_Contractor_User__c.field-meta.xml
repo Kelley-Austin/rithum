@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contractor_Queue_to_Contractor_User__c</fullName>
+    <inlineHelpText>This field populates when a contractor queue assigns case ownership to</inlineHelpText>
+    <label>Contractor Queue to Contractor User</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

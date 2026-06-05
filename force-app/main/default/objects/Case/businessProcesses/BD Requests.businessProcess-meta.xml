@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BD Requests</fullName>
+    <description>Business process for business development requests.</description>
+    <isActive>true</isActive>
+    <values>
+        <fullName>Closed - Duplicate</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed - Junk%2FSpam</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed - Resolved</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed by Customer</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>In Progress</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>New</fullName>
+        <default>true</default>
+    </values>
+    <values>
+        <fullName>New comment</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Pending Info from Customer</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Pending Info from Partner</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Pending Internal Approvals</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Pending Internal Resource</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Re-Open</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Reply Received</fullName>
+        <default>false</default>
+    </values>
+</BusinessProcess>

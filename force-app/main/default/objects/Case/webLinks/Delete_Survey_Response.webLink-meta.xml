@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Delete_Survey_Response</fullName>
+    <availability>online</availability>
+    <description>Clears out any values in the survey response fields.</description>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Delete Survey Response</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>{!REQUIRESCRIPT(&quot;/soap/ajax/13.0/connection.js&quot;)}
+
+var ans = confirm(&quot;Are you sure you want to delete this survey response?&quot;);
+
+if(ans){
+  var c = new sforce.SObject(&quot;Case&quot;);
+  c.id = &quot;{!Case.Id}&quot;;
+  c.Satisfaction__c = null;
+  result = sforce.connection.update([c]);
+  window.location.reload();
+}</url>
+</WebLink>

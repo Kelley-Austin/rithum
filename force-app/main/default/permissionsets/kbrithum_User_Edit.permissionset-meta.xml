@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>kbrithum - User Edit</label>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>User.Contact_s_Account_ID__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>User.Community_Case_Visibility__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>User.Community_Case_Visibility_Updated__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+</PermissionSet>

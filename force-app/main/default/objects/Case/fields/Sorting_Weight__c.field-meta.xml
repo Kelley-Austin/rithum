@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sorting_Weight__c</fullName>
+    <externalId>false</externalId>
+    <formula>100 *
+CASE(Support_Tier__c, &quot;Platinum&quot;, (((NOW() - CreatedDate) ^2) *24) * 2, &quot;Gold&quot;, (((NOW() - CreatedDate) ^2) *24) * 1.5, &quot;Silver&quot;, (((NOW() - CreatedDate) ^2) *24) * 1.2, &quot;Silver with chat&quot;, (((NOW() - CreatedDate) ^2) *24) * 1.2, ((NOW() - CreatedDate) ^2))
+*
+IF(ISPICKVAL(Severity__c, &quot;1 - Critical: affects many accounts that can not do business.&quot;), 40,  
+  IF(ISPICKVAL(Severity__c, &quot;2 - High: affects one account that can not do business.&quot;), 30, 1
+  )
+)
+*
+IF(ISPICKVAL(Origin, &quot;Entered by CA Employee&quot;), 1.5,1)
+*
+IF(ISPICKVAL(Status, &quot;New with Comment&quot;), 30000, 1)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Sorting Weight</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

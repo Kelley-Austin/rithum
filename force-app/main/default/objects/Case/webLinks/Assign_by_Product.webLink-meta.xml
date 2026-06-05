@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Assign_by_Product</fullName>
+    <availability>online</availability>
+    <description>Assigns to a queue based on the Product on the case.</description>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Assign by Product</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>{!REQUIRESCRIPT(&quot;/soap/ajax/40.0/connection.js&quot;)} 
+var objCase = new sforce.SObject(&apos;Case&apos;); 
+//Store Case ID 
+objCase.Id = &apos;{!Case.Id}&apos;; 
+
+//Store product value as text variable 
+var Product = &apos;{!Case.Product__c }&apos;; 
+
+//Store Routing Priority as text variable 
+var RoutingPriority = &apos;{!Case.Routing_Priority__c }&apos;; 
+
+//debugging statement to check product correctly set. Uncomment line below to use. 
+//alert(Product); 
+
+//if Administration, set to Support Admin queue 
+if(Product == &apos;Administration&apos;) 
+{
+//select queue based on Routing Priority
+if(RoutingPriority == &apos;1&apos;)
+{
+objCase.OwnerId = &apos;00G2A00000772cH&apos;;
+objCase.RecordTypeId = &apos;012F0000001EssI&apos;; 
+objCase.Status=&apos;New&apos;; 
+}
+else if(RoutingPriority == &apos;2&apos;)
+    {
+objCase.OwnerId = &apos;00G2A00000772cb&apos;;
+objCase.RecordTypeId = &apos;012F0000001EssI&apos;; 
+objCase.Status=&apos;New&apos;; 
+}
+else
+    {
+objCase.OwnerId = &apos;00G00000006qEBg&apos;;
+objCase.RecordTypeId = &apos;012F0000001EssI&apos;; 
+objCase.Status=&apos;New&apos;; 
+}
+} 
+
+//if Amazon, set to Support Amazon queue 
+else if(Product == &apos;Amazon&apos;) 
+{
+//select queue based on Routing Priority
+if(RoutingPriority == &apos;1&apos;)
+{
+objCase.OwnerId = &apos;00G2A00000772cE&apos;;
+objCase.RecordTypeId = &apos;01200000000Ccki&apos;; 
+objCase.Status=&apos;New&apos;; 
+}
+else if(RoutingPriority == &apos;2&apos;)
+    {
+objCase.OwnerId = &apos;00G2A00000772cY&apos;;
+objCase.RecordTypeId = &apos;01200000000Ccki&apos;; 
+objCase.Status=&apos;New&apos;; 
+}
+else
+    {
+objCase.OwnerId = &apos;00G2A0000076vWR&apos;;
+objCase.RecordTypeId = &apos;01200000000Ccki&apos;; 
+objCase.Status=&apos;New&apos;; 
+}
+} 
+
+//if API, set to Support API queue 
+else if(Product == &apos;API&apos;) 
+{
+//select queue based on Routing Priority
+if(RoutingPriority == &apos;1&apos;)
+{
+objCase.OwnerId = &apos;00G2A00000772cD&apos;;
+objCase.RecordTypeId = &apos;01200000000Ccki&apos;; 
+objCase.Status=&apos;New&apos;; 
+}
+else if(RoutingPriority == &apos;2&apos;)
+    {
+objCase.OwnerId = &apos;00G2A00000772cX&apos;;
+objCase.RecordTypeId = &apos;01200000000Ccki&apos;; 
+objCase.Status=&apos;New&apos;; 
+}
+else
+    {
+objCase.OwnerId = &apos;00G2A0000076vWQ&apos;;
+objCase.RecordTypeId = &apos;01200000000Ccki&apos;; 
+objCase.Status=&apos;New&apos;; 
+}
+} 
+
+//if Business Rules, set to Support Business Rules queue 
+else if(Product == &apos;Business Rules&apos;) 
+{
+//select queue based on Routing Priority
+if(RoutingPriority == &apos;1&apos;)
+{
+objCase.OwnerId = &apos;00G2A00000772cG&apos;;
+objCase.RecordTypeId = &apos;01200000000Ccki&apos;; 
+objCase.Status=&apos;New&apos;; 
+}
+else if(RoutingPriority == &apos;2&apos;)
+    {
+objCase.OwnerId = &apos;00G2A00000772ca&apos;;
+objCase.RecordTypeId = &apos;01200000000Ccki&apos;; 
+objCase.Status=&apos;New&apos;; 
+}
+else
+    {
+objCase.OwnerId = &apos;00G2A0000076vWS&apos;;
+objCase.RecordTypeId = &apos;01200000000Ccki&apos;; 
+objCase.Status=&apos;New&apos;; 
+}
+} 
+
+//if Buyer, set to Support Admin queue 
+else if(Product == &apos;Buyer&apos;) 
+{
+//select queue based on Routing Priority
+if(RoutingPriority == &apos;1&apos;)
+{
+objCase.OwnerId = &apos;00G2A00000772cH&apos;;
+objCase.RecordTypeId = &apos;012F0000001EssI&apos;; 
+objCase.Status=&apos;New&apos;; 
+}
+else if(RoutingPriority == &apos;2&apos;)
+    {
+objCase.OwnerId = &apos;00G2A00000772cb&apos;;
+objCase.RecordTypeId = &apos;012F0000001EssI&apos;; 
+objCase.Status=&apos;New&apos;; 
+}
+else
+    {
+objCase.OwnerId = &apos;00G00000006qEBg&apos;;
+objCase.RecordTypeId = &apos;012F0000001EssI&apos;; 
+objCase.Status=&apos;New&apos;; 
+}
+} 
+
+//if ChannelAdvisor Community, set to Support Admin queue 
+else if(Product == &apos;ChannelAdvisor Community&apos;) 
+{
+//select queue based on Routing Priority
+if(RoutingPriority == &apos;1&apos;)
+{
+objCase.OwnerId = &apos;00G2A00000772cH&apos;;
+objCase.RecordTypeId = &apos;012F0000001EssI&apos;; 
+objCase.Status=&apos;New&apos;; 
+}
+else if(RoutingPriority == &apos;2&apos;)
+    {
+objCase.OwnerId = &apos;00G2A00000772cb&apos;;
+objCase.RecordTypeId = &apos;012F0000001EssI&apos;; 
+objCase.Status=&apos;New&apos;; 
+}
+else
+    {
+objCase.OwnerId = &apos;00G00000006qEBg&apos;;
+objCase.RecordTypeId = &apos;012F0000001EssI&apos;; 
+objCase.Status=&apos;New&apos;; 
+}
+} 
+
+//if Digital Marketing, set to Support Digital Marketing queue 
+else if(Product == &apos;Digital Marketing&apos;) 
+{
+//select queue based on Routing Priority
+if(RoutingPriority == &apos;1&apos;)
+{
+objCase.OwnerId = &apos;00G2A00000772cI&apos;;
+objCase.RecordTypeId = &apos;01200000000Ccki&apos;; 
+objCase.Status=&apos;New&apos;; 
+}
+else if(RoutingPriority == &apos;2&apos;)
+    {
+objCase.OwnerId = &apos;00G2A00000773Mi&apos;;
+objCase.RecordTypeId = &apos;01200000000Ccki&apos;; 
+objCase.Status=&apos;New&apos;; 
+}
+else
+    {
+objCase.OwnerId = &apos;00G2A0000076vWT&apos;;
+objCase.RecordTypeId = &apos;01200000000Ccki&apos;; 
+objCase.Status=&apos;New&apos;; 
+}
+} 
+
+//if eBay, set to Support eBay queue 
+else if(Product == &apos;eBay&apos;) 
+{
+//select queue based on Routing Priority
+if(RoutingPriority == &apos;1&apos;)
+{
+objCase.OwnerId = &apos;00G2A00000772cR&apos;;
+objCase.RecordTypeId = &apos;01200000000Ccki&apos;; 
+objCase.Status=&apos;New&apos;; 
+}
+else if(RoutingPriority == &apos;2&apos;)
+    {
+objCase.OwnerId = &apos;00G2A00000772cl&apos;;
+objCase.RecordTypeId = &apos;01200000000Ccki&apos;; 
+objCase.Status=&apos;New&apos;; 
+}
+else
+    {
+objCase.OwnerId = &apos;00G2A0000076vWj&apos;;
+objCase.RecordTypeId = &apos;01200000000Ccki&apos;; 
+objCase.Status=&apos;New&apos;; 
+}
+} 
+
+//if First Party, set to Support First Party queue 
+else if(Product == &apos;First Party&apos;) 
+{
+//select queue based on Routing Priority
+if(RoutingPriority == &apos;1&apos;)
+{
+objCase.OwnerId = &apos;00G2A00000772cJ&apos;;
+objCase.RecordTypeId = &apos;01200000000Ccki&apos;; 
+objCase.Status=&apos;New&apos;; 
+}
+else if(RoutingPriority == &apos;2&apos;)
+    {
+objCase.OwnerId = &apos;00G2A00000772cc&apos;;
+objCase.RecordTypeId = &apos;01200000000Ccki&apos;; 
+objCase.Status=&apos;New&apos;; 
+}
+else
+    {
+objCase.OwnerId = &apos;00G2A0000076vWU&apos;;
+objCase.RecordTypeId = &apos;01200000000Ccki&apos;; 
+objCase.Status=&apos;New&apos;; 
+}
+} 
+
+//if Fulfillment Services, set to Support Fulfillment Services queue 
+else if(Product == &apos;Fulfillment Services&apos;) 
+{
+//select queue based on Routing Priority
+if(RoutingPriority == &apos;1&apos;)
+{
+objCase.OwnerId = &apos;00G2A00000772cK&apos;;
+objCase.RecordTypeId = &apos;01200000000Ccki&apos;; 
+objCase.Status=&apos;New&apos;; 
+}
+else if(RoutingPriority == &apos;2&apos;)
+    {
+objCase.OwnerId = &apos;00G2A00000772cd&apos;;
+objCase.RecordTypeId = &apos;01200000000Ccki&apos;; 
+objCase.Status=&apos;New&apos;; 
+}
+else
+    {
+objCase.OwnerId = &apos;00G2A0000076vWV&apos;;
+objCase.RecordTypeId = &apos;01200000000Ccki&apos;; 
+objCase.Status=&apos;New&apos;; 
+}
+} 
+
+//if Inventory, set to Support Inventory queue 
+else if(Product == &apos;Inventory&apos;) 
+{
+//select queue based on Routing Priority
+if(RoutingPriority == &apos;1&apos;)
+{
+objCase.OwnerId = &apos;00G2A00000772cL&apos;;
+objCase.RecordTypeId = &apos;01200000000Ccki&apos;; 
+objCase.Status=&apos;New&apos;; 
+}
+else if(RoutingPriority == &apos;2&apos;)
+    {
+objCase.OwnerId = &apos;00G2A00000772ce&apos;;
+objCase.RecordTypeId = &apos;01200000000Ccki&apos;; 
+objCase.Status=&apos;New&apos;; 
+}
+else
+    {
+objCase.OwnerId = &apos;00G2A0000076vWW&apos;;
+objCase.RecordTypeId = &apos;01200000000Ccki&apos;; 
+objCase.Status=&apos;New&apos;; 
+}
+} 
+
+//if Jet, set to Support Jet queue 
+else if(Product == &apos;Jet&apos;) 
+{
+//select queue based on Routing Priority
+if(RoutingPriority == &apos;1&apos;)
+{
+objCase.OwnerId = &apos;00G2A00000772cM&apos;;
+objCase.RecordTypeId = &apos;01200000000Ccki&apos;; 
+objCase.Status=&apos;New&apos;; 
+}
+else if(RoutingPriority == &apos;2&apos;)
+    {
+objCase.OwnerId = &apos;00G2A00000772cf&apos;;
+objCase.RecordTypeId = &apos;01200000000Ccki&apos;; 
+objCase.Status=&apos;New&apos;; 
+}
+else
+    {
+objCase.OwnerId = &apos;00G2A0000076vWX&apos;;
+objCase.RecordTypeId = &apos;01200000000Ccki&apos;; 
+objCase.Status=&apos;New&apos;; 
+}
+} 
+
+//if Newegg, set to Support Newegg queue 
+else if(Product == &apos;Newegg&apos;) 
+{
+//select queue based on Routing Priority
+if(RoutingPriority == &apos;1&apos;)
+{
+objCase.OwnerId = &apos;00G2A00000772cO&apos;;
+objCase.RecordTypeId = &apos;01200000000Ccki&apos;; 
+objCase.Status=&apos;New&apos;; 
+}
+else if(RoutingPriority == &apos;2&apos;)
+    {
+objCase.OwnerId = &apos;00G2A00000772cn&apos;;
+objCase.RecordTypeId = &apos;01200000000Ccki&apos;; 
+objCase.Status=&apos;New&apos;; 
+}
+else
+    {
+objCase.OwnerId = &apos;00G2A0000076vWb&apos;;
+objCase.RecordTypeId = &apos;01200000000Ccki&apos;; 
+objCase.Status=&apos;New&apos;; 
+}
+} 
+
+//if Orders &amp; Fulfillment, set to Support Orders queue 
+else if(Product == &apos;Orders &amp; Fulfillment&apos;) 
+{
+//select queue based on Routing Priority
+if(RoutingPriority == &apos;1&apos;)
+{
+objCase.OwnerId = &apos;00G2A00000772cP&apos;;
+objCase.RecordTypeId = &apos;01200000000Ccki&apos;; 
+objCase.Status=&apos;New&apos;; 
+}
+else if(RoutingPriority == &apos;2&apos;)
+    {
+objCase.OwnerId = &apos;00G2A00000772co&apos;;
+objCase.RecordTypeId = &apos;01200000000Ccki&apos;; 
+objCase.Status=&apos;New&apos;; 
+}
+else
+    {
+objCase.OwnerId = &apos;00G2A0000076vWc&apos;;
+objCase.RecordTypeId = &apos;01200000000Ccki&apos;; 
+objCase.Status=&apos;New&apos;; 
+}
+} 
+
+//if Other Marketplaces, set to Support Marketplaces queue 
+else if(Product == &apos;Other Marketplaces&apos;) 
+{
+//select queue based on Routing Priority
+if(RoutingPriority == &apos;1&apos;)
+{
+objCase.OwnerId = &apos;00G2A00000772cN&apos;;
+objCase.RecordTypeId = &apos;01200000000Ccki&apos;; 
+objCase.Status=&apos;New&apos;; 
+}
+else if(RoutingPriority == &apos;2&apos;)
+    {
+objCase.OwnerId = &apos;00G2A00000772cm&apos;;
+objCase.RecordTypeId = &apos;01200000000Ccki&apos;; 
+objCase.Status=&apos;New&apos;; 
+}
+else
+    {
+objCase.OwnerId = &apos;00G2A0000076vWa&apos;;
+objCase.RecordTypeId = &apos;01200000000Ccki&apos;; 
+objCase.Status=&apos;New&apos;; 
+}
+} 
+
+//if Partners, set to Support Partners queue 
+else if(Product == &apos;Partners&apos;) 
+{
+//select queue based on Routing Priority
+if(RoutingPriority == &apos;1&apos;)
+{
+objCase.OwnerId = &apos;00G2A00000772cQ&apos;;
+objCase.RecordTypeId = &apos;01200000000Ccki&apos;; 
+objCase.Status=&apos;New&apos;; 
+}
+else if(RoutingPriority == &apos;2&apos;)
+    {
+objCase.OwnerId = &apos;00G2A00000772cp&apos;;
+objCase.RecordTypeId = &apos;01200000000Ccki&apos;; 
+objCase.Status=&apos;New&apos;; 
+}
+else
+    {
+objCase.OwnerId = &apos;00G2A0000076vWd&apos;;
+objCase.RecordTypeId = &apos;01200000000Ccki&apos;; 
+objCase.Status=&apos;New&apos;; 
+}
+} 
+
+//if Product Intelligence, set to Support Brands queue 
+else if(Product == &apos;Product Intelligence&apos;) 
+{
+//select queue based on Routing Priority
+if(RoutingPriority == &apos;1&apos;)
+{
+objCase.OwnerId = &apos;00G2A00000772cF&apos;;
+objCase.RecordTypeId = &apos;01200000000Ccki&apos;; 
+objCase.Status=&apos;New&apos;; 
+}
+else if(RoutingPriority == &apos;2&apos;)
+    {
+objCase.OwnerId = &apos;00G2A00000772cZ&apos;;
+objCase.RecordTypeId = &apos;01200000000Ccki&apos;; 
+objCase.Status=&apos;New&apos;; 
+}
+else
+    {
+objCase.OwnerId = &apos;00GF0000006eZWR&apos;;
+objCase.RecordTypeId = &apos;01200000000Ccki&apos;; 
+objCase.Status=&apos;New&apos;; 
+}
+} 
+
+//if Reports, set to Support Reports queue 
+else if(Product == &apos;Reports&apos;) 
+{
+//select queue based on Routing Priority
+if(RoutingPriority == &apos;1&apos;)
+{
+objCase.OwnerId = &apos;00G2A00000772cg&apos;;
+objCase.RecordTypeId = &apos;01200000000Ccki&apos;; 
+objCase.Status=&apos;New&apos;; 
+}
+else if(RoutingPriority == &apos;2&apos;)
+    {
+objCase.OwnerId = &apos;00G2A00000772cq&apos;;
+objCase.RecordTypeId = &apos;01200000000Ccki&apos;; 
+objCase.Status=&apos;New&apos;; 
+}
+else
+    {
+objCase.OwnerId = &apos;00G2A0000076vWe&apos;;
+objCase.RecordTypeId = &apos;01200000000Ccki&apos;; 
+objCase.Status=&apos;New&apos;; 
+}
+} 
+
+//if Rich Media, set to Support Inventory queue 
+else if(Product == &apos;Rich Media&apos;) 
+{
+//select queue based on Routing Priority
+if(RoutingPriority == &apos;1&apos;)
+{
+objCase.OwnerId = &apos;00G2A00000772cL&apos;;
+objCase.RecordTypeId = &apos;01200000000Ccki&apos;; 
+objCase.Status=&apos;New&apos;; 
+}
+else if(RoutingPriority == &apos;2&apos;)
+    {
+objCase.OwnerId = &apos;00G2A00000772ce&apos;;
+objCase.RecordTypeId = &apos;01200000000Ccki&apos;; 
+objCase.Status=&apos;New&apos;; 
+}
+else
+    {
+objCase.OwnerId = &apos;00G2A0000076vWW&apos;;
+objCase.RecordTypeId = &apos;01200000000Ccki&apos;; 
+objCase.Status=&apos;New&apos;; 
+}
+} 
+
+//if Sears, set to Support Sears queue 
+else if(Product == &apos;Sears&apos;) 
+{
+//select queue based on Routing Priority
+if(RoutingPriority == &apos;1&apos;)
+{
+objCase.OwnerId = &apos;00G2A00000772ch&apos;;
+objCase.RecordTypeId = &apos;01200000000Ccki&apos;; 
+objCase.Status=&apos;New&apos;; 
+}
+else if(RoutingPriority == &apos;2&apos;)
+    {
+objCase.OwnerId = &apos;00G2A00000772cr&apos;;
+objCase.RecordTypeId = &apos;01200000000Ccki&apos;; 
+objCase.Status=&apos;New&apos;; 
+}
+else
+    {
+objCase.OwnerId = &apos;00G2A0000076vWf&apos;;
+objCase.RecordTypeId = &apos;01200000000Ccki&apos;; 
+objCase.Status=&apos;New&apos;; 
+}
+} 
+
+//if System, set to Support System queue 
+else if(Product == &apos;System&apos;) 
+{
+//select queue based on Routing Priority
+if(RoutingPriority == &apos;1&apos;)
+{
+objCase.OwnerId = &apos;00G2A00000772ci&apos;;
+objCase.RecordTypeId = &apos;01200000000Ccki&apos;; 
+objCase.Status=&apos;New&apos;; 
+}
+else if(RoutingPriority == &apos;2&apos;)
+    {
+objCase.OwnerId = &apos;00G2A00000772cs&apos;;
+objCase.RecordTypeId = &apos;01200000000Ccki&apos;; 
+objCase.Status=&apos;New&apos;; 
+}
+else
+    {
+objCase.OwnerId = &apos;00G2A0000076vWg&apos;;
+objCase.RecordTypeId = &apos;01200000000Ccki&apos;; 
+objCase.Status=&apos;New&apos;; 
+}
+} 
+
+//if Walmart Marketplace, set to Support Walmart queue 
+else if(Product == &apos;Walmart Marketplace&apos;) 
+{
+//select queue based on Routing Priority
+if(RoutingPriority == &apos;1&apos;)
+{
+objCase.OwnerId = &apos;00G2A00000772cj&apos;;
+objCase.RecordTypeId = &apos;01200000000Ccki&apos;; 
+objCase.Status=&apos;New&apos;; 
+}
+else if(RoutingPriority == &apos;2&apos;)
+    {
+objCase.OwnerId = &apos;00G2A00000772ct&apos;;
+objCase.RecordTypeId = &apos;01200000000Ccki&apos;; 
+objCase.Status=&apos;New&apos;; 
+}
+else
+    {
+objCase.OwnerId = &apos;00G2A0000076vWh&apos;;
+objCase.RecordTypeId = &apos;01200000000Ccki&apos;; 
+objCase.Status=&apos;New&apos;; 
+}
+} 
+
+//if Webstores, set to Support Webstores queue 
+else if(Product == &apos;Webstores&apos;) 
+{
+//select queue based on Routing Priority
+if(RoutingPriority == &apos;1&apos;)
+{
+objCase.OwnerId = &apos;00G2A00000772ck&apos;;
+objCase.RecordTypeId = &apos;01200000000Ccki&apos;; 
+objCase.Status=&apos;New&apos;; 
+}
+else if(RoutingPriority == &apos;2&apos;)
+    {
+objCase.OwnerId = &apos;00G2A00000772cu&apos;;
+objCase.RecordTypeId = &apos;01200000000Ccki&apos;; 
+objCase.Status=&apos;New&apos;; 
+}
+else
+    {
+objCase.OwnerId = &apos;00G2A0000076vWi&apos;;
+objCase.RecordTypeId = &apos;01200000000Ccki&apos;; 
+objCase.Status=&apos;New&apos;; 
+}
+} 
+
+//if Where to Buy, set to Support Brands queue 
+else if(Product == &apos;Where To Buy&apos;) 
+{
+//select queue based on Routing Priority
+if(RoutingPriority == &apos;1&apos;)
+{
+objCase.OwnerId = &apos;00G2A00000772cF&apos;;
+objCase.RecordTypeId = &apos;01200000000Ccki&apos;; 
+objCase.Status=&apos;New&apos;; 
+}
+else if(RoutingPriority == &apos;2&apos;)
+    {
+objCase.OwnerId = &apos;00G2A00000772cZ&apos;;
+objCase.RecordTypeId = &apos;01200000000Ccki&apos;; 
+objCase.Status=&apos;New&apos;; 
+}
+else
+    {
+objCase.OwnerId = &apos;00GF0000006eZWR&apos;;
+objCase.RecordTypeId = &apos;01200000000Ccki&apos;; 
+objCase.Status=&apos;New&apos;; 
+}
+} 
+
+
+
+//No match to any existing product queue, or blank product. 
+else {objCase.OwnerId = &apos;00G00000006qEBH&apos;; 
+//set record type to Customer Support
+objCase.RecordTypeID = &apos;01200000000Ccki&apos;;
+//When no match, display message that we moved to Support Triage queue 
+alert(&apos;No product match. Moved to Support Triage&apos;); 
+} 
+
+var result = sforce.connection.update([objCase]); 
+
+//error handling 
+if(result[0].success==&apos;true&apos;){ 
+location.reload(true);} 
+else{alert(&apos;An error has occurred. Check case and retry.&apos;);}</url>
+</WebLink>

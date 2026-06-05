@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Category_PL__c</fullName>
+    <description>Category Picklist values for CSM Escalation Support</description>
+    <label>Category</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Billing Escalation</fullName>
+                <default>false</default>
+                <label>Billing Escalation</label>
+            </value>
+            <value>
+                <fullName>Channel Expansion</fullName>
+                <default>false</default>
+                <label>Channel Expansion</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Out of Cycle Pricing Change</fullName>
+                <default>false</default>
+                <label>Out of Cycle Pricing Change</label>
+            </value>
+            <value>
+                <fullName>Out of Cycle Termination</fullName>
+                <default>false</default>
+                <label>Out of Cycle Termination</label>
+            </value>
+            <value>
+                <fullName>Risk/Credit/Dissatisfied Customer</fullName>
+                <default>false</default>
+                <label>Risk/Credit/Dissatisfied Customer</label>
+            </value>
+            <value>
+                <fullName>Support Escalation</fullName>
+                <default>false</default>
+                <label>Support Escalation</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

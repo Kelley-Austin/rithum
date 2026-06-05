@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Module__c</fullName>
+    <label>Module</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>*Buyer Support</fullName>
+                <default>false</default>
+                <label>*Buyer Support</label>
+            </value>
+            <value>
+                <fullName>*Managed eCommerce Question</fullName>
+                <default>false</default>
+                <label>*Managed eCommerce Question</label>
+            </value>
+            <value>
+                <fullName>*Misdirected Email</fullName>
+                <default>false</default>
+                <label>*Misdirected Email</label>
+            </value>
+            <value>
+                <fullName>*MW Account Administration</fullName>
+                <default>false</default>
+                <label>*MW Account Administration</label>
+            </value>
+            <value>
+                <fullName>*N/A*</fullName>
+                <default>false</default>
+                <label>*N/A*</label>
+            </value>
+            <value>
+                <fullName>*Unsupported</fullName>
+                <default>false</default>
+                <label>*Unsupported</label>
+            </value>
+            <value>
+                <fullName>3rd Party</fullName>
+                <default>false</default>
+                <label>3rd Party</label>
+            </value>
+            <value>
+                <fullName>Customer Page</fullName>
+                <default>false</default>
+                <label>Customer Page</label>
+            </value>
+            <value>
+                <fullName>Image Hosting</fullName>
+                <default>false</default>
+                <label>Image Hosting</label>
+            </value>
+            <value>
+                <fullName>Inventory</fullName>
+                <default>false</default>
+                <label>Inventory</label>
+            </value>
+            <value>
+                <fullName>Launch</fullName>
+                <default>false</default>
+                <label>Launch</label>
+            </value>
+            <value>
+                <fullName>Marketplace - Amazon</fullName>
+                <default>false</default>
+                <label>Marketplace - Amazon</label>
+            </value>
+            <value>
+                <fullName>Marketplace - eBay</fullName>
+                <default>false</default>
+                <label>Marketplace - eBay</label>
+            </value>
+            <value>
+                <fullName>Marketplace - Overstock</fullName>
+                <default>false</default>
+                <label>Marketplace - Overstock</label>
+            </value>
+            <value>
+                <fullName>Monitor Page</fullName>
+                <default>false</default>
+                <label>Monitor Page</label>
+            </value>
+            <value>
+                <fullName>OMS</fullName>
+                <default>false</default>
+                <label>OMS</label>
+            </value>
+            <value>
+                <fullName>Orders Page</fullName>
+                <default>false</default>
+                <label>Orders Page</label>
+            </value>
+            <value>
+                <fullName>Preferences Page</fullName>
+                <default>false</default>
+                <label>Preferences Page</label>
+            </value>
+            <value>
+                <fullName>Profiles</fullName>
+                <default>false</default>
+                <label>Profiles</label>
+            </value>
+            <value>
+                <fullName>Reports</fullName>
+                <default>false</default>
+                <label>Reports</label>
+            </value>
+            <value>
+                <fullName>Storefront - MW</fullName>
+                <default>false</default>
+                <label>Storefront - MW</label>
+            </value>
+            <value>
+                <fullName>Storefront - PWS</fullName>
+                <default>false</default>
+                <label>Storefront - PWS</label>
+            </value>
+            <value>
+                <fullName>Utilities</fullName>
+                <default>false</default>
+                <label>Utilities</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

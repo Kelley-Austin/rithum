@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Transfers the Case to a new owner and posts a Chatter message with hyperlinks to the Account, Contact, Organization, and Organization Contact so the receiving team can access those records even if the fields are hidden from them.</description>
+    <flowDefinition>Brands_Case_Transfer_Case</flowDefinition>
+    <label>Transfer Case</label>
+    <optionsCreateFeedItem>false</optionsCreateFeedItem>
+    <type>Flow</type>
+</QuickAction>

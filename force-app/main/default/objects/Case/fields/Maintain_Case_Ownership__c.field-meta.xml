@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Maintain_Case_Ownership__c</fullName>
+    <defaultValue>true</defaultValue>
+    <description>Used to indicate a case should stay with the Support agent owner (in OC Routing) if checked when case is replied to or re-opened.</description>
+    <inlineHelpText>Check this box to have OC route replies to the current case owner instead of a team reply queue.</inlineHelpText>
+    <label>Maintain Case Ownership</label>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

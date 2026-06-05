@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_Change_to_Contract_Help_Owner_Status</fullName>
+    <active>true</active>
+    <description>Allows members of the Legal team to change the Owner and Status of Contract Help cases. New team members must have their last names entered in the formula below.</description>
+    <errorConditionFormula>OR(ISCHANGED( OwnerId ), ISCHANGED( Status ))&amp;&amp; 
+NOT( $Profile.Name = &quot;System Administrator&quot;) &amp;&amp; 
+NOT( $Profile.Name = &quot;Contract Administration&quot;) &amp;&amp; 
+NOT( $Profile.Name = &quot;CA Contract Manager&quot;) &amp;&amp; 
+ $RecordType.Name = &quot;Contract Help Request&quot; &amp;&amp;
+ OwnerId &lt;&gt; &quot;00G00000006yPO3&quot; &amp;&amp;
+ $User.LastName &lt;&gt; &quot;Coan&quot;&amp;&amp;
+ $User.LastName &lt;&gt; &quot;Rawls&quot; &amp;&amp;
+ $User.LastName &lt;&gt; &quot;Collins&quot; &amp;&amp;
+ $User.LastName &lt;&gt; &quot;Allen&quot; &amp;&amp;
+ $User.LastName &lt;&gt; &quot;O&apos;Grady&quot; &amp;&amp;
+ $User.LastName &lt;&gt; &quot;Banks&quot; &amp;&amp;
+ $User.LastName &lt;&gt; &quot;Lane&quot; &amp;&amp;
+ $User.LastName &lt;&gt; &quot;Twiddy&quot; &amp;&amp;
+ $User.LastName &lt;&gt; &quot;Stout&quot; &amp;&amp;
+ $User.LastName &lt;&gt; &quot;Weithofer&quot; &amp;&amp;
+ $User.LastName &lt;&gt; &quot;Pope&quot;</errorConditionFormula>
+    <errorMessage>You are not authorized to change this Owner or Status field. Please contact sfhelp@rithum.com to request permission to be added to the validation rule for Contract Help case ownership changes.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contractor_Case_Accurate__c</fullName>
+    <defaultValue>false</defaultValue>
+    <inlineHelpText>This case has been graded as accurate by CA/CH team</inlineHelpText>
+    <label>Contractor Case Accurate</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

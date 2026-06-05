@@ -1,0 +1,2265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sub_Category_dsco__c</fullName>
+    <label>Sub-Category</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Category_dsco__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>753/754</fullName>
+                <default>false</default>
+                <label>753/754</label>
+            </value>
+            <value>
+                <fullName>753/754 Routing Request/Troubleshooting</fullName>
+                <default>false</default>
+                <label>753/754 Routing Request/Troubleshooting</label>
+            </value>
+            <value>
+                <fullName>Accepting the invitation</fullName>
+                <default>false</default>
+                <label>Accepting the invitation</label>
+            </value>
+            <value>
+                <fullName>Account Administration</fullName>
+                <default>false</default>
+                <label>Account Administration</label>
+            </value>
+            <value>
+                <fullName>Accounting</fullName>
+                <default>false</default>
+                <label>Accounting</label>
+            </value>
+            <value>
+                <fullName>Account Setup</fullName>
+                <default>false</default>
+                <label>Account Setup</label>
+            </value>
+            <value>
+                <fullName>Add new trading partner</fullName>
+                <default>false</default>
+                <label>Add new trading partner</label>
+            </value>
+            <value>
+                <fullName>Ad-hoc reporting</fullName>
+                <default>false</default>
+                <label>Ad-hoc reporting</label>
+            </value>
+            <value>
+                <fullName>Advanced Catalog Processing Delay</fullName>
+                <default>false</default>
+                <label>Advanced Catalog Processing Delay</label>
+            </value>
+            <value>
+                <fullName>Advanced Catalog Troubleshooting</fullName>
+                <default>false</default>
+                <label>Advanced Catalog Troubleshooting</label>
+            </value>
+            <value>
+                <fullName>API connection</fullName>
+                <default>false</default>
+                <label>API connection</label>
+            </value>
+            <value>
+                <fullName>API Documentation Question</fullName>
+                <default>false</default>
+                <label>API Documentation Question</label>
+            </value>
+            <value>
+                <fullName>API Streams Issue</fullName>
+                <default>false</default>
+                <label>API Streams Issue</label>
+            </value>
+            <value>
+                <fullName>API Token Request</fullName>
+                <default>false</default>
+                <label>API Token Request</label>
+            </value>
+            <value>
+                <fullName>API Unknown System Errors</fullName>
+                <default>false</default>
+                <label>API Unknown System Errors</label>
+            </value>
+            <value>
+                <fullName>Archived Data</fullName>
+                <default>false</default>
+                <label>Archived Data</label>
+            </value>
+            <value>
+                <fullName>AS2 connection</fullName>
+                <default>false</default>
+                <label>AS2 connection</label>
+            </value>
+            <value>
+                <fullName>AS2-Connection Failure</fullName>
+                <default>false</default>
+                <label>AS2-Connection Failure</label>
+            </value>
+            <value>
+                <fullName>AS2 Connection Setup</fullName>
+                <default>false</default>
+                <label>AS2 Connection Setup</label>
+            </value>
+            <value>
+                <fullName>AS2-Connection Setup</fullName>
+                <default>false</default>
+                <label>AS2-Connection Setup</label>
+            </value>
+            <value>
+                <fullName>AS2 Connection Update</fullName>
+                <default>false</default>
+                <label>AS2 Connection Update</label>
+            </value>
+            <value>
+                <fullName>AS2 Dsco Cert Update</fullName>
+                <default>false</default>
+                <label>AS2 Dsco Cert Update</label>
+            </value>
+            <value>
+                <fullName>AS2 Pulse Migration</fullName>
+                <default>false</default>
+                <label>AS2 Pulse Migration</label>
+            </value>
+            <value>
+                <fullName>AS2 Supplier Certificate Update</fullName>
+                <default>false</default>
+                <label>AS2 Supplier Certificate Update</label>
+            </value>
+            <value>
+                <fullName>Auto Invoicing</fullName>
+                <default>false</default>
+                <label>Auto Invoicing</label>
+            </value>
+            <value>
+                <fullName>Automated exports</fullName>
+                <default>false</default>
+                <label>Automated exports</label>
+            </value>
+            <value>
+                <fullName>Automated missing order alert</fullName>
+                <default>false</default>
+                <label>Automated missing order alert</label>
+            </value>
+            <value>
+                <fullName>Automated tasks</fullName>
+                <default>false</default>
+                <label>Automated tasks</label>
+            </value>
+            <value>
+                <fullName>Automation Job Configuration</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Automation Job Configuration</label>
+            </value>
+            <value>
+                <fullName>Automation-Job Configuration</fullName>
+                <default>false</default>
+                <label>Automation-Job Configuration</label>
+            </value>
+            <value>
+                <fullName>Automation Job Failure</fullName>
+                <default>false</default>
+                <label>Automation Job Failure</label>
+            </value>
+            <value>
+                <fullName>Bad Address</fullName>
+                <default>false</default>
+                <label>Bad Address</label>
+            </value>
+            <value>
+                <fullName>Bad Cost</fullName>
+                <default>false</default>
+                <label>Bad Cost</label>
+            </value>
+            <value>
+                <fullName>Bad Service Level Code</fullName>
+                <default>false</default>
+                <label>Bad Service Level Code</label>
+            </value>
+            <value>
+                <fullName>Bad Tracking Number</fullName>
+                <default>false</default>
+                <label>Bad Tracking Number</label>
+            </value>
+            <value>
+                <fullName>Billing / Accounting</fullName>
+                <default>false</default>
+                <label>Billing / Accounting</label>
+            </value>
+            <value>
+                <fullName>Bulk Order Requests (Cancel/Tracking/Resends)</fullName>
+                <default>false</default>
+                <label>Bulk Order Requests (Cancel/Tracking/Resends)</label>
+            </value>
+            <value>
+                <fullName>Bulk request - cancel orders</fullName>
+                <default>false</default>
+                <label>Bulk request - cancel orders</label>
+            </value>
+            <value>
+                <fullName>Bulk request - fulfillment resends</fullName>
+                <default>false</default>
+                <label>Bulk request - fulfillment resends</label>
+            </value>
+            <value>
+                <fullName>Bulk request - invoice resends</fullName>
+                <default>false</default>
+                <label>Bulk request - invoice resends</label>
+            </value>
+            <value>
+                <fullName>Bulk request - tracking removal</fullName>
+                <default>false</default>
+                <label>Bulk request - tracking removal</label>
+            </value>
+            <value>
+                <fullName>Can't Complete Gandalf</fullName>
+                <default>false</default>
+                <label>Can't Complete Gandalf</label>
+            </value>
+            <value>
+                <fullName>Cancel - help fixing</fullName>
+                <default>false</default>
+                <label>Cancel - help fixing</label>
+            </value>
+            <value>
+                <fullName>Cancel - how to</fullName>
+                <default>false</default>
+                <label>Cancel - how to</label>
+            </value>
+            <value>
+                <fullName>Canceling an order</fullName>
+                <default>false</default>
+                <label>Canceling an order</label>
+            </value>
+            <value>
+                <fullName>Cancellations</fullName>
+                <default>false</default>
+                <label>Cancellations</label>
+            </value>
+            <value>
+                <fullName>Cancel Update Missing</fullName>
+                <default>false</default>
+                <label>Cancel Update Missing</label>
+            </value>
+            <value>
+                <fullName>Catalog</fullName>
+                <default>false</default>
+                <label>Catalog</label>
+            </value>
+            <value>
+                <fullName>Catalog-Exceptions</fullName>
+                <default>false</default>
+                <label>Catalog-Exceptions</label>
+            </value>
+            <value>
+                <fullName>Catalog-Loading Product</fullName>
+                <default>false</default>
+                <label>Catalog-Loading Product</label>
+            </value>
+            <value>
+                <fullName>Change connection type</fullName>
+                <default>false</default>
+                <label>Change connection type</label>
+            </value>
+            <value>
+                <fullName>Clear Inventory</fullName>
+                <default>false</default>
+                <label>Clear Inventory</label>
+            </value>
+            <value>
+                <fullName>Combining Account Access</fullName>
+                <default>false</default>
+                <label>Combining Account Access</label>
+            </value>
+            <value>
+                <fullName>Company/Account Name Update</fullName>
+                <default>false</default>
+                <label>Company/Account Name Update</label>
+            </value>
+            <value>
+                <fullName>Compliance - Exceptions and Performance</fullName>
+                <default>false</default>
+                <label>Compliance - Exceptions and Performance</label>
+            </value>
+            <value>
+                <fullName>Compliance Reruns</fullName>
+                <default>false</default>
+                <label>Compliance Reruns</label>
+            </value>
+            <value>
+                <fullName>Compliance - Rule Questions</fullName>
+                <default>false</default>
+                <label>Compliance - Rule Questions</label>
+            </value>
+            <value>
+                <fullName>Configuration Change/Update</fullName>
+                <default>false</default>
+                <label>Configuration Change/Update</label>
+            </value>
+            <value>
+                <fullName>Connecting to a third party</fullName>
+                <default>false</default>
+                <label>Connecting to a third party</label>
+            </value>
+            <value>
+                <fullName>Connection/Termination with Trading Partner</fullName>
+                <default>false</default>
+                <label>Connection/Termination with Trading Partner</label>
+            </value>
+            <value>
+                <fullName>Connection Options?</fullName>
+                <default>false</default>
+                <label>Connection Options?</label>
+            </value>
+            <value>
+                <fullName>Contract/Payment/Billing Question</fullName>
+                <default>false</default>
+                <label>Contract/Payment/Billing Question</label>
+            </value>
+            <value>
+                <fullName>Contracts</fullName>
+                <default>false</default>
+                <label>Contracts</label>
+            </value>
+            <value>
+                <fullName>Create/Update SKUs</fullName>
+                <default>false</default>
+                <label>Create/Update SKUs</label>
+            </value>
+            <value>
+                <fullName>Customer Success</fullName>
+                <default>false</default>
+                <label>Customer Success</label>
+            </value>
+            <value>
+                <fullName>Data Mapping</fullName>
+                <default>false</default>
+                <label>Data Mapping</label>
+            </value>
+            <value>
+                <fullName>Delete SKUs</fullName>
+                <default>false</default>
+                <label>Delete SKUs</label>
+            </value>
+            <value>
+                <fullName>Delivery Suite</fullName>
+                <default>false</default>
+                <label>Delivery Suite - Shipping Labels</label>
+            </value>
+            <value>
+                <fullName>Discontinue SKUs</fullName>
+                <default>false</default>
+                <label>Discontinue SKUs</label>
+            </value>
+            <value>
+                <fullName>Duplicate Attribute Exceptions (How to Resolve)</fullName>
+                <default>false</default>
+                <label>Duplicate Attribute Exceptions (How to Resolve)</label>
+            </value>
+            <value>
+                <fullName>EDI Mappings, Specs</fullName>
+                <default>false</default>
+                <label>EDI Mappings, Specs</label>
+            </value>
+            <value>
+                <fullName>EDI Question-General</fullName>
+                <default>false</default>
+                <label>EDI Question-General</label>
+            </value>
+            <value>
+                <fullName>EDI Question-Mapping, Specs</fullName>
+                <default>false</default>
+                <label>EDI Question-Mapping, Specs</label>
+            </value>
+            <value>
+                <fullName>Edit Distribution list</fullName>
+                <default>false</default>
+                <label>Edit Distribution list</label>
+            </value>
+            <value>
+                <fullName>Email/Notification Questions</fullName>
+                <default>false</default>
+                <label>Email/Notification Questions</label>
+            </value>
+            <value>
+                <fullName>Error When Cancelling</fullName>
+                <default>false</default>
+                <label>Error When Cancelling</label>
+            </value>
+            <value>
+                <fullName>Error When Invoicing</fullName>
+                <default>false</default>
+                <label>Error When Invoicing</label>
+            </value>
+            <value>
+                <fullName>Error When Shipping</fullName>
+                <default>false</default>
+                <label>Error When Shipping</label>
+            </value>
+            <value>
+                <fullName>Error When Uploading Inventory</fullName>
+                <default>false</default>
+                <label>Error When Uploading Inventory</label>
+            </value>
+            <value>
+                <fullName>Export - help fixing</fullName>
+                <default>false</default>
+                <label>Export - help fixing</label>
+            </value>
+            <value>
+                <fullName>Failure to Import</fullName>
+                <default>false</default>
+                <label>Failure to Import</label>
+            </value>
+            <value>
+                <fullName>Help Documentation</fullName>
+                <default>false</default>
+                <label>Help Documentation</label>
+            </value>
+            <value>
+                <fullName>Historical data</fullName>
+                <default>false</default>
+                <label>Historical data</label>
+            </value>
+            <value>
+                <fullName>How To Cancel</fullName>
+                <default>false</default>
+                <label>How To Cancel</label>
+            </value>
+            <value>
+                <fullName>How to Invoice</fullName>
+                <default>false</default>
+                <label>How to Invoice</label>
+            </value>
+            <value>
+                <fullName>How To Ship</fullName>
+                <default>false</default>
+                <label>How To Ship</label>
+            </value>
+            <value>
+                <fullName>Image Removal</fullName>
+                <default>false</default>
+                <label>Image Removal</label>
+            </value>
+            <value>
+                <fullName>Import - help fixing</fullName>
+                <default>false</default>
+                <label>Import - help fixing</label>
+            </value>
+            <value>
+                <fullName>Incident</fullName>
+                <default>false</default>
+                <label>Incident</label>
+            </value>
+            <value>
+                <fullName>Infosec</fullName>
+                <default>false</default>
+                <label>Infosec</label>
+            </value>
+            <value>
+                <fullName>Integrations-API</fullName>
+                <default>false</default>
+                <label>Integrations-API</label>
+            </value>
+            <value>
+                <fullName>Integrations-AS2</fullName>
+                <default>false</default>
+                <label>Integrations-AS2</label>
+            </value>
+            <value>
+                <fullName>Integrations-SFTP (EDI)</fullName>
+                <default>false</default>
+                <label>Integrations-SFTP (EDI)</label>
+            </value>
+            <value>
+                <fullName>Integrations-SFTP (Flat File)</fullName>
+                <default>false</default>
+                <label>Integrations-SFTP (Flat File)</label>
+            </value>
+            <value>
+                <fullName>Internal System Issue</fullName>
+                <default>false</default>
+                <label>Internal System Issue</label>
+            </value>
+            <value>
+                <fullName>Inventory</fullName>
+                <default>false</default>
+                <label>Inventory</label>
+            </value>
+            <value>
+                <fullName>Inventory Update Missing</fullName>
+                <default>false</default>
+                <label>Inventory Update Missing</label>
+            </value>
+            <value>
+                <fullName>Invoice</fullName>
+                <default>false</default>
+                <label>Invoice</label>
+            </value>
+            <value>
+                <fullName>Invoice adjustment - help fixing</fullName>
+                <default>false</default>
+                <label>Invoice adjustment - help fixing</label>
+            </value>
+            <value>
+                <fullName>Invoice adjustment - how to</fullName>
+                <default>false</default>
+                <label>Invoice adjustment - how to</label>
+            </value>
+            <value>
+                <fullName>Invoicing an order</fullName>
+                <default>false</default>
+                <label>Invoicing an order</label>
+            </value>
+            <value>
+                <fullName>Invoicing - Help fixing</fullName>
+                <default>false</default>
+                <label>Invoicing - Help fixing</label>
+            </value>
+            <value>
+                <fullName>Invoicing - How to</fullName>
+                <default>false</default>
+                <label>Invoicing - How to</label>
+            </value>
+            <value>
+                <fullName>Invoicing - seeking payment</fullName>
+                <default>false</default>
+                <label>Invoicing - seeking payment</label>
+            </value>
+            <value>
+                <fullName>Issues accessing website</fullName>
+                <default>false</default>
+                <label>Issues accessing website</label>
+            </value>
+            <value>
+                <fullName>Item Compliance</fullName>
+                <default>false</default>
+                <label>Item Compliance</label>
+            </value>
+            <value>
+                <fullName>Item Compliance (Common Troubleshooting)</fullName>
+                <default>false</default>
+                <label>Item Compliance (Common Troubleshooting)</label>
+            </value>
+            <value>
+                <fullName>Item Images, How To Upload</fullName>
+                <default>false</default>
+                <label>Item Images, How To Upload</label>
+            </value>
+            <value>
+                <fullName>Item Images Troubleshooting</fullName>
+                <default>false</default>
+                <label>Item Images Troubleshooting</label>
+            </value>
+            <value>
+                <fullName>Item not listed on trading partner site</fullName>
+                <default>false</default>
+                <label>Item not listed on trading partner site</label>
+            </value>
+            <value>
+                <fullName>Logging in</fullName>
+                <default>false</default>
+                <label>Logging in</label>
+            </value>
+            <value>
+                <fullName>Login Issue</fullName>
+                <default>false</default>
+                <label>Login Issue</label>
+            </value>
+            <value>
+                <fullName>Managed Integration Brands/DSCO</fullName>
+                <default>false</default>
+                <label>Managed Integration Brands/DSCO</label>
+            </value>
+            <value>
+                <fullName>Managed Integration Brands/OS</fullName>
+                <default>false</default>
+                <label>Managed Integration Brands/OS</label>
+            </value>
+            <value>
+                <fullName>Managed Integration OS/DSCO</fullName>
+                <default>false</default>
+                <label>Managed Integration OS/DSCO</label>
+            </value>
+            <value>
+                <fullName>Managing users</fullName>
+                <default>false</default>
+                <label>Managing users</label>
+            </value>
+            <value>
+                <fullName>Marketplace - Pricing Updates</fullName>
+                <default>false</default>
+                <label>Marketplace - Pricing Updates</label>
+            </value>
+            <value>
+                <fullName>Marketplace - Promotions</fullName>
+                <default>false</default>
+                <label>Marketplace - Promotions</label>
+            </value>
+            <value>
+                <fullName>Marketplace - Settlement Reports</fullName>
+                <default>false</default>
+                <label>Marketplace - Settlement Reports</label>
+            </value>
+            <value>
+                <fullName>Message codes</fullName>
+                <default>false</default>
+                <label>Message codes</label>
+            </value>
+            <value>
+                <fullName>MFA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>MFA</label>
+            </value>
+            <value>
+                <fullName>Missing 997s</fullName>
+                <default>false</default>
+                <label>Missing 997s</label>
+            </value>
+            <value>
+                <fullName>Missing AS2 Files</fullName>
+                <default>false</default>
+                <label>Missing AS2 Files</label>
+            </value>
+            <value>
+                <fullName>Missing from Retailer AP System</fullName>
+                <default>false</default>
+                <label>Missing from Retailer AP System</label>
+            </value>
+            <value>
+                <fullName>Missing orders</fullName>
+                <default>false</default>
+                <label>Missing orders</label>
+            </value>
+            <value>
+                <fullName>Missing SFTP Files</fullName>
+                <default>false</default>
+                <label>Missing SFTP Files</label>
+            </value>
+            <value>
+                <fullName>Missing trading partner</fullName>
+                <default>false</default>
+                <label>Missing trading partner</label>
+            </value>
+            <value>
+                <fullName>Onboarding - Dsco</fullName>
+                <default>false</default>
+                <label>Onboarding - Dsco</label>
+            </value>
+            <value>
+                <fullName>Onboarding - OrderStream</fullName>
+                <default>false</default>
+                <label>Onboarding - OrderStream</label>
+            </value>
+            <value>
+                <fullName>Order Creation Failure (Retailer)</fullName>
+                <default>false</default>
+                <label>Order Creation Failure (Retailer)</label>
+            </value>
+            <value>
+                <fullName>Order documents</fullName>
+                <default>false</default>
+                <label>Order documents</label>
+            </value>
+            <value>
+                <fullName>Order Failure</fullName>
+                <default>false</default>
+                <label>Order Failure</label>
+            </value>
+            <value>
+                <fullName>Order fulfillment</fullName>
+                <default>false</default>
+                <label>Order fulfillment</label>
+            </value>
+            <value>
+                <fullName>Order Information</fullName>
+                <default>false</default>
+                <label>Order Information</label>
+            </value>
+            <value>
+                <fullName>Order Mistakenly Cancelled</fullName>
+                <default>false</default>
+                <label>Order Mistakenly Cancelled</label>
+            </value>
+            <value>
+                <fullName>Orders</fullName>
+                <default>false</default>
+                <label>Orders</label>
+            </value>
+            <value>
+                <fullName>Orders Not Exporting</fullName>
+                <default>false</default>
+                <label>Orders Not Exporting</label>
+            </value>
+            <value>
+                <fullName>Orders Received for OOS Inventory</fullName>
+                <default>false</default>
+                <label>Orders Received for OOS Inventory</label>
+            </value>
+            <value>
+                <fullName>Other Internal (HR, etc.)</fullName>
+                <default>false</default>
+                <label>Other Internal (HR, etc.)</label>
+            </value>
+            <value>
+                <fullName>Oversells</fullName>
+                <default>false</default>
+                <label>Oversells</label>
+            </value>
+            <value>
+                <fullName>Packing Slips</fullName>
+                <default>false</default>
+                <label>Packing Slips</label>
+            </value>
+            <value>
+                <fullName>Partial Shipment</fullName>
+                <default>false</default>
+                <label>Partial Shipment</label>
+            </value>
+            <value>
+                <fullName>Partner Downtime</fullName>
+                <default>false</default>
+                <label>Partner Downtime</label>
+            </value>
+            <value>
+                <fullName>Pipeline Validations - Exceptions and Performance</fullName>
+                <default>false</default>
+                <label>Pipeline Validations - Exceptions and Performance</label>
+            </value>
+            <value>
+                <fullName>Pipeline Validations - Rule Questions</fullName>
+                <default>false</default>
+                <label>Pipeline Validations - Rule Questions</label>
+            </value>
+            <value>
+                <fullName>Portal Issue</fullName>
+                <default>false</default>
+                <label>Portal Issue</label>
+            </value>
+            <value>
+                <fullName>Potential Fraud</fullName>
+                <default>false</default>
+                <label>Potential Fraud</label>
+            </value>
+            <value>
+                <fullName>Product content</fullName>
+                <default>false</default>
+                <label>Product content</label>
+            </value>
+            <value>
+                <fullName>Professional Services</fullName>
+                <default>false</default>
+                <label>Professional Services</label>
+            </value>
+            <value>
+                <fullName>Proxy\VAN connection</fullName>
+                <default>false</default>
+                <label>Proxy\VAN connection</label>
+            </value>
+            <value>
+                <fullName>Proxy connection</fullName>
+                <default>false</default>
+                <label>Proxy connection</label>
+            </value>
+            <value>
+                <fullName>Rate Shopping Setup</fullName>
+                <default>false</default>
+                <label>Rate Shopping Setup</label>
+            </value>
+            <value>
+                <fullName>Release Feedback</fullName>
+                <default>false</default>
+                <label>Release Feedback</label>
+            </value>
+            <value>
+                <fullName>Remove products</fullName>
+                <default>false</default>
+                <label>Remove products</label>
+            </value>
+            <value>
+                <fullName>Removing invoices</fullName>
+                <default>false</default>
+                <label>Removing invoices</label>
+            </value>
+            <value>
+                <fullName>Reorder Attributes Issue</fullName>
+                <default>false</default>
+                <label>Reorder Attributes Issue</label>
+            </value>
+            <value>
+                <fullName>Request to Cancel</fullName>
+                <default>false</default>
+                <label>Request to Cancel</label>
+            </value>
+            <value>
+                <fullName>Request to Resend Data</fullName>
+                <default>false</default>
+                <label>Request to Resend Data</label>
+            </value>
+            <value>
+                <fullName>Resend Orders</fullName>
+                <default>false</default>
+                <label>Resend Orders</label>
+            </value>
+            <value>
+                <fullName>Response to Rithum Communication</fullName>
+                <default>false</default>
+                <label>Response to Rithum Communication</label>
+            </value>
+            <value>
+                <fullName>Retailer Export Missing</fullName>
+                <default>false</default>
+                <label>Retailer Export Missing</label>
+            </value>
+            <value>
+                <fullName>Retesting</fullName>
+                <default>false</default>
+                <label>Retesting</label>
+            </value>
+            <value>
+                <fullName>Returning an order</fullName>
+                <default>false</default>
+                <label>Returning an order</label>
+            </value>
+            <value>
+                <fullName>Returns</fullName>
+                <default>false</default>
+                <label>Returns</label>
+            </value>
+            <value>
+                <fullName>Right to be forgotten request</fullName>
+                <default>false</default>
+                <label>Right to be forgotten request</label>
+            </value>
+            <value>
+                <fullName>Sales Support</fullName>
+                <default>false</default>
+                <label>Sales Support</label>
+            </value>
+            <value>
+                <fullName>SCON Bug</fullName>
+                <default>false</default>
+                <label>SCON Bug</label>
+            </value>
+            <value>
+                <fullName>SCON Feedback</fullName>
+                <default>false</default>
+                <label>SCON Feedback</label>
+            </value>
+            <value>
+                <fullName>Settings Page Update</fullName>
+                <default>false</default>
+                <label>Settings Page Update</label>
+            </value>
+            <value>
+                <fullName>sFTP connection</fullName>
+                <default>false</default>
+                <label>sFTP connection</label>
+            </value>
+            <value>
+                <fullName>Ship Mapping</fullName>
+                <default>false</default>
+                <label>Ship Mapping</label>
+            </value>
+            <value>
+                <fullName>Shipment - help fixing</fullName>
+                <default>false</default>
+                <label>Shipment - help fixing</label>
+            </value>
+            <value>
+                <fullName>Shipment - how to</fullName>
+                <default>false</default>
+                <label>Shipment - how to</label>
+            </value>
+            <value>
+                <fullName>Shipments</fullName>
+                <default>false</default>
+                <label>Shipments</label>
+            </value>
+            <value>
+                <fullName>Shipment Update Missing</fullName>
+                <default>false</default>
+                <label>Shipment Update Missing</label>
+            </value>
+            <value>
+                <fullName>Shipping Label Setup</fullName>
+                <default>false</default>
+                <label>Shipping Label Setup</label>
+            </value>
+            <value>
+                <fullName>SLA Exceptions</fullName>
+                <default>false</default>
+                <label>SLA Exceptions</label>
+            </value>
+            <value>
+                <fullName>Spam/Auto Reply</fullName>
+                <default>false</default>
+                <label>Spam/Auto Reply</label>
+            </value>
+            <value>
+                <fullName>SPS Proxy</fullName>
+                <default>false</default>
+                <label>SPS Proxy</label>
+            </value>
+            <value>
+                <fullName>Supplier training</fullName>
+                <default>false</default>
+                <label>Supplier training</label>
+            </value>
+            <value>
+                <fullName>SupplyExplorer</fullName>
+                <default>false</default>
+                <label>SupplyExplorer</label>
+            </value>
+            <value>
+                <fullName>Support - Brands</fullName>
+                <default>false</default>
+                <label>Support - Brands</label>
+            </value>
+            <value>
+                <fullName>Support - ChannelAdvisor</fullName>
+                <default>false</default>
+                <label>Support - ChannelAdvisor</label>
+            </value>
+            <value>
+                <fullName>Support - Dsco</fullName>
+                <default>false</default>
+                <label>Support - Dsco</label>
+            </value>
+            <value>
+                <fullName>Support - OrderStream</fullName>
+                <default>false</default>
+                <label>Support - OrderStream</label>
+            </value>
+            <value>
+                <fullName>Template assistance</fullName>
+                <default>false</default>
+                <label>Template assistance</label>
+            </value>
+            <value>
+                <fullName>Termination</fullName>
+                <default>false</default>
+                <label>Termination</label>
+            </value>
+            <value>
+                <fullName>Tracking Removal</fullName>
+                <default>false</default>
+                <label>Tracking Removal</label>
+            </value>
+            <value>
+                <fullName>UI Update</fullName>
+                <default>false</default>
+                <label>UI Update</label>
+            </value>
+            <value>
+                <fullName>User Management</fullName>
+                <default>false</default>
+                <label>User Management</label>
+            </value>
+            <value>
+                <fullName>Warehouse management</fullName>
+                <default>false</default>
+                <label>Warehouse management</label>
+            </value>
+            <value>
+                <fullName>Warehouse Setup</fullName>
+                <default>false</default>
+                <label>Warehouse Setup</label>
+            </value>
+            <value>
+                <fullName>What is Rithum</fullName>
+                <default>false</default>
+                <label>What is Rithum</label>
+            </value>
+            <value>
+                <fullName>1P/First Party connection</fullName>
+                <default>false</default>
+                <label>1P/First Party connection</label>
+            </value>
+            <value>
+                <fullName>Account Creation/Configuration</fullName>
+                <default>false</default>
+                <label>Account Creation/Configuration</label>
+            </value>
+            <value>
+                <fullName>Acknowledging an order</fullName>
+                <default>false</default>
+                <label>Acknowledging an order</label>
+            </value>
+            <value>
+                <fullName>Add new Channel</fullName>
+                <default>false</default>
+                <label>Add new Channel</label>
+            </value>
+            <value>
+                <fullName>Assortment</fullName>
+                <default>false</default>
+                <label>Assortment</label>
+            </value>
+            <value>
+                <fullName>Automation</fullName>
+                <default>false</default>
+                <label>Automation</label>
+            </value>
+            <value>
+                <fullName>Backordering an order</fullName>
+                <default>false</default>
+                <label>Backordering an order</label>
+            </value>
+            <value>
+                <fullName>Business rules</fullName>
+                <default>false</default>
+                <label>Business rules</label>
+            </value>
+            <value>
+                <fullName>Campaigns &amp; Ads</fullName>
+                <default>false</default>
+                <label>Campaigns &amp; Ads</label>
+            </value>
+            <value>
+                <fullName>Cancellations or refunds</fullName>
+                <default>false</default>
+                <label>Cancellations or refunds</label>
+            </value>
+            <value>
+                <fullName>Catalog Compliance</fullName>
+                <default>false</default>
+                <label>Catalog Compliance</label>
+            </value>
+            <value>
+                <fullName>Channel Errors - Clarification Needed</fullName>
+                <default>false</default>
+                <label>Channel Errors - Clarification Needed</label>
+            </value>
+            <value>
+                <fullName>Channel Settings</fullName>
+                <default>false</default>
+                <label>Channel Settings</label>
+            </value>
+            <value>
+                <fullName>Close Posting Account</fullName>
+                <default>false</default>
+                <label>Close Posting Account</label>
+            </value>
+            <value>
+                <fullName>Create/Update Products</fullName>
+                <default>false</default>
+                <label>Create/Update Products</label>
+            </value>
+            <value>
+                <fullName>Create/Update SKUs or Products</fullName>
+                <default>false</default>
+                <label>Create/Update SKUs or Products</label>
+            </value>
+            <value>
+                <fullName>Creating Reports</fullName>
+                <default>false</default>
+                <label>Creating Reports</label>
+            </value>
+            <value>
+                <fullName>Dashboards/Widgets</fullName>
+                <default>false</default>
+                <label>Dashboards/Widgets</label>
+            </value>
+            <value>
+                <fullName>Data Quality</fullName>
+                <default>false</default>
+                <label>Data Quality</label>
+            </value>
+            <value>
+                <fullName>Delete/Remove Products</fullName>
+                <default>false</default>
+                <label>Delete/Remove Products</label>
+            </value>
+            <value>
+                <fullName>Delete/Remove SKUs or Products</fullName>
+                <default>false</default>
+                <label>Delete/Remove SKUs or Products</label>
+            </value>
+            <value>
+                <fullName>Disable channel integration</fullName>
+                <default>false</default>
+                <label>Disable channel integration</label>
+            </value>
+            <value>
+                <fullName>Distribution Center/Warehouse management</fullName>
+                <default>false</default>
+                <label>Distribution Center/Warehouse management</label>
+            </value>
+            <value>
+                <fullName>Enable Multi-Seller Account</fullName>
+                <default>false</default>
+                <label>Enable Multi-Seller Account</label>
+            </value>
+            <value>
+                <fullName>Exceptions and Performance</fullName>
+                <default>false</default>
+                <label>Exceptions and Performance</label>
+            </value>
+            <value>
+                <fullName>Exports</fullName>
+                <default>false</default>
+                <label>Exports</label>
+            </value>
+            <value>
+                <fullName>FTP/SFTP connection</fullName>
+                <default>false</default>
+                <label>FTP/SFTP connection</label>
+            </value>
+            <value>
+                <fullName>Feeds</fullName>
+                <default>false</default>
+                <label>Feeds</label>
+            </value>
+            <value>
+                <fullName>Functional Acknowledgement Reminder</fullName>
+                <default>false</default>
+                <label>Functional Acknowledgement Reminder</label>
+            </value>
+            <value>
+                <fullName>Help documentation/training</fullName>
+                <default>false</default>
+                <label>Help documentation/training</label>
+            </value>
+            <value>
+                <fullName>Image library</fullName>
+                <default>false</default>
+                <label>Image library</label>
+            </value>
+            <value>
+                <fullName>Images</fullName>
+                <default>false</default>
+                <label>Images</label>
+            </value>
+            <value>
+                <fullName>Imports</fullName>
+                <default>false</default>
+                <label>Imports</label>
+            </value>
+            <value>
+                <fullName>Invoicing Assistance</fullName>
+                <default>false</default>
+                <label>Invoicing Assistance</label>
+            </value>
+            <value>
+                <fullName>Invoicing Payment Status</fullName>
+                <default>false</default>
+                <label>Invoicing Payment Status</label>
+            </value>
+            <value>
+                <fullName>Labels and filters</fullName>
+                <default>false</default>
+                <label>Labels and filters</label>
+            </value>
+            <value>
+                <fullName>NetSuite</fullName>
+                <default>false</default>
+                <label>NetSuite</label>
+            </value>
+            <value>
+                <fullName>Not listed to trading partner</fullName>
+                <default>false</default>
+                <label>Not listed to trading partner</label>
+            </value>
+            <value>
+                <fullName>Notification center</fullName>
+                <default>false</default>
+                <label>Notification center</label>
+            </value>
+            <value>
+                <fullName>Partner Maintenance/Downtime</fullName>
+                <default>false</default>
+                <label>Partner Maintenance/Downtime</label>
+            </value>
+            <value>
+                <fullName>Permissions/Groups</fullName>
+                <default>false</default>
+                <label>Permissions/Groups</label>
+            </value>
+            <value>
+                <fullName>Posting Account Limit Increase</fullName>
+                <default>false</default>
+                <label>Posting Account Limit Increase</label>
+            </value>
+            <value>
+                <fullName>Price/Quantity</fullName>
+                <default>false</default>
+                <label>Price/Quantity</label>
+            </value>
+            <value>
+                <fullName>Processing LTL orders</fullName>
+                <default>false</default>
+                <label>Processing LTL orders</label>
+            </value>
+            <value>
+                <fullName>Product Limit Increase</fullName>
+                <default>false</default>
+                <label>Product Limit Increase</label>
+            </value>
+
+            <value>
+                <fullName>Repricer</fullName>
+                <default>false</default>
+                <label>Repricer</label>
+            </value>
+            <value>
+                <fullName>Response to Rithum/Partner Communication</fullName>
+                <default>false</default>
+                <label>Response to Rithum/Partner Communication</label>
+            </value>
+            <value>
+                <fullName>Retail Content Management (RCM)</fullName>
+                <default>false</default>
+                <label>Retail Content Management (RCM)</label>
+            </value>
+            <value>
+                <fullName>Retail Media</fullName>
+                <default>false</default>
+                <label>Retail Media</label>
+            </value>
+            <value>
+                <fullName>Routing/Shipping Rules</fullName>
+                <default>false</default>
+                <label>Routing/Shipping Rules</label>
+            </value>
+            <value>
+                <fullName>Settings</fullName>
+                <default>false</default>
+                <label>Settings</label>
+            </value>
+            <value>
+                <fullName>Shipments/Fulfillments</fullName>
+                <default>false</default>
+                <label>Shipments/Fulfillments</label>
+            </value>
+            <value>
+                <fullName>Shipping Integration</fullName>
+                <default>false</default>
+                <label>Shipping Integration</label>
+            </value>
+            <value>
+                <fullName>Template mapping</fullName>
+                <default>false</default>
+                <label>Template mapping</label>
+            </value>
+            <value>
+                <fullName>Templates</fullName>
+                <default>false</default>
+                <label>Templates</label>
+            </value>
+            <value>
+                <fullName>Trading partner settings</fullName>
+                <default>false</default>
+                <label>Trading partner settings</label>
+            </value>
+            <value>
+                <fullName>VAN connection</fullName>
+                <default>false</default>
+                <label>VAN connection</label>
+            </value>
+            <value>
+                <fullName>Variations, bundles, and aliases</fullName>
+                <default>false</default>
+                <label>Variations, bundles, and aliases</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Account administration</controllingFieldValue>
+            <controllingFieldValue>Onboarding</controllingFieldValue>
+            <valueName>Account Setup</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Account administration</controllingFieldValue>
+            <valueName>Add new trading partner</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Account administration</controllingFieldValue>
+            <valueName>Billing / Accounting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Account administration</controllingFieldValue>
+            <valueName>Combining Account Access</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Account administration</controllingFieldValue>
+            <valueName>Company/Account Name Update</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Account administration</controllingFieldValue>
+            <valueName>Connection/Termination with Trading Partner</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Account administration</controllingFieldValue>
+            <valueName>Contract/Payment/Billing Question</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Account administration</controllingFieldValue>
+            <valueName>Edit Distribution list</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Account administration</controllingFieldValue>
+            <valueName>Email/Notification Questions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Account administration</controllingFieldValue>
+            <valueName>Login Issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Account administration</controllingFieldValue>
+            <valueName>Managing users</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Account administration</controllingFieldValue>
+            <valueName>Partner Downtime</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Account administration</controllingFieldValue>
+            <valueName>Right to be forgotten request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Account administration</controllingFieldValue>
+            <valueName>Settings Page Update</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Account administration</controllingFieldValue>
+            <valueName>SupplyExplorer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Account administration</controllingFieldValue>
+            <valueName>Termination</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Account administration</controllingFieldValue>
+            <valueName>Warehouse management</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Account administration</controllingFieldValue>
+            <valueName>What is Rithum</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Configuration</controllingFieldValue>
+            <valueName>753/754 Routing Request/Troubleshooting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Configuration</controllingFieldValue>
+            <valueName>API Documentation Question</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Configuration</controllingFieldValue>
+            <valueName>API Streams Issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Configuration</controllingFieldValue>
+            <controllingFieldValue>Onboarding</controllingFieldValue>
+            <valueName>API Token Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Configuration</controllingFieldValue>
+            <valueName>API Unknown System Errors</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Configuration</controllingFieldValue>
+            <controllingFieldValue>Onboarding</controllingFieldValue>
+            <valueName>AS2-Connection Setup</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Configuration</controllingFieldValue>
+            <valueName>AS2 Connection Update</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Configuration</controllingFieldValue>
+            <valueName>AS2 Dsco Cert Update</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Configuration</controllingFieldValue>
+            <valueName>AS2 Pulse Migration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Configuration</controllingFieldValue>
+            <valueName>AS2 Supplier Certificate Update</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Configuration</controllingFieldValue>
+            <controllingFieldValue>Onboarding</controllingFieldValue>
+            <valueName>Automation-Job Configuration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Configuration</controllingFieldValue>
+            <valueName>Automation Job Failure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Configuration</controllingFieldValue>
+            <valueName>Configuration Change/Update</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Configuration</controllingFieldValue>
+            <valueName>Connection Options?</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Configuration</controllingFieldValue>
+            <valueName>Data Mapping</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Configuration</controllingFieldValue>
+            <valueName>EDI Mappings, Specs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Configuration</controllingFieldValue>
+            <valueName>Managed Integration Brands/DSCO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Configuration</controllingFieldValue>
+            <valueName>Managed Integration Brands/OS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Configuration</controllingFieldValue>
+            <valueName>Managed Integration OS/DSCO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Configuration</controllingFieldValue>
+            <valueName>Missing 997s</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Configuration</controllingFieldValue>
+            <valueName>Missing AS2 Files</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Configuration</controllingFieldValue>
+            <valueName>Missing SFTP Files</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Configuration</controllingFieldValue>
+            <valueName>Missing trading partner</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Configuration</controllingFieldValue>
+            <valueName>Orders Not Exporting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Configuration</controllingFieldValue>
+            <valueName>Proxy\VAN connection</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Configuration</controllingFieldValue>
+            <valueName>Proxy connection</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Configuration</controllingFieldValue>
+            <valueName>Request to Resend Data</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Configuration</controllingFieldValue>
+            <valueName>Retailer Export Missing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Configuration</controllingFieldValue>
+            <valueName>sFTP connection</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>Auto Invoicing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>Automated missing order alert</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <controllingFieldValue>Products/Inventory</controllingFieldValue>
+            <valueName>Automated tasks</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>Bad Address</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>Bad Cost</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>Bad Service Level Code</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>Bad Tracking Number</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>Bulk Order Requests (Cancel/Tracking/Resends)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>Bulk request - cancel orders</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>Bulk request - fulfillment resends</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>Bulk request - invoice resends</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>Bulk request - tracking removal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>Cancel - help fixing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>Cancel - how to</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>Canceling an order</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>Cancel Update Missing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>Delivery Suite</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>Error When Cancelling</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>Error When Invoicing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>Error When Shipping</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <controllingFieldValue>Products/Inventory</controllingFieldValue>
+            <valueName>Export - help fixing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>How To Cancel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>How to Invoice</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>How To Ship</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <controllingFieldValue>Products/Inventory</controllingFieldValue>
+            <valueName>Import - help fixing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>Invoicing an order</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>Invoicing - Help fixing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>Invoicing - How to</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>Invoicing - seeking payment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>Marketplace - Settlement Reports</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>Missing from Retailer AP System</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>Missing orders</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>Order Creation Failure (Retailer)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>Order documents</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>Order Failure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>Order fulfillment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>Order Information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>Order Mistakenly Cancelled</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>Orders Received for OOS Inventory</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>Packing Slips</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>Partial Shipment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>Pipeline Validations - Exceptions and Performance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>Pipeline Validations - Rule Questions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>Potential Fraud</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>Removing invoices</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>Request to Cancel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>Resend Orders</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>Returning an order</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>Ship Mapping</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>Shipment - help fixing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>Shipment - how to</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>Shipment Update Missing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <controllingFieldValue>Products/Inventory</controllingFieldValue>
+            <valueName>SLA Exceptions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>Tracking Removal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Platform</controllingFieldValue>
+            <valueName>Help Documentation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Platform</controllingFieldValue>
+            <valueName>Incident</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Platform</controllingFieldValue>
+            <valueName>Internal System Issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Platform</controllingFieldValue>
+            <valueName>Issues accessing website</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Platform</controllingFieldValue>
+            <valueName>Portal Issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Platform</controllingFieldValue>
+            <valueName>Release Feedback</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Platform</controllingFieldValue>
+            <valueName>Response to Rithum Communication</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Platform</controllingFieldValue>
+            <valueName>UI Update</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products/Inventory</controllingFieldValue>
+            <valueName>Advanced Catalog Processing Delay</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products/Inventory</controllingFieldValue>
+            <valueName>Advanced Catalog Troubleshooting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products/Inventory</controllingFieldValue>
+            <valueName>Catalog</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products/Inventory</controllingFieldValue>
+            <valueName>Clear Inventory</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products/Inventory</controllingFieldValue>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>Compliance - Exceptions and Performance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products/Inventory</controllingFieldValue>
+            <valueName>Compliance Reruns</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products/Inventory</controllingFieldValue>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>Compliance - Rule Questions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products/Inventory</controllingFieldValue>
+            <valueName>Create/Update SKUs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products/Inventory</controllingFieldValue>
+            <valueName>Delete SKUs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products/Inventory</controllingFieldValue>
+            <valueName>Discontinue SKUs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products/Inventory</controllingFieldValue>
+            <valueName>Duplicate Attribute Exceptions (How to Resolve)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products/Inventory</controllingFieldValue>
+            <valueName>Error When Uploading Inventory</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products/Inventory</controllingFieldValue>
+            <valueName>Failure to Import</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products/Inventory</controllingFieldValue>
+            <valueName>Image Removal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products/Inventory</controllingFieldValue>
+            <valueName>Inventory Update Missing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products/Inventory</controllingFieldValue>
+            <valueName>Item Compliance (Common Troubleshooting)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products/Inventory</controllingFieldValue>
+            <valueName>Item Images, How To Upload</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products/Inventory</controllingFieldValue>
+            <valueName>Item Images Troubleshooting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products/Inventory</controllingFieldValue>
+            <valueName>Item not listed on trading partner site</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products/Inventory</controllingFieldValue>
+            <valueName>Marketplace - Pricing Updates</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products/Inventory</controllingFieldValue>
+            <valueName>Marketplace - Promotions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products/Inventory</controllingFieldValue>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>Oversells</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products/Inventory</controllingFieldValue>
+            <valueName>Product content</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products/Inventory</controllingFieldValue>
+            <valueName>Remove products</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products/Inventory</controllingFieldValue>
+            <valueName>Reorder Attributes Issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products/Inventory</controllingFieldValue>
+            <valueName>Template assistance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reporting</controllingFieldValue>
+            <valueName>Ad-hoc reporting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reporting</controllingFieldValue>
+            <valueName>Archived Data</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reporting</controllingFieldValue>
+            <valueName>Automated exports</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reporting</controllingFieldValue>
+            <valueName>Historical data</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transfer</controllingFieldValue>
+            <valueName>Accounting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transfer</controllingFieldValue>
+            <valueName>Customer Success</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transfer</controllingFieldValue>
+            <valueName>Infosec</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transfer</controllingFieldValue>
+            <valueName>Onboarding - Dsco</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transfer</controllingFieldValue>
+            <valueName>Onboarding - OrderStream</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transfer</controllingFieldValue>
+            <valueName>Other Internal (HR, etc.)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transfer</controllingFieldValue>
+            <valueName>Professional Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transfer</controllingFieldValue>
+            <valueName>Sales Support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transfer</controllingFieldValue>
+            <valueName>Spam/Auto Reply</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transfer</controllingFieldValue>
+            <valueName>Support - Brands</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transfer</controllingFieldValue>
+            <valueName>Support - Dsco</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transfer</controllingFieldValue>
+            <valueName>Support - OrderStream</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Onboarding</controllingFieldValue>
+            <valueName>753/754</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Onboarding</controllingFieldValue>
+            <valueName>Accepting the invitation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Onboarding</controllingFieldValue>
+            <valueName>AS2-Connection Failure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Onboarding</controllingFieldValue>
+            <valueName>Can't Complete Gandalf</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Onboarding</controllingFieldValue>
+            <valueName>Cancellations</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Onboarding</controllingFieldValue>
+            <valueName>Catalog-Exceptions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Onboarding</controllingFieldValue>
+            <valueName>Catalog-Loading Product</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Onboarding</controllingFieldValue>
+            <valueName>Connecting to a third party</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Onboarding</controllingFieldValue>
+            <valueName>Contracts</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Onboarding</controllingFieldValue>
+            <valueName>EDI Question-General</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Onboarding</controllingFieldValue>
+            <valueName>EDI Question-Mapping, Specs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Onboarding</controllingFieldValue>
+            <valueName>Integrations-API</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Onboarding</controllingFieldValue>
+            <valueName>Integrations-AS2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Onboarding</controllingFieldValue>
+            <valueName>Integrations-SFTP (EDI)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Onboarding</controllingFieldValue>
+            <valueName>Integrations-SFTP (Flat File)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Onboarding</controllingFieldValue>
+            <valueName>Inventory</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Onboarding</controllingFieldValue>
+            <valueName>Invoice</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Onboarding</controllingFieldValue>
+            <valueName>Logging in</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Onboarding</controllingFieldValue>
+            <valueName>Orders</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Onboarding</controllingFieldValue>
+            <valueName>Returns</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Onboarding</controllingFieldValue>
+            <valueName>SCON Bug</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Onboarding</controllingFieldValue>
+            <valueName>SCON Feedback</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Onboarding</controllingFieldValue>
+            <valueName>Shipments</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Onboarding</controllingFieldValue>
+            <valueName>SPS Proxy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Onboarding</controllingFieldValue>
+            <valueName>User Management</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reset onboarding</controllingFieldValue>
+            <valueName>Change connection type</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reset onboarding</controllingFieldValue>
+            <valueName>Retesting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reset onboarding</controllingFieldValue>
+            <valueName>Supplier training</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Delivery Suite</controllingFieldValue>
+            <valueName>Rate Shopping Setup</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Delivery Suite</controllingFieldValue>
+            <valueName>Shipping Label Setup</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Delivery Suite</controllingFieldValue>
+            <valueName>Warehouse Setup</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Configuration</controllingFieldValue>
+            <valueName>1P/First Party connection</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Configuration</controllingFieldValue>
+            <valueName>API connection</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Configuration</controllingFieldValue>
+            <valueName>AS2 connection</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Account administration</controllingFieldValue>
+            <valueName>Account Creation/Configuration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>Acknowledging an order</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Account administration</controllingFieldValue>
+            <valueName>Add new Channel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products/Inventory</controllingFieldValue>
+            <valueName>Assortment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Digital marketing</controllingFieldValue>
+            <valueName>Automation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>Backordering an order</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <controllingFieldValue>Products/Inventory</controllingFieldValue>
+            <valueName>Business rules</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Digital marketing</controllingFieldValue>
+            <valueName>Campaigns &amp; Ads</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>Cancellations or refunds</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products/Inventory</controllingFieldValue>
+            <valueName>Catalog Compliance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Listings</controllingFieldValue>
+            <valueName>Channel Errors - Clarification Needed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Configuration</controllingFieldValue>
+            <valueName>Channel Settings</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Account administration</controllingFieldValue>
+            <valueName>Close Posting Account</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products/Inventory</controllingFieldValue>
+            <valueName>Create/Update Products</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products/Inventory</controllingFieldValue>
+            <valueName>Create/Update SKUs or Products</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reporting</controllingFieldValue>
+            <valueName>Creating Reports</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reporting</controllingFieldValue>
+            <valueName>Dashboards/Widgets</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Listings</controllingFieldValue>
+            <valueName>Data Quality</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products/Inventory</controllingFieldValue>
+            <valueName>Delete/Remove Products</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products/Inventory</controllingFieldValue>
+            <valueName>Delete/Remove SKUs or Products</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Configuration</controllingFieldValue>
+            <valueName>Disable channel integration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products/Inventory</controllingFieldValue>
+            <valueName>Distribution Center/Warehouse management</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Configuration</controllingFieldValue>
+            <valueName>Enable Multi-Seller Account</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <controllingFieldValue>Products/Inventory</controllingFieldValue>
+            <valueName>Exceptions and Performance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <controllingFieldValue>Products/Inventory</controllingFieldValue>
+            <valueName>Exports</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Configuration</controllingFieldValue>
+            <valueName>FTP/SFTP connection</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Digital marketing</controllingFieldValue>
+            <valueName>Feeds</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>Functional Acknowledgement Reminder</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Platform</controllingFieldValue>
+            <valueName>Help documentation/training</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products/Inventory</controllingFieldValue>
+            <valueName>Image library</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Listings</controllingFieldValue>
+            <valueName>Images</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <controllingFieldValue>Products/Inventory</controllingFieldValue>
+            <valueName>Imports</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>Invoicing Assistance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>Invoicing Payment Status</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products/Inventory</controllingFieldValue>
+            <valueName>Labels and filters</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Configuration</controllingFieldValue>
+            <valueName>Message codes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Configuration</controllingFieldValue>
+            <valueName>NetSuite</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products/Inventory</controllingFieldValue>
+            <valueName>Not listed to trading partner</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Platform</controllingFieldValue>
+            <valueName>Notification center</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Account administration</controllingFieldValue>
+            <valueName>Partner Maintenance/Downtime</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Account administration</controllingFieldValue>
+            <valueName>Permissions/Groups</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Account administration</controllingFieldValue>
+            <valueName>Posting Account Limit Increase</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Listings</controllingFieldValue>
+            <controllingFieldValue>Products/Inventory</controllingFieldValue>
+            <valueName>Price/Quantity</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>Processing LTL orders</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Account administration</controllingFieldValue>
+            <valueName>Product Limit Increase</valueName>
+        </valueSettings>
+
+        <valueSettings>
+            <controllingFieldValue>Listings</controllingFieldValue>
+            <valueName>Repricer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Platform</controllingFieldValue>
+            <valueName>Response to Rithum/Partner Communication</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products/Inventory</controllingFieldValue>
+            <valueName>Retail Content Management (RCM)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Digital marketing</controllingFieldValue>
+            <valueName>Retail Media</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>Routing/Shipping Rules</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Digital marketing</controllingFieldValue>
+            <valueName>Settings</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>Shipments/Fulfillments</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>Shipping Integration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Listings</controllingFieldValue>
+            <valueName>Template mapping</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products/Inventory</controllingFieldValue>
+            <valueName>Templates</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Configuration</controllingFieldValue>
+            <valueName>Trading partner settings</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Configuration</controllingFieldValue>
+            <valueName>VAN connection</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products/Inventory</controllingFieldValue>
+            <valueName>Variations, bundles, and aliases</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>
+
