@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PII_Info_Required</fullName>
+    <active>true</active>
+    <description>Requires PII Info to be populated when Case Contains PII is set to Yes</description>
+    <errorConditionFormula>AND(ISPICKVAL(Contains_PII__c, "Yes"), ISBLANK(PII_Info__c))</errorConditionFormula>
+    <errorDisplayField>PII_Info__c</errorDisplayField>
+    <errorMessage>PII Info is required when Case Contains PII is set to Yes.</errorMessage>
+</ValidationRule>

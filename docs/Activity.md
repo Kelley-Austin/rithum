@@ -3,6 +3,7 @@
 Append-only log of every context-shaping action CHEESE has taken in this project.
 Use `git log -p docs/Activity.md` to audit changes over time.
 
+- `2026-05-28T15:42:09.595Z` · **target-org-switched** · Target org switched to rithum-sandbox · source=watcher
 - `2026-05-28T22:52:04.998Z` · **context-fed** · Fed project context to slice conv-1780008396277 · chars=1664 · sections=1
 - `2026-05-28T23:08:47.060Z` · **branch-switched** · Branch switched to feature/st-21894-queue-assignment-status · source=watcher
 - `2026-06-01T17:16:02.566Z` · **target-org-switched** · Target org switched to rithum-sandbox · source=watcher
@@ -32,3 +33,4 @@ Use `git log -p docs/Activity.md` to audit changes over time.
 - `2026-06-02T22:27:47.266Z` · **context-fed** · Fed project context to slice conv-1780439000975 · chars=14616 · sections=2
 - `2026-06-03T15:07:46.847Z` · **context-fed** · Fed project context to slice conv-1780497887739 · chars=14616 · sections=2
 - `2026-06-03T18:12:21.101Z` · **context-fed** · Fed project context to slice conv-1780508662892 · chars=14616 · sections=2
+- `2026-06-08T14:24:20.684Z` · **branch-switched** · Branch switched to developer/haydenburnett1 · source=watcher
